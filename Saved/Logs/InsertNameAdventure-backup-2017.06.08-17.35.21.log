@@ -1,0 +1,322 @@
+﻿Log file open, 06/08/17 15:24:04
+LogInit:Display: Running engine for game: InsertNameAdventure
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1668330503) SRandInit(-1668330489).
+LogTaskGraph: Started task graph with 5 named threads and 10 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.133355
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3466753
+LogInit: Engine Version: 4.16.1-3466753+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 31 2017 02:03:30
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.06.08-21.24.05:304][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.08-21.24.05:304][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.08-21.24.05:320][  0]LogInit: Computer: DESKTOP-JFLI5MG
+[2017.06.08-21.24.05:320][  0]LogInit: User: Family
+[2017.06.08-21.24.05:320][  0]LogInit: CPU Page size=4096, Cores=6
+[2017.06.08-21.24.05:320][  0]LogInit: High frequency timer resolution =14.318180 MHz
+[2017.06.08-21.24.05:320][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2017.06.08-21.24.05:321][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.08-21.24.05:321][  0]LogMemory: Process Physical Memory: 273.48 MB used, 273.48 MB peak
+[2017.06.08-21.24.05:321][  0]LogMemory: Process Virtual Memory: 264.92 MB used, 264.92 MB peak
+[2017.06.08-21.24.05:321][  0]LogMemory: Physical Memory: 3878.60 MB used,  12504.57 MB free, 16383.17 MB total
+[2017.06.08-21.24.05:321][  0]LogMemory: Virtual Memory: 643.30 MB used,  12504.57 MB free, 134217728.00 MB total
+[2017.06.08-21.24.05:440][  0]LogInit: Using OS detected language (en-US).
+[2017.06.08-21.24.05:440][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.08-21.24.05:445][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.08-21.24.06:662][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.08-21.24.07:949][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 960' (Feature Level 11_0)
+[2017.06.08-21.24.07:949][  0]LogD3D11RHI:       2016/0/8191 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.08-21.24.07:960][  0]LogD3D11RHI:    1. 'AMD Radeon HD 5450' (Feature Level 11_0)
+[2017.06.08-21.24.07:960][  0]LogD3D11RHI:       498/0/3840 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1002
+[2017.06.08-21.24.07:961][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.08-21.24.07:961][  0]LogD3D11RHI:       0/0/8191 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.08-21.24.07:961][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.08-21.24.07:969][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.08-21.24.07:969][  0]LogD3D11RHI:     GPU DeviceId: 0x1401 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.08-21.24.07:969][  0]LogWindows: EnumDisplayDevices:
+[2017.06.08-21.24.07:969][  0]LogWindows:    0. 'NVIDIA GeForce GTX 960' (P:1 D:1)
+[2017.06.08-21.24.07:970][  0]LogWindows:    1. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.06.08-21.24.07:970][  0]LogWindows:    2. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.06.08-21.24.07:970][  0]LogWindows:    3. 'NVIDIA GeForce GTX 960' (P:0 D:0)
+[2017.06.08-21.24.07:970][  0]LogWindows:    4. 'AMD Radeon HD 5450' (P:0 D:0)
+[2017.06.08-21.24.07:971][  0]LogWindows:    5. 'AMD Radeon HD 5450' (P:0 D:0)
+[2017.06.08-21.24.07:971][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.06.08-21.24.07:971][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 960
+[2017.06.08-21.24.07:971][  0]LogD3D11RHI:   Driver Version: 382.33 (internal:22.21.13.8233, unified:382.33)
+[2017.06.08-21.24.07:971][  0]LogD3D11RHI:      Driver Date: 5-17-2017
+[2017.06.08-21.24.07:971][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.08-21.24.09:260][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.08-21.24.09:301][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.08-21.24.09:303][  0]LogShaderCompilers: Guid format shader working directory is -25 characters bigger than the processId version (../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Intermediate/Shaders/WorkingDirectory/7564/).
+[2017.06.08-21.24.09:303][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Family/AppData/Local/Temp/UnrealShaderWorkingDir/208236A249E5CD8C30C15C8E6A7C21EA/'.
+[2017.06.08-21.24.09:303][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.08-21.24.11:331][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.08-21.24.11:411][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.08-21.24.11:490][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.08-21.24.11:565][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.08-21.24.11:643][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.08-21.24.11:720][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.08-21.24.11:796][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.08-21.24.11:872][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.08-21.24.11:938][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.08-21.24.12:011][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.08-21.24.12:085][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.08-21.24.12:158][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.08-21.24.12:231][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.08-21.24.12:306][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.08-21.24.12:378][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.08-21.24.12:524][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.08-21.24.12:524][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.08-21.24.12:584][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.08-21.24.12:714][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.08-21.24.12:760][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.08-21.24.12:835][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.08-21.24.12:918][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.08-21.24.12:994][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.08-21.24.13:070][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.08-21.24.13:070][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.08-21.24.13:857][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.08-21.24.14:037][  0]LogDerivedDataCache: Loaded boot cache 0.18s 90MB C:/Users/Family/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.08-21.24.14:037][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Family/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.08-21.24.14:038][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.08-21.24.14:038][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.08-21.24.14:038][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.08-21.24.14:038][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.08-21.24.14:063][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.08-21.24.14:075][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Family/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.08-21.24.14:092][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.08-21.24.14:092][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.08-21.24.14:093][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.08-21.24.14:093][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.08-21.24.14:575][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.08-21.24.14:702][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.08-21.24.14:941][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.08-21.24.15:011][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.08-21.24.15:085][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.08-21.24.15:085][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.08-21.24.15:085][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.08-21.24.15:953][  0]LogNetVersion: InsertNameAdventure , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1278457987)
+[2017.06.08-21.24.16:050][  0]LogAssetRegistry: FAssetRegistry took 0.0280 seconds to start up
+[2017.06.08-21.24.16:138][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.048570 seconds
+[2017.06.08-21.24.16:147][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.08-21.24.16:147][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.06.08-21.24.16:147][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.08-21.24.16:252][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.08-21.24.19:844][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.08-21.24.19:903][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.08-21.24.20:679][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.08-21.24.21:274][  0]SourceControl: Info Source control is disabled
+[2017.06.08-21.24.23:065][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.08-21.24.23:974][  0]LogEngine: Initializing Engine...
+[2017.06.08-21.24.23:975][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.06.08-21.24.24:272][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.08-21.24.24:272][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.08-21.24.24:472][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.08-21.24.24:486][  0]LogInit: XAudio2 using 'Headphones (3- High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-21.24.24:511][  0]LogInit: FAudioDevice initialized.
+[2017.06.08-21.24.24:593][  0]LogDerivedDataCache: Saved boot cache 0.08s 90MB C:/Users/Family/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.08-21.24.24:631][  0]LogInit: Texture streaming: Enabled
+[2017.06.08-21.24.24:800][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.08-21.24.25:144][  0]LogInit: Transaction tracking system initialized
+[2017.06.08-21.24.25:650][  0]BlueprintLog: New page: Editor Load
+[2017.06.08-21.24.27:139][  0]LocalizationService: Info Localization service is disabled
+[2017.06.08-21.24.28:182][  0]LogConsoleResponse:Display: 
+[2017.06.08-21.24.28:399][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.08-21.24.28:399][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.08-21.24.29:049][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Content/' took 0.02s
+[2017.06.08-21.24.30:194][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.08-21.24.30:214][  0]LogSlate: Took 0.000317 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.08-21.25.47:000][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.08-21.25.47:002][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.08-21.25.47:003][  0]LightingResults: New page: Lighting Build
+[2017.06.08-21.25.47:069][  0]MapCheck: New page: Map Check
+[2017.06.08-21.25.47:070][  0]LightingResults: New page: Lighting Build
+[2017.06.08-21.25.47:083][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.08-21.25.47:100][  0]LoadErrors: New page: New Map
+[2017.06.08-21.25.47:269][  0]LogCollectionManager: Loaded 0 collections in 0.002645 seconds
+[2017.06.08-21.25.47:371][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Collections/' took 0.01s
+[2017.06.08-21.25.47:371][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Content/Developers/Family/Collections/' took 0.01s
+[2017.06.08-21.25.47:371][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Content/Collections/' took 0.01s
+[2017.06.08-21.25.47:371][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.06.08-21.25.47:385][  0]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2329 classes and 491 folders.
+[2017.06.08-21.25.47:488][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.06.08-21.25.47:552][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0009 seconds. Added 0 classes and 0 folders.
+[2017.06.08-21.25.47:628][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2017.06.08-21.25.47:688][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.08-21.25.47:696][  0]LogSlate: Took 0.000319 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.08-21.25.47:703][  0]LogSlate: Took 0.000301 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.08-21.25.47:894][  0]LogRenderer: Reallocating scene render targets to support 1616x576 NumSamples 1 (Frame:1).
+[2017.06.08-21.25.48:118][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.08-21.25.48:223][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2017.06.08-21.25.48:223][  0]LogLoad: (Engine Initialization) Total time: 105.26 seconds
+[2017.06.08-21.25.48:223][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.06.08-21.25.48:223][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.08-21.25.48:233][  0]LogOcInput: OculusInput pre-init called
+[2017.06.08-21.25.48:233][  0]LogHMD: Starting GearVRController plugin
+[2017.06.08-21.25.48:252][  0]SourceControl: Info On branch V1.5.1
+[2017.06.08-21.25.48:252][  0]SourceControl: Info Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.06.08-21.25.48:252][  0]SourceControl: Info Changes not staged for commit:
+[2017.06.08-21.25.48:252][  0]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.06.08-21.25.48:252][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.06.08-21.25.48:252][  0]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Blueprints/UI/ActionSlot.uasset
+[2017.06.08-21.25.48:252][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.06.08-21.25.48:252][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2017.06.08-21.25.48:252][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.06.08-21.25.48:252][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.06.08-21.25.48:252][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.06.08-21.25.48:252][  0]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.06.08-21.25.48:252][  0]SourceControl: Info Untracked files:
+[2017.06.08-21.25.48:252][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.06.08-21.25.48:253][  0]SourceControl: Info 	Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot_Auto1.uasset
+[2017.06.08-21.25.48:253][  0]SourceControl: Info 	Saved/Backup/ActionSlot_2017-06-08-15-05-06.uasset
+[2017.06.08-21.25.48:253][  0]SourceControl: Info 	Saved/Backup/ActionSlot_2017-06-08-15-16-38.uasset
+[2017.06.08-21.25.48:253][  0]SourceControl: Info 	Saved/Backup/ActionSlot_2017-06-08-15-22-49.uasset
+[2017.06.08-21.25.48:253][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-4B1A09BB413AA8E006911084BFE14290/
+[2017.06.08-21.25.48:253][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-75677DD64D9A21E69791089512E9F3FB/
+[2017.06.08-21.25.48:253][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-A2F702AC457E3EA781C9EBB41D6945CE/
+[2017.06.08-21.25.48:253][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.06.08-15.02.30.log
+[2017.06.08-21.25.48:253][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.06.08-15.22.55.log
+[2017.06.08-21.25.48:253][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.06.08-15.24.04.log
+[2017.06.08-21.25.48:253][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.06.08-21.25.48:253][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.08-21.25.48:306][  1]LogAssetRegistry: Asset discovery search completed in 92.2778 seconds
+[2017.06.08-21.25.48:308][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2017.06.08-21.25.48:308][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000038 seconds (updated 0 objects)
+[2017.06.08-21.25.49:280][ 94]LogSlate: Took 0.000313 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.08-21.25.51:216][312]LogSlate: Took 0.000288 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.08-21.25.51:865][312]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0014 seconds. Added 112 classes and 0 folders.
+[2017.06.08-21.25.52:756][312]LogSlate: Took 0.000291 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.08-21.25.56:188][687]LogSlate: Took 0.000266 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.08-21.26.01:067][185]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.08-21.26.01:130][185]Cmd: MAP LOAD FILE="../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.06.08-21.26.01:130][185]LightingResults: New page: Lighting Build
+[2017.06.08-21.26.01:131][185]LoadErrors: New page: Loading map: 2DSideScrollerExampleMap.umap
+[2017.06.08-21.26.01:131][185]MapCheck: New page: Map Check
+[2017.06.08-21.26.01:131][185]LightingResults: New page: Lighting Build
+[2017.06.08-21.26.01:166][185]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.08-21.26.01:231][185]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.08-21.26.01:316][185]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 85.349ms to complete.
+[2017.06.08-21.26.01:317][185]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.189
+[2017.06.08-21.27.35:275][555]BlueprintLog: New page: Compile Mouse_Controls
+[2017.06.08-21.27.35:987][585]LogSavePackage: Save=22.37ms
+[2017.06.08-21.27.35:987][585]LogSavePackage: Moving '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Mouse_Controls5D598C6A4768A87ED60B5D9BFFB62DC4.tmp' to '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls.uasset'
+[2017.06.08-21.27.35:991][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls.uasset
+[2017.06.08-21.27.49:531][493]LogSlate: Took 0.000399 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.08-21.33.19:101][732]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.08-21.33.20:566][757]LogSavePackage: Save=213.86ms
+[2017.06.08-21.33.20:566][757]LogSavePackage: Moving '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/2DSideScrollerCharacter8FF7F66A48C34CDB59EA79B41F44D190.tmp' to '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.uasset'
+[2017.06.08-21.33.20:572][757]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.uasset
+[2017.06.08-21.33.49:141][ 33]Cmd: TRANSACTION UNDO
+[2017.06.08-21.33.49:141][ 33]LogEditorTransaction: Undo Promote To Variable
+[2017.06.08-21.36.01:550][253]LogSavePackage: Save=200.51ms
+[2017.06.08-21.36.01:550][253]LogSavePackage: Moving '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/2DSideScrollerExampleMap_Auto1ED07194D42DAEEA8426BFAAC450E680D.tmp' to '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap_Auto1.umap'
+[2017.06.08-21.36.01:552][253]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap_Auto1.umap
+[2017.06.08-21.36.01:558][253]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap' took 0.251
+[2017.06.08-21.36.01:558][253]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.251
+[2017.06.08-21.36.01:561][253]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot] ([1] browsable assets)...
+[2017.06.08-21.36.01:561][253]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot]
+[2017.06.08-21.36.01:611][253]LogSavePackage: Save=37.75ms
+[2017.06.08-21.36.01:611][253]LogSavePackage: Moving '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/ActionSlot_Auto1C61AEE7A4CB77A904F7896900C766736.tmp' to '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot_Auto1.uasset'
+[2017.06.08-21.36.01:615][253]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot_Auto1.uasset
+[2017.06.08-21.36.01:615][253]LogFileHelpers: Auto-saving content packages took 0.055
+[2017.06.08-21.46.02:176][663]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap' took 0.027
+[2017.06.08-21.46.02:178][663]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot] ([1] browsable assets)...
+[2017.06.08-21.46.02:179][663]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot]
+[2017.06.08-21.46.02:253][663]LogSavePackage: Save=63.29ms
+[2017.06.08-21.46.02:253][663]LogSavePackage: Moving '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/ActionSlot_Auto23CD759D2431C035474DB7AA5CDB7F28D.tmp' to '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot_Auto2.uasset'
+[2017.06.08-21.46.02:254][663]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot_Auto2.uasset
+[2017.06.08-21.46.02:254][663]LogFileHelpers: Auto-saving content packages took 0.077
+[2017.06.08-23.32.55:743][487]BlueprintLog: New page: Compile ActionSlot
+[2017.06.08-23.32.55:794][487]LogBlueprint:Warning: [Compiler ActionSlot] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2017.06.08-23.32.55:961][487]BlueprintEditorCompileResults:Warning: Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2017.06.08-23.32.55:961][487]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.08-23.32.55:962][487]LogBlueprint:Warning: [Compiler ActionSlot] Warning [7733.00] Compile of ActionSlot successful, but with 1 Warning(s) [in 218 ms] (/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot.ActionSlot)
+[2017.06.08-23.33.05:652][489]BlueprintLog: New page: Compile ActionSlot
+[2017.06.08-23.33.05:680][489]LogBlueprint:Warning: [Compiler ActionSlot] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2017.06.08-23.33.05:848][489]BlueprintEditorCompileResults:Warning: Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2017.06.08-23.33.05:848][489]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.08-23.33.05:848][489]LogBlueprint:Warning: [Compiler ActionSlot] Warning [7742.89] Compile of ActionSlot successful, but with 1 Warning(s) [in 196 ms] (/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot.ActionSlot)
+[2017.06.08-23.33.15:556][545]Cmd: TRANSACTION UNDO
+[2017.06.08-23.33.15:556][545]LogEditorTransaction: Undo Create Pin Link
+[2017.06.08-23.33.21:127][134]Cmd: TRANSACTION UNDO
+[2017.06.08-23.33.21:127][134]LogEditorTransaction: Undo Move Node
+[2017.06.08-23.33.22:878][313]Cmd: TRANSACTION UNDO
+[2017.06.08-23.33.22:878][313]LogEditorTransaction: Undo Move Node
+[2017.06.08-23.33.24:383][477]BlueprintLog: New page: Compile ActionSlot
+[2017.06.08-23.33.24:412][477]LogBlueprint:Warning: [Compiler ActionSlot] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2017.06.08-23.33.24:581][477]BlueprintEditorCompileResults:Warning: Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2017.06.08-23.33.24:581][477]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.08-23.33.24:581][477]LogBlueprint:Warning: [Compiler ActionSlot] Warning [7761.62] Compile of ActionSlot successful, but with 1 Warning(s) [in 197 ms] (/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot.ActionSlot)
+[2017.06.08-23.33.30:756][ 73]Cmd: TRANSACTION UNDO
+[2017.06.08-23.33.30:756][ 73]LogEditorTransaction: Undo Add Node
+[2017.06.08-23.33.32:525][212]Cmd: TRANSACTION UNDO
+[2017.06.08-23.33.32:525][212]LogEditorTransaction: Undo Move Node
+[2017.06.08-23.33.33:517][292]Cmd: TRANSACTION UNDO
+[2017.06.08-23.33.33:517][292]LogEditorTransaction: Undo Add Node
+[2017.06.08-23.33.35:014][414]Cmd: TRANSACTION UNDO
+[2017.06.08-23.33.35:014][414]LogEditorTransaction: Undo Move Node
+[2017.06.08-23.33.38:334][701]BlueprintLog: New page: Compile ActionSlot
+[2017.06.08-23.33.38:360][701]LogBlueprint:Error: [Compiler ActionSlot] Error The current value of the ' In Style ' pin is invalid: 'In Style' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.06.08-23.33.38:361][701]LogBlueprint:Warning: [Compiler ActionSlot] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2017.06.08-23.33.38:674][701]BlueprintEditorCompileResults:Error: Error The current value of the ' In Style ' pin is invalid: 'In Style' must have an input wired into it ("by ref" params expect a valid input to operate on).
+[2017.06.08-23.33.38:674][701]BlueprintEditorCompileResults:Warning: Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2017.06.08-23.33.38:674][701]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.08-23.33.38:674][701]LogBlueprint:Warning: [Compiler ActionSlot] Warning [7775.71] Compile of ActionSlot failed. 1 Fatal Issue(s) 1 Warning(s) [in 339 ms] (/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot.ActionSlot)
+[2017.06.08-23.33.46:713][563]Cmd: TRANSACTION REDO
+[2017.06.08-23.33.46:713][563]LogEditorTransaction: Redo Move Node
+[2017.06.08-23.33.50:382][944]Cmd: TRANSACTION REDO
+[2017.06.08-23.33.50:382][944]LogEditorTransaction: Redo Add Node
+[2017.06.08-23.33.55:113][424]BlueprintLog: New page: Compile ActionSlot
+[2017.06.08-23.33.55:140][424]LogBlueprint:Warning: [Compiler ActionSlot] Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2017.06.08-23.33.55:306][424]BlueprintEditorCompileResults:Warning: Warning Event Reply  Return Value  should not be empty.  Return a reply such as Handled or Unhandled.
+[2017.06.08-23.33.55:306][424]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.08-23.33.55:307][424]LogBlueprint:Warning: [Compiler ActionSlot] Warning [7792.35] Compile of ActionSlot successful, but with 1 Warning(s) [in 193 ms] (/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot.ActionSlot)
+[2017.06.08-23.34.36:692][360]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap' took 0.031
+[2017.06.08-23.34.36:698][360]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot] ([1] browsable assets)...
+[2017.06.08-23.34.36:698][360]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot]
+[2017.06.08-23.34.36:780][360]LogSavePackage: Save=68.89ms
+[2017.06.08-23.34.36:780][360]LogSavePackage: Moving '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/ActionSlot_Auto39213215343A36CA02BB1CF956422AF0D.tmp' to '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot_Auto3.uasset'
+[2017.06.08-23.34.36:781][360]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot_Auto3.uasset
+[2017.06.08-23.34.36:781][360]LogFileHelpers: Auto-saving content packages took 0.086
