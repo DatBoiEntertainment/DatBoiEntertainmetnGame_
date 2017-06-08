@@ -494,3 +494,6 @@ LogInit: Object subsystem initialized
 [2017.06.08-18.54.48:545][297]SourceControl: Info  rewrite Content/2DSideScrollerBP/Blueprints/UI/ActionSlot.uasset (60%)
 [2017.06.08-18.54.48:545][297]SourceControl: Info  rewrite Content/2DSideScrollerBP/Blueprints/UI/DraggedItem.uasset (84%)
 [2017.06.08-18.54.48:551][297]SourceControl: Info Commited [V1.5.1 9a2e133] More UI Stuff.
+[2017.06.08-18.57.10:535][  8]LogSavePackage: Save=185.52ms
+[2017.06.08-18.57.10:535][  8]LogSavePackage: Moving '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/2DSideScrollerExampleMap913E01184DA7A543707B65A337E9A9E0.tmp' to '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.umap'
+[2017.06.08-18.57.10:539][  8]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.umap
