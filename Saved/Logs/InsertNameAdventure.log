@@ -485,3 +485,1063 @@ LogInit: Object subsystem initialized
 [2017.06.08-21.45.22:029][525]LoadErrors: New page: New Map
 [2017.06.08-21.52.37:392][631]SourceControl: Info rm 'Content/2DSideScrollerBP/Test.uasset'
 [2017.06.08-21.52.37:392][631]SourceControl: Info rm 'Content/2DSideScrollerBP/Tst2.uasset'
+[2017.06.08-21.59.53:720][105]LogActorFactory: Actor Factory created Cube
+[2017.06.08-21.59.54:850][234]LogActorFactory: Actor Factory created Cube
+[2017.06.08-21.59.54:913][237]SourceControl:Error: Error fatal: Invalid path '/Temp': No such file or directory
+[2017.06.08-22.00.34:057][ 16]LogSavePackage: Save=9.12ms
+[2017.06.08-22.00.34:058][ 16]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Untitled_2_Auto3919B4E004FE83D96678D8D8DC4C1DA0D.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Temp/Untitled_2_Auto3.umap'
+[2017.06.08-22.00.34:058][ 16]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Temp/Untitled_2_Auto3.umap
+[2017.06.08-22.00.34:062][ 16]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 0.028
+[2017.06.08-22.00.34:062][ 16]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.028
+[2017.06.08-22.00.47:388][373]LogEditorViewport: Clicking Background
+[2017.06.08-22.00.47:665][399]SourceControl:Error: Error fatal: Invalid path '/Temp': No such file or directory
+[2017.06.08-22.00.50:851][403]SourceControl:Error: Error fatal: Invalid path '/Temp': No such file or directory
+[2017.06.08-22.00.57:910][169]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.08-22.01.00:716][470]Cmd: EDIT COPY
+[2017.06.08-22.01.03:508][787]Cmd: EDIT COPY
+[2017.06.08-22.01.03:774][818]Cmd: EDIT PASTE
+[2017.06.08-22.01.11:416][696]Cmd: EDIT PASTE
+[2017.06.08-22.01.17:560][394]Cmd: EDIT COPY
+[2017.06.08-22.01.17:850][428]Cmd: EDIT PASTE
+[2017.06.08-22.01.23:246][ 36]Cmd: EDIT COPY
+[2017.06.08-22.01.23:647][ 82]Cmd: EDIT PASTE
+[2017.06.08-22.01.42:485][185]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2017.06.08-22.01.43:234][268]Cmd: EDIT COPY
+[2017.06.08-22.01.43:508][296]Cmd: EDIT PASTE
+[2017.06.08-22.01.56:591][700]Cmd: EDIT COPY
+[2017.06.08-22.01.56:846][729]Cmd: EDIT PASTE
+[2017.06.08-22.02.03:524][464]Cmd: EDIT COPY
+[2017.06.08-22.02.03:784][493]Cmd: EDIT PASTE
+[2017.06.08-22.02.08:588][  5]Cmd: EDIT COPY
+[2017.06.08-22.02.09:191][ 73]Cmd: EDIT PASTE
+[2017.06.08-22.03.01:809][161]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-22.03.01:825][161]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-22.03.01:825][161]PIE: New page: PIE session: Untitled_2 (Jun 8, 2017, 10:03:01 AM)
+[2017.06.08-22.03.01:825][161]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_2
+[2017.06.08-22.03.01:826][161]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001198s)
+[2017.06.08-22.03.01:827][161]LogAIModule: Creating AISystem for world Untitled
+[2017.06.08-22.03.01:827][161]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2017.06.08-22.03.01:827][161]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_2.Untitled to /Temp/UEDPIE_0_Untitled_2.Untitled (0.002076s)
+[2017.06.08-22.03.01:880][161]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-22.03.01:887][161]LogInit: FAudioDevice initialized.
+[2017.06.08-22.03.01:922][161]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.08-22.03.01:924][161]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_2.Untitled up for play (max tick rate 0) at 2017.06.08-16.03.01
+[2017.06.08-22.03.01:928][161]LogWorld: Bringing up level for play took: 0.004787
+[2017.06.08-22.03.01:933][161]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_2 0.826
+[2017.06.08-22.03.19:217][969]LogEditorViewport: Clicking Background
+[2017.06.08-22.03.19:761][ 19]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2017.06.08-22.03.34:522][397]EditorErrors: New page: Actor attachment
+[2017.06.08-22.03.37:519][712]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2017.06.08-22.03.40:835][ 62]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube6)
+[2017.06.08-22.03.41:717][127]LogEditorViewport: Clicking Background
+[2017.06.08-22.03.45:780][558]LogActorFactory: Actor Factory created Cube
+[2017.06.08-22.03.46:753][667]LogActorFactory: Actor Factory created Cube
+[2017.06.08-22.03.48:280][829]Cmd: TRANSACTION UNDO
+[2017.06.08-22.03.48:280][829]LogEditorTransaction: Undo Create Actors
+[2017.06.08-22.03.50:257][ 31]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2017.06.08-22.04.01:204][ 65]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube5)
+[2017.06.08-22.04.01:528][ 95]Cmd: EDIT COPY
+[2017.06.08-22.04.01:819][127]Cmd: EDIT PASTE
+[2017.06.08-22.04.05:951][574]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.08-22.04.05:966][574]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.06.08-22.04.08:209][821]LogActorFactory: Actor Factory created Cube
+[2017.06.08-22.04.09:370][946]LogActorFactory: Actor Factory created Cube
+[2017.06.08-22.04.32:096][404]Cmd: ACTOR CREATE_BV_CONVEXVOLUME NORMALTOLERANCE=0.01 SnapToGrid=1
+[2017.06.08-22.04.32:098][404]Cmd: BRUSH ADDVOLUME CLASS=BlockingVolume
+[2017.06.08-22.04.35:318][769]Cmd: TRANSACTION UNDO
+[2017.06.08-22.04.35:318][769]LogEditorTransaction: Undo Create Convex Blocking Volume
+[2017.06.08-22.04.37:781][ 10]Cmd: TRANSACTION UNDO
+[2017.06.08-22.04.37:781][ 10]LogEditorTransaction: Undo Create Actors
+[2017.06.08-22.04.46:212][963]LogActorFactory: Actor Factory created Cube
+[2017.06.08-22.04.47:323][ 87]LogActorFactory: Actor Factory created Cube
+[2017.06.08-22.04.48:328][194]Cmd: DELETE
+[2017.06.08-22.04.48:328][194]Cmd: ACTOR DELETE
+[2017.06.08-22.04.48:328][194]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.08-22.04.48:342][194]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.06.08-22.05.58:372][112]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2017.06.08-22.06.02:408][546]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.08-22.06.22:796][605]LogEditor: Converted: Box Brush to Box Brush
+[2017.06.08-22.06.22:796][605]EditorErrors: New page: Actor Reattachment
+[2017.06.08-22.07.32:939][264]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube6)
+[2017.06.08-22.07.34:512][432]LogEditorViewport: Clicking Background
+[2017.06.08-22.07.35:609][557]LogEditorViewport: Clicking Background
+[2017.06.08-22.07.36:011][603]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (Box Brush)
+[2017.06.08-22.08.44:554][  0]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2017.06.08-22.08.45:922][143]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube9)
+[2017.06.08-22.09.14:534][988]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (Box Brush)
+[2017.06.08-22.09.39:615][780]LogEditorViewport: Clicking Background
+[2017.06.08-22.09.42:455][ 56]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-22.09.42:472][ 56]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-22.09.42:472][ 56]PIE: New page: PIE session: Untitled_2 (Jun 8, 2017, 10:09:42 AM)
+[2017.06.08-22.09.42:472][ 56]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_2
+[2017.06.08-22.09.42:474][ 56]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001810s)
+[2017.06.08-22.09.42:474][ 56]LogAIModule: Creating AISystem for world Untitled
+[2017.06.08-22.09.42:474][ 56]LogPlayLevel: PIE: World Init took: (0.000684s)
+[2017.06.08-22.09.42:474][ 56]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_2.Untitled to /Temp/UEDPIE_0_Untitled_2.Untitled (0.002719s)
+[2017.06.08-22.09.42:496][ 56]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-22.09.42:503][ 56]LogInit: FAudioDevice initialized.
+[2017.06.08-22.09.42:534][ 56]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.08-22.09.42:537][ 56]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_2.Untitled up for play (max tick rate 0) at 2017.06.08-16.09.42
+[2017.06.08-22.09.42:539][ 56]LogWorld: Bringing up level for play took: 0.003431
+[2017.06.08-22.09.42:540][ 56]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_2 -0.566
+[2017.06.08-22.09.50:208][910]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube)
+[2017.06.08-22.10.27:970][926]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-22.10.27:987][926]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-22.10.27:987][926]PIE: New page: PIE session: Untitled_2 (Jun 8, 2017, 10:10:27 AM)
+[2017.06.08-22.10.27:987][926]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_2
+[2017.06.08-22.10.27:989][926]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001776s)
+[2017.06.08-22.10.27:989][926]LogAIModule: Creating AISystem for world Untitled
+[2017.06.08-22.10.27:990][926]LogPlayLevel: PIE: World Init took: (0.000758s)
+[2017.06.08-22.10.27:990][926]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_2.Untitled to /Temp/UEDPIE_0_Untitled_2.Untitled (0.002717s)
+[2017.06.08-22.10.28:011][926]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-22.10.28:017][926]LogInit: FAudioDevice initialized.
+[2017.06.08-22.10.28:049][926]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.08-22.10.28:051][926]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_2.Untitled up for play (max tick rate 0) at 2017.06.08-16.10.28
+[2017.06.08-22.10.28:051][926]LogWorld: Bringing up level for play took: 0.001015
+[2017.06.08-22.10.28:052][926]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_2 0.946
+[2017.06.08-22.10.37:540][957]LogEditorViewport: Clicking Background
+[2017.06.08-22.10.43:025][573]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube7)
+[2017.06.08-22.10.43:659][636]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube6)
+[2017.06.08-22.10.44:361][707]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Cube8)
+[2017.06.08-22.10.46:669][950]LogEditorViewport: Clicking on Actor (CTRL LMB): BlockingVolume (Box Brush)
+[2017.06.08-22.10.49:744][311]LogEditorViewport: Clicking Background
+[2017.06.08-22.10.51:031][462]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (Box Brush)
+[2017.06.08-22.10.54:955][905]Cmd: DELETE
+[2017.06.08-22.10.54:955][905]Cmd: ACTOR DELETE
+[2017.06.08-22.10.54:956][905]LogEditorActor: Deleted Actor: BlockingVolume
+[2017.06.08-22.10.54:971][905]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.06.08-22.11.03:123][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.08-22.11.03:124][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.08-22.11.03:124][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.08-22.11.03:125][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.08-22.11.03:125][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.08-22.11.03:125][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.08-22.11.03:125][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.08-22.11.03:126][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.08-22.11.03:126][734]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.06.08-22.11.03:138][734]LogEditorActor: Deleted 9 Actors (0.016 secs)
+[2017.06.08-22.11.31:123][823]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2017.06.08-22.11.43:100][671]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge)
+[2017.06.08-22.11.49:709][331]LogEditorViewport: Clicking Background
+[2017.06.08-22.11.50:295][396]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2017.06.08-22.12.04:482][445]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-22.12.04:498][445]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-22.12.04:498][445]PIE: New page: PIE session: Untitled_2 (Jun 8, 2017, 10:12:04 AM)
+[2017.06.08-22.12.04:498][445]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_2
+[2017.06.08-22.12.04:499][445]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001092s)
+[2017.06.08-22.12.04:500][445]LogAIModule: Creating AISystem for world Untitled
+[2017.06.08-22.12.04:500][445]LogPlayLevel: PIE: World Init took: (0.000716s)
+[2017.06.08-22.12.04:500][445]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_2.Untitled to /Temp/UEDPIE_0_Untitled_2.Untitled (0.002027s)
+[2017.06.08-22.12.04:553][445]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-22.12.04:559][445]LogInit: FAudioDevice initialized.
+[2017.06.08-22.12.04:589][445]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.08-22.12.04:591][445]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_2.Untitled up for play (max tick rate 0) at 2017.06.08-16.12.04
+[2017.06.08-22.12.04:591][445]LogWorld: Bringing up level for play took: 0.000812
+[2017.06.08-22.12.04:592][445]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_2 -0.514
+[2017.06.08-22.12.24:931][189]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge)
+[2017.06.08-22.12.25:814][278]LogEditorViewport: Clicking Background
+[2017.06.08-22.12.36:863][553]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.08-22.12.40:122][929]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.08-22.12.43:956][382]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.08-22.12.44:680][462]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2017.06.08-22.12.45:929][554]Cmd: DELETE
+[2017.06.08-22.12.45:929][554]Cmd: ACTOR DELETE
+[2017.06.08-22.12.45:929][554]LogEditorActor: Deleted Actor: 2DSideScrollerCharacter_C
+[2017.06.08-22.12.45:973][554]LogEditorActor: Deleted 1 Actors (0.044 secs)
+[2017.06.08-22.12.47:169][694]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-22.12.47:184][694]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-22.12.47:184][694]PIE: New page: PIE session: Untitled_2 (Jun 8, 2017, 10:12:47 AM)
+[2017.06.08-22.12.47:184][694]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_2
+[2017.06.08-22.12.47:185][694]LogPlayLevel: PIE: StaticDuplicateObject took: (0.000717s)
+[2017.06.08-22.12.47:185][694]LogAIModule: Creating AISystem for world Untitled
+[2017.06.08-22.12.47:185][694]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.06.08-22.12.47:186][694]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_2.Untitled to /Temp/UEDPIE_0_Untitled_2.Untitled (0.001488s)
+[2017.06.08-22.12.47:207][694]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-22.12.47:213][694]LogInit: FAudioDevice initialized.
+[2017.06.08-22.12.47:243][694]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.08-22.12.47:244][694]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_2.Untitled up for play (max tick rate 0) at 2017.06.08-16.12.47
+[2017.06.08-22.12.47:245][694]LogWorld: Bringing up level for play took: 0.000604
+[2017.06.08-22.12.47:246][694]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_2 0.14
+[2017.06.08-22.14.50:682][396]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge)
+[2017.06.08-22.14.53:841][758]Cmd: EDIT COPY
+[2017.06.08-22.14.54:140][793]Cmd: EDIT PASTE
+[2017.06.08-22.14.59:217][370]Cmd: EDIT COPY
+[2017.06.08-22.14.59:499][388]Cmd: EDIT PASTE
+[2017.06.08-22.15.03:701][850]Cmd: EDIT COPY
+[2017.06.08-22.15.03:977][882]Cmd: EDIT PASTE
+[2017.06.08-22.15.08:513][345]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge4)
+[2017.06.08-22.15.09:089][407]Cmd: EDIT COPY
+[2017.06.08-22.15.09:297][431]Cmd: EDIT PASTE
+[2017.06.08-22.15.14:657][ 43]Cmd: EDIT COPY
+[2017.06.08-22.15.14:869][ 64]Cmd: EDIT PASTE
+[2017.06.08-22.15.21:350][778]Cmd: EDIT COPY
+[2017.06.08-22.15.21:599][807]Cmd: EDIT PASTE
+[2017.06.08-22.15.26:119][297]Cmd: EDIT COPY
+[2017.06.08-22.15.26:388][325]Cmd: EDIT PASTE
+[2017.06.08-22.15.29:749][679]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge8)
+[2017.06.08-22.15.32:710][984]Cmd: EDIT COPY
+[2017.06.08-22.15.32:999][  6]Cmd: EDIT PASTE
+[2017.06.08-22.16.01:850][194]LogSavePackage: Save=20.71ms
+[2017.06.08-22.16.01:850][194]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Untitled_2_Auto4B6661F8640847F850555F6BDB53A327E.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Temp/Untitled_2_Auto4.umap'
+[2017.06.08-22.16.01:851][194]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Temp/Untitled_2_Auto4.umap
+[2017.06.08-22.16.01:852][194]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_2' took 0.036
+[2017.06.08-22.16.01:852][194]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.036
+[2017.06.08-22.16.13:184][461]Cmd: EDIT COPY
+[2017.06.08-22.16.14:836][648]Cmd: EDIT PASTE
+[2017.06.08-22.16.19:682][187]Cmd: EDIT COPY
+[2017.06.08-22.16.20:056][230]Cmd: EDIT PASTE
+[2017.06.08-22.16.21:107][327]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge11)
+[2017.06.08-22.16.24:768][737]Cmd: EDIT COPY
+[2017.06.08-22.16.25:095][774]Cmd: EDIT PASTE
+[2017.06.08-22.16.57:932][436]Cmd: EDIT COPY
+[2017.06.08-22.16.58:285][466]Cmd: EDIT PASTE
+[2017.06.08-22.17.02:673][927]Cmd: EDIT COPY
+[2017.06.08-22.17.03:009][960]Cmd: EDIT PASTE
+[2017.06.08-22.17.06:792][362]Cmd: EDIT COPY
+[2017.06.08-22.17.07:126][400]Cmd: EDIT PASTE
+[2017.06.08-22.17.11:299][833]Cmd: EDIT COPY
+[2017.06.08-22.17.11:558][862]Cmd: EDIT PASTE
+[2017.06.08-22.17.15:393][258]Cmd: EDIT COPY
+[2017.06.08-22.17.15:716][295]Cmd: EDIT PASTE
+[2017.06.08-22.17.24:700][269]LogEditorViewport: Clicking Background
+[2017.06.08-22.17.25:573][371]Cmd: EDIT PASTE
+[2017.06.08-22.17.35:822][494]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-22.17.35:838][494]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-22.17.35:838][494]PIE: New page: PIE session: Untitled_2 (Jun 8, 2017, 10:17:35 AM)
+[2017.06.08-22.17.35:838][494]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_2
+[2017.06.08-22.17.35:840][494]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001163s)
+[2017.06.08-22.17.35:840][494]LogAIModule: Creating AISystem for world Untitled
+[2017.06.08-22.17.35:840][494]LogPlayLevel: PIE: World Init took: (0.000620s)
+[2017.06.08-22.17.35:840][494]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_2.Untitled to /Temp/UEDPIE_0_Untitled_2.Untitled (0.001956s)
+[2017.06.08-22.17.35:861][494]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-22.17.35:867][494]LogInit: FAudioDevice initialized.
+[2017.06.08-22.17.35:899][494]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.08-22.17.35:900][494]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_2.Untitled up for play (max tick rate 0) at 2017.06.08-16.17.35
+[2017.06.08-22.17.35:900][494]LogWorld: Bringing up level for play took: 0.000859
+[2017.06.08-22.17.35:902][494]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_2 0.795
+[2017.06.08-22.18.52:195][304]EditorErrors: New page: Actor attachment
+[2017.06.08-22.18.53:061][386]LogEditorViewport: Clicking Background
+[2017.06.08-22.19.06:363][793]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge18)
+[2017.06.08-22.19.07:480][896]Cmd: EDIT COPY
+[2017.06.08-22.19.07:937][935]Cmd: EDIT PASTE
+[2017.06.08-22.19.12:134][366]Cmd: EDIT COPY
+[2017.06.08-22.19.12:499][403]Cmd: EDIT PASTE
+[2017.06.08-22.19.20:230][179]Cmd: EDIT COPY
+[2017.06.08-22.19.20:519][210]Cmd: EDIT PASTE
+[2017.06.08-22.19.27:704][954]Cmd: EDIT COPY
+[2017.06.08-22.19.28:025][989]Cmd: EDIT PASTE
+[2017.06.08-22.19.36:744][917]Cmd: EDIT COPY
+[2017.06.08-22.19.37:031][943]Cmd: EDIT PASTE
+[2017.06.08-22.19.41:143][357]Cmd: EDIT COPY
+[2017.06.08-22.19.41:460][389]Cmd: EDIT PASTE
+[2017.06.08-22.19.44:868][746]Cmd: EDIT COPY
+[2017.06.08-22.19.45:146][776]Cmd: EDIT PASTE
+[2017.06.08-22.19.55:345][828]Cmd: EDIT COPY
+[2017.06.08-22.19.55:672][863]Cmd: EDIT PASTE
+[2017.06.08-22.20.00:278][350]Cmd: EDIT COPY
+[2017.06.08-22.20.00:574][382]Cmd: EDIT PASTE
+[2017.06.08-22.20.06:390][998]Cmd: EDIT COPY
+[2017.06.08-22.20.06:668][ 28]Cmd: EDIT PASTE
+[2017.06.08-22.20.22:063][651]Cmd: EDIT COPY
+[2017.06.08-22.20.22:440][692]Cmd: EDIT PASTE
+[2017.06.08-22.20.28:626][350]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge29)
+[2017.06.08-22.20.29:127][400]LogEditorViewport: Clicking Background
+[2017.06.08-22.20.44:646][203]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge29)
+[2017.06.08-22.20.47:189][479]Cmd: EDIT COPY
+[2017.06.08-22.20.47:478][510]Cmd: EDIT PASTE
+[2017.06.08-22.20.54:058][211]Cmd: EDIT COPY
+[2017.06.08-22.20.54:443][253]Cmd: EDIT PASTE
+[2017.06.08-22.21.00:735][921]Cmd: EDIT COPY
+[2017.06.08-22.21.01:079][950]Cmd: EDIT PASTE
+[2017.06.08-22.21.02:141][ 55]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge32)
+[2017.06.08-22.21.02:422][ 79]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2017.06.08-22.21.08:358][703]Cmd: EDIT COPY
+[2017.06.08-22.21.08:621][727]Cmd: EDIT PASTE
+[2017.06.08-22.21.11:807][ 37]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2017.06.08-22.21.12:609][118]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PaperSprite)
+[2017.06.08-22.21.13:079][160]LogEditorViewport: Clicking on Component (SHIFT LMB): PaperSpriteComponent (RenderComponent)
+[2017.06.08-22.21.13:717][222]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (PaperSprite)
+[2017.06.08-22.21.14:699][321]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge31)
+[2017.06.08-22.21.15:378][384]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge32)
+[2017.06.08-22.21.15:862][427]LogEditorViewport: Clicking Background
+[2017.06.08-22.21.16:514][501]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge32)
+[2017.06.08-22.21.21:478][ 26]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge32)
+[2017.06.08-22.21.22:046][ 85]Cmd: EDIT COPY
+[2017.06.08-22.21.22:351][118]Cmd: EDIT PASTE
+[2017.06.08-22.21.23:228][206]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge33)
+[2017.06.08-22.21.29:783][899]Cmd: EDIT COPY
+[2017.06.08-22.21.30:085][932]Cmd: EDIT PASTE
+[2017.06.08-22.21.34:061][339]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge33)
+[2017.06.08-22.21.34:826][414]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge34)
+[2017.06.08-22.21.35:771][509]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge33)
+[2017.06.08-22.21.36:955][625]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge34)
+[2017.06.08-22.21.37:727][693]LogEditorViewport: Clicking Background
+[2017.06.08-22.21.38:315][759]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge33)
+[2017.06.08-22.21.39:562][867]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge32)
+[2017.06.08-22.21.40:234][924]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge31)
+[2017.06.08-22.21.40:778][973]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge30)
+[2017.06.08-22.21.41:544][ 47]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge31)
+[2017.06.08-22.21.41:979][ 87]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge32)
+[2017.06.08-22.21.57:813][684]Cmd: DELETE
+[2017.06.08-22.21.57:813][684]Cmd: ACTOR DELETE
+[2017.06.08-22.21.57:814][684]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.06.08-22.21.57:830][684]LogEditorActor: Deleted 1 Actors (0.017 secs)
+[2017.06.08-22.21.58:798][795]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge33)
+[2017.06.08-22.21.59:549][871]Cmd: DELETE
+[2017.06.08-22.21.59:549][871]Cmd: ACTOR DELETE
+[2017.06.08-22.21.59:549][871]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.06.08-22.21.59:565][871]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.06.08-22.22.01:225][ 60]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge32)
+[2017.06.08-22.22.03:859][341]Cmd: DELETE
+[2017.06.08-22.22.03:859][341]Cmd: ACTOR DELETE
+[2017.06.08-22.22.03:860][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.06.08-22.22.03:875][341]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.06.08-22.22.06:824][636]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge31)
+[2017.06.08-22.22.07:736][730]Cmd: TRANSACTION UNDO
+[2017.06.08-22.22.07:736][730]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.08-22.22.08:131][758]Cmd: TRANSACTION UNDO
+[2017.06.08-22.22.08:131][758]LogEditorTransaction: Undo Delete Actors
+[2017.06.08-22.22.08:600][798]Cmd: TRANSACTION UNDO
+[2017.06.08-22.22.08:600][798]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.08-22.22.09:098][848]Cmd: TRANSACTION UNDO
+[2017.06.08-22.22.09:098][848]LogEditorTransaction: Undo Delete Actors
+[2017.06.08-22.23.07:604][ 43]Cmd: EDIT COPY
+[2017.06.08-22.23.07:905][ 72]Cmd: EDIT PASTE
+[2017.06.08-22.23.12:200][504]Cmd: EDIT COPY
+[2017.06.08-22.23.12:523][533]Cmd: EDIT PASTE
+[2017.06.08-22.23.18:979][188]Cmd: EDIT COPY
+[2017.06.08-22.23.19:330][226]Cmd: EDIT PASTE
+[2017.06.08-22.23.24:416][738]Cmd: EDIT COPY
+[2017.06.08-22.23.24:874][775]Cmd: EDIT PASTE
+[2017.06.08-22.23.35:145][855]Cmd: EDIT COPY
+[2017.06.08-22.23.35:436][870]Cmd: EDIT PASTE
+[2017.06.08-22.23.42:639][621]Cmd: EDIT COPY
+[2017.06.08-22.23.43:158][657]Cmd: EDIT PASTE
+[2017.06.08-22.23.47:980][162]Cmd: EDIT COPY
+[2017.06.08-22.23.48:264][193]Cmd: EDIT PASTE
+[2017.06.08-22.23.54:240][812]Cmd: EDIT COPY
+[2017.06.08-22.23.54:532][843]Cmd: EDIT PASTE
+[2017.06.08-22.24.01:024][521]Cmd: EDIT COPY
+[2017.06.08-22.24.01:294][550]Cmd: EDIT PASTE
+[2017.06.08-22.24.08:700][318]Cmd: EDIT COPY
+[2017.06.08-22.24.08:987][344]Cmd: EDIT PASTE
+[2017.06.08-22.24.13:743][831]Cmd: EDIT COPY
+[2017.06.08-22.24.14:047][862]Cmd: EDIT PASTE
+[2017.06.08-22.24.24:016][872]Cmd: EDIT COPY
+[2017.06.08-22.24.24:307][902]Cmd: EDIT PASTE
+[2017.06.08-22.24.33:748][818]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-22.24.33:765][818]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-22.24.33:765][818]PIE: New page: PIE session: Untitled_2 (Jun 8, 2017, 10:24:33 AM)
+[2017.06.08-22.24.33:765][818]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_2
+[2017.06.08-22.24.33:768][818]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002507s)
+[2017.06.08-22.24.33:769][818]LogAIModule: Creating AISystem for world Untitled
+[2017.06.08-22.24.33:769][818]LogPlayLevel: PIE: World Init took: (0.000844s)
+[2017.06.08-22.24.33:769][818]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_2.Untitled to /Temp/UEDPIE_0_Untitled_2.Untitled (0.003550s)
+[2017.06.08-22.24.33:792][818]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-22.24.33:799][818]LogInit: FAudioDevice initialized.
+[2017.06.08-22.24.33:829][818]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.08-22.24.33:831][818]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_2.Untitled up for play (max tick rate 0) at 2017.06.08-16.24.33
+[2017.06.08-22.24.33:832][818]LogWorld: Bringing up level for play took: 0.001666
+[2017.06.08-22.24.33:833][818]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_2 0.727
+[2017.06.08-22.27.40:850][914]LogEditorViewport: Clicking Background
+[2017.06.08-22.27.50:408][999]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge45)
+[2017.06.08-22.27.52:689][239]Cmd: EDIT COPY
+[2017.06.08-22.27.52:982][271]Cmd: EDIT PASTE
+[2017.06.08-22.28.05:845][606]Cmd: EDIT COPY
+[2017.06.08-22.28.06:111][635]Cmd: EDIT PASTE
+[2017.06.08-22.28.14:154][475]Cmd: EDIT COPY
+[2017.06.08-22.28.14:441][490]Cmd: EDIT PASTE
+[2017.06.08-22.28.21:579][164]Cmd: EDIT COPY
+[2017.06.08-22.28.21:891][194]Cmd: EDIT PASTE
+[2017.06.08-22.28.29:515][998]Cmd: EDIT COPY
+[2017.06.08-22.28.29:807][ 25]Cmd: EDIT PASTE
+[2017.06.08-22.28.34:280][489]Cmd: EDIT COPY
+[2017.06.08-22.28.34:584][517]Cmd: EDIT PASTE
+[2017.06.08-22.28.40:951][176]Cmd: EDIT COPY
+[2017.06.08-22.28.41:184][201]Cmd: EDIT PASTE
+[2017.06.08-22.28.46:806][784]Cmd: EDIT COPY
+[2017.06.08-22.28.47:065][808]Cmd: EDIT PASTE
+[2017.06.08-22.28.52:739][376]Cmd: EDIT COPY
+[2017.06.08-22.28.52:983][393]Cmd: EDIT PASTE
+[2017.06.08-22.28.53:113][398]Cmd: EDIT PASTE
+[2017.06.08-22.29.01:971][324]Cmd: EDIT COPY
+[2017.06.08-22.29.02:248][352]Cmd: EDIT PASTE
+[2017.06.08-22.29.10:596][198]Cmd: EDIT COPY
+[2017.06.08-22.29.10:835][222]Cmd: EDIT PASTE
+[2017.06.08-22.29.19:733][140]Cmd: EDIT COPY
+[2017.06.08-22.29.20:046][174]Cmd: EDIT PASTE
+[2017.06.08-22.29.27:283][925]LogEditorViewport: Clicking Background
+[2017.06.08-22.29.50:723][644]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-22.29.50:740][644]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-22.29.50:741][644]PIE: New page: PIE session: Untitled_2 (Jun 8, 2017, 10:29:50 AM)
+[2017.06.08-22.29.50:741][644]LogPlayLevel: Creating play world package: /Temp/UEDPIE_0_Untitled_2
+[2017.06.08-22.29.50:744][644]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003091s)
+[2017.06.08-22.29.50:745][644]LogAIModule: Creating AISystem for world Untitled
+[2017.06.08-22.29.50:745][644]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2017.06.08-22.29.50:745][644]LogPlayLevel: PIE: Created PIE world by copying editor world from /Temp/Untitled_2.Untitled to /Temp/UEDPIE_0_Untitled_2.Untitled (0.004057s)
+[2017.06.08-22.29.50:766][644]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-22.29.50:773][644]LogInit: FAudioDevice initialized.
+[2017.06.08-22.29.50:802][644]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.08-22.29.50:805][644]LogWorld: Bringing World /Temp/UEDPIE_0_Untitled_2.Untitled up for play (max tick rate 0) at 2017.06.08-16.29.50
+[2017.06.08-22.29.50:805][644]LogWorld: Bringing up level for play took: 0.002314
+[2017.06.08-22.29.50:807][644]PIE: Info Play in editor start time for /Temp/UEDPIE_0_Untitled_2 -0.3
+[2017.06.08-22.31.36:403][918]LogEditorViewport: Clicking Background
+[2017.06.08-22.31.39:739][256]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge55)
+[2017.06.08-22.31.49:420][183]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge57)
+[2017.06.08-22.32.03:333][487]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge55)
+[2017.06.08-22.32.28:318][928]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge54)
+[2017.06.08-22.32.38:267][960]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge55)
+[2017.06.08-22.32.47:653][830]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge57)
+[2017.06.08-22.32.54:777][516]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge55)
+[2017.06.08-22.32.57:676][803]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge56)
+[2017.06.08-22.33.03:351][362]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge57)
+[2017.06.08-22.33.19:368][980]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge58)
+[2017.06.08-22.33.21:128][166]Cmd: EDIT COPY
+[2017.06.08-22.33.21:428][198]Cmd: EDIT PASTE
+[2017.06.08-22.33.29:688][ 72]Cmd: EDIT COPY
+[2017.06.08-22.33.30:141][119]Cmd: EDIT PASTE
+[2017.06.08-22.34.38:242][232]Cmd: EDIT COPY
+[2017.06.08-22.34.38:541][264]Cmd: EDIT PASTE
+[2017.06.08-22.34.44:246][849]Cmd: EDIT COPY
+[2017.06.08-22.34.44:588][880]Cmd: EDIT PASTE
+[2017.06.08-22.35.08:884][432]SourceControl:Error: Error fatal: Invalid path '/Temp': No such file or directory
+[2017.06.08-22.35.28:649][432]LogSavePackage: Save=90.66ms
+[2017.06.08-22.35.28:649][432]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_AlienEBC66E254168A4C43C1DC6BF8C875295.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap'
+[2017.06.08-22.35.28:651][432]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap
+[2017.06.08-22.35.28:862][432]LogFileHelpers: Saving map 'Rainforest_Alien' took 0.392
+[2017.06.08-22.35.29:038][440]SourceControl:Error: Error fatal: Invalid path '/Temp': No such file or directory
+[2017.06.08-22.35.54:239][259]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.08-22.36.26:061][259]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.08-22.36.26:220][259]SourceControl: Info [V1.51 ca11887] Layout rain forest zone
+[2017.06.08-22.36.26:220][259]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.06.08-22.36.26:220][259]SourceControl: Info  create mode 100644 Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap
+[2017.06.08-22.36.26:228][259]SourceControl: Info Commited [V1.51 ca11887] Layout rain forest zone.
+[2017.06.08-22.37.12:280][ 34]Cmd: EDIT COPY
+[2017.06.08-22.37.13:484][162]Cmd: EDIT PASTE
+[2017.06.08-22.37.20:366][856]LogEditorViewport: Clicking Background
+[2017.06.08-22.45.09:185][767]LogSavePackage: Save=95.31ms
+[2017.06.08-22.45.09:185][767]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_Auto58DACF7904775D6B42AA0DA8FC4104DB5.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto5.umap'
+[2017.06.08-22.45.09:188][767]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto5.umap
+[2017.06.08-22.45.09:190][767]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.156
+[2017.06.08-22.45.09:190][767]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.156
+[2017.06.08-22.47.31:333][220]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge63)
+[2017.06.08-22.47.32:632][355]Cmd: EDIT COPY
+[2017.06.08-22.47.33:261][422]Cmd: EDIT PASTE
+[2017.06.08-22.48.48:290][411]Cmd: EDIT COPY
+[2017.06.08-22.48.48:532][436]Cmd: EDIT PASTE
+[2017.06.08-22.48.54:687][ 58]Cmd: EDIT COPY
+[2017.06.08-22.48.54:985][ 89]Cmd: EDIT PASTE
+[2017.06.08-22.49.01:749][773]Cmd: EDIT COPY
+[2017.06.08-22.49.01:981][797]Cmd: EDIT PASTE
+[2017.06.08-22.49.09:099][514]Cmd: EDIT COPY
+[2017.06.08-22.49.09:370][535]Cmd: EDIT PASTE
+[2017.06.08-22.49.40:717][730]LogEditorViewport: Clicking Background
+[2017.06.08-22.49.41:908][866]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge68)
+[2017.06.08-22.49.47:334][433]Cmd: EDIT COPY
+[2017.06.08-22.49.47:719][474]Cmd: EDIT PASTE
+[2017.06.08-22.49.51:082][813]Cmd: TRANSACTION UNDO
+[2017.06.08-22.49.51:082][813]LogEditorTransaction: Undo Move Actors
+[2017.06.08-22.50.12:806][884]Cmd: EDIT COPY
+[2017.06.08-22.50.13:003][904]Cmd: EDIT PASTE
+[2017.06.08-22.50.16:971][313]Cmd: EDIT COPY
+[2017.06.08-22.50.17:224][338]Cmd: EDIT PASTE
+[2017.06.08-22.50.22:346][837]LogEditorViewport: Clicking Background
+[2017.06.08-22.50.23:237][935]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge71)
+[2017.06.08-22.50.23:661][976]Cmd: EDIT COPY
+[2017.06.08-22.50.23:949][  5]Cmd: EDIT PASTE
+[2017.06.08-22.50.24:840][ 93]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge72)
+[2017.06.08-22.50.29:740][607]Cmd: EDIT COPY
+[2017.06.08-22.50.30:084][642]Cmd: EDIT PASTE
+[2017.06.08-22.50.35:208][171]Cmd: EDIT COPY
+[2017.06.08-22.50.35:517][204]Cmd: EDIT PASTE
+[2017.06.08-22.50.39:841][643]Cmd: EDIT COPY
+[2017.06.08-22.50.40:197][678]Cmd: EDIT PASTE
+[2017.06.08-22.50.45:685][235]Cmd: TRANSACTION UNDO
+[2017.06.08-22.50.45:685][235]LogEditorTransaction: Undo Translate/Rotate2D Actors
+[2017.06.08-22.50.46:317][282]Cmd: TRANSACTION UNDO
+[2017.06.08-22.50.46:317][282]LogEditorTransaction: Undo Translate/Rotate2D Actors
+[2017.06.08-22.51.50:281][ 77]LogEditorViewport: Clicking Background
+[2017.06.08-22.51.53:329][437]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge75)
+[2017.06.08-22.51.54:925][603]LogEditorViewport: Clicking Background
+[2017.06.08-22.52.45:380][632]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge75)
+[2017.06.08-22.52.47:598][863]Cmd: EDIT COPY
+[2017.06.08-22.52.47:944][900]Cmd: EDIT PASTE
+[2017.06.08-22.52.53:957][497]Cmd: EDIT COPY
+[2017.06.08-22.52.54:256][529]Cmd: EDIT PASTE
+[2017.06.08-22.53.23:134][620]Cmd: EDIT COPY
+[2017.06.08-22.53.23:389][645]Cmd: EDIT PASTE
+[2017.06.08-22.53.28:920][223]LogEditorViewport: Clicking Background
+[2017.06.08-22.53.32:143][577]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge78)
+[2017.06.08-22.53.32:811][635]Cmd: EDIT COPY
+[2017.06.08-22.53.33:186][675]Cmd: EDIT PASTE
+[2017.06.08-22.53.41:104][500]Cmd: EDIT COPY
+[2017.06.08-22.53.41:416][529]Cmd: EDIT PASTE
+[2017.06.08-22.53.45:723][957]Cmd: EDIT COPY
+[2017.06.08-22.53.46:088][994]Cmd: EDIT PASTE
+[2017.06.08-22.53.57:214][165]Cmd: EDIT COPY
+[2017.06.08-22.53.57:460][186]Cmd: EDIT PASTE
+[2017.06.08-22.54.03:858][792]Cmd: TRANSACTION UNDO
+[2017.06.08-22.54.03:859][792]LogEditorTransaction: Undo Translate/Rotate2D Actors
+[2017.06.08-22.54.06:549][ 38]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge82)
+[2017.06.08-22.54.19:416][345]Cmd: EDIT COPY
+[2017.06.08-22.54.19:670][370]Cmd: EDIT PASTE
+[2017.06.08-22.54.50:199][135]LogEditorViewport: Clicking Background
+[2017.06.08-22.54.51:297][254]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-22.54.51:315][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-22.54.51:315][254]PIE: New page: PIE session: Rainforest_Alien (Jun 8, 2017, 10:54:51 AM)
+[2017.06.08-22.54.51:315][254]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.08-22.54.51:320][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004635s)
+[2017.06.08-22.54.51:321][254]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.08-22.54.51:321][254]LogPlayLevel: PIE: World Init took: (0.000740s)
+[2017.06.08-22.54.51:321][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.005600s)
+[2017.06.08-22.54.51:347][254]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-22.54.51:354][254]LogInit: FAudioDevice initialized.
+[2017.06.08-22.54.51:384][254]LogLoad: Game class is 'Mouse_GameMode_C'
+[2017.06.08-22.54.51:388][254]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.08-16.54.51
+[2017.06.08-22.54.51:388][254]LogWorld: Bringing up level for play took: 0.003160
+[2017.06.08-22.54.51:389][254]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.283
+[2017.06.08-22.55.00:812][320]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-22.55.00:829][320]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-22.55.00:830][320]PIE: New page: PIE session: Rainforest_Alien (Jun 8, 2017, 10:55:00 AM)
+[2017.06.08-22.55.00:830][320]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.08-22.55.00:834][320]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004503s)
+[2017.06.08-22.55.00:835][320]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.08-22.55.00:835][320]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2017.06.08-22.55.00:835][320]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.005227s)
+[2017.06.08-22.55.00:854][320]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-22.55.00:860][320]LogInit: FAudioDevice initialized.
+[2017.06.08-22.55.00:888][320]LogLoad: Game class is 'Mouse_GameMode_C'
+[2017.06.08-22.55.00:892][320]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.08-16.55.00
+[2017.06.08-22.55.00:892][320]LogWorld: Bringing up level for play took: 0.003156
+[2017.06.08-22.55.00:893][320]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.213
+[2017.06.08-22.55.11:893][571]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.06.08-22.55.13:683][748]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.08-22.55.14:356][817]Cmd: TRANSACTION UNDO
+[2017.06.08-22.55.14:356][817]LogEditorTransaction: Undo Translate/Rotate2D Actors
+[2017.06.08-22.55.14:853][852]Cmd: TRANSACTION UNDO
+[2017.06.08-22.55.14:853][852]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.08-22.55.16:613][ 30]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.06.08-22.55.17:370][ 96]LogEditorViewport: Clicking Background
+[2017.06.08-22.55.25:200][830]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-22.55.25:217][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-22.55.25:218][830]PIE: New page: PIE session: Rainforest_Alien (Jun 8, 2017, 10:55:25 AM)
+[2017.06.08-22.55.25:218][830]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.08-22.55.25:222][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004130s)
+[2017.06.08-22.55.25:223][830]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.08-22.55.25:223][830]LogPlayLevel: PIE: World Init took: (0.000596s)
+[2017.06.08-22.55.25:223][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.004938s)
+[2017.06.08-22.55.25:247][830]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-22.55.25:253][830]LogInit: FAudioDevice initialized.
+[2017.06.08-22.55.25:280][830]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.08-22.55.25:284][830]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.08-16.55.25
+[2017.06.08-22.55.25:284][830]LogWorld: Bringing up level for play took: 0.003072
+[2017.06.08-22.55.25:285][830]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.179
+[2017.06.08-22.55.45:178][802]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-22.55.45:196][802]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-22.55.45:197][802]PIE: New page: PIE session: Rainforest_Alien (Jun 8, 2017, 10:55:45 AM)
+[2017.06.08-22.55.45:197][802]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.08-22.55.45:201][802]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004493s)
+[2017.06.08-22.55.45:202][802]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.08-22.55.45:202][802]LogPlayLevel: PIE: World Init took: (0.000527s)
+[2017.06.08-22.55.45:202][802]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.005202s)
+[2017.06.08-22.55.45:227][802]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-22.55.45:233][802]LogInit: FAudioDevice initialized.
+[2017.06.08-22.55.45:264][802]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.08-22.55.45:269][802]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.08-16.55.45
+[2017.06.08-22.55.45:269][802]LogWorld: Bringing up level for play took: 0.003279
+[2017.06.08-22.55.45:270][802]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.164
+[2017.06.08-22.55.56:068][845]Cmd: TRANSACTION UNDO
+[2017.06.08-22.55.56:068][845]LogEditorTransaction: Undo Edit GameMode Override
+[2017.06.08-22.55.57:886][991]Cmd: TRANSACTION UNDO
+[2017.06.08-22.55.57:886][991]LogEditorTransaction: Undo Clicking Background
+[2017.06.08-22.56.46:244][870]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_GameMode'
+[2017.06.08-22.56.46:244][870]LogLinker:Warning: Can't find file for asset '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_GameMode' while loading ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.umap.
+[2017.06.08-22.56.46:244][870]LoadErrors:Error: Error /Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap : Can't find file for asset. /Game/2DSideScrollerBP/Blueprints/Characters/Mouse_GameMode
+[2017.06.08-22.56.46:256][870]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_GameMode'
+[2017.06.08-22.56.46:256][870]LogLinker:Warning: Can't find file for asset '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_GameMode' while loading ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.umap.
+[2017.06.08-22.56.46:257][870]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_GameMode'
+[2017.06.08-22.56.46:257][870]LogLinker:Warning: Can't find file for asset '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_GameMode' while loading NULL.
+[2017.06.08-22.56.46:257][870]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_GameMode'
+[2017.06.08-22.56.46:257][870]LogLinker:Warning: Can't find file for asset '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_GameMode' while loading NULL.
+[2017.06.08-22.56.46:261][870]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_GameMode'
+[2017.06.08-22.56.46:261][870]LoadErrors: Info Failed to load /Game/2DSideScrollerBP/Blueprints/Characters/Mouse_GameMode.Mouse_GameMode_C Referenced by WorldInfo_0
+[2017.06.08-22.56.46:261][870]LogLinker:Warning: Can't find file for asset '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_GameMode' while loading NULL.
+[2017.06.08-22.56.46:263][870]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.08-22.56.48:368][870]LogSavePackage: Save=7.47ms
+[2017.06.08-22.56.48:368][870]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerGameModeBAB93EE2469AE09DE59312BA752A70C5.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerGameMode.uasset'
+[2017.06.08-22.56.48:372][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerGameMode.uasset
+[2017.06.08-22.56.48:564][870]LogSavePackage: Save=124.14ms
+[2017.06.08-22.56.48:564][870]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_AlienBF710FAD498A0C705FE7FD84C666EC08.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap'
+[2017.06.08-22.56.48:567][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap
+[2017.06.08-22.56.48:591][870]LogFileHelpers: Saving map 'Rainforest_Alien' took 0.217
+[2017.06.08-22.56.48:592][870]LightingResults: New page: Lighting Build
+[2017.06.08-22.56.48:592][870]LoadErrors: New page: Loading map: 2DSideScrollerExampleMap.umap
+[2017.06.08-22.56.48:593][870]MapCheck: New page: Map Check
+[2017.06.08-22.56.48:593][870]LightingResults: New page: Lighting Build
+[2017.06.08-22.56.48:652][870]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.08-22.56.48:688][870]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.08-22.56.48:727][870]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 39.3ms to complete.
+[2017.06.08-22.56.48:727][870]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.136
+[2017.06.08-22.56.48:729][870]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.08-22.56.56:022][542]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-22.56.56:052][542]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-22.56.56:052][542]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-22.56.56:052][542]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jun 8, 2017, 10:56:56 AM)
+[2017.06.08-22.56.56:052][542]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap
+[2017.06.08-22.56.56:054][542]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002031s)
+[2017.06.08-22.56.56:055][542]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.08-22.56.56:055][542]LogPlayLevel: PIE: World Init took: (0.000558s)
+[2017.06.08-22.56.56:055][542]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.002764s)
+[2017.06.08-22.56.56:076][542]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-22.56.56:082][542]LogInit: FAudioDevice initialized.
+[2017.06.08-22.56.56:112][542]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls'
+[2017.06.08-22.56.56:112][542]LogLinker:Warning: Can't find file for asset '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls' while loading ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerGameMode.uasset.
+[2017.06.08-22.56.56:112][542]LoadErrors:Error: Error /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerGameMode : Can't find file for asset. /Game/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls
+[2017.06.08-22.56.56:112][542]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls'
+[2017.06.08-22.56.56:112][542]LogLinker:Warning: Can't find file for asset '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls' while loading ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerGameMode.uasset.
+[2017.06.08-22.56.56:114][542]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.08-22.56.56:116][542]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.06.08-16.56.56
+[2017.06.08-22.56.56:116][542]LogWorld: Bringing up level for play took: 0.001167
+[2017.06.08-22.56.56:117][542]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap 1.011
+[2017.06.08-22.56.56:117][542]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-22.57.06:369][548]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-22.57.06:406][548]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-22.57.12:278][ 36]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-22.57.12:296][ 36]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-22.57.12:296][ 36]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-22.57.12:296][ 36]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jun 8, 2017, 10:57:12 AM)
+[2017.06.08-22.57.12:296][ 36]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap
+[2017.06.08-22.57.12:299][ 36]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003030s)
+[2017.06.08-22.57.12:299][ 36]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.08-22.57.12:300][ 36]LogPlayLevel: PIE: World Init took: (0.000495s)
+[2017.06.08-22.57.12:300][ 36]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003803s)
+[2017.06.08-22.57.12:322][ 36]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-22.57.12:328][ 36]LogInit: FAudioDevice initialized.
+[2017.06.08-22.57.12:356][ 36]LogLoad: Game class is 'Mouse_GameMode_C'
+[2017.06.08-22.57.12:358][ 36]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.06.08-16.57.12
+[2017.06.08-22.57.12:358][ 36]LogWorld: Bringing up level for play took: 0.001123
+[2017.06.08-22.57.12:359][ 36]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap -0.747
+[2017.06.08-22.57.12:359][ 36]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-22.57.14:329][223]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.14:329][223]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.14:329][223]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.14:329][223]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.14:330][223]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.14:657][255]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.14:657][255]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.14:657][255]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.14:657][255]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.19:872][756]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.19:872][756]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.19:872][756]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.19:872][756]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.27:418][485]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.27:418][485]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.27:418][485]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.27:418][485]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.28:591][599]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.28:591][599]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.28:591][599]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.57.28:591][599]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.07:991][270]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-22.58.08:030][270]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-22.58.09:609][390]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-22.58.09:626][390]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-22.58.09:626][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-22.58.09:626][390]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jun 8, 2017, 10:58:09 AM)
+[2017.06.08-22.58.09:626][390]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap
+[2017.06.08-22.58.09:628][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002155s)
+[2017.06.08-22.58.09:629][390]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.08-22.58.09:629][390]LogPlayLevel: PIE: World Init took: (0.000498s)
+[2017.06.08-22.58.09:629][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.002854s)
+[2017.06.08-22.58.09:653][390]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-22.58.09:659][390]LogInit: FAudioDevice initialized.
+[2017.06.08-22.58.09:688][390]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.08-22.58.09:690][390]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.06.08-16.58.09
+[2017.06.08-22.58.09:690][390]LogWorld: Bringing up level for play took: 0.001325
+[2017.06.08-22.58.09:691][390]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap 0.585
+[2017.06.08-22.58.09:691][390]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-22.58.33:356][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.33:357][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.33:357][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.33:357][606]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.37:881][ 56]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.37:881][ 56]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.37:882][ 56]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.37:882][ 56]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.37:882][ 56]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.39:298][197]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.39:299][197]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.39:299][197]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.39:299][197]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.42:481][514]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.42:482][514]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.42:482][514]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.42:482][514]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.42:482][514]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.42:932][559]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.42:933][559]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.42:933][559]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.42:933][559]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.46:772][939]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.46:772][939]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.46:772][939]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.46:772][939]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.46:772][939]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.49:539][212]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.49:539][212]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.49:539][212]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.49:539][212]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.50:411][299]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.50:411][299]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.50:411][299]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.50:411][299]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.50:411][299]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.50:755][333]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.50:755][333]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.50:755][333]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.50:755][333]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.56:277][879]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.56:277][879]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.56:277][879]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.56:277][879]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.56:277][879]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.57:021][953]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.57:021][953]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.57:021][953]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.58.57:021][953]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.13:268][562]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.13:268][562]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.13:269][562]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.13:269][562]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.17:478][973]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.17:478][973]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.17:478][973]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.17:478][973]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.17:478][973]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:174][ 42]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:174][ 42]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:175][ 42]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:175][ 42]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:175][ 42]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:377][ 62]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:378][ 62]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:378][ 62]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:378][ 62]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:378][ 62]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:572][ 81]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:572][ 81]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:572][ 81]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:572][ 81]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:572][ 81]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:773][101]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:774][101]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:774][101]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:774][101]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:774][101]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:957][119]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:957][119]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:957][119]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:957][119]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.18:957][119]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.08-22.59.21:252][347]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-22.59.21:290][347]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-23.01.38:323][622]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.08-23.01.57:154][682]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.08-23.02.01:382][927]LogSavePackage: Save=15.25ms
+[2017.06.08-23.02.01:382][927]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Mouse_ControlsE0D89EC84544F2ABEA4165BBCB538FEF.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls.uasset'
+[2017.06.08-23.02.01:384][927]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls.uasset
+[2017.06.08-23.02.01:718][927]LogSavePackage: Save=100.85ms
+[2017.06.08-23.02.01:718][927]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerExampleMap77E5A8A44E61293D71DE189F98982B7C.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.umap'
+[2017.06.08-23.02.01:720][927]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.umap
+[2017.06.08-23.02.01:749][927]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.192
+[2017.06.08-23.02.01:820][927]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.08-23.02.02:025][928]Cmd: QUIT_EDITOR
+[2017.06.08-23.02.02:351][928]LogExit: Preparing to exit.
+[2017.06.08-23.02.03:184][928]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/', and we were unable to create a new request.
+[2017.06.08-23.02.03:213][928]LogExit: Editor shut down
+[2017.06.08-23.02.03:221][928]LogExit: Transaction tracking system shut down
+[2017.06.08-23.02.03:302][928]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.08-23.02.03:302][928]LogExit: Object subsystem successfully closed.
+[2017.06.08-23.02.03:316][928]LogD3D11RHI: Shutdown
+[2017.06.08-23.02.03:316][928]LogD3D11RHI: CleanupD3DDevice
+[2017.06.08-23.02.03:391][928]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.08-23.02.03:403][928]LogModuleManager: Shutting down and abandoning module NewLevelDialog (536)
+[2017.06.08-23.02.03:403][928]LogModuleManager: Shutting down and abandoning module ExternalImagePicker (534)
+[2017.06.08-23.02.03:403][928]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
+[2017.06.08-23.02.03:403][928]LogModuleManager: Shutting down and abandoning module SequencerWidgets (530)
+[2017.06.08-23.02.03:403][928]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.06.08-23.02.03:403][928]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.06.08-23.02.03:403][928]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.06.08-23.02.03:403][928]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.06.08-23.02.03:403][928]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.06.08-23.02.03:403][928]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.06.08-23.02.03:403][928]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.06.08-23.02.03:404][928]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' was aborted.
+[2017.06.08-23.02.03:404][928]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells/Collections/' was aborted.
+[2017.06.08-23.02.03:404][928]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' was aborted.
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.06.08-23.02.03:404][928]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.06.08-23.02.03:637][928]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.06.08-23.02.03:638][928]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.06.08-23.02.03:638][928]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.06.08-23.02.03:638][928]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.06.08-23.02.03:638][928]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.06.08-23.02.03:638][928]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.06.08-23.02.03:638][928]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.06.08-23.02.03:638][928]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.06.08-23.02.03:638][928]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.06.08-23.02.03:690][928]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.06.08-23.02.03:690][928]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.06.08-23.02.03:690][928]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.06.08-23.02.03:690][928]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.06.08-23.02.03:690][928]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.06.08-23.02.03:690][928]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.06.08-23.02.03:690][928]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.06.08-23.02.03:690][928]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.06.08-23.02.03:690][928]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.06.08-23.02.03:691][928]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.06.08-23.02.03:707][928]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.06.08-23.02.03:710][928]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.06.08-23.02.03:710][928]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.06.08-23.02.03:710][928]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.06.08-23.02.03:711][928]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.06.08-23.02.03:914][928]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.06.08-23.02.03:915][928]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.06.08-23.02.03:915][928]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.06.08-23.02.03:915][928]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.06.08-23.02.03:915][928]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.06.08-23.02.03:915][928]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.06.08-23.02.03:915][928]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.06.08-23.02.03:915][928]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.06.08-23.02.03:915][928]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.06.08-23.02.03:916][928]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.06.08-23.02.03:916][928]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.06.08-23.02.03:916][928]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.06.08-23.02.03:916][928]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.06.08-23.02.03:916][928]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.06.08-23.02.03:916][928]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.06.08-23.02.03:916][928]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.06.08-23.02.03:918][928]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.06.08-23.02.03:918][928]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.06.08-23.02.03:918][928]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.06.08-23.02.03:919][928]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.06.08-23.02.03:920][928]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.06.08-23.02.03:920][928]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.06.08-23.02.03:920][928]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.06.08-23.02.03:920][928]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.06.08-23.02.03:920][928]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.06.08-23.02.04:020][928]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.06.08-23.02.04:121][928]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.08-23.02.04:122][928]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.08-23.02.04:122][928]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.08-23.02.04:122][928]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.08-23.02.04:122][928]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.08-23.02.04:122][928]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.08-23.02.04:125][928]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.08-23.02.04:125][928]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.08-23.02.04:125][928]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.08-23.02.04:125][928]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.08-23.02.04:125][928]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.08-23.02.04:125][928]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.08-23.02.04:125][928]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.08-23.02.04:125][928]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.08-23.02.04:126][928]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.08-23.02.04:126][928]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.08-23.02.04:126][928]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.08-23.02.04:126][928]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.08-23.02.04:126][928]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.08-23.02.04:126][928]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.08-23.02.04:126][928]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.08-23.02.04:126][928]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.08-23.02.04:126][928]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.08-23.02.04:126][928]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.08-23.02.04:126][928]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.08-23.02.04:126][928]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.08-23.02.04:127][928]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.08-23.02.04:127][928]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.08-23.02.04:127][928]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.08-23.02.04:134][928]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.08-23.02.04:135][928]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.08-23.02.04:135][928]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.08-23.02.04:135][928]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.08-23.02.04:135][928]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.08-23.02.04:135][928]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.08-23.02.04:349][928]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.08-23.02.04:349][928]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' was aborted.
+[2017.06.08-23.02.04:349][928]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.08-23.02.04:349][928]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.08-23.02.04:354][928]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.08-23.02.04:356][928]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.08-23.02.04:356][928]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.08-23.02.04:356][928]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.08-23.02.04:356][928]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.08-23.02.04:356][928]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.08-23.02.04:357][928]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.08-23.02.04:357][928]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.08-23.02.04:357][928]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.08-23.02.04:390][928]LogDerivedDataCache: Shutdown
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.08-23.02.04:390][928]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.08-23.02.04:391][928]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.08-23.02.04:391][928]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.08-23.02.04:391][928]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.08-23.02.04:391][928]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B13C316DE-4858-C6A4-D2A7-82A448A9E625%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.0-3452394%2B%2B%2BUE4%2BRelease-4.16&UserID=520fd5774504bba7d7d4dfbb2efd774d%7C3ef35b30eb8d444d8e26d7fb1794d4bf%7C7a44e29e-0876-4249-91a8-eb020dafba7b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.08-23.02.04:394][928]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.08-23.02.04:396][928]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.08-23.02.04:396][928]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.08-23.02.04:396][928]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.08-23.02.04:396][928]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.08-23.02.04:397][928]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.08-23.02.04:397][928]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.08-23.02.04:397][928]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.08-23.02.04:397][928]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.08-23.02.04:399][928]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.08-23.02.04:399][928]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.08-23.02.04:400][928]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.08-23.02.04:400][928]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.08-23.02.04:400][928]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.08-23.02.04:400][928]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.08-23.02.04:400][928]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.08-23.02.04:400][928]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.08-23.02.04:400][928]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.08-23.02.04:400][928]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.08-23.02.04:403][928]LogExit: Exiting.
+[2017.06.08-23.02.04:438][928]Log file closed, 06/08/17 17:02:04
