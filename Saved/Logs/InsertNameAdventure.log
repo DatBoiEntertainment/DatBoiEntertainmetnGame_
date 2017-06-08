@@ -226,3 +226,117 @@ LogInit: Object subsystem initialized
 [2017.06.08-17.17.54:218][498]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.075
 [2017.06.08-17.20.28:452][443]SourceControl: Info rm 'Content/2DSideScrollerBP/Test.uasset'
 [2017.06.08-17.20.28:452][443]SourceControl: Info rm 'Content/2DSideScrollerBP/Tst2.uasset'
+[2017.06.08-17.31.30:413][396]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Background_Sprite)
+[2017.06.08-17.31.32:256][535]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.06.08-17.31.38:045][ 96]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
+[2017.06.08-17.31.38:531][ 96]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.08-17.31.38:630][ 96]LogSlate: Took 0.003427 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.06.08-17.31.38:783][ 97]LogSlate: Took 0.003424 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.06.08-17.32.48:835][973]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.08-17.32.52:512][266]LogEditorViewport: Clicking on Actor (LMB): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2017.06.08-17.32.54:812][474]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-17.32.55:816][474]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-17.32.55:816][474]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-17.32.55:817][474]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jun 8, 2017, 5:32:55 AM)
+[2017.06.08-17.32.55:817][474]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap
+[2017.06.08-17.32.55:819][474]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002104s)
+[2017.06.08-17.32.55:819][474]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.08-17.32.55:820][474]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2017.06.08-17.32.55:820][474]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.002967s)
+[2017.06.08-17.32.55:868][474]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-17.32.55:876][474]LogInit: FAudioDevice initialized.
+[2017.06.08-17.32.55:927][474]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.08-17.32.55:939][474]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.06.08-11.32.55
+[2017.06.08-17.32.55:941][474]LogWorld: Bringing up level for play took: 0.004955
+[2017.06.08-17.32.56:010][474]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
+[2017.06.08-17.32.56:011][474]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap 0.897
+[2017.06.08-17.32.56:011][474]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-17.33.02:464][214]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-17.33.02:535][214]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-17.33.45:217][920]LogEditorViewport: Clicking on Actor (context menu): 2DSideScrollerCharacter_C (2DSideScrollerCharacter)
+[2017.06.08-17.34.31:286][922]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.08-17.34.32:449][980]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-17.34.32:463][980]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-17.34.32:463][980]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-17.34.32:463][980]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jun 8, 2017, 5:34:32 AM)
+[2017.06.08-17.34.32:463][980]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap
+[2017.06.08-17.34.32:465][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001846s)
+[2017.06.08-17.34.32:465][980]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.08-17.34.32:465][980]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2017.06.08-17.34.32:465][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.002616s)
+[2017.06.08-17.34.32:515][980]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-17.34.32:522][980]LogInit: FAudioDevice initialized.
+[2017.06.08-17.34.32:556][980]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.08-17.34.32:558][980]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.06.08-11.34.32
+[2017.06.08-17.34.32:558][980]LogWorld: Bringing up level for play took: 0.001322
+[2017.06.08-17.34.32:559][980]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap -0.555
+[2017.06.08-17.34.32:559][980]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-17.34.33:596][ 58]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-17.34.33:665][ 58]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-17.34.36:360][246]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.08-17.34.36:373][246]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-17.34.36:373][246]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.08-17.34.36:373][246]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jun 8, 2017, 5:34:36 AM)
+[2017.06.08-17.34.36:373][246]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap
+[2017.06.08-17.34.36:376][246]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003104s)
+[2017.06.08-17.34.36:377][246]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.08-17.34.36:377][246]LogPlayLevel: PIE: World Init took: (0.000509s)
+[2017.06.08-17.34.36:377][246]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003766s)
+[2017.06.08-17.34.36:424][246]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.08-17.34.36:430][246]LogInit: FAudioDevice initialized.
+[2017.06.08-17.34.36:465][246]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.08-17.34.36:469][246]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.06.08-11.34.36
+[2017.06.08-17.34.36:470][246]LogWorld: Bringing up level for play took: 0.002257
+[2017.06.08-17.34.36:471][246]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap -0.643
+[2017.06.08-17.34.36:471][246]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-17.35.30:146][552]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-17.35.30:207][552]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.08-17.35.37:057][211]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.06.08-17.35.56:566][701]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.08-17.36.05:434][144]LogSavePackage: Save=98.30ms
+[2017.06.08-17.36.05:435][144]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerExampleMap_Auto1A3C115704C7E319D471437B0DB9AE7B1.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap_Auto1.umap'
+[2017.06.08-17.36.05:436][144]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap_Auto1.umap
+[2017.06.08-17.36.05:440][144]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap' took 0.123
+[2017.06.08-17.36.05:440][144]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.123
+[2017.06.08-17.36.05:442][144]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter] ([1] browsable assets)...
+[2017.06.08-17.36.05:442][144]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter]
+[2017.06.08-17.36.05:507][144]LogSavePackage: Save=58.27ms
+[2017.06.08-17.36.05:507][144]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerCharacter_Auto12F9B377D446CE881F65900B60B521570.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter_Auto1.uasset'
+[2017.06.08-17.36.05:508][144]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter_Auto1.uasset
+[2017.06.08-17.36.05:508][144]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Characters/NewBlueprint] ([1] browsable assets)...
+[2017.06.08-17.36.05:508][144]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Characters/NewBlueprint]
+[2017.06.08-17.36.05:519][144]LogSavePackage: Save=8.66ms
+[2017.06.08-17.36.05:519][144]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/NewBlueprint_Auto159684F7B4E71319619AE4FB13631A2E5.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/NewBlueprint_Auto1.uasset'
+[2017.06.08-17.36.05:519][144]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/NewBlueprint_Auto1.uasset
+[2017.06.08-17.36.05:519][144]LogFileHelpers: Auto-saving content packages took 0.078
+[2017.06.08-17.38.08:483][853]SourceControl: Info On branch V1.5
+[2017.06.08-17.38.08:483][853]SourceControl: Info Your branch is up-to-date with 'origin/V1.5'.
+[2017.06.08-17.38.08:483][853]SourceControl: Info Changes not staged for commit:
+[2017.06.08-17.38.08:483][853]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.06.08-17.38.08:483][853]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.06.08-17.38.08:483][853]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.06.08-17.38.08:483][853]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.06.08-17.38.08:712][853]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls.Mouse_Controls:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Characters/NewBlueprint.PackageMetaData'
+[2017.06.08-17.38.08:712][853]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls.SKEL_Mouse_Controls_C' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Characters/NewBlueprint.PackageMetaData'
+[2017.06.08-17.38.08:712][853]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls.Mouse_Controls_C' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Characters/NewBlueprint.PackageMetaData'
+[2017.06.08-17.38.08:712][853]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls.Mouse_Controls:EventGraph.K2Node_Event_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Characters/NewBlueprint.PackageMetaData'
+[2017.06.08-17.38.08:712][853]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls.Mouse_Controls:EventGraph.K2Node_Event_1' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Characters/NewBlueprint.PackageMetaData'
+[2017.06.08-17.38.08:739][853]LogSavePackage: Save=9.93ms
+[2017.06.08-17.38.08:739][853]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Mouse_ControlsA2A97218428B09EEAC8B3E8D310DC820.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls.uasset'
+[2017.06.08-17.38.08:741][853]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls.uasset
+[2017.06.08-17.40.06:283][456]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.08-17.40.15:074][ 86]BlueprintLog: New page: Compile Mouse_GameMode
+[2017.06.08-17.40.45:794][395]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.08-17.40.57:348][361]LogSavePackage: Save=8.59ms
+[2017.06.08-17.40.57:348][361]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Mouse_GameModeCA206D8D4C5FA01CEFF2A6889F759DD3.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/Mouse_GameMode.uasset'
+[2017.06.08-17.40.57:352][361]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/Mouse_GameMode.uasset
+[2017.06.08-17.41.01:774][759]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.08-17.41.06:242][759]LogSavePackage: Save=9.19ms
+[2017.06.08-17.41.06:242][759]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Mouse_Controls6D59991F46273A6CDFC7AE98E01ACE35.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls.uasset'
+[2017.06.08-17.41.06:245][759]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls.uasset
+[2017.06.08-17.41.19:755][759]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.08-17.41.19:818][759]SourceControl: Info [V1.5 dbde1c9] Mouse Controls
+[2017.06.08-17.41.19:818][759]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
+[2017.06.08-17.41.19:818][759]SourceControl: Info  create mode 100644 Content/2DSideScrollerBP/Blueprints/Characters/Mouse_Controls.uasset
+[2017.06.08-17.41.19:818][759]SourceControl: Info  create mode 100644 Content/2DSideScrollerBP/Blueprints/Characters/Mouse_GameMode.uasset
+[2017.06.08-17.41.19:825][759]SourceControl: Info Commited [V1.5 dbde1c9] Mouse Controls.
