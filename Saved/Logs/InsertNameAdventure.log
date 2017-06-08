@@ -98,3 +98,23 @@ LogInit: Object subsystem initialized
 [2017.06.08-17.23.30:719][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
 [2017.06.08-17.23.30:849][  0]LogTemp:Display: Loaded TP MacTargetPlatform
 [2017.06.08-17.23.30:972][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.08-17.23.31:103][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.08-17.23.31:237][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.08-17.23.31:378][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.08-17.23.31:611][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.08-17.23.31:779][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.08-17.23.31:947][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.08-17.23.32:096][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.08-17.23.32:225][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.08-17.23.32:366][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.08-17.23.32:644][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.08-17.23.32:644][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.08-17.23.32:734][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.08-17.23.33:015][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.08-17.23.33:065][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.08-17.23.33:235][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.08-17.23.33:399][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.08-17.23.33:514][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.08-17.23.33:671][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.08-17.23.33:671][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.08-17.23.36:357][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
