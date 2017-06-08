@@ -224,3 +224,5 @@ LogInit: Object subsystem initialized
 [2017.06.08-17.17.54:181][498]Cmd: MAP CHECKDEP NOCLEARLOG
 [2017.06.08-17.17.54:218][498]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.731ms to complete.
 [2017.06.08-17.17.54:218][498]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.075
+[2017.06.08-17.20.28:452][443]SourceControl: Info rm 'Content/2DSideScrollerBP/Test.uasset'
+[2017.06.08-17.20.28:452][443]SourceControl: Info rm 'Content/2DSideScrollerBP/Tst2.uasset'
