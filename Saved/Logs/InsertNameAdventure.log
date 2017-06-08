@@ -394,3 +394,83 @@ LogInit: Object subsystem initialized
 [2017.06.08-21.00.28:843][137]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
 [2017.06.08-21.00.28:907][137]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
 [2017.06.08-21.00.39:318][700]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (RightEdge)
+[2017.06.08-21.02.34:097][311]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.06.08-21.03.34:397][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.08-21.03.34:466][772]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.08-21.03.34:887][772]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Test_Item_C_0' or package '/Engine/Transient'.
+[2017.06.08-21.03.34:887][772]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.06.08-21.03.34:887][772]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.06.08-21.03.34:887][772]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Cube_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.06.08-21.03.34:887][772]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Test_Item_C_1' or package '/Engine/Transient'.
+[2017.06.08-21.03.34:887][772]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2017.06.08-21.03.34:887][772]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Cube' or package '/Engine/Transient'.
+[2017.06.08-21.03.34:887][772]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.06.08-21.03.34:887][772]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Test_Item_C_46' or package '/Engine/Transient'.
+[2017.06.08-21.03.34:887][772]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Test_Item_C_45' or package '/Engine/Transient'.
+[2017.06.08-21.03.35:252][772]SourceControl: Info rm 'Content/2DSideScrollerBP/Item/Test_Item.uasset'
+[2017.06.08-21.04.51:575][648]SourceControl: Info On branch v1.5.1Test
+[2017.06.08-21.04.51:575][648]SourceControl: Info Your branch is up-to-date with 'origin/v1.5.1Test'.
+[2017.06.08-21.04.51:575][648]SourceControl: Info Changes to be committed:
+[2017.06.08-21.04.51:575][648]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.06.08-21.04.51:575][648]SourceControl: Info 	deleted:    Content/2DSideScrollerBP/Item/Test_Item.uasset
+[2017.06.08-21.04.51:575][648]SourceControl: Info Changes not staged for commit:
+[2017.06.08-21.04.51:575][648]SourceControl: Info   (use "git add <file>..." to update what will be committed)
+[2017.06.08-21.04.51:575][648]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.06.08-21.04.51:575][648]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.06.08-21.04.51:575][648]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.06.08-21.04.51:786][648]LogMetaData: Removing '/Game/2DSideScrollerBP/Item/Item_MasterBP.Item_MasterBP:UserConstructionScript.K2Node_FunctionEntry_0' ref from Metadata '/Game/2DSideScrollerBP/Item/Item_Master.PackageMetaData'
+[2017.06.08-21.04.51:786][648]LogMetaData: Removing '/Game/2DSideScrollerBP/Item/Item_MasterBP.SKEL_Item_MasterBP_C' ref from Metadata '/Game/2DSideScrollerBP/Item/Item_Master.PackageMetaData'
+[2017.06.08-21.04.51:786][648]LogMetaData: Removing '/Game/2DSideScrollerBP/Item/Item_MasterBP.Item_MasterBP_C' ref from Metadata '/Game/2DSideScrollerBP/Item/Item_Master.PackageMetaData'
+[2017.06.08-21.04.51:786][648]LogMetaData: Removing '/Game/2DSideScrollerBP/Item/Item_MasterBP.Item_MasterBP:EventGraph.K2Node_Event_0' ref from Metadata '/Game/2DSideScrollerBP/Item/Item_Master.PackageMetaData'
+[2017.06.08-21.04.51:786][648]LogMetaData: Removing '/Game/2DSideScrollerBP/Item/Item_MasterBP.Item_MasterBP:EventGraph.K2Node_Event_1' ref from Metadata '/Game/2DSideScrollerBP/Item/Item_Master.PackageMetaData'
+[2017.06.08-21.04.51:786][648]LogMetaData: Removing '/Game/2DSideScrollerBP/Item/Item_MasterBP.Item_MasterBP:EventGraph.K2Node_Event_2' ref from Metadata '/Game/2DSideScrollerBP/Item/Item_Master.PackageMetaData'
+[2017.06.08-21.04.51:813][648]LogSavePackage: Save=10.19ms
+[2017.06.08-21.04.51:813][648]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Item_MasterBP6B3B05C24455A16D4EFF4DB4BD3128BC.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Item_MasterBP.uasset'
+[2017.06.08-21.04.51:815][648]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Item_MasterBP.uasset
+[2017.06.08-21.05.29:616][267]LogSlate: Took 0.000180 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.08-21.08.25:212][840]LogSavePackage: Save=124.25ms
+[2017.06.08-21.08.25:212][840]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerExampleMap_Auto190633C0A448B14E4F4C149BED9E63A75.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap_Auto1.umap'
+[2017.06.08-21.08.25:215][840]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap_Auto1.umap
+[2017.06.08-21.08.25:220][840]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap' took 0.158
+[2017.06.08-21.08.25:220][840]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.158
+[2017.06.08-21.08.25:223][840]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Item/Item_S] ([1] browsable assets)...
+[2017.06.08-21.08.25:223][840]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Item/Item_S]
+[2017.06.08-21.08.25:233][840]LogSavePackage: Save=6.94ms
+[2017.06.08-21.08.25:233][840]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Item_S_Auto1F61E787A44933F8D9B0A5F9127FFDAB1.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Item/Item_S_Auto1.uasset'
+[2017.06.08-21.08.25:234][840]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Item/Item_S_Auto1.uasset
+[2017.06.08-21.08.25:234][840]LogFileHelpers: Auto-saving content packages took 0.013
+[2017.06.08-21.14.04:377][487]BlueprintLog: New page: Compile Item_MasterBP
+[2017.06.08-21.14.46:647][947]LogSavePackage: Save=5.05ms
+[2017.06.08-21.14.46:647][947]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Item_S4C97F3B14A74AEF061A1A88575E889DC.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Item_S.uasset'
+[2017.06.08-21.14.46:652][947]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Item_S.uasset
+[2017.06.08-21.14.56:883][833]LogSavePackage: Save=4.38ms
+[2017.06.08-21.14.56:883][833]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Item_S73F4A21847AF483F81E4C88B7783E679.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Item_S.uasset'
+[2017.06.08-21.14.56:887][833]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Item_S.uasset
+[2017.06.08-21.14.58:987][992]BlueprintLog: New page: Compile Item_MasterBP
+[2017.06.08-21.18.25:521][574]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap' took 0.026
+[2017.06.08-21.18.25:523][574]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Item/Item_MasterBP] ([1] browsable assets)...
+[2017.06.08-21.18.25:523][574]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Item/Item_MasterBP]
+[2017.06.08-21.18.25:542][574]LogSavePackage: Save=9.84ms
+[2017.06.08-21.18.25:542][574]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Item_MasterBP_Auto2A345A73F44502C435DA9B58450669528.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Item/Item_MasterBP_Auto2.uasset'
+[2017.06.08-21.18.25:543][574]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Item/Item_MasterBP_Auto2.uasset
+[2017.06.08-21.18.25:543][574]LogFileHelpers: Auto-saving content packages took 0.021
+[2017.06.08-21.40.11:927][345]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.08-21.40.14:613][345]LogSavePackage: Save=8.49ms
+[2017.06.08-21.40.14:613][345]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Item_MasterBPF6BDC4104F3BA92B1602D6AA63C72A6C.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Item_MasterBP.uasset'
+[2017.06.08-21.40.14:616][345]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Item_MasterBP.uasset
+[2017.06.08-21.40.30:421][345]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.08-21.40.30:452][345]SourceControl: Info [v1.5.1Test d141a81] Item Data and Item Master
+[2017.06.08-21.40.30:452][345]SourceControl: Info  3 files changed, 0 insertions(+), 0 deletions(-)
+[2017.06.08-21.40.30:452][345]SourceControl: Info  create mode 100644 Content/2DSideScrollerBP/Item/Item_MasterBP.uasset
+[2017.06.08-21.40.30:452][345]SourceControl: Info  create mode 100644 Content/2DSideScrollerBP/Item/Item_S.uasset
+[2017.06.08-21.40.30:452][345]SourceControl: Info  delete mode 100644 Content/2DSideScrollerBP/Item/Test_Item.uasset
+[2017.06.08-21.40.30:459][345]SourceControl: Info Commited [v1.5.1Test d141a81] Item Data and Item Master.
+[2017.06.08-21.41.10:906][246]LogEditorViewport: Clicking Background
+[2017.06.08-21.41.51:868][963]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2017.06.08-21.41.51:922][965]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.InsertNameAdventure
+[2017.06.08-21.41.51:922][965]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.08-21.41.51:922][965]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.16
+[2017.06.08-21.41.51:922][965]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.16\Engine\Binaries\DotNET\IOS
+[2017.06.08-21.41.51:922][965]LogTemp: BranchPath = DESKTOP-6MFT485/C/Program Files/Epic Games/UE_4.16/Engine/Binaries --- GameBranchPath = DESKTOP-6MFT485/C/Program Files/Epic Games/UE_4.16/Engine/Binaries
+[2017.06.08-21.41.51:951][967]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Justin Wells\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2017.06.08-21.42.13:536][826]SourceControl:Error: Error fatal: Invalid path '/Script': No such file or directory
