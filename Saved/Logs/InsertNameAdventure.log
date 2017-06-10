@@ -665,3 +665,768 @@ LogInit: Object subsystem initialized
 [2017.06.10-18.38.34:043][579]BlueprintLog: New page: Compile 2DSideScrollerCharacter
 [2017.06.10-18.38.47:493][581]LogEditorTransaction: Undo Add Component Nodes
 [2017.06.10-18.39.06:900][958]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.10-18.46.43:579][327]LogSlate: Took 0.003686 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.10-18.47.03:191][891]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-18.47.03:196][891]LogBlueprint:Warning: [Compiler Test_Item] Warning 'Player Controller' does not inherit from 'Test Item' ( Cast To PlayerController  would always fail).
+[2017.06.10-18.47.03:400][891]BlueprintEditorCompileResults:Warning: Warning 'Player Controller' does not inherit from 'Test Item' ( Cast To PlayerController  would always fail).
+[2017.06.10-18.47.03:400][891]LogBlueprint:Warning: [Compiler Test_Item] Warning [3138.39] Compile of Test_Item successful, but with 1 Warning(s) [in 208 ms] (/Game/2DSideScrollerBP/Item/Test_Item.Test_Item)
+[2017.06.10-18.47.18:999][211]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-18.47.19:202][211]BlueprintEditorCompileResults: Info 'ReturnValue' is already a 'Player Controller', you don't need  Cast To PlayerController .
+[2017.06.10-18.49.30:347][106]LogEditorTransaction: Undo Create Pin Link
+[2017.06.10-18.49.30:584][121]LogEditorTransaction: Undo Create Pin Link
+[2017.06.10-18.50.43:836][897]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.10-18.53.34:595][910]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-18.53.34:602][910]LogBlueprint:Warning: [Compiler Test_Item] Warning '2DSide Scroller Character' does not inherit from 'Player Controller' ( Cast To 2DSideScrollerCharacter  would always fail).
+[2017.06.10-18.53.34:808][910]BlueprintEditorCompileResults:Warning: Warning '2DSide Scroller Character' does not inherit from 'Player Controller' ( Cast To 2DSideScrollerCharacter  would always fail).
+[2017.06.10-18.53.34:808][910]LogBlueprint:Warning: [Compiler Test_Item] Warning [3529.80] Compile of Test_Item successful, but with 1 Warning(s) [in 212 ms] (/Game/2DSideScrollerBP/Item/Test_Item.Test_Item)
+[2017.06.10-18.53.47:921][924]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-18.53.52:251][260]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-18.53.52:261][260]LogBlueprint:Error: [Compiler Test_Item] Error This blueprint (self) is not a 2DSideScrollerCharacter_C, therefore ' Target ' must have a connection.
+[2017.06.10-18.53.52:261][260]LogBlueprint:Error: [Compiler Test_Item] Error This blueprint (self) is not a AIController, therefore ' Controller ' must have a connection.
+[2017.06.10-18.53.52:404][260]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a 2DSideScrollerCharacter_C, therefore ' Target ' must have a connection.
+[2017.06.10-18.53.52:404][260]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a AIController, therefore ' Controller ' must have a connection.
+[2017.06.10-18.53.52:404][260]LogBlueprint:Warning: [Compiler Test_Item] Warning [3547.39] Compile of Test_Item failed. 2 Fatal Issue(s) 0 Warning(s) [in 153 ms] (/Game/2DSideScrollerBP/Item/Test_Item.Test_Item)
+[2017.06.10-18.54.28:598][ 45]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-18.54.28:605][ 45]LogBlueprint:Error: [Compiler Test_Item] Error This blueprint (self) is not a AITask, therefore ' Target ' must have a connection.
+[2017.06.10-18.54.28:605][ 45]LogBlueprint:Error: [Compiler Test_Item] Error Variable node  Get OwnerController  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.10-18.54.28:748][ 45]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a AITask, therefore ' Target ' must have a connection.
+[2017.06.10-18.54.28:748][ 45]BlueprintEditorCompileResults:Error: Error Variable node  Get OwnerController  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2017.06.10-18.54.28:748][ 45]LogBlueprint:Warning: [Compiler Test_Item] Warning [3583.74] Compile of Test_Item failed. 2 Fatal Issue(s) 0 Warning(s) [in 150 ms] (/Game/2DSideScrollerBP/Item/Test_Item.Test_Item)
+[2017.06.10-18.58.33:181][168]LogSavePackage: Save=117.15ms
+[2017.06.10-18.58.33:181][168]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerExampleMap_Auto2AC49E69A46CCF02B5DC4EBAB5264B1B2.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap_Auto2.umap'
+[2017.06.10-18.58.33:183][168]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap_Auto2.umap
+[2017.06.10-18.58.33:187][168]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap' took 0.150
+[2017.06.10-18.58.33:187][168]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.150
+[2017.06.10-18.58.33:189][168]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter] ([1] browsable assets)...
+[2017.06.10-18.58.33:189][168]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter]
+[2017.06.10-18.58.33:351][168]LogSavePackage: Save=154.73ms
+[2017.06.10-18.58.33:352][168]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerCharacter_Auto22CA58719473F76CF62214F99CC43CF96.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter_Auto2.uasset'
+[2017.06.10-18.58.33:353][168]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter_Auto2.uasset
+[2017.06.10-18.58.33:353][168]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Item/Test_Item] ([1] browsable assets)...
+[2017.06.10-18.58.33:372][168]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/2DSideScrollerBP/Item/Test_Item.Test_Item]
+[2017.06.10-18.58.33:372][168]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Item/Test_Item]
+[2017.06.10-18.58.33:403][168]LogSavePackage: Save=24.11ms
+[2017.06.10-18.58.33:403][168]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Test_Item_Auto21266666046F97A85223D1FA499A0AEE0.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Item/Test_Item_Auto2.uasset'
+[2017.06.10-18.58.33:404][168]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Item/Test_Item_Auto2.uasset
+[2017.06.10-18.58.33:404][168]LogFileHelpers: Auto-saving content packages took 0.216
+[2017.06.10-19.01.42:775][323]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.10-19.02.43:870][137]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-19.02.43:877][137]LogBlueprint:Error: [Compiler Test_Item] Error This blueprint (self) is not a AIController, therefore ' Target ' must have a connection.
+[2017.06.10-19.02.44:032][137]BlueprintEditorCompileResults:Error: Error This blueprint (self) is not a AIController, therefore ' Target ' must have a connection.
+[2017.06.10-19.02.44:032][137]LogBlueprint:Warning: [Compiler Test_Item] Warning [4079.02] Compile of Test_Item failed. 1 Fatal Issue(s) 0 Warning(s) [in 162 ms] (/Game/2DSideScrollerBP/Item/Test_Item.Test_Item)
+[2017.06.10-19.06.56:721][ 28]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-19.09.17:708][963]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-19.09.47:331][807]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.06.10-19.09.47:978][871]LogEditorViewport: Clicking on Actor (LMB): Test_Item_C (Test_Item)
+[2017.06.10-19.09.48:696][942]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.06.10-19.09.49:347][  6]LogEditorViewport: Clicking on Actor (LMB): Test_Item_C (Test_Item)
+[2017.06.10-19.09.57:935][810]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.10-19.09.57:954][810]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.09.57:954][810]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.06.10-19.09.57:954][810]LogPlayLevel: [PlayLevel] Compiling 2DSideScrollerCharacter before play...
+[2017.06.10-19.09.58:105][810]LogPlayLevel: PlayLevel: Blueprint regeneration took 150 ms (1 blueprints)
+[2017.06.10-19.09.58:105][810]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jun 10, 2017, 7:09:58 AM)
+[2017.06.10-19.09.58:105][810]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap
+[2017.06.10-19.09.58:107][810]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002086s)
+[2017.06.10-19.09.58:108][810]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.10-19.09.58:108][810]LogPlayLevel: PIE: World Init took: (0.000710s)
+[2017.06.10-19.09.58:108][810]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.002955s)
+[2017.06.10-19.09.58:130][810]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.10-19.09.58:136][810]LogInit: FAudioDevice initialized.
+[2017.06.10-19.09.58:167][810]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.10-19.09.58:169][810]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.06.10-13.09.58
+[2017.06.10-19.09.58:169][810]LogWorld: Bringing up level for play took: 0.001321
+[2017.06.10-19.09.58:170][810]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap -0.425
+[2017.06.10-19.09.58:170][810]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.10.21:789][742]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.10.21:834][742]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.10.33:234][463]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-19.10.35:167][563]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.10-19.10.35:185][563]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.10.35:185][563]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.10-19.10.35:186][563]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jun 10, 2017, 7:10:35 AM)
+[2017.06.10-19.10.35:186][563]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap
+[2017.06.10-19.10.35:188][563]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002210s)
+[2017.06.10-19.10.35:188][563]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.10-19.10.35:189][563]LogPlayLevel: PIE: World Init took: (0.000704s)
+[2017.06.10-19.10.35:189][563]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003157s)
+[2017.06.10-19.10.35:213][563]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.10-19.10.35:219][563]LogInit: FAudioDevice initialized.
+[2017.06.10-19.10.35:249][563]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.10-19.10.35:251][563]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.06.10-13.10.35
+[2017.06.10-19.10.35:251][563]LogWorld: Bringing up level for play took: 0.001152
+[2017.06.10-19.10.35:252][563]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap 0.657
+[2017.06.10-19.10.35:252][563]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.10.40:801][988]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:Mouse_Controls_C_0 controlling Pawn:2DSideScrollerCharacter_254 with goal actor None (if any of these is None then there's your problem
+[2017.06.10-19.10.41:705][ 59]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:Mouse_Controls_C_0 controlling Pawn:2DSideScrollerCharacter_254 with goal actor None (if any of these is None then there's your problem
+[2017.06.10-19.10.43:001][161]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:Mouse_Controls_C_0 controlling Pawn:2DSideScrollerCharacter_254 with goal actor None (if any of these is None then there's your problem
+[2017.06.10-19.10.43:233][179]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:Mouse_Controls_C_0 controlling Pawn:2DSideScrollerCharacter_254 with goal actor None (if any of these is None then there's your problem
+[2017.06.10-19.10.43:409][193]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:Mouse_Controls_C_0 controlling Pawn:2DSideScrollerCharacter_254 with goal actor None (if any of these is None then there's your problem
+[2017.06.10-19.10.43:603][208]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:Mouse_Controls_C_0 controlling Pawn:2DSideScrollerCharacter_254 with goal actor None (if any of these is None then there's your problem
+[2017.06.10-19.10.43:795][223]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:Mouse_Controls_C_0 controlling Pawn:2DSideScrollerCharacter_254 with goal actor None (if any of these is None then there's your problem
+[2017.06.10-19.10.43:977][237]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:Mouse_Controls_C_0 controlling Pawn:2DSideScrollerCharacter_254 with goal actor None (if any of these is None then there's your problem
+[2017.06.10-19.10.44:155][251]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:Mouse_Controls_C_0 controlling Pawn:2DSideScrollerCharacter_254 with goal actor None (if any of these is None then there's your problem
+[2017.06.10-19.10.44:344][266]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:Mouse_Controls_C_0 controlling Pawn:2DSideScrollerCharacter_254 with goal actor None (if any of these is None then there's your problem
+[2017.06.10-19.10.44:536][281]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:Mouse_Controls_C_0 controlling Pawn:2DSideScrollerCharacter_254 with goal actor None (if any of these is None then there's your problem
+[2017.06.10-19.10.44:716][295]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:Mouse_Controls_C_0 controlling Pawn:2DSideScrollerCharacter_254 with goal actor None (if any of these is None then there's your problem
+[2017.06.10-19.10.44:905][310]LogNavigation:Warning: UNavigationSystem::SimpleMoveToActor called for NavSys:NavigationSystem_0 Controller:Mouse_Controls_C_0 controlling Pawn:2DSideScrollerCharacter_254 with goal actor None (if any of these is None then there's your problem
+[2017.06.10-19.10.46:976][468]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.10.47:036][468]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.11.12:728][590]LogSavePackage: Save=143.79ms
+[2017.06.10-19.11.12:728][590]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerExampleMap_Auto39F53CF1C4D2D9E6D59D38BB8F0107F1C.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap_Auto3.umap'
+[2017.06.10-19.11.12:732][590]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap_Auto3.umap
+[2017.06.10-19.11.12:734][590]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap' took 0.183
+[2017.06.10-19.11.12:734][590]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.183
+[2017.06.10-19.11.12:736][590]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter] ([1] browsable assets)...
+[2017.06.10-19.11.12:736][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter]
+[2017.06.10-19.11.12:924][590]LogSavePackage: Save=179.14ms
+[2017.06.10-19.11.12:924][590]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerCharacter_Auto33CC290CE47DB59A3471515AD4270F6E4.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter_Auto3.uasset'
+[2017.06.10-19.11.12:926][590]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter_Auto3.uasset
+[2017.06.10-19.11.12:927][590]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Item/Test_Item] ([1] browsable assets)...
+[2017.06.10-19.11.12:939][590]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/2DSideScrollerBP/Item/Test_Item.Test_Item]
+[2017.06.10-19.11.12:939][590]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Item/Test_Item]
+[2017.06.10-19.11.12:973][590]LogSavePackage: Save=23.82ms
+[2017.06.10-19.11.12:973][590]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Test_Item_Auto3FD81DF88410C97A5D2E813B20F452E5E.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Item/Test_Item_Auto3.uasset'
+[2017.06.10-19.11.12:974][590]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Item/Test_Item_Auto3.uasset
+[2017.06.10-19.11.12:974][590]LogFileHelpers: Auto-saving content packages took 0.240
+[2017.06.10-19.12.20:854][746]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-19.13.07:899][230]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-19.13.15:778][695]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.10-19.13.15:796][695]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.13.15:796][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.10-19.13.15:796][695]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jun 10, 2017, 7:13:15 AM)
+[2017.06.10-19.13.15:796][695]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap
+[2017.06.10-19.13.15:799][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002345s)
+[2017.06.10-19.13.15:799][695]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.10-19.13.15:799][695]LogPlayLevel: PIE: World Init took: (0.000569s)
+[2017.06.10-19.13.15:800][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003135s)
+[2017.06.10-19.13.15:823][695]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.10-19.13.15:830][695]LogInit: FAudioDevice initialized.
+[2017.06.10-19.13.15:861][695]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.10-19.13.15:863][695]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.06.10-13.13.15
+[2017.06.10-19.13.15:863][695]LogWorld: Bringing up level for play took: 0.001234
+[2017.06.10-19.13.15:864][695]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap -0.731
+[2017.06.10-19.13.15:864][695]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.13.20:441][ 35]LogScript:Warning: Accessed None trying to read property Test ITem
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:0059
+[2017.06.10-19.13.20:441][ 35]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.13.20:441][ 35]LogScript:Warning: Accessed None
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:006E
+[2017.06.10-19.13.20:441][ 35]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.13.21:837][140]LogScript:Warning: Accessed None trying to read property Test ITem
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:0059
+[2017.06.10-19.13.21:837][140]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.13.21:837][140]LogScript:Warning: Accessed None
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:006E
+[2017.06.10-19.13.21:837][140]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.13.26:076][464]LogScript:Warning: Accessed None trying to read property Test ITem
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:0059
+[2017.06.10-19.13.26:076][464]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.13.26:076][464]LogScript:Warning: Accessed None
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:006E
+[2017.06.10-19.13.26:076][464]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.13.26:986][534]LogScript:Warning: Accessed None trying to read property Test ITem
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:0059
+[2017.06.10-19.13.26:986][534]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.13.26:986][534]LogScript:Warning: Accessed None
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:006E
+[2017.06.10-19.13.26:986][534]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.13.27:192][550]LogScript:Warning: Accessed None trying to read property Test ITem
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:0059
+[2017.06.10-19.13.27:193][550]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.13.27:193][550]LogScript:Warning: Accessed None
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:006E
+[2017.06.10-19.13.27:193][550]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.13.27:573][579]LogScript:Warning: Accessed None trying to read property Test ITem
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:0059
+[2017.06.10-19.13.27:573][579]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.13.27:573][579]LogScript:Warning: Accessed None
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:006E
+[2017.06.10-19.13.27:573][579]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.13.27:770][594]LogScript:Warning: Accessed None trying to read property Test ITem
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:0059
+[2017.06.10-19.13.27:770][594]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.13.27:770][594]LogScript:Warning: Accessed None
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:006E
+[2017.06.10-19.13.27:770][594]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.13.27:955][608]LogScript:Warning: Accessed None trying to read property Test ITem
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:0059
+[2017.06.10-19.13.27:955][608]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.13.27:955][608]LogScript:Warning: Accessed None
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:006E
+[2017.06.10-19.13.27:955][608]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.13.29:610][734]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.13.29:610][734]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.13.29:610][734]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.13.29:610][734]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.13.29:610][734]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.13.31:202][851]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.13.31:247][851]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.17.32:936][910]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-19.17.35:805][ 93]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.10-19.17.35:826][ 93]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.17.35:826][ 93]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.10-19.17.35:826][ 93]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jun 10, 2017, 7:17:35 AM)
+[2017.06.10-19.17.35:826][ 93]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap
+[2017.06.10-19.17.35:828][ 93]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002266s)
+[2017.06.10-19.17.35:829][ 93]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.10-19.17.35:829][ 93]LogPlayLevel: PIE: World Init took: (0.000849s)
+[2017.06.10-19.17.35:829][ 93]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003330s)
+[2017.06.10-19.17.35:856][ 93]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.10-19.17.35:864][ 93]LogInit: FAudioDevice initialized.
+[2017.06.10-19.17.35:899][ 93]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.10-19.17.35:902][ 93]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.06.10-13.17.35
+[2017.06.10-19.17.35:902][ 93]LogWorld: Bringing up level for play took: 0.001785
+[2017.06.10-19.17.35:904][ 93]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap -0.692
+[2017.06.10-19.17.35:904][ 93]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.17.37:109][191]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.17.37:161][191]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.17.38:725][316]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.10-19.17.38:742][316]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.17.38:742][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.10-19.17.38:742][316]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jun 10, 2017, 7:17:38 AM)
+[2017.06.10-19.17.38:742][316]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap
+[2017.06.10-19.17.38:745][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002506s)
+[2017.06.10-19.17.38:745][316]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.10-19.17.38:745][316]LogPlayLevel: PIE: World Init took: (0.000662s)
+[2017.06.10-19.17.38:745][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003345s)
+[2017.06.10-19.17.38:771][316]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.10-19.17.38:777][316]LogInit: FAudioDevice initialized.
+[2017.06.10-19.17.38:810][316]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.10-19.17.38:812][316]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.06.10-13.17.38
+[2017.06.10-19.17.38:812][316]LogWorld: Bringing up level for play took: 0.001275
+[2017.06.10-19.17.38:813][316]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap 0.218
+[2017.06.10-19.17.38:813][316]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.17.43:528][875]LogScript:Warning: Accessed None trying to read property Test ITem
+	Test_Item_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.Test_Item_383
+	Function /Game/2DSideScrollerBP/Item/Test_Item.Test_Item_C:ExecuteUbergraph_Test_Item:0143
+[2017.06.10-19.17.43:528][875]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.17.43:528][875]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.17.44:188][954]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.17.44:189][954]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.17.44:431][983]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.17.44:431][983]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.17.44:637][  7]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.17.44:637][  7]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.17.46:195][193]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.17.46:195][193]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.17.46:438][222]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.17.46:438][222]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.17.46:604][242]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.17.46:605][242]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.17.46:797][265]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.17.46:797][265]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.17.46:983][287]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.17.46:983][287]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.17.47:161][308]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.17.47:161][308]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.17.47:354][331]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.17.47:354][331]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.17.47:529][352]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.17.47:529][352]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.17.47:713][374]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.17.47:713][374]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.17.48:509][464]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.17.48:555][464]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.18.30:855][556]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-19.18.36:351][965]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.10-19.18.36:368][965]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.18.36:368][965]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.10-19.18.36:368][965]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jun 10, 2017, 7:18:36 AM)
+[2017.06.10-19.18.36:368][965]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap
+[2017.06.10-19.18.36:370][965]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002394s)
+[2017.06.10-19.18.36:371][965]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.10-19.18.36:371][965]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2017.06.10-19.18.36:371][965]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003293s)
+[2017.06.10-19.18.36:395][965]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.10-19.18.36:401][965]LogInit: FAudioDevice initialized.
+[2017.06.10-19.18.36:432][965]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.10-19.18.36:434][965]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.06.10-13.18.36
+[2017.06.10-19.18.36:435][965]LogWorld: Bringing up level for play took: 0.001351
+[2017.06.10-19.18.36:436][965]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap -0.159
+[2017.06.10-19.18.36:436][965]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.18.37:719][113]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.18.37:719][113]PIE:Error: Error Blueprint Runtime Error: Accessed None from function: 'ExecuteUbergraph_Test_Item' from node: Simple Move to Location in graph: EventGraph in object: Test_Item with description: Accessed None
+[2017.06.10-19.18.38:771][234]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.18.38:815][234]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.24.55:523][514]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-19.25.07:010][675]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Background_Sprite)
+[2017.06.10-19.25.08:847][853]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.10-19.25.08:864][853]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.25.08:864][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.10-19.25.08:864][853]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jun 10, 2017, 7:25:08 AM)
+[2017.06.10-19.25.08:864][853]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap
+[2017.06.10-19.25.08:866][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002395s)
+[2017.06.10-19.25.08:867][853]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.10-19.25.08:867][853]LogPlayLevel: PIE: World Init took: (0.000669s)
+[2017.06.10-19.25.08:867][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.003275s)
+[2017.06.10-19.25.08:892][853]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.10-19.25.08:899][853]LogInit: FAudioDevice initialized.
+[2017.06.10-19.25.08:932][853]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.10-19.25.08:934][853]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.06.10-13.25.08
+[2017.06.10-19.25.08:934][853]LogWorld: Bringing up level for play took: 0.001276
+[2017.06.10-19.25.08:935][853]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap 0.34
+[2017.06.10-19.25.08:936][853]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.25.11:323][113]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.11:323][113]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.11:323][113]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.11:323][113]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.11:323][113]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.13:036][291]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.13:036][291]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.13:036][291]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.25.13:036][291]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.13:036][291]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.13:036][291]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.13:036][291]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.13:037][291]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.13:037][291]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.15:791][596]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.15:791][596]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.15:792][596]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.25.15:792][596]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.15:792][596]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.15:792][596]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.15:792][596]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.15:792][596]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.15:792][596]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.17:252][759]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.17:252][759]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.17:252][759]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.25.17:252][759]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.17:252][759]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.17:252][759]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.17:252][759]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.17:252][759]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.17:252][759]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.18:383][885]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.18:383][885]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.18:383][885]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.25.18:383][885]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.18:384][885]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.18:384][885]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.18:384][885]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.18:384][885]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.18:384][885]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.19:311][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.19:311][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.19:311][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.25.19:311][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.19:311][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.19:311][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.19:311][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.19:312][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.19:312][988]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:173][ 84]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.20:173][ 84]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.20:173][ 84]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.25.20:173][ 84]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:173][ 84]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:173][ 84]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:173][ 84]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:173][ 84]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:173][ 84]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:389][108]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.20:389][108]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.20:389][108]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.25.20:389][108]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:389][108]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:389][108]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:389][108]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:389][108]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:390][108]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:559][127]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.20:559][127]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.20:559][127]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.25.20:559][127]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:559][127]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:559][127]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:559][127]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:559][127]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:560][127]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:773][151]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.20:773][151]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.20:773][151]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.25.20:773][151]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:773][151]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:774][151]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:774][151]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:774][151]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:774][151]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:952][171]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.20:952][171]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.20:952][171]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.25.20:952][171]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:952][171]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:952][171]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:952][171]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:952][171]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.20:953][171]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:144][192]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.21:144][192]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.21:145][192]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.25.21:145][192]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:145][192]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:145][192]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:145][192]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:145][192]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:145][192]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:335][213]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.21:335][213]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.21:335][213]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.25.21:335][213]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:335][213]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:335][213]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:335][213]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:335][213]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:335][213]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:526][234]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.21:526][234]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property 2Dchar from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property 2Dchar
+[2017.06.10-19.25.21:526][234]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property Test ITem from function: 'ExecuteUbergraph_Test_Item' from node: Branch in graph: EventGraph in object: Test_Item with description: Accessed None trying to read property Test ITem
+[2017.06.10-19.25.21:526][234]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:526][234]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:527][234]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:527][234]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:527][234]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.21:527][234]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.10-19.25.24:344][532]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.25.24:395][532]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.10-19.25.57:869][167]LogSavePackage: Save=111.86ms
+[2017.06.10-19.25.57:869][167]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerExampleMap_Auto4305729794B65149016EA478DCDD13E3C.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap_Auto4.umap'
+[2017.06.10-19.25.57:870][167]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap_Auto4.umap
+[2017.06.10-19.25.57:872][167]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap' took 0.141
+[2017.06.10-19.25.57:872][167]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.141
+[2017.06.10-19.25.57:874][167]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Item/Test_Item] ([1] browsable assets)...
+[2017.06.10-19.25.57:891][167]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/2DSideScrollerBP/Item/Test_Item.Test_Item]
+[2017.06.10-19.25.57:891][167]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Item/Test_Item]
+[2017.06.10-19.25.57:932][167]LogSavePackage: Save=34.26ms
+[2017.06.10-19.25.57:932][167]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Test_Item_Auto40A14FE694C4D128B10C4CFA407FA898B.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Item/Test_Item_Auto4.uasset'
+[2017.06.10-19.25.57:933][167]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Item/Test_Item_Auto4.uasset
+[2017.06.10-19.25.57:934][167]LogFileHelpers: Auto-saving content packages took 0.060
+[2017.06.10-19.26.23:028][281]BlueprintLog: New page: Compile Test_Item
+[2017.06.10-19.27.04:718][665]LogBehaviorTree:Warning: Blackboard asset (Test_PLayerMoveTO_B) has (Test_PLayerMoveTO_B) in parent chain! Clearing value to avoid cycle.
+[2017.06.10-19.27.08:357][989]LogSlate:Warning: Prevented a slow task dialog from being summoned while a context menu was open
+[2017.06.10-19.28.16:192][974]LogBehaviorTree:Warning: Can't initialize task: BTTask_MoveTo_0, make sure that behavior tree specifies blackboard asset!
+[2017.06.10-19.30.08:946][450]LogBehaviorTree:Warning: Blackboard asset (Test_PlayerMoveTO_B) has (Test_PlayerMoveTO_B) in parent chain! Clearing value to avoid cycle.
+[2017.06.10-19.31.56:107][308]LogSavePackage: Save=6.62ms
+[2017.06.10-19.31.56:107][308]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Test_PlayermoveTO_BT8B44977E4527C49C3C3510A807320C62.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Test_PlayermoveTO_BT.uasset'
+[2017.06.10-19.31.56:108][308]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Test_PlayermoveTO_BT.uasset
+[2017.06.10-19.31.57:420][417]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.10-19.31.57:482][417]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.10-19.32.00:561][534]LogSavePackage: Save=153.87ms
+[2017.06.10-19.32.00:561][534]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerCharacter0FBC9973405C2BC9EAE17D8B18CA27E2.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.uasset'
+[2017.06.10-19.32.00:570][534]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.uasset
+[2017.06.10-19.32.00:607][534]LogSavePackage: Save=14.29ms
+[2017.06.10-19.32.00:607][534]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Test_Item973AC84F4BFF83B8E9B923AD9B9DDA11.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Test_Item.uasset'
+[2017.06.10-19.32.00:611][534]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Test_Item.uasset
+[2017.06.10-19.32.00:620][534]LogSavePackage: Save=3.98ms
+[2017.06.10-19.32.00:620][534]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Test_PlayerMoveTO_BCDAE4DE745A984AF5CCD8DBD14345C6B.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Test_PlayerMoveTO_B.uasset'
+[2017.06.10-19.32.00:622][534]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Test_PlayerMoveTO_B.uasset
+[2017.06.10-19.32.00:884][534]LogSavePackage: Save=110.03ms
+[2017.06.10-19.32.00:884][534]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerExampleMap83E3BE384F62C7A823A580BFA8652FFE.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.umap'
+[2017.06.10-19.32.00:887][534]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.umap
+[2017.06.10-19.32.00:915][534]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.204
+[2017.06.10-19.32.00:993][534]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.10-19.32.01:228][535]Cmd: QUIT_EDITOR
+[2017.06.10-19.32.01:848][535]LogExit: Preparing to exit.
+[2017.06.10-19.32.02:756][535]LogDirectoryWatcher: A directory notification failed for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/', and we were unable to create a new request.
+[2017.06.10-19.32.02:842][535]LogExit: Editor shut down
+[2017.06.10-19.32.02:859][535]LogExit: Transaction tracking system shut down
+[2017.06.10-19.32.02:949][535]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.10-19.32.02:949][535]LogExit: Object subsystem successfully closed.
+[2017.06.10-19.32.02:969][535]LogD3D11RHI: Shutdown
+[2017.06.10-19.32.02:969][535]LogD3D11RHI: CleanupD3DDevice
+[2017.06.10-19.32.03:044][535]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.10-19.32.03:062][535]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.06.10-19.32.03:062][535]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.06.10-19.32.03:063][535]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.06.10-19.32.03:063][535]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.06.10-19.32.03:063][535]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.06.10-19.32.03:063][535]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.06.10-19.32.03:063][535]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.06.10-19.32.03:064][535]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' was aborted.
+[2017.06.10-19.32.03:064][535]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells/Collections/' was aborted.
+[2017.06.10-19.32.03:064][535]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' was aborted.
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module SceneOutliner (512)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.06.10-19.32.03:064][535]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.06.10-19.32.03:065][535]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.06.10-19.32.03:066][535]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.06.10-19.32.03:066][535]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.06.10-19.32.03:067][535]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.06.10-19.32.03:067][535]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.06.10-19.32.03:067][535]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.06.10-19.32.03:067][535]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.06.10-19.32.03:067][535]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.06.10-19.32.03:901][535]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.06.10-19.32.03:901][535]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.06.10-19.32.03:901][535]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.06.10-19.32.03:901][535]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.06.10-19.32.03:902][535]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.06.10-19.32.03:902][535]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.06.10-19.32.03:902][535]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.06.10-19.32.03:902][535]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.06.10-19.32.03:903][535]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.06.10-19.32.03:903][535]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.06.10-19.32.03:903][535]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.06.10-19.32.03:903][535]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.06.10-19.32.03:903][535]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.06.10-19.32.03:904][535]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.06.10-19.32.03:904][535]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.06.10-19.32.03:904][535]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.06.10-19.32.03:904][535]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.06.10-19.32.03:904][535]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.06.10-19.32.03:904][535]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.06.10-19.32.03:905][535]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.06.10-19.32.03:905][535]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.06.10-19.32.03:905][535]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.06.10-19.32.03:906][535]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.06.10-19.32.03:906][535]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.06.10-19.32.03:958][535]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.06.10-19.32.03:958][535]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.06.10-19.32.03:959][535]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.06.10-19.32.03:959][535]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.06.10-19.32.03:959][535]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.06.10-19.32.03:959][535]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.06.10-19.32.03:959][535]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.06.10-19.32.03:960][535]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.06.10-19.32.03:960][535]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.06.10-19.32.03:960][535]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.06.10-19.32.03:981][535]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.06.10-19.32.03:985][535]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.06.10-19.32.03:985][535]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.06.10-19.32.03:985][535]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.06.10-19.32.03:986][535]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.06.10-19.32.03:986][535]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.06.10-19.32.03:987][535]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.06.10-19.32.03:987][535]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.06.10-19.32.03:987][535]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.06.10-19.32.03:987][535]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.06.10-19.32.03:987][535]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.06.10-19.32.03:988][535]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.06.10-19.32.03:988][535]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.06.10-19.32.03:988][535]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.06.10-19.32.03:988][535]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.06.10-19.32.03:988][535]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.06.10-19.32.03:988][535]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.06.10-19.32.03:988][535]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.06.10-19.32.03:988][535]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.06.10-19.32.03:988][535]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.06.10-19.32.04:066][535]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.06.10-19.32.04:067][535]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.06.10-19.32.04:067][535]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.06.10-19.32.04:067][535]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.06.10-19.32.04:067][535]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.06.10-19.32.04:067][535]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.06.10-19.32.04:067][535]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.06.10-19.32.04:067][535]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.06.10-19.32.04:067][535]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.06.10-19.32.04:067][535]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.06.10-19.32.04:067][535]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.06.10-19.32.04:067][535]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.06.10-19.32.04:067][535]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.06.10-19.32.04:068][535]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.06.10-19.32.04:068][535]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.06.10-19.32.04:068][535]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.06.10-19.32.04:068][535]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.06.10-19.32.04:068][535]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.06.10-19.32.04:068][535]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.06.10-19.32.04:068][535]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.06.10-19.32.04:068][535]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.06.10-19.32.04:068][535]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.06.10-19.32.04:068][535]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.06.10-19.32.04:069][535]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.06.10-19.32.04:069][535]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.06.10-19.32.04:069][535]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.06.10-19.32.04:069][535]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.06.10-19.32.04:069][535]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.06.10-19.32.04:069][535]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.06.10-19.32.04:070][535]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.06.10-19.32.04:070][535]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.06.10-19.32.04:070][535]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.06.10-19.32.04:070][535]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.06.10-19.32.04:070][535]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.06.10-19.32.04:070][535]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.06.10-19.32.04:070][535]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.06.10-19.32.04:072][535]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.06.10-19.32.04:072][535]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.06.10-19.32.04:072][535]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.06.10-19.32.04:073][535]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.06.10-19.32.04:073][535]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.06.10-19.32.04:073][535]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.06.10-19.32.04:073][535]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.06.10-19.32.04:074][535]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.06.10-19.32.04:074][535]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.06.10-19.32.04:175][535]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.06.10-19.32.04:276][535]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.10-19.32.04:276][535]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.10-19.32.04:277][535]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.10-19.32.04:277][535]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.10-19.32.04:277][535]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.10-19.32.04:277][535]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.10-19.32.04:279][535]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.10-19.32.04:279][535]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.10-19.32.04:279][535]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.10-19.32.04:279][535]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.10-19.32.04:280][535]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.10-19.32.04:280][535]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.10-19.32.04:281][535]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.10-19.32.04:281][535]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.10-19.32.04:281][535]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.10-19.32.04:281][535]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.10-19.32.04:281][535]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.10-19.32.04:281][535]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.10-19.32.04:281][535]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.10-19.32.04:281][535]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.10-19.32.04:282][535]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.10-19.32.04:282][535]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.10-19.32.04:282][535]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.10-19.32.04:282][535]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.10-19.32.04:283][535]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.10-19.32.04:283][535]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.10-19.32.04:283][535]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.10-19.32.04:284][535]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.10-19.32.04:284][535]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.10-19.32.04:292][535]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.10-19.32.04:292][535]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.10-19.32.04:292][535]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.10-19.32.04:292][535]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.10-19.32.04:292][535]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.10-19.32.04:292][535]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.10-19.32.04:453][535]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.10-19.32.04:453][535]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' was aborted.
+[2017.06.10-19.32.04:453][535]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.10-19.32.04:453][535]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.10-19.32.04:457][535]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.10-19.32.04:459][535]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.10-19.32.04:459][535]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.10-19.32.04:459][535]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.10-19.32.04:459][535]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.10-19.32.04:459][535]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.10-19.32.04:459][535]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.10-19.32.04:459][535]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.10-19.32.04:459][535]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.10-19.32.04:513][535]LogDerivedDataCache: Shutdown
+[2017.06.10-19.32.04:513][535]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.10-19.32.04:513][535]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.10-19.32.04:513][535]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.10-19.32.04:514][535]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.10-19.32.04:514][535]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.10-19.32.04:514][535]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.10-19.32.04:515][535]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.10-19.32.04:515][535]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.10-19.32.04:515][535]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.10-19.32.04:515][535]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.10-19.32.04:515][535]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.10-19.32.04:515][535]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.10-19.32.04:515][535]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.10-19.32.04:515][535]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.10-19.32.04:515][535]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.10-19.32.04:515][535]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.10-19.32.04:515][535]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.10-19.32.04:515][535]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.10-19.32.04:516][535]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.10-19.32.04:517][535]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.10-19.32.04:517][535]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.10-19.32.04:517][535]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.10-19.32.04:517][535]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.10-19.32.04:517][535]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.10-19.32.04:517][535]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.10-19.32.04:517][535]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.10-19.32.04:518][535]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.10-19.32.04:519][535]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.10-19.32.04:519][535]LogHttp:Display: Http module shutting down, but needs to wait on 2 outstanding Http requests:
+[2017.06.10-19.32.04:519][535]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B26E532BD-4B72-8A4D-5E8C-108B437CF949%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.0-3452394%2B%2B%2BUE4%2BRelease-4.16&UserID=520fd5774504bba7d7d4dfbb2efd774d%7C3ef35b30eb8d444d8e26d7fb1794d4bf%7C7a44e29e-0876-4249-91a8-eb020dafba7b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.10-19.32.04:519][535]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B26E532BD-4B72-8A4D-5E8C-108B437CF949%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.0-3452394%2B%2B%2BUE4%2BRelease-4.16&UserID=520fd5774504bba7d7d4dfbb2efd774d%7C3ef35b30eb8d444d8e26d7fb1794d4bf%7C7a44e29e-0876-4249-91a8-eb020dafba7b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.10-19.32.04:547][535]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.10-19.32.04:551][535]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.10-19.32.04:551][535]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.10-19.32.04:552][535]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.10-19.32.04:552][535]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.10-19.32.04:552][535]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.10-19.32.04:552][535]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.10-19.32.04:552][535]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.10-19.32.04:552][535]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.10-19.32.04:556][535]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.10-19.32.04:557][535]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.10-19.32.04:557][535]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.10-19.32.04:557][535]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.10-19.32.04:557][535]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.10-19.32.04:557][535]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.10-19.32.04:557][535]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.10-19.32.04:557][535]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.10-19.32.04:557][535]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.10-19.32.04:557][535]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.10-19.32.04:563][535]LogExit: Exiting.
+[2017.06.10-19.32.04:607][535]Log file closed, 06/10/17 13:32:04
