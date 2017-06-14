@@ -1,9 +1,9 @@
-﻿Log file open, 06/13/17 19:21:57
+﻿Log file open, 06/14/17 13:36:36
 LogInit:Display: Running engine for game: InsertNameAdventure
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1954042839) SRandInit(1954042839).
+LogInit:Display: RandInit(-89126833) SRandInit(-89126832).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.120322
+LogStats: Stats thread started at 0.642175
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,1068 +50,463 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.06.14-01.21.57:841][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.14-01.21.57:841][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.06.14-01.21.57:878][  0]LogInit: Computer: DESKTOP-6MFT485
-[2017.06.14-01.21.57:878][  0]LogInit: User: JustinWells
-[2017.06.14-01.21.57:878][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.06.14-01.21.57:878][  0]LogInit: High frequency timer resolution =3.328124 MHz
-[2017.06.14-01.21.57:878][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.06.14-01.21.57:878][  0]LogMemory: Platform Memory Stats for Windows
-[2017.06.14-01.21.57:878][  0]LogMemory: Process Physical Memory: 272.84 MB used, 272.84 MB peak
-[2017.06.14-01.21.57:878][  0]LogMemory: Process Virtual Memory: 258.38 MB used, 258.38 MB peak
-[2017.06.14-01.21.57:878][  0]LogMemory: Physical Memory: 2036.42 MB used,  14285.32 MB free, 16321.74 MB total
-[2017.06.14-01.21.57:878][  0]LogMemory: Virtual Memory: 643.38 MB used,  14285.32 MB free, 134217728.00 MB total
-[2017.06.14-01.21.58:129][  0]LogInit: Using OS detected language (en-US).
-[2017.06.14-01.21.58:129][  0]LogInit: Using OS detected locale (en-US).
-[2017.06.14-01.21.58:174][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.06.14-01.22.00:618][  0]LogD3D11RHI: D3D11 adapters:
-[2017.06.14-01.22.01:169][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.06.14-01.22.01:169][  0]LogD3D11RHI:       8119/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
-[2017.06.14-01.22.01:170][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.06.14-01.22.01:170][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.06.14-01.22.01:170][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.06.14-01.22.01:176][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.06.14-01.22.01:176][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.06.14-01.22.01:176][  0]LogWindows: EnumDisplayDevices:
-[2017.06.14-01.22.01:176][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.06.14-01.22.01:176][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.06.14-01.22.01:176][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.06.14-01.22.01:176][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.06.14-01.22.01:176][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.06.14-01.22.01:176][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.06.14-01.22.01:177][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
-[2017.06.14-01.22.01:177][  0]LogD3D11RHI:      Driver Date: 5-1-2017
-[2017.06.14-01.22.01:177][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.06.14-01.22.01:697][  0]LogD3D11RHI: Async texture creation enabled
-[2017.06.14-01.22.01:926][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.06.14-01.22.01:981][  0]LogShaderCompilers: Guid format shader working directory is -53 characters bigger than the processId version (../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Intermediate/Shaders/WorkingDirectory/7768/).
-[2017.06.14-01.22.01:981][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Justin Wells/AppData/Local/Temp/UnrealShaderWorkingDir/B7B75B744B0FF54702F3C8ADCA5C9D24/'.
-[2017.06.14-01.22.01:982][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.06.14-01.22.04:229][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.06.14-01.22.04:338][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.06.14-01.22.04:399][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.06.14-01.22.04:474][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.06.14-01.22.04:611][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.06.14-01.22.04:669][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.06.14-01.22.04:758][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.06.14-01.22.04:809][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.06.14-01.22.04:869][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.06.14-01.22.04:921][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.06.14-01.22.05:012][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.06.14-01.22.05:062][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.06.14-01.22.05:128][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.06.14-01.22.05:187][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.06.14-01.22.05:236][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.06.14-01.22.05:330][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.06.14-01.22.05:330][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.06.14-01.22.05:380][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.06.14-01.22.05:502][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.06.14-01.22.05:553][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.06.14-01.22.05:626][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.06.14-01.22.05:673][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.06.14-01.22.05:743][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.06.14-01.22.05:802][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.06.14-01.22.05:802][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.06.14-01.22.06:477][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.06.14-01.22.06:816][  0]LogDerivedDataCache: Loaded boot cache 0.34s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.06.14-01.22.06:816][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.06.14-01.22.06:816][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.06.14-01.22.06:816][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.06.14-01.22.06:816][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.06.14-01.22.06:816][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.06.14-01.22.06:837][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.06.14-01.22.06:849][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Justin Wells/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.06.14-01.22.06:861][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.06.14-01.22.06:865][  0]LogSlate: Using Freetype 2.6.0
-[2017.06.14-01.22.06:879][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.14-01.22.06:879][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.06.14-01.22.07:766][  0]LogInit: Selected Device Profile: [Windows]
-[2017.06.14-01.22.07:924][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.06.14-01.22.08:135][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.06.14-01.22.08:187][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.06.14-01.22.08:233][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.06.14-01.22.08:233][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.06.14-01.22.08:233][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.06.14-01.22.09:432][  0]LogNetVersion: InsertNameAdventure , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1278457987)
-[2017.06.14-01.22.09:526][  0]LogAssetRegistry: FAssetRegistry took 0.0292 seconds to start up
-[2017.06.14-01.22.09:584][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.036697 seconds
-[2017.06.14-01.22.09:589][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.06.14-01.22.09:589][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2017.06.14-01.22.09:589][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.06.14-01.22.09:647][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.06.14-01.22.13:426][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.06.14-01.22.13:464][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.06.14-01.22.14:042][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.06.14-01.22.14:498][  0]SourceControl: Info Source control is disabled
-[2017.06.14-01.22.15:613][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.06.14-01.22.16:148][  0]LogEngine: Initializing Engine...
-[2017.06.14-01.22.16:189][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2017.06.14-01.22.16:519][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.06.14-01.22.16:520][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.06.14-01.22.16:646][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.06.14-01.22.16:664][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.14-01.22.16:674][  0]LogInit: FAudioDevice initialized.
-[2017.06.14-01.22.16:713][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.06.14-01.22.16:725][  0]LogInit: Texture streaming: Enabled
-[2017.06.14-01.22.16:813][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.06.14-01.22.17:060][  0]LogInit: Transaction tracking system initialized
-[2017.06.14-01.22.17:374][  0]BlueprintLog: New page: Editor Load
-[2017.06.14-01.22.18:257][  0]LocalizationService: Info Localization service is disabled
-[2017.06.14-01.22.18:936][  0]LogConsoleResponse:Display: 
-[2017.06.14-01.22.19:253][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.06.14-01.22.19:253][  0]LogCook:Display: Mobile HDR setting 1
-[2017.06.14-01.22.20:369][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' took 0.02s
-[2017.06.14-01.22.20:385][  0]LogSlate: Took 0.005231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.06.14-01.22.23:470][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.06.14-01.22.23:473][  0]LightingResults: New page: Lighting Build
-[2017.06.14-01.22.23:518][  0]MapCheck: New page: Map Check
-[2017.06.14-01.22.23:519][  0]LightingResults: New page: Lighting Build
-[2017.06.14-01.22.23:535][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.06.14-01.22.23:541][  0]LoadErrors: New page: New Map
-[2017.06.14-01.22.23:659][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.06.14-01.22.23:898][  0]LogCollectionManager: Loaded 0 collections in 0.001281 seconds
-[2017.06.14-01.22.23:981][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' took 0.01s
-[2017.06.14-01.22.23:981][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells/Collections/' took 0.01s
-[2017.06.14-01.22.23:981][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' took 0.01s
-[2017.06.14-01.22.23:981][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.06.14-01.22.23:992][  0]LogContentBrowser: Native class hierarchy populated in 0.0093 seconds. Added 2330 classes and 493 folders.
-[2017.06.14-01.22.24:058][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.06.14-01.22.24:406][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.06.14-01.22.24:440][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.06.14-01.22.24:460][  0]LogSlate: Took 0.006891 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.06.14-01.22.24:468][  0]LogSlate: Took 0.004778 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.06.14-01.22.24:581][  0]LogRenderer: Reallocating scene render targets to support 1276x964 NumSamples 1 (Frame:1).
-[2017.06.14-01.22.24:712][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.06.14-01.22.24:774][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
-[2017.06.14-01.22.24:774][  0]LogLoad: (Engine Initialization) Total time: 29.02 seconds
-[2017.06.14-01.22.24:774][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
-[2017.06.14-01.22.24:774][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.06.14-01.22.24:789][  0]LogOcInput: OculusInput pre-init called
-[2017.06.14-01.22.24:789][  0]LogHMD: Starting GearVRController plugin
-[2017.06.14-01.22.24:806][  0]LogAssetRegistry: Asset discovery search completed in 15.3016 seconds
-[2017.06.14-01.22.24:807][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
-[2017.06.14-01.22.24:807][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
-[2017.06.14-01.22.24:810][  0]SourceControl: Info On branch V1.5.1
-[2017.06.14-01.22.24:810][  0]SourceControl: Info Your branch is up-to-date with 'origin/V1.5.1'.
-[2017.06.14-01.22.24:810][  0]SourceControl: Info Changes not staged for commit:
-[2017.06.14-01.22.24:810][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2017.06.14-01.22.24:810][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.06.14-01.22.24:810][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
-[2017.06.14-01.22.24:810][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
-[2017.06.14-01.22.24:810][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
-[2017.06.14-01.22.24:810][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.06.08-15.24.04.log
-[2017.06.14-01.22.24:810][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.06.08-17.35.21.log
-[2017.06.14-01.22.24:810][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.06.08-17.45.05.log
-[2017.06.14-01.22.24:810][  0]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
-[2017.06.14-01.22.24:810][  0]SourceControl: Info Untracked files:
-[2017.06.14-01.22.24:810][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2017.06.14-01.22.24:810][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-1E051DF84CD8A0C55621779D9A1680FA/
-[2017.06.14-01.22.24:810][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.06.13-19.21.57.log
-[2017.06.14-01.22.24:810][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
-[2017.06.14-01.22.24:810][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.06.14-01.22.24:849][  0]LogSlate: Took 0.003766 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.14-01.22.31:535][778]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.14-01.22.31:963][778]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.06.14-01.22.31:991][778]LightingResults: New page: Lighting Build
-[2017.06.14-01.22.31:992][778]LoadErrors: New page: Loading map: Rainforest_Alien.umap
-[2017.06.14-01.22.31:992][778]MapCheck: New page: Map Check
-[2017.06.14-01.22.31:992][778]LightingResults: New page: Lighting Build
-[2017.06.14-01.22.32:025][778]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.06.14-01.22.32:059][778]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.06.14-01.22.32:100][778]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.699ms to complete.
-[2017.06.14-01.22.32:100][778]LogFileHelpers: Loading map 'Rainforest_Alien' took 0.110
-[2017.06.14-01.22.40:085][692]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge146)
-[2017.06.14-01.22.51:759][ 54]Cmd: EDIT COPY
-[2017.06.14-01.22.52:044][ 88]Cmd: EDIT PASTE
-[2017.06.14-01.23.08:923][ 84]LogEditorViewport: Clicking Background
-[2017.06.14-01.23.09:543][157]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge147)
-[2017.06.14-01.23.37:047][382]LogEditorViewport: Clicking Background
-[2017.06.14-01.23.44:807][287]LogEditorViewport: Clicking Background
-[2017.06.14-01.23.45:262][339]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge146)
-[2017.06.14-01.23.45:944][417]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ledge147)
-[2017.06.14-01.24.07:771][914]LogEditorViewport: Clicking Background
-[2017.06.14-01.24.09:792][130]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.14-01.24.09:831][130]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.14-01.24.09:832][130]PIE: New page: PIE session: Rainforest_Alien (Jun 13, 2017, 1:24:09 PM)
-[2017.06.14-01.24.09:832][130]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
-[2017.06.14-01.24.09:851][130]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018958s)
-[2017.06.14-01.24.09:851][130]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.06.14-01.24.09:851][130]LogPlayLevel: PIE: World Init took: (0.000547s)
-[2017.06.14-01.24.09:852][130]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.019866s)
-[2017.06.14-01.24.09:866][130]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.14-01.24.09:872][130]LogInit: FAudioDevice initialized.
-[2017.06.14-01.24.09:912][130]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2017.06.14-01.24.09:927][130]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.13-19.24.09
-[2017.06.14-01.24.09:929][130]LogWorld: Bringing up level for play took: 0.013586
-[2017.06.14-01.24.09:966][130]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0005 seconds. Added 11 classes and 0 folders.
-[2017.06.14-01.24.09:973][130]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.31
-[2017.06.14-01.24.25:280][914]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 112 classes and 0 folders.
-[2017.06.14-01.24.25:807][914]LogSlate: Took 0.000106 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.06.14-01.24.25:937][914]LogSlate: Took 0.003365 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.06.14-01.24.29:166][203]LogRenderer: Reallocating scene render targets to support 1528x964 NumSamples 1 (Frame:1).
-[2017.06.14-01.24.34:522][724]LogSlate: Took 0.003791 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.06.14-01.25.10:812][650]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge147)
-[2017.06.14-01.25.12:789][874]Cmd: EDIT COPY
-[2017.06.14-01.25.13:034][903]Cmd: EDIT PASTE
-[2017.06.14-01.25.36:574][587]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.14-01.25.36:596][587]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.14-01.25.36:596][587]PIE: New page: PIE session: Rainforest_Alien (Jun 13, 2017, 1:25:36 PM)
-[2017.06.14-01.25.36:596][587]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
-[2017.06.14-01.25.36:614][587]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018235s)
-[2017.06.14-01.25.36:615][587]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.06.14-01.25.36:615][587]LogPlayLevel: PIE: World Init took: (0.000803s)
-[2017.06.14-01.25.36:615][587]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.019311s)
-[2017.06.14-01.25.36:638][587]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.14-01.25.36:644][587]LogInit: FAudioDevice initialized.
-[2017.06.14-01.25.36:672][587]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2017.06.14-01.25.36:684][587]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.13-19.25.36
-[2017.06.14-01.25.36:686][587]LogWorld: Bringing up level for play took: 0.012782
-[2017.06.14-01.25.36:687][587]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 1.024
-[2017.06.14-01.26.01:994][595]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ledge147)
-[2017.06.14-01.26.02:892][691]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ledge146)
-[2017.06.14-01.26.15:252][162]LogEditorViewport: Clicking Background
-[2017.06.14-01.26.16:389][297]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.14-01.26.16:405][297]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.14-01.26.16:405][297]PIE: New page: PIE session: Rainforest_Alien (Jun 13, 2017, 1:26:16 PM)
-[2017.06.14-01.26.16:405][297]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
-[2017.06.14-01.26.16:423][297]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017434s)
-[2017.06.14-01.26.16:423][297]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.06.14-01.26.16:423][297]LogPlayLevel: PIE: World Init took: (0.000502s)
-[2017.06.14-01.26.16:424][297]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.018212s)
-[2017.06.14-01.26.16:442][297]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.14-01.26.16:447][297]LogInit: FAudioDevice initialized.
-[2017.06.14-01.26.16:478][297]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2017.06.14-01.26.16:490][297]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.13-19.26.16
-[2017.06.14-01.26.16:492][297]LogWorld: Bringing up level for play took: 0.012122
-[2017.06.14-01.26.16:494][297]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.83
-[2017.06.14-01.26.48:772][124]LogEditorViewport: Clicking Background
-[2017.06.14-01.26.49:130][161]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge146)
-[2017.06.14-01.26.49:944][254]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ledge147)
-[2017.06.14-01.26.50:643][334]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ledge148)
-[2017.06.14-01.27.08:945][443]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge148)
-[2017.06.14-01.27.10:344][607]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ledge147)
-[2017.06.14-01.27.11:033][686]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ledge146)
-[2017.06.14-01.27.21:282][904]LogEditorViewport: Clicking Background
-[2017.06.14-01.27.22:628][ 64]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.14-01.27.22:645][ 64]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.14-01.27.22:645][ 64]PIE: New page: PIE session: Rainforest_Alien (Jun 13, 2017, 1:27:22 PM)
-[2017.06.14-01.27.22:645][ 64]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
-[2017.06.14-01.27.22:664][ 64]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018261s)
-[2017.06.14-01.27.22:664][ 64]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.06.14-01.27.22:664][ 64]LogPlayLevel: PIE: World Init took: (0.000642s)
-[2017.06.14-01.27.22:664][ 64]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.019202s)
-[2017.06.14-01.27.22:683][ 64]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.14-01.27.22:689][ 64]LogInit: FAudioDevice initialized.
-[2017.06.14-01.27.22:718][ 64]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2017.06.14-01.27.22:730][ 64]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.13-19.27.22
-[2017.06.14-01.27.22:731][ 64]LogWorld: Bringing up level for play took: 0.012399
-[2017.06.14-01.27.22:733][ 64]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 1.069
-[2017.06.14-01.27.30:846][ 29]Cmd: TRANSACTION UNDO
-[2017.06.14-01.27.30:846][ 29]LogEditorTransaction: Undo Clicking Background
-[2017.06.14-01.27.30:870][ 29]LogSlate: Took 0.000155 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.06.14-01.27.31:313][ 80]Cmd: TRANSACTION UNDO
-[2017.06.14-01.27.31:313][ 80]LogEditorTransaction: Undo Translate/Rotate2D Actors
-[2017.06.14-01.27.31:825][139]Cmd: TRANSACTION UNDO
-[2017.06.14-01.27.31:825][139]LogEditorTransaction: Undo Translate/Rotate2D Actors
-[2017.06.14-01.27.32:266][190]Cmd: TRANSACTION UNDO
-[2017.06.14-01.27.32:266][190]LogEditorTransaction: Undo Translate/Rotate2D Actors
-[2017.06.14-01.27.32:957][271]Cmd: TRANSACTION UNDO
-[2017.06.14-01.27.32:957][271]LogEditorTransaction: Undo Translate/Rotate2D Actors
-[2017.06.14-01.27.33:525][337]Cmd: TRANSACTION UNDO
-[2017.06.14-01.27.33:525][337]LogEditorTransaction: Undo Translate/Rotate2D Actors
-[2017.06.14-01.27.35:006][512]Cmd: TRANSACTION UNDO
-[2017.06.14-01.27.35:006][512]LogEditorTransaction: Undo Clicking on Actors
-[2017.06.14-01.27.35:462][563]Cmd: TRANSACTION UNDO
-[2017.06.14-01.27.35:462][563]LogEditorTransaction: Undo Clicking on Actors
-[2017.06.14-01.27.35:720][591]Cmd: TRANSACTION UNDO
-[2017.06.14-01.27.35:721][591]LogEditorTransaction: Undo Clicking on Actors
-[2017.06.14-01.27.36:012][623]Cmd: TRANSACTION UNDO
-[2017.06.14-01.27.36:012][623]LogEditorTransaction: Undo Translate/Rotate2D Actors
-[2017.06.14-01.27.36:468][676]Cmd: TRANSACTION UNDO
-[2017.06.14-01.27.36:468][676]LogEditorTransaction: Undo Move Actors
-[2017.06.14-01.27.36:919][728]Cmd: TRANSACTION UNDO
-[2017.06.14-01.27.36:919][728]LogEditorTransaction: Undo Rotate Actors
-[2017.06.14-01.27.37:904][844]LogEditorViewport: Clicking Background
-[2017.06.14-01.27.39:284][992]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.14-01.27.39:301][992]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.14-01.27.39:301][992]PIE: New page: PIE session: Rainforest_Alien (Jun 13, 2017, 1:27:39 PM)
-[2017.06.14-01.27.39:301][992]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
-[2017.06.14-01.27.39:319][992]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017592s)
-[2017.06.14-01.27.39:319][992]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.06.14-01.27.39:319][992]LogPlayLevel: PIE: World Init took: (0.000514s)
-[2017.06.14-01.27.39:319][992]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.018396s)
-[2017.06.14-01.27.39:338][992]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.14-01.27.39:343][992]LogInit: FAudioDevice initialized.
-[2017.06.14-01.27.39:374][992]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2017.06.14-01.27.39:386][992]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.13-19.27.39
-[2017.06.14-01.27.39:387][992]LogWorld: Bringing up level for play took: 0.012610
-[2017.06.14-01.27.39:389][992]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.275
-[2017.06.14-01.31.12:834][578]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge146)
-[2017.06.14-01.31.14:186][703]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ledge147)
-[2017.06.14-01.31.16:525][966]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ledge148)
-[2017.06.14-01.31.38:042][520]LogEditorViewport: Clicking Background
-[2017.06.14-01.31.39:379][679]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.14-01.31.39:398][679]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.14-01.31.39:398][679]PIE: New page: PIE session: Rainforest_Alien (Jun 13, 2017, 1:31:39 PM)
-[2017.06.14-01.31.39:398][679]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
-[2017.06.14-01.31.39:418][679]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020088s)
-[2017.06.14-01.31.39:419][679]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.06.14-01.31.39:419][679]LogPlayLevel: PIE: World Init took: (0.000774s)
-[2017.06.14-01.31.39:419][679]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.021109s)
-[2017.06.14-01.31.39:439][679]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.14-01.31.39:446][679]LogInit: FAudioDevice initialized.
-[2017.06.14-01.31.39:480][679]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2017.06.14-01.31.39:493][679]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.13-19.31.39
-[2017.06.14-01.31.39:495][679]LogWorld: Bringing up level for play took: 0.012867
-[2017.06.14-01.31.39:497][679]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.167
-[2017.06.14-01.31.49:094][810]Cmd: TRANSACTION UNDO
-[2017.06.14-01.31.49:094][810]LogEditorTransaction: Undo Clicking Background
-[2017.06.14-01.31.49:531][836]Cmd: TRANSACTION UNDO
-[2017.06.14-01.31.49:531][836]LogEditorTransaction: Undo Move Actors
-[2017.06.14-01.31.50:005][888]Cmd: TRANSACTION UNDO
-[2017.06.14-01.31.50:005][888]LogEditorTransaction: Undo Move Actors
-[2017.06.14-01.31.50:853][988]Cmd: TRANSACTION UNDO
-[2017.06.14-01.31.50:853][988]LogEditorTransaction: Undo Rotate Actors
-[2017.06.14-01.31.52:639][198]LogEditorViewport: Clicking Background
-[2017.06.14-01.31.55:197][469]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.14-01.31.55:213][469]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.14-01.31.55:214][469]PIE: New page: PIE session: Rainforest_Alien (Jun 13, 2017, 1:31:55 PM)
-[2017.06.14-01.31.55:214][469]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
-[2017.06.14-01.31.55:231][469]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017111s)
-[2017.06.14-01.31.55:231][469]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.06.14-01.31.55:231][469]LogPlayLevel: PIE: World Init took: (0.000558s)
-[2017.06.14-01.31.55:231][469]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.017900s)
-[2017.06.14-01.31.55:249][469]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.14-01.31.55:255][469]LogInit: FAudioDevice initialized.
-[2017.06.14-01.31.55:286][469]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2017.06.14-01.31.55:298][469]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.13-19.31.55
-[2017.06.14-01.31.55:300][469]LogWorld: Bringing up level for play took: 0.013009
-[2017.06.14-01.31.55:301][469]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.362
-[2017.06.14-01.32.16:692][ 27]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.14-01.32.16:708][ 27]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.14-01.32.16:709][ 27]PIE: New page: PIE session: Rainforest_Alien (Jun 13, 2017, 1:32:16 PM)
-[2017.06.14-01.32.16:709][ 27]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
-[2017.06.14-01.32.16:726][ 27]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017858s)
-[2017.06.14-01.32.16:727][ 27]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.06.14-01.32.16:727][ 27]LogPlayLevel: PIE: World Init took: (0.000486s)
-[2017.06.14-01.32.16:727][ 27]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.018606s)
-[2017.06.14-01.32.16:745][ 27]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.14-01.32.16:750][ 27]LogInit: FAudioDevice initialized.
-[2017.06.14-01.32.16:780][ 27]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2017.06.14-01.32.16:792][ 27]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.13-19.32.16
-[2017.06.14-01.32.16:793][ 27]LogWorld: Bringing up level for play took: 0.012031
-[2017.06.14-01.32.16:795][ 27]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.869
-[2017.06.14-01.32.21:660][599]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.14-01.32.21:676][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.14-01.32.21:676][599]PIE: New page: PIE session: Rainforest_Alien (Jun 13, 2017, 1:32:21 PM)
-[2017.06.14-01.32.21:676][599]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
-[2017.06.14-01.32.21:694][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017792s)
-[2017.06.14-01.32.21:695][599]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.06.14-01.32.21:695][599]LogPlayLevel: PIE: World Init took: (0.000510s)
-[2017.06.14-01.32.21:695][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.018538s)
-[2017.06.14-01.32.21:714][599]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.14-01.32.21:720][599]LogInit: FAudioDevice initialized.
-[2017.06.14-01.32.21:754][599]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2017.06.14-01.32.21:766][599]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.13-19.32.21
-[2017.06.14-01.32.21:768][599]LogWorld: Bringing up level for play took: 0.012192
-[2017.06.14-01.32.21:770][599]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.105
-[2017.06.14-01.32.38:297][572]Cmd: SELECT NONE
-[2017.06.14-01.32.39:946][756]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge148)
-[2017.06.14-01.32.40:905][857]Cmd: EDIT COPY
-[2017.06.14-01.32.41:724][955]Cmd: EDIT PASTE
-[2017.06.14-01.32.42:884][ 90]LogEditorViewport: Clicking Background
-[2017.06.14-01.32.43:413][152]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge342)
-[2017.06.14-01.32.58:514][905]LogEditorViewport: Clicking Background
-[2017.06.14-01.33.01:165][214]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge342)
-[2017.06.14-01.33.01:652][268]LogEditorViewport: Clicking Background
-[2017.06.14-01.33.21:725][627]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge342)
-[2017.06.14-01.33.24:403][939]Cmd: EDIT COPY
-[2017.06.14-01.33.24:665][970]Cmd: EDIT PASTE
-[2017.06.14-01.33.27:273][278]LogEditorViewport: Clicking Background
-[2017.06.14-01.33.27:818][342]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge343)
-[2017.06.14-01.33.35:418][241]LogEditorViewport: Clicking Background
-[2017.06.14-01.33.37:433][465]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.14-01.33.37:450][465]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.14-01.33.37:450][465]PIE: New page: PIE session: Rainforest_Alien (Jun 13, 2017, 1:33:37 PM)
-[2017.06.14-01.33.37:450][465]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
-[2017.06.14-01.33.37:468][465]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018130s)
-[2017.06.14-01.33.37:468][465]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.06.14-01.33.37:468][465]LogPlayLevel: PIE: World Init took: (0.000553s)
-[2017.06.14-01.33.37:469][465]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.018971s)
-[2017.06.14-01.33.37:488][465]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.14-01.33.37:493][465]LogInit: FAudioDevice initialized.
-[2017.06.14-01.33.37:529][465]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2017.06.14-01.33.37:565][465]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.13-19.33.37
-[2017.06.14-01.33.37:568][465]LogWorld: Bringing up level for play took: 0.035822
-[2017.06.14-01.33.37:572][465]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.092
-[2017.06.14-01.34.05:943][846]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge343)
-[2017.06.14-01.34.06:351][891]Cmd: EDIT COPY
-[2017.06.14-01.34.07:171][989]Cmd: EDIT PASTE
-[2017.06.14-01.34.13:208][708]LogEditorViewport: Clicking Background
-[2017.06.14-01.34.15:296][946]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge343)
-[2017.06.14-01.34.15:629][982]Cmd: EDIT COPY
-[2017.06.14-01.34.15:957][ 21]Cmd: EDIT PASTE
-[2017.06.14-01.34.20:707][586]LogEditorViewport: Clicking Background
-[2017.06.14-01.34.23:588][915]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge344)
-[2017.06.14-01.34.23:934][948]Cmd: EDIT COPY
-[2017.06.14-01.34.24:269][988]Cmd: EDIT PASTE
-[2017.06.14-01.34.28:237][459]LogEditorViewport: Clicking Background
-[2017.06.14-01.34.38:878][723]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge345)
-[2017.06.14-01.34.39:295][769]Cmd: EDIT COPY
-[2017.06.14-01.34.39:614][807]Cmd: EDIT PASTE
-[2017.06.14-01.34.43:391][255]LogEditorViewport: Clicking Background
-[2017.06.14-01.34.58:717][ 82]LogEditorViewport: Clicking Background
-[2017.06.14-01.34.59:102][122]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge346)
-[2017.06.14-01.34.59:377][151]Cmd: EDIT COPY
-[2017.06.14-01.34.59:638][182]Cmd: EDIT PASTE
-[2017.06.14-01.35.03:690][663]LogEditorViewport: Clicking Background
-[2017.06.14-01.35.17:766][338]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge347)
-[2017.06.14-01.35.18:091][373]Cmd: EDIT COPY
-[2017.06.14-01.35.18:532][425]Cmd: EDIT PASTE
-[2017.06.14-01.35.23:273][989]LogEditorViewport: Clicking Background
-[2017.06.14-01.35.31:418][956]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge348)
-[2017.06.14-01.35.31:894][  8]Cmd: EDIT COPY
-[2017.06.14-01.35.32:613][ 94]Cmd: EDIT PASTE
-[2017.06.14-01.35.33:149][155]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge350)
-[2017.06.14-01.35.36:923][604]LogEditorViewport: Clicking Background
-[2017.06.14-01.35.39:150][859]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge350)
-[2017.06.14-01.35.39:641][914]Cmd: EDIT COPY
-[2017.06.14-01.35.39:935][949]Cmd: EDIT PASTE
-[2017.06.14-01.35.42:812][289]LogEditorViewport: Clicking Background
-[2017.06.14-01.35.44:648][493]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge351)
-[2017.06.14-01.35.45:039][536]Cmd: EDIT COPY
-[2017.06.14-01.35.45:317][569]Cmd: EDIT PASTE
-[2017.06.14-01.35.49:264][ 37]LogEditorViewport: Clicking Background
-[2017.06.14-01.36.02:448][593]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge349)
-[2017.06.14-01.36.02:931][647]Cmd: EDIT COPY
-[2017.06.14-01.36.03:214][680]Cmd: EDIT PASTE
-[2017.06.14-01.36.06:475][ 66]LogEditorViewport: Clicking Background
-[2017.06.14-01.36.15:323][108]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge352)
-[2017.06.14-01.36.15:739][154]Cmd: EDIT COPY
-[2017.06.14-01.36.16:039][189]Cmd: EDIT PASTE
-[2017.06.14-01.36.19:932][651]LogEditorViewport: Clicking Background
-[2017.06.14-01.36.41:492][225]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge349)
-[2017.06.14-01.36.43:963][517]Cmd: EDIT COPY
-[2017.06.14-01.36.44:407][570]Cmd: EDIT PASTE
-[2017.06.14-01.36.49:042][121]LogEditorViewport: Clicking Background
-[2017.06.14-01.36.52:246][504]LogEditorViewport: Clicking Background
-[2017.06.14-01.36.52:651][552]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ledge355)
-[2017.06.14-01.36.53:760][681]Cmd: EDIT COPY
-[2017.06.14-01.36.53:980][707]Cmd: EDIT PASTE
-[2017.06.14-01.37.05:096][ 29]LogEditorViewport: Clicking Background
-[2017.06.14-01.37.05:933][128]LogEditorViewport: Clicking Background
-[2017.06.14-01.37.07:600][317]LogEditorViewport: Clicking Background
-[2017.06.14-01.37.08:129][374]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge356)
-[2017.06.14-01.37.08:923][465]Cmd: DELETE
-[2017.06.14-01.37.08:923][465]Cmd: ACTOR DELETE
-[2017.06.14-01.37.08:924][465]LogEditorActor: Deleted Actor: PaperSpriteActor
-[2017.06.14-01.37.08:937][465]LogEditorActor: Deleted 1 Actors (0.014 secs)
-[2017.06.14-01.37.09:773][565]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge355)
-[2017.06.14-01.37.10:615][662]Cmd: EDIT COPY
-[2017.06.14-01.37.10:843][689]Cmd: EDIT PASTE
-[2017.06.14-01.37.14:528][126]LogEditorViewport: Clicking Background
-[2017.06.14-01.37.15:357][224]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge353)
-[2017.06.14-01.37.15:915][287]Cmd: EDIT COPY
-[2017.06.14-01.37.16:231][324]Cmd: EDIT PASTE
-[2017.06.14-01.37.22:189][  2]LogEditorViewport: Clicking Background
-[2017.06.14-01.37.55:628][950]LogEditorViewport: Clicking Background
-[2017.06.14-01.38.07:578][269]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge354)
-[2017.06.14-01.38.07:986][314]Cmd: EDIT COPY
-[2017.06.14-01.38.08:205][340]Cmd: EDIT PASTE
-[2017.06.14-01.38.13:065][918]LogEditorViewport: Clicking Background
-[2017.06.14-01.38.17:093][385]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge358)
-[2017.06.14-01.38.17:708][453]Cmd: EDIT COPY
-[2017.06.14-01.38.17:958][482]Cmd: EDIT PASTE
-[2017.06.14-01.38.22:906][ 70]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge359)
-[2017.06.14-01.38.23:362][123]LogEditorViewport: Clicking Background
-[2017.06.14-01.38.25:243][332]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge359)
-[2017.06.14-01.38.25:551][365]Cmd: EDIT COPY
-[2017.06.14-01.38.25:820][397]Cmd: EDIT PASTE
-[2017.06.14-01.38.34:071][349]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.14-01.38.34:088][349]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.14-01.38.34:088][349]PIE: New page: PIE session: Rainforest_Alien (Jun 13, 2017, 1:38:34 PM)
-[2017.06.14-01.38.34:088][349]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
-[2017.06.14-01.38.34:109][349]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020724s)
-[2017.06.14-01.38.34:109][349]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.06.14-01.38.34:110][349]LogPlayLevel: PIE: World Init took: (0.000614s)
-[2017.06.14-01.38.34:110][349]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.021641s)
-[2017.06.14-01.38.34:130][349]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.14-01.38.34:137][349]LogInit: FAudioDevice initialized.
-[2017.06.14-01.38.34:166][349]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2017.06.14-01.38.34:179][349]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.13-19.38.34
-[2017.06.14-01.38.34:181][349]LogWorld: Bringing up level for play took: 0.013838
-[2017.06.14-01.38.34:183][349]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.519
-[2017.06.14-01.39.01:291][600]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingHead:021D
-[2017.06.14-01.39.01:291][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:291][600]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingChest:021D
-[2017.06.14-01.39.01:291][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:291][600]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingLegs:021D
-[2017.06.14-01.39.01:291][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:292][600]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingMidChest:021D
-[2017.06.14-01.39.01:292][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:292][600]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingMidLegs:021D
-[2017.06.14-01.39.01:292][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:292][600]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingFeet:021D
-[2017.06.14-01.39.01:292][600]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:549][631]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingHead:021D
-[2017.06.14-01.39.01:549][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:549][631]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingChest:021D
-[2017.06.14-01.39.01:550][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:550][631]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingLegs:021D
-[2017.06.14-01.39.01:550][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:550][631]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingMidChest:021D
-[2017.06.14-01.39.01:550][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:550][631]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingMidLegs:021D
-[2017.06.14-01.39.01:550][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:550][631]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingFeet:021D
-[2017.06.14-01.39.01:550][631]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:733][653]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingHead:021D
-[2017.06.14-01.39.01:733][653]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:733][653]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingChest:021D
-[2017.06.14-01.39.01:733][653]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:733][653]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingLegs:021D
-[2017.06.14-01.39.01:733][653]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:734][653]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingMidChest:021D
-[2017.06.14-01.39.01:734][653]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:734][653]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
-	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingMidLegs:021D
-[2017.06.14-01.39.01:734][653]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:734][653]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:958][680]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:958][680]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:958][680]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:958][680]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:958][680]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.01:959][680]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:175][706]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:175][706]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:175][706]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:175][706]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:175][706]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:175][706]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:366][729]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:367][729]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:367][729]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:367][729]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:367][729]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:367][729]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:558][752]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:558][752]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:558][752]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:558][752]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:558][752]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:559][752]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:742][774]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:742][774]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:742][774]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:742][774]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:742][774]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:742][774]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:942][798]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:942][798]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:942][798]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:942][798]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:942][798]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.02:942][798]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.03:133][821]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.03:133][821]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.03:134][821]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.03:134][821]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.03:134][821]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.03:134][821]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.10:659][724]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.10:659][724]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.10:659][724]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.10:659][724]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.10:659][724]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.10:659][724]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.10:892][752]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.10:892][752]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.10:892][752]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.10:892][752]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.10:893][752]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.10:893][752]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.11:151][783]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.11:151][783]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.11:151][783]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.11:151][783]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.11:151][783]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.11:151][783]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.11:351][807]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.11:351][807]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.11:351][807]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.11:351][807]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.11:351][807]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.11:351][807]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.14:476][182]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.14:476][182]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.14:476][182]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.14:476][182]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.14:476][182]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.14:477][182]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.14:901][233]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.14:901][233]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.14:901][233]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.14:901][233]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.14:901][233]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.14:901][233]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.15:760][336]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.15:760][336]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.15:760][336]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.15:760][336]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.15:760][336]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.15:760][336]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.15:968][361]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.15:968][361]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.15:968][361]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.15:968][361]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.15:968][361]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.15:968][361]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:185][387]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:185][387]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:185][387]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:185][387]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:185][387]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:185][387]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:360][408]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:360][408]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:360][408]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:360][408]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:360][408]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:360][408]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:951][479]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:951][479]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:951][479]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:951][479]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:952][479]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.16:952][479]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:160][504]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:160][504]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:160][504]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:160][504]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:160][504]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:160][504]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:343][526]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:343][526]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:343][526]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:343][526]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:343][526]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:343][526]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:535][549]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:535][549]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:535][549]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:535][549]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:535][549]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:535][549]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:793][580]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:793][580]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:794][580]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:794][580]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:794][580]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.17:794][580]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.18:360][648]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.18:360][648]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.18:360][648]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.18:360][648]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.18:360][648]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.18:360][648]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
-[2017.06.14-01.39.27:988][741]LogEditorViewport: Clicking Background
-[2017.06.14-01.39.28:486][792]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge351)
-[2017.06.14-01.39.29:868][953]Cmd: DELETE
-[2017.06.14-01.39.29:868][953]Cmd: ACTOR DELETE
-[2017.06.14-01.39.29:869][953]LogEditorActor: Deleted Actor: PaperSpriteActor
-[2017.06.14-01.39.29:882][953]LogEditorActor: Deleted 1 Actors (0.014 secs)
-[2017.06.14-01.39.43:973][628]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge352)
-[2017.06.14-01.39.44:836][717]Cmd: EDIT COPY
-[2017.06.14-01.39.45:431][788]Cmd: EDIT PASTE
-[2017.06.14-01.39.51:841][550]LogEditorViewport: Clicking Background
-[2017.06.14-01.39.54:942][902]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.14-01.39.54:959][902]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.14-01.39.54:959][902]PIE: New page: PIE session: Rainforest_Alien (Jun 13, 2017, 1:39:54 PM)
-[2017.06.14-01.39.54:959][902]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
-[2017.06.14-01.39.54:978][902]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019042s)
-[2017.06.14-01.39.54:978][902]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.06.14-01.39.54:979][902]LogPlayLevel: PIE: World Init took: (0.000553s)
-[2017.06.14-01.39.54:979][902]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.019874s)
-[2017.06.14-01.39.54:997][902]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.14-01.39.55:003][902]LogInit: FAudioDevice initialized.
-[2017.06.14-01.39.55:034][902]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2017.06.14-01.39.55:047][902]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.13-19.39.55
-[2017.06.14-01.39.55:048][902]LogWorld: Bringing up level for play took: 0.013304
-[2017.06.14-01.39.55:050][902]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.614
-[2017.06.14-01.40.12:978][ 41]LogTemp: Repeting last play command: Selected Viewport
-[2017.06.14-01.40.12:995][ 41]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.06.14-01.40.12:995][ 41]PIE: New page: PIE session: Rainforest_Alien (Jun 13, 2017, 1:40:12 PM)
-[2017.06.14-01.40.12:995][ 41]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
-[2017.06.14-01.40.13:013][ 41]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018361s)
-[2017.06.14-01.40.13:014][ 41]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.06.14-01.40.13:014][ 41]LogPlayLevel: PIE: World Init took: (0.000498s)
-[2017.06.14-01.40.13:014][ 41]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.019106s)
-[2017.06.14-01.40.13:038][ 41]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.06.14-01.40.13:043][ 41]LogInit: FAudioDevice initialized.
-[2017.06.14-01.40.13:080][ 41]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2017.06.14-01.40.13:106][ 41]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.13-19.40.13
-[2017.06.14-01.40.13:108][ 41]LogWorld: Bringing up level for play took: 0.025348
-[2017.06.14-01.40.13:110][ 41]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.554
-[2017.06.14-01.40.40:250][276]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge361)
-[2017.06.14-01.40.41:553][416]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge350)
-[2017.06.14-01.40.42:919][576]LogEditorViewport: Clicking Background
-[2017.06.14-01.41.02:098][791]Cmd: EDIT COPY
-[2017.06.14-01.41.03:771][978]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge361)
-[2017.06.14-01.41.05:983][238]LogEditorViewport: Clicking Background
-[2017.06.14-01.41.06:319][277]Cmd: EDIT PASTE
-[2017.06.14-01.41.08:148][491]Cmd: TRANSACTION UNDO
-[2017.06.14-01.41.08:148][491]LogEditorTransaction: Undo Paste
-[2017.06.14-01.41.09:958][670]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge361)
-[2017.06.14-01.41.11:372][835]Cmd: EDIT PASTE
-[2017.06.14-01.41.12:106][920]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge361)
-[2017.06.14-01.41.18:554][688]LogEditorViewport: Clicking Background
-[2017.06.14-01.41.19:009][741]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge361)
-[2017.06.14-01.41.19:251][766]Cmd: EDIT COPY
-[2017.06.14-01.41.19:462][791]Cmd: EDIT PASTE
-[2017.06.14-01.41.22:292][125]LogEditorViewport: Clicking Background
-[2017.06.14-01.41.25:439][477]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge361)
-[2017.06.14-01.41.30:547][ 83]LogEditorViewport: Clicking Background
-[2017.06.14-01.41.34:632][474]LogSavePackage: Save=549.84ms
-[2017.06.14-01.41.34:632][474]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien06BACE8D455BA961BAEFB0BC54ACF0FC.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap'
-[2017.06.14-01.41.34:638][474]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap
-[2017.06.14-01.41.45:214][706]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge361)
-[2017.06.14-01.41.45:756][767]Cmd: EDIT COPY
-[2017.06.14-01.41.46:131][811]Cmd: EDIT PASTE
-[2017.06.14-01.41.50:585][328]LogEditorViewport: Clicking Background
-[2017.06.14-01.41.58:443][269]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge361)
-[2017.06.14-01.42.00:918][560]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge363)
-[2017.06.14-01.42.04:875][ 29]LogEditorViewport: Clicking Background
-[2017.06.14-01.42.05:305][ 79]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge362)
-[2017.06.14-01.42.08:403][445]LogEditorViewport: Clicking Background
-[2017.06.14-01.42.17:794][537]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge363)
-[2017.06.14-01.42.18:412][604]Cmd: EDIT COPY
-[2017.06.14-01.42.18:855][656]Cmd: EDIT PASTE
-[2017.06.14-01.42.26:513][561]LogEditorViewport: Clicking Background
-[2017.06.14-01.43.27:174][724]LogSavePackage: Save=551.21ms
-[2017.06.14-01.43.27:174][724]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien5713263A4B9918F1E921729593546E10.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap'
-[2017.06.14-01.43.27:177][724]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap
-[2017.06.14-01.43.29:837][853]LogSavePackage: Save=154.74ms
-[2017.06.14-01.43.29:837][853]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerCharacterB28A5EA04A32742B23E7D98DD2A20197.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.uasset'
-[2017.06.14-01.43.29:840][853]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.uasset
-[2017.06.14-01.43.29:977][853]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.06.14-01.43.30:191][854]Cmd: QUIT_EDITOR
-[2017.06.14-01.43.31:093][854]LogExit: Preparing to exit.
-[2017.06.14-01.43.32:021][854]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' was aborted.
-[2017.06.14-01.43.32:078][854]LogExit: Editor shut down
-[2017.06.14-01.43.32:088][854]LogExit: Transaction tracking system shut down
-[2017.06.14-01.43.32:172][854]LogObj: Freed 0b from 0 cluster array pools.
-[2017.06.14-01.43.32:172][854]LogExit: Object subsystem successfully closed.
-[2017.06.14-01.43.32:189][854]LogD3D11RHI: Shutdown
-[2017.06.14-01.43.32:189][854]LogD3D11RHI: CleanupD3DDevice
-[2017.06.14-01.43.32:247][854]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.06.14-01.43.32:264][854]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
-[2017.06.14-01.43.32:264][854]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
-[2017.06.14-01.43.32:265][854]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
-[2017.06.14-01.43.32:265][854]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
-[2017.06.14-01.43.32:265][854]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
-[2017.06.14-01.43.32:265][854]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
-[2017.06.14-01.43.32:265][854]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2017.06.14-01.43.32:266][854]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
-[2017.06.14-01.43.32:266][854]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
-[2017.06.14-01.43.32:266][854]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
-[2017.06.14-01.43.32:266][854]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' was aborted.
-[2017.06.14-01.43.32:266][854]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells/Collections/' was aborted.
-[2017.06.14-01.43.32:266][854]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' was aborted.
-[2017.06.14-01.43.32:266][854]LogModuleManager: Shutting down and abandoning module SceneOutliner (512)
-[2017.06.14-01.43.32:266][854]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
-[2017.06.14-01.43.32:266][854]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
-[2017.06.14-01.43.32:266][854]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module BspMode (494)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module Media (471)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module SessionServices (458)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
-[2017.06.14-01.43.32:267][854]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
-[2017.06.14-01.43.32:268][854]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
-[2017.06.14-01.43.32:268][854]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
-[2017.06.14-01.43.32:268][854]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
-[2017.06.14-01.43.32:269][854]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
-[2017.06.14-01.43.32:269][854]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
-[2017.06.14-01.43.32:269][854]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
-[2017.06.14-01.43.32:269][854]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
-[2017.06.14-01.43.32:269][854]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
-[2017.06.14-01.43.33:048][854]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
-[2017.06.14-01.43.33:048][854]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
-[2017.06.14-01.43.33:048][854]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
-[2017.06.14-01.43.33:050][854]LogModuleManager: Shutting down and abandoning module MergeActors (428)
-[2017.06.14-01.43.33:050][854]LogModuleManager: Shutting down and abandoning module SizeMap (426)
-[2017.06.14-01.43.33:050][854]LogModuleManager: Shutting down and abandoning module TreeMap (424)
-[2017.06.14-01.43.33:051][854]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
-[2017.06.14-01.43.33:051][854]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
-[2017.06.14-01.43.33:051][854]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
-[2017.06.14-01.43.33:051][854]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
-[2017.06.14-01.43.33:051][854]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
-[2017.06.14-01.43.33:052][854]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
-[2017.06.14-01.43.33:052][854]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
-[2017.06.14-01.43.33:052][854]LogModuleManager: Shutting down and abandoning module XmlParser (408)
-[2017.06.14-01.43.33:052][854]LogModuleManager: Shutting down and abandoning module Blutility (406)
-[2017.06.14-01.43.33:052][854]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
-[2017.06.14-01.43.33:052][854]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
-[2017.06.14-01.43.33:052][854]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
-[2017.06.14-01.43.33:052][854]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
-[2017.06.14-01.43.33:053][854]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
-[2017.06.14-01.43.33:053][854]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
-[2017.06.14-01.43.33:053][854]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
-[2017.06.14-01.43.33:054][854]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
-[2017.06.14-01.43.33:054][854]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
-[2017.06.14-01.43.33:108][854]LogModuleManager: Shutting down and abandoning module AutomationController (386)
-[2017.06.14-01.43.33:108][854]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
-[2017.06.14-01.43.33:109][854]LogModuleManager: Shutting down and abandoning module Layers (382)
-[2017.06.14-01.43.33:109][854]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
-[2017.06.14-01.43.33:109][854]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
-[2017.06.14-01.43.33:109][854]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
-[2017.06.14-01.43.33:110][854]LogModuleManager: Shutting down and abandoning module Persona (374)
-[2017.06.14-01.43.33:110][854]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
-[2017.06.14-01.43.33:110][854]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
-[2017.06.14-01.43.33:110][854]LogModuleManager: Shutting down and abandoning module Kismet (368)
-[2017.06.14-01.43.33:127][854]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
-[2017.06.14-01.43.33:127][854]LogModuleManager: Shutting down and abandoning module Toolbox (364)
-[2017.06.14-01.43.33:127][854]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
-[2017.06.14-01.43.33:128][854]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
-[2017.06.14-01.43.33:129][854]LogModuleManager: Shutting down and abandoning module OutputLog (358)
-[2017.06.14-01.43.33:129][854]LogModuleManager: Shutting down and abandoning module GammaUI (356)
-[2017.06.14-01.43.33:129][854]LogModuleManager: Shutting down and abandoning module Documentation (354)
-[2017.06.14-01.43.33:129][854]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
-[2017.06.14-01.43.33:129][854]LogModuleManager: Shutting down and abandoning module MovieScene (350)
-[2017.06.14-01.43.33:129][854]LogModuleManager: Shutting down and abandoning module Niagara (348)
-[2017.06.14-01.43.33:129][854]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
-[2017.06.14-01.43.33:130][854]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
-[2017.06.14-01.43.33:130][854]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
-[2017.06.14-01.43.33:130][854]LogModuleManager: Shutting down and abandoning module PortalServices (340)
-[2017.06.14-01.43.33:130][854]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
-[2017.06.14-01.43.33:130][854]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
-[2017.06.14-01.43.33:130][854]LogModuleManager: Shutting down and abandoning module AIModule (334)
-[2017.06.14-01.43.33:130][854]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
-[2017.06.14-01.43.33:130][854]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
-[2017.06.14-01.43.33:130][854]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
-[2017.06.14-01.43.33:277][854]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
-[2017.06.14-01.43.33:279][854]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
-[2017.06.14-01.43.33:279][854]LogModuleManager: Shutting down and abandoning module SteamVR (322)
-[2017.06.14-01.43.33:279][854]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
-[2017.06.14-01.43.33:279][854]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
-[2017.06.14-01.43.33:279][854]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
-[2017.06.14-01.43.33:279][854]LogModuleManager: Shutting down and abandoning module OculusInput (314)
-[2017.06.14-01.43.33:279][854]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
-[2017.06.14-01.43.33:279][854]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
-[2017.06.14-01.43.33:279][854]LogModuleManager: Shutting down and abandoning module CableComponent (308)
-[2017.06.14-01.43.33:279][854]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
-[2017.06.14-01.43.33:279][854]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
-[2017.06.14-01.43.33:279][854]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
-[2017.06.14-01.43.33:280][854]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
-[2017.06.14-01.43.33:280][854]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
-[2017.06.14-01.43.33:280][854]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
-[2017.06.14-01.43.33:280][854]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
-[2017.06.14-01.43.33:280][854]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
-[2017.06.14-01.43.33:280][854]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
-[2017.06.14-01.43.33:280][854]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
-[2017.06.14-01.43.33:280][854]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
-[2017.06.14-01.43.33:280][854]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
-[2017.06.14-01.43.33:280][854]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
-[2017.06.14-01.43.33:280][854]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
-[2017.06.14-01.43.33:280][854]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
-[2017.06.14-01.43.33:280][854]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
-[2017.06.14-01.43.33:280][854]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
-[2017.06.14-01.43.33:280][854]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
-[2017.06.14-01.43.33:281][854]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
-[2017.06.14-01.43.33:281][854]LogModuleManager: Shutting down and abandoning module SourceControl (267)
-[2017.06.14-01.43.33:281][854]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
-[2017.06.14-01.43.33:281][854]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
-[2017.06.14-01.43.33:281][854]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
-[2017.06.14-01.43.33:281][854]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
-[2017.06.14-01.43.33:281][854]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
-[2017.06.14-01.43.33:281][854]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
-[2017.06.14-01.43.33:282][854]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
-[2017.06.14-01.43.33:282][854]LogModuleManager: Shutting down and abandoning module MainFrame (252)
-[2017.06.14-01.43.33:282][854]LogModuleManager: Shutting down and abandoning module HotReload (251)
-[2017.06.14-01.43.33:282][854]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
-[2017.06.14-01.43.33:283][854]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
-[2017.06.14-01.43.33:283][854]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
-[2017.06.14-01.43.33:283][854]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
-[2017.06.14-01.43.33:283][854]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
-[2017.06.14-01.43.33:283][854]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
-[2017.06.14-01.43.33:384][854]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
-[2017.06.14-01.43.33:485][854]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2017.06.14-01.43.33:487][854]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2017.06.14-01.43.33:488][854]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2017.06.14-01.43.33:488][854]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2017.06.14-01.43.33:488][854]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2017.06.14-01.43.33:488][854]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2017.06.14-01.43.33:491][854]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2017.06.14-01.43.33:491][854]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2017.06.14-01.43.33:491][854]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2017.06.14-01.43.33:491][854]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2017.06.14-01.43.33:491][854]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2017.06.14-01.43.33:491][854]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2017.06.14-01.43.33:492][854]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2017.06.14-01.43.33:492][854]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2017.06.14-01.43.33:492][854]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2017.06.14-01.43.33:492][854]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2017.06.14-01.43.33:493][854]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2017.06.14-01.43.33:493][854]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2017.06.14-01.43.33:494][854]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2017.06.14-01.43.33:494][854]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2017.06.14-01.43.33:494][854]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2017.06.14-01.43.33:494][854]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2017.06.14-01.43.33:495][854]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2017.06.14-01.43.33:495][854]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2017.06.14-01.43.33:496][854]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2017.06.14-01.43.33:497][854]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2017.06.14-01.43.33:497][854]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2017.06.14-01.43.33:498][854]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2017.06.14-01.43.33:498][854]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2017.06.14-01.43.33:505][854]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2017.06.14-01.43.33:506][854]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2017.06.14-01.43.33:506][854]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2017.06.14-01.43.33:506][854]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2017.06.14-01.43.33:506][854]LogModuleManager: Shutting down and abandoning module Core (164)
-[2017.06.14-01.43.33:506][854]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2017.06.14-01.43.33:587][854]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.06.14-01.43.33:587][854]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' was aborted.
-[2017.06.14-01.43.33:587][854]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.06.14-01.43.33:587][854]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2017.06.14-01.43.33:590][854]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2017.06.14-01.43.33:591][854]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2017.06.14-01.43.33:591][854]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2017.06.14-01.43.33:591][854]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2017.06.14-01.43.33:591][854]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2017.06.14-01.43.33:591][854]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2017.06.14-01.43.33:591][854]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2017.06.14-01.43.33:591][854]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2017.06.14-01.43.33:591][854]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.06.14-01.43.33:653][854]LogDerivedDataCache: Shutdown
-[2017.06.14-01.43.33:653][854]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.06.14-01.43.33:653][854]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.06.14-01.43.33:653][854]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.06.14-01.43.33:655][854]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.06.14-01.43.33:656][854]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.06.14-01.43.33:656][854]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.06.14-01.43.33:656][854]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.06.14-01.43.33:656][854]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.06.14-01.43.33:656][854]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.06.14-01.43.33:657][854]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.06.14-01.43.33:658][854]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.06.14-01.43.33:658][854]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.06.14-01.43.33:658][854]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.06.14-01.43.33:658][854]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.06.14-01.43.33:658][854]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.06.14-01.43.33:658][854]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.06.14-01.43.33:658][854]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.06.14-01.43.33:658][854]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.06.14-01.43.33:658][854]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.06.14-01.43.33:658][854]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2017.06.14-01.43.33:658][854]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2017.06.14-01.43.33:658][854]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2017.06.14-01.43.33:658][854]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.06.14-01.43.33:658][854]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.06.14-01.43.33:658][854]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.06.14-01.43.33:658][854]LogOnline:Display: Unloading online subsystem: NULL
-[2017.06.14-01.43.33:660][854]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.06.14-01.43.33:660][854]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.06.14-01.43.33:660][854]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.06.14-01.43.33:660][854]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7FB9781B-4A09-9E43-8F49-17824B4D2D9D%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.0-3452394%2B%2B%2BUE4%2BRelease-4.16&UserID=520fd5774504bba7d7d4dfbb2efd774d%7C3ef35b30eb8d444d8e26d7fb1794d4bf%7C7a44e29e-0876-4249-91a8-eb020dafba7b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.06.14-01.43.33:676][854]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.06.14-01.43.33:681][854]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2017.06.14-01.43.33:681][854]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2017.06.14-01.43.33:682][854]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2017.06.14-01.43.33:682][854]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.06.14-01.43.33:682][854]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.06.14-01.43.33:682][854]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.06.14-01.43.33:682][854]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.06.14-01.43.33:682][854]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.06.14-01.43.33:685][854]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.06.14-01.43.33:687][854]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.06.14-01.43.33:687][854]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.06.14-01.43.33:687][854]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.06.14-01.43.33:687][854]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.06.14-01.43.33:687][854]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.06.14-01.43.33:687][854]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.06.14-01.43.33:687][854]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.06.14-01.43.33:687][854]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.06.14-01.43.33:687][854]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.06.14-01.43.33:692][854]LogExit: Exiting.
-[2017.06.14-01.43.33:731][854]Log file closed, 06/13/17 19:43:33
+[2017.06.14-19.36.36:511][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.14-19.36.36:511][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.06.14-19.36.36:573][  0]LogInit: Computer: DESKTOP-6MFT485
+[2017.06.14-19.36.36:573][  0]LogInit: User: JustinWells
+[2017.06.14-19.36.36:573][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.06.14-19.36.36:573][  0]LogInit: High frequency timer resolution =3.328120 MHz
+[2017.06.14-19.36.36:573][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.06.14-19.36.36:573][  0]LogMemory: Platform Memory Stats for Windows
+[2017.06.14-19.36.36:573][  0]LogMemory: Process Physical Memory: 272.88 MB used, 272.88 MB peak
+[2017.06.14-19.36.36:573][  0]LogMemory: Process Virtual Memory: 258.38 MB used, 258.38 MB peak
+[2017.06.14-19.36.36:573][  0]LogMemory: Physical Memory: 2544.74 MB used,  13777.00 MB free, 16321.74 MB total
+[2017.06.14-19.36.36:573][  0]LogMemory: Virtual Memory: 643.38 MB used,  13777.00 MB free, 134217728.00 MB total
+[2017.06.14-19.36.36:815][  0]LogInit: Using OS detected language (en-US).
+[2017.06.14-19.36.36:815][  0]LogInit: Using OS detected locale (en-US).
+[2017.06.14-19.36.36:859][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.06.14-19.36.39:097][  0]LogD3D11RHI: D3D11 adapters:
+[2017.06.14-19.36.39:611][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.06.14-19.36.39:611][  0]LogD3D11RHI:       8119/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.06.14-19.36.39:612][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.06.14-19.36.39:612][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.06.14-19.36.39:612][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.06.14-19.36.39:618][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.06.14-19.36.39:618][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.06.14-19.36.39:618][  0]LogWindows: EnumDisplayDevices:
+[2017.06.14-19.36.39:618][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.06.14-19.36.39:618][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.06.14-19.36.39:618][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.06.14-19.36.39:618][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.06.14-19.36.39:618][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.06.14-19.36.39:619][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.06.14-19.36.39:619][  0]LogD3D11RHI:   Driver Version: 382.05 (internal:22.21.13.8205, unified:382.05)
+[2017.06.14-19.36.39:619][  0]LogD3D11RHI:      Driver Date: 5-1-2017
+[2017.06.14-19.36.39:619][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.06.14-19.36.40:136][  0]LogD3D11RHI: Async texture creation enabled
+[2017.06.14-19.36.40:183][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.06.14-19.36.40:237][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Intermediate/Shaders/WorkingDirectory/10708/).
+[2017.06.14-19.36.40:237][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Justin Wells/AppData/Local/Temp/UnrealShaderWorkingDir/9C6684D540524E3F1E83399E7DE96657/'.
+[2017.06.14-19.36.40:237][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.06.14-19.36.41:865][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.06.14-19.36.41:904][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.06.14-19.36.41:943][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.06.14-19.36.41:982][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.06.14-19.36.42:026][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.06.14-19.36.42:065][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.06.14-19.36.42:105][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.06.14-19.36.42:144][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.06.14-19.36.42:179][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.06.14-19.36.42:220][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.06.14-19.36.42:260][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.06.14-19.36.42:299][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.06.14-19.36.42:341][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.06.14-19.36.42:384][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.06.14-19.36.42:422][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.06.14-19.36.42:500][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.06.14-19.36.42:500][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.06.14-19.36.42:530][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.06.14-19.36.42:615][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.06.14-19.36.42:649][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.06.14-19.36.42:694][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.06.14-19.36.42:733][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.06.14-19.36.42:771][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.06.14-19.36.42:814][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.06.14-19.36.42:814][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.06.14-19.36.43:286][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.06.14-19.36.43:604][  0]LogDerivedDataCache: Loaded boot cache 0.32s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.14-19.36.43:604][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.06.14-19.36.43:604][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.06.14-19.36.43:604][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.06.14-19.36.43:604][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.06.14-19.36.43:604][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.06.14-19.36.43:650][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.06.14-19.36.43:662][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Justin Wells/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.06.14-19.36.43:675][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.06.14-19.36.43:679][  0]LogSlate: Using Freetype 2.6.0
+[2017.06.14-19.36.43:692][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.14-19.36.43:692][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.06.14-19.36.44:425][  0]LogInit: Selected Device Profile: [Windows]
+[2017.06.14-19.36.44:572][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.06.14-19.36.44:784][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.06.14-19.36.44:829][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.06.14-19.36.44:868][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.06.14-19.36.44:868][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.06.14-19.36.44:868][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.06.14-19.36.45:950][  0]LogNetVersion: InsertNameAdventure , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1278457987)
+[2017.06.14-19.36.46:037][  0]LogAssetRegistry: FAssetRegistry took 0.0288 seconds to start up
+[2017.06.14-19.36.46:096][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.040118 seconds
+[2017.06.14-19.36.46:101][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.06.14-19.36.46:101][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.06.14-19.36.46:101][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.06.14-19.36.46:153][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.06.14-19.36.49:601][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.06.14-19.36.49:636][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.06.14-19.36.50:248][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.06.14-19.36.50:662][  0]SourceControl: Info Source control is disabled
+[2017.06.14-19.36.51:723][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.06.14-19.36.52:242][  0]LogEngine: Initializing Engine...
+[2017.06.14-19.36.52:287][  0]LogHMD: Failed to initialize OpenVR with code 126
+[2017.06.14-19.36.52:609][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.06.14-19.36.52:609][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.06.14-19.36.52:729][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.14-19.36.52:745][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.14-19.36.52:781][  0]LogInit: FAudioDevice initialized.
+[2017.06.14-19.36.52:824][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.06.14-19.36.52:831][  0]LogInit: Texture streaming: Enabled
+[2017.06.14-19.36.52:914][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.06.14-19.36.53:167][  0]LogInit: Transaction tracking system initialized
+[2017.06.14-19.36.53:472][  0]BlueprintLog: New page: Editor Load
+[2017.06.14-19.36.54:355][  0]LocalizationService: Info Localization service is disabled
+[2017.06.14-19.36.55:006][  0]LogConsoleResponse:Display: 
+[2017.06.14-19.36.55:312][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.06.14-19.36.55:312][  0]LogCook:Display: Mobile HDR setting 1
+[2017.06.14-19.36.56:225][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' took 0.02s
+[2017.06.14-19.36.56:431][  0]LogSlate: Took 0.006438 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.06.14-19.37.01:592][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.14-19.37.01:596][  0]LightingResults: New page: Lighting Build
+[2017.06.14-19.37.01:636][  0]MapCheck: New page: Map Check
+[2017.06.14-19.37.01:636][  0]LightingResults: New page: Lighting Build
+[2017.06.14-19.37.01:651][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.06.14-19.37.01:656][  0]LoadErrors: New page: New Map
+[2017.06.14-19.37.01:779][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.14-19.37.01:979][  0]LogCollectionManager: Loaded 0 collections in 0.001304 seconds
+[2017.06.14-19.37.02:064][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' took 0.01s
+[2017.06.14-19.37.02:064][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells/Collections/' took 0.01s
+[2017.06.14-19.37.02:064][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' took 0.01s
+[2017.06.14-19.37.02:064][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.06.14-19.37.02:073][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2330 classes and 493 folders.
+[2017.06.14-19.37.02:129][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.14-19.37.02:426][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.06.14-19.37.02:456][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.06.14-19.37.02:475][  0]LogSlate: Took 0.004181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.06.14-19.37.02:483][  0]LogSlate: Took 0.004794 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.06.14-19.37.02:593][  0]LogRenderer: Reallocating scene render targets to support 1276x964 NumSamples 1 (Frame:1).
+[2017.06.14-19.37.02:714][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.06.14-19.37.02:786][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.06.14-19.37.02:786][  0]LogLoad: (Engine Initialization) Total time: 28.99 seconds
+[2017.06.14-19.37.02:786][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.06.14-19.37.02:786][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.06.14-19.37.02:796][  0]LogOcInput: OculusInput pre-init called
+[2017.06.14-19.37.02:796][  0]LogHMD: Starting GearVRController plugin
+[2017.06.14-19.37.02:811][  0]LogAssetRegistry: Asset discovery search completed in 16.7964 seconds
+[2017.06.14-19.37.02:812][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.06.14-19.37.02:812][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000020 seconds (updated 0 objects)
+[2017.06.14-19.37.02:815][  0]SourceControl: Info On branch V1.5.1
+[2017.06.14-19.37.02:815][  0]SourceControl: Info Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.06.14-19.37.02:815][  0]SourceControl: Info Changes not staged for commit:
+[2017.06.14-19.37.02:815][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.06.14-19.37.02:815][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.06.14-19.37.02:815][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.06.14-19.37.02:815][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.06.14-19.37.02:815][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.06.14-19.37.02:815][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.06.08-18.16.31.log
+[2017.06.14-19.37.02:815][  0]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.06.14-19.37.02:815][  0]SourceControl: Info Untracked files:
+[2017.06.14-19.37.02:815][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.06.14-19.37.02:815][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-9844D6FA4ECFA99393E638819D4D7409/
+[2017.06.14-19.37.02:815][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.06.14-13.36.36.log
+[2017.06.14-19.37.02:815][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.06.14-19.37.02:815][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.06.14-19.37.02:842][  0]LogSlate: Took 0.003862 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.14-19.37.03:814][110]LogSlate: Took 0.000195 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.14-19.37.49:635][597]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.14-19.37.50:055][597]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.14-19.37.50:085][597]LightingResults: New page: Lighting Build
+[2017.06.14-19.37.50:085][597]LoadErrors: New page: Loading map: Rainforest_Alien.umap
+[2017.06.14-19.37.50:086][597]MapCheck: New page: Map Check
+[2017.06.14-19.37.50:086][597]LightingResults: New page: Lighting Build
+[2017.06.14-19.37.50:116][597]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.14-19.37.50:148][597]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.14-19.37.50:189][597]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.451ms to complete.
+[2017.06.14-19.37.50:189][597]LogFileHelpers: Loading map 'Rainforest_Alien' took 0.105
+[2017.06.14-19.37.59:641][702]LogEditorViewport: Clicking Background
+[2017.06.14-19.40.30:610][352]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge361)
+[2017.06.14-19.40.31:429][436]LogEditorViewport: Clicking Background
+[2017.06.14-19.40.32:387][474]LogSavePackage: Save=550.26ms
+[2017.06.14-19.40.32:387][474]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_AlienD435F7E1438595A4B940B2A77640AE0D.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap'
+[2017.06.14-19.40.32:390][474]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap
+[2017.06.14-19.40.33:022][532]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.06.14-19.40.33:198][533]Cmd: QUIT_EDITOR
+[2017.06.14-19.40.33:224][533]LogExit: Preparing to exit.
+[2017.06.14-19.40.33:863][533]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' was aborted.
+[2017.06.14-19.40.33:900][533]LogExit: Editor shut down
+[2017.06.14-19.40.33:908][533]LogExit: Transaction tracking system shut down
+[2017.06.14-19.40.33:974][533]LogObj: Freed 0b from 0 cluster array pools.
+[2017.06.14-19.40.33:974][533]LogExit: Object subsystem successfully closed.
+[2017.06.14-19.40.33:985][533]LogD3D11RHI: Shutdown
+[2017.06.14-19.40.33:985][533]LogD3D11RHI: CleanupD3DDevice
+[2017.06.14-19.40.34:167][533]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.06.14-19.40.34:186][533]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.06.14-19.40.34:186][533]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.06.14-19.40.34:186][533]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.06.14-19.40.34:186][533]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.06.14-19.40.34:187][533]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.06.14-19.40.34:187][533]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.06.14-19.40.34:187][533]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.06.14-19.40.34:187][533]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' was aborted.
+[2017.06.14-19.40.34:187][533]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells/Collections/' was aborted.
+[2017.06.14-19.40.34:187][533]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' was aborted.
+[2017.06.14-19.40.34:187][533]LogModuleManager: Shutting down and abandoning module SceneOutliner (512)
+[2017.06.14-19.40.34:187][533]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.06.14-19.40.34:187][533]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.06.14-19.40.34:187][533]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.06.14-19.40.34:188][533]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.06.14-19.40.34:189][533]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.06.14-19.40.34:189][533]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.06.14-19.40.34:189][533]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.06.14-19.40.34:189][533]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.06.14-19.40.34:190][533]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.06.14-19.40.34:190][533]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.06.14-19.40.34:190][533]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.06.14-19.40.34:190][533]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.06.14-19.40.34:190][533]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.06.14-19.40.34:190][533]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.06.14-19.40.34:190][533]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.06.14-19.40.34:790][533]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.06.14-19.40.34:790][533]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.06.14-19.40.34:790][533]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.06.14-19.40.34:791][533]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.06.14-19.40.34:791][533]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.06.14-19.40.34:791][533]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.06.14-19.40.34:791][533]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.06.14-19.40.34:791][533]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.06.14-19.40.34:792][533]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.06.14-19.40.34:792][533]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.06.14-19.40.34:792][533]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.06.14-19.40.34:793][533]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.06.14-19.40.34:793][533]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.06.14-19.40.34:793][533]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.06.14-19.40.34:793][533]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.06.14-19.40.34:793][533]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.06.14-19.40.34:793][533]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.06.14-19.40.34:793][533]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.06.14-19.40.34:793][533]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.06.14-19.40.34:794][533]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.06.14-19.40.34:794][533]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.06.14-19.40.34:795][533]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.06.14-19.40.34:795][533]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.06.14-19.40.34:795][533]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.06.14-19.40.34:849][533]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.06.14-19.40.34:849][533]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.06.14-19.40.34:850][533]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.06.14-19.40.34:850][533]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.06.14-19.40.34:850][533]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.06.14-19.40.34:850][533]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.06.14-19.40.34:850][533]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.06.14-19.40.34:851][533]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.06.14-19.40.34:851][533]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.06.14-19.40.34:851][533]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.06.14-19.40.34:852][533]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.06.14-19.40.34:852][533]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.06.14-19.40.34:852][533]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.06.14-19.40.34:853][533]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.06.14-19.40.34:853][533]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.06.14-19.40.34:853][533]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.06.14-19.40.34:854][533]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.06.14-19.40.34:854][533]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.06.14-19.40.34:854][533]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.06.14-19.40.34:854][533]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.06.14-19.40.34:854][533]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.06.14-19.40.34:855][533]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.06.14-19.40.34:855][533]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.06.14-19.40.34:855][533]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.06.14-19.40.34:855][533]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.06.14-19.40.34:855][533]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.06.14-19.40.34:855][533]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.06.14-19.40.34:855][533]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.06.14-19.40.34:855][533]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.06.14-19.40.34:855][533]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.06.14-19.40.34:893][533]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.06.14-19.40.34:894][533]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.06.14-19.40.34:894][533]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.06.14-19.40.34:894][533]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.06.14-19.40.34:894][533]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.06.14-19.40.34:894][533]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.06.14-19.40.34:894][533]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.06.14-19.40.34:894][533]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.06.14-19.40.34:894][533]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.06.14-19.40.34:894][533]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.06.14-19.40.34:894][533]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.06.14-19.40.34:894][533]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.06.14-19.40.34:894][533]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.06.14-19.40.34:895][533]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.06.14-19.40.34:895][533]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.06.14-19.40.34:896][533]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.06.14-19.40.34:896][533]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.06.14-19.40.34:896][533]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.06.14-19.40.34:896][533]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.06.14-19.40.34:896][533]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.06.14-19.40.34:896][533]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.06.14-19.40.34:896][533]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.06.14-19.40.34:896][533]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.06.14-19.40.34:896][533]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.06.14-19.40.34:896][533]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.06.14-19.40.34:896][533]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.06.14-19.40.34:896][533]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.06.14-19.40.34:897][533]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.06.14-19.40.34:897][533]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.06.14-19.40.34:897][533]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.06.14-19.40.34:897][533]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.06.14-19.40.34:897][533]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.06.14-19.40.34:897][533]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.06.14-19.40.34:897][533]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.06.14-19.40.34:897][533]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.06.14-19.40.34:897][533]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.06.14-19.40.34:899][533]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.06.14-19.40.34:899][533]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.06.14-19.40.34:899][533]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.06.14-19.40.34:900][533]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.06.14-19.40.34:900][533]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.06.14-19.40.34:901][533]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.06.14-19.40.34:901][533]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.06.14-19.40.34:901][533]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.06.14-19.40.34:901][533]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.06.14-19.40.35:002][533]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.06.14-19.40.35:102][533]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.06.14-19.40.35:102][533]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.06.14-19.40.35:102][533]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.06.14-19.40.35:102][533]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.06.14-19.40.35:102][533]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.06.14-19.40.35:104][533]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.06.14-19.40.35:105][533]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.06.14-19.40.35:105][533]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.06.14-19.40.35:105][533]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.06.14-19.40.35:105][533]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.06.14-19.40.35:105][533]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.06.14-19.40.35:105][533]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.06.14-19.40.35:105][533]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.06.14-19.40.35:105][533]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.06.14-19.40.35:105][533]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.06.14-19.40.35:105][533]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.06.14-19.40.35:106][533]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.06.14-19.40.35:106][533]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.06.14-19.40.35:106][533]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.06.14-19.40.35:106][533]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.06.14-19.40.35:107][533]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.06.14-19.40.35:107][533]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.06.14-19.40.35:107][533]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.06.14-19.40.35:107][533]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.06.14-19.40.35:108][533]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.06.14-19.40.35:108][533]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.06.14-19.40.35:108][533]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.06.14-19.40.35:109][533]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.06.14-19.40.35:109][533]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.06.14-19.40.35:111][533]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.06.14-19.40.35:111][533]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.06.14-19.40.35:111][533]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.06.14-19.40.35:111][533]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.06.14-19.40.35:111][533]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.06.14-19.40.35:111][533]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.06.14-19.40.35:331][533]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.06.14-19.40.35:331][533]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' was aborted.
+[2017.06.14-19.40.35:331][533]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.06.14-19.40.35:331][533]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.06.14-19.40.35:335][533]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.06.14-19.40.35:336][533]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.06.14-19.40.35:336][533]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.06.14-19.40.35:336][533]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.06.14-19.40.35:336][533]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.06.14-19.40.35:336][533]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.06.14-19.40.35:336][533]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.06.14-19.40.35:336][533]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.06.14-19.40.35:336][533]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.06.14-19.40.35:372][533]LogDerivedDataCache: Shutdown
+[2017.06.14-19.40.35:372][533]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.06.14-19.40.35:372][533]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.06.14-19.40.35:372][533]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.06.14-19.40.35:372][533]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.06.14-19.40.35:373][533]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.06.14-19.40.35:373][533]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.06.14-19.40.35:374][533]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.06.14-19.40.35:374][533]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.06.14-19.40.35:374][533]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.06.14-19.40.35:374][533]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.06.14-19.40.35:374][533]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.06.14-19.40.35:374][533]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.06.14-19.40.35:374][533]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.06.14-19.40.35:375][533]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.06.14-19.40.35:376][533]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.06.14-19.40.35:376][533]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.06.14-19.40.35:376][533]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.06.14-19.40.35:376][533]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.06.14-19.40.35:376][533]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.06.14-19.40.35:376][533]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.06.14-19.40.35:376][533]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.06.14-19.40.35:376][533]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.06.14-19.40.35:376][533]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.06.14-19.40.35:376][533]LogOnline:Display: Unloading online subsystem: NULL
+[2017.06.14-19.40.35:377][533]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.06.14-19.40.35:378][533]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.06.14-19.40.35:378][533]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.06.14-19.40.35:378][533]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6628556F-429C-41F5-4CC6-BE959E4C2CE5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.0-3452394%2B%2B%2BUE4%2BRelease-4.16&UserID=520fd5774504bba7d7d4dfbb2efd774d%7C3ef35b30eb8d444d8e26d7fb1794d4bf%7C7a44e29e-0876-4249-91a8-eb020dafba7b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.06.14-19.40.35:396][533]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.06.14-19.40.35:399][533]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.06.14-19.40.35:401][533]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.06.14-19.40.35:401][533]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.06.14-19.40.35:401][533]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.06.14-19.40.35:402][533]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.06.14-19.40.35:402][533]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.06.14-19.40.35:402][533]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.06.14-19.40.35:402][533]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.06.14-19.40.35:404][533]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.06.14-19.40.35:406][533]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.06.14-19.40.35:406][533]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.06.14-19.40.35:406][533]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.06.14-19.40.35:406][533]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.06.14-19.40.35:406][533]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.06.14-19.40.35:406][533]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.06.14-19.40.35:406][533]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.06.14-19.40.35:406][533]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.06.14-19.40.35:406][533]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.06.14-19.40.35:410][533]LogExit: Exiting.
+[2017.06.14-19.40.35:451][533]Log file closed, 06/14/17 13:40:35
