@@ -607,3 +607,909 @@ LogInit: Object subsystem initialized
 [2017.06.15-18.14.40:805][355]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
 [2017.06.15-18.14.47:868][160]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
 [2017.06.15-18.14.47:902][160]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.15-18.15.39:876][580]LogEditorViewport: Clicking on Actor (LMB): Test_Item_C (Test_Item)
+[2017.06.15-18.15.40:741][665]Cmd: DELETE
+[2017.06.15-18.15.40:741][665]Cmd: ACTOR DELETE
+[2017.06.15-18.15.40:743][665]LogEditorActor: Deleted Actor: Test_Item_C
+[2017.06.15-18.15.40:760][665]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.06.15-18.16.40:432][620]LogEditorViewport: Clicking on Actor (LMB): CameraActor (CameraActor)
+[2017.06.15-18.16.43:733][935]Cmd: DELETE
+[2017.06.15-18.16.43:733][935]Cmd: ACTOR DELETE
+[2017.06.15-18.16.43:733][935]LogEditorActor: Deleted Actor: CameraActor
+[2017.06.15-18.16.43:786][935]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2017.06.15-18.17.12:682][260]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-18.17.12:703][260]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.15-18.17.12:703][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-18.17.12:703][260]PIE: New page: PIE session: 2DSideScrollerExampleMap (Jun 15, 2017, 6:17:12 AM)
+[2017.06.15-18.17.12:703][260]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap
+[2017.06.15-18.17.12:705][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001773s)
+[2017.06.15-18.17.12:706][260]LogAIModule: Creating AISystem for world 2DSideScrollerExampleMap
+[2017.06.15-18.17.12:706][260]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2017.06.15-18.17.12:706][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap (0.002641s)
+[2017.06.15-18.17.12:727][260]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-18.17.12:734][260]LogInit: FAudioDevice initialized.
+[2017.06.15-18.17.12:767][260]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-18.17.12:769][260]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap.2DSideScrollerExampleMap up for play (max tick rate 0) at 2017.06.15-12.17.12
+[2017.06.15-18.17.12:770][260]LogWorld: Bringing up level for play took: 0.001172
+[2017.06.15-18.17.12:771][260]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_2DSideScrollerExampleMap 0.806
+[2017.06.15-18.17.12:771][260]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.15-18.17.41:416][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.41:416][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.41:416][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.41:417][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.41:417][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.41:417][584]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.41:950][646]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.41:950][646]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.41:951][646]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.41:951][646]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.41:951][646]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.49:209][490]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.49:209][490]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.49:210][490]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.49:210][490]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.49:210][490]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.53:172][947]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.53:172][947]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.53:172][947]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.53:172][947]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.53:172][947]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.54:499][102]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.54:499][102]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.54:500][102]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.54:500][102]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.17.54:500][102]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.06:609][520]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.06:609][520]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.06:609][520]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.06:609][520]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.06:609][520]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.06:609][520]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.08:621][755]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.08:621][755]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.08:621][755]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.08:621][755]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.08:621][755]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.10:433][967]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.10:433][967]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.10:433][967]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.10:433][967]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.10:433][967]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.23:223][456]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.23:223][456]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.23:223][456]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.23:224][456]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.23:224][456]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.06.15-18.18.30:857][310]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.15-18.18.30:894][310]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.2DSideScrollerExampleMap:PersistentLevel.2DSideScrollerExampleMap'
+[2017.06.15-18.26.01:605][959]LogSavePackage: Save=93.21ms
+[2017.06.15-18.26.01:605][959]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerExampleMap_Auto2B9C17B5748123AEA2E805D8920E7B07A.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap_Auto2.umap'
+[2017.06.15-18.26.01:608][959]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap_Auto2.umap
+[2017.06.15-18.26.01:610][959]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap' took 0.142
+[2017.06.15-18.26.01:610][959]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.142
+[2017.06.15-18.27.01:042][570]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-18.27.02:816][570]LogSavePackage: Save=96.48ms
+[2017.06.15-18.27.02:816][570]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerExampleMapD37A4A994ED40EC0939346A95560A8E2.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.umap'
+[2017.06.15-18.27.02:819][570]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.umap
+[2017.06.15-18.27.02:845][570]LogFileHelpers: Saving map '2DSideScrollerExampleMap' took 0.190
+[2017.06.15-18.27.02:846][570]LightingResults: New page: Lighting Build
+[2017.06.15-18.27.02:847][570]LoadErrors: New page: Loading map: Rainforest_Alien.umap
+[2017.06.15-18.27.02:847][570]MapCheck: New page: Map Check
+[2017.06.15-18.27.02:847][570]LightingResults: New page: Lighting Build
+[2017.06.15-18.27.02:879][570]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.06.15-18.27.02:917][570]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.06.15-18.27.02:960][570]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.025ms to complete.
+[2017.06.15-18.27.02:960][570]LogFileHelpers: Loading map 'Rainforest_Alien' took 0.114
+[2017.06.15-18.27.18:298][988]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge352)
+[2017.06.15-18.27.23:652][560]LogEditorViewport: Clicking Background
+[2017.06.15-18.27.39:312][  8]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge355)
+[2017.06.15-18.27.40:047][ 55]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Ledge356)
+[2017.06.15-18.27.44:646][518]Cmd: DELETE
+[2017.06.15-18.27.44:646][518]Cmd: ACTOR DELETE
+[2017.06.15-18.27.44:649][518]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.06.15-18.27.44:650][518]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.06.15-18.27.44:680][518]LogEditorActor: Deleted 2 Actors (0.034 secs)
+[2017.06.15-18.28.09:833][917]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge362)
+[2017.06.15-18.31.52:925][853]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.31.53:021][853]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.32.38:937][702]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.32.38:951][702]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.32.43:183][202]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.32.43:194][202]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.32.50:688][ 94]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.32.50:700][ 94]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.33.00:423][250]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.33.13:540][810]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.33.13:550][810]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_0, compiling. 
+[2017.06.15-18.33.19:176][413]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/AICON-Green.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/AICON-Green.uasset' is outside repository
+[2017.06.15-18.33.22:925][579]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions03/Texturing/WorldCoordinate3Way.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions03/Texturing/WorldCoordinate3Way.uasset' is outside repository
+[2017.06.15-18.33.23:993][667]LogEditorTransaction: Undo Move Node
+[2017.06.15-18.33.24:001][667]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.33.24:451][693]LogEditorTransaction: Undo Material Editor: New Expression
+[2017.06.15-18.33.24:454][693]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.33.24:468][693]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.33.29:891][107]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository
+[2017.06.15-18.33.29:891][107]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineLightProfiles/180Degree_IES.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineLightProfiles/180Degree_IES.uasset' is outside repository
+[2017.06.15-18.33.29:891][107]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/1Dto2DIndex.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/1Dto2DIndex.uasset' is outside repository
+[2017.06.15-18.33.29:891][107]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset' is outside repository
+[2017.06.15-18.33.29:891][107]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset' is outside repository
+[2017.06.15-18.34.11:470][377]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.34.12:950][511]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.34.22:079][899]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.34.43:776][935]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.34.45:719][162]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.35.35:756][438]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge365)
+[2017.06.15-18.35.55:343][426]LogTexture:Display: Building textures: 2DBackgroundTile (AutoDXT, 256X256)
+[2017.06.15-18.35.55:351][426]LogMaterial: Missing cached shader map for material PrototypingSpriteMaterial, compiling. 
+[2017.06.15-18.36.25:156][245]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset' is outside repository
+[2017.06.15-18.36.32:069][658]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset' is outside repository
+[2017.06.15-18.36.36:212][901]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.37.11:974][915]LogSavePackage: Save=553.19ms
+[2017.06.15-18.37.11:974][915]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_Auto3075460094F39C9938224ACA76CED8D80.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto3.umap'
+[2017.06.15-18.37.11:976][915]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto3.umap
+[2017.06.15-18.37.11:980][915]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.587
+[2017.06.15-18.37.11:980][915]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.587
+[2017.06.15-18.37.11:982][915]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/materials/2D_Test] ([1] browsable assets)...
+[2017.06.15-18.37.12:000][915]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2DSideScrollerBP/materials/2D_Test.2D_Test]
+[2017.06.15-18.37.12:000][915]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/materials/2D_Test]
+[2017.06.15-18.37.12:014][915]LogSavePackage: Save=12.54ms
+[2017.06.15-18.37.12:014][915]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2D_Test_Auto35AE8714B41303802BB91E08E5646B8F5.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/materials/2D_Test_Auto3.uasset'
+[2017.06.15-18.37.12:015][915]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/materials/2D_Test_Auto3.uasset
+[2017.06.15-18.37.12:015][915]LogFileHelpers: Auto-saving content packages took 0.034
+[2017.06.15-18.37.14:927][ 91]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.06.15-18.38.16:696][909]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DummySprite.uasset' is outside repository
+[2017.06.15-18.38.39:162][387]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset' is outside repository
+[2017.06.15-18.38.39:778][423]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.40.32:326][199]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.40.32:340][199]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.40.38:679][608]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.40.38:693][608]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.41.09:067][293]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset' is outside repository
+[2017.06.15-18.41.19:653][  2]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset' is outside repository
+[2017.06.15-18.41.21:793][131]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.06.15-18.41.32:893][856]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.41.32:905][856]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_1, compiling. 
+[2017.06.15-18.41.38:384][184]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/AICON-Green.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/AICON-Green.uasset' is outside repository
+[2017.06.15-18.41.41:651][377]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/AICON-Green.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/AICON-Green.uasset' is outside repository
+[2017.06.15-18.41.45:093][581]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.41.45:105][581]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_1, compiling. 
+[2017.06.15-18.41.48:492][773]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.41.48:511][773]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_1, compiling. 
+[2017.06.15-18.41.53:432][ 54]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.41.56:060][212]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.42.00:075][438]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.42.21:733][779]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.42.43:533][169]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository
+[2017.06.15-18.42.43:533][169]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineLightProfiles/180Degree_IES.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineLightProfiles/180Degree_IES.uasset' is outside repository
+[2017.06.15-18.42.43:533][169]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/1Dto2DIndex.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/1Dto2DIndex.uasset' is outside repository
+[2017.06.15-18.42.43:533][169]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset' is outside repository
+[2017.06.15-18.42.43:533][169]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset' is outside repository
+[2017.06.15-18.42.46:994][389]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/2Dto1DIndex.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/2Dto1DIndex.uasset' is outside repository
+[2017.06.15-18.42.48:236][462]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/1Dto3DIndex.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/1Dto3DIndex.uasset' is outside repository
+[2017.06.15-18.42.48:236][462]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset' is outside repository
+[2017.06.15-18.42.48:274][464]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository
+[2017.06.15-18.42.48:274][464]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineLightProfiles/180Degree_IES.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineLightProfiles/180Degree_IES.uasset' is outside repository
+[2017.06.15-18.42.48:274][464]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/1Dto2DIndex.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/1Dto2DIndex.uasset' is outside repository
+[2017.06.15-18.42.50:240][579]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.06.15-18.43.09:477][439]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/Text.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/Text.uasset' is outside repository
+[2017.06.15-18.43.09:534][442]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/Text.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/Text.uasset' is outside repository
+[2017.06.15-18.43.09:693][454]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset' is outside repository
+[2017.06.15-18.43.11:378][600]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/Text.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/Text.uasset' is outside repository
+[2017.06.15-18.43.22:327][648]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Text, compiling. 
+[2017.06.15-18.43.22:633][648]TextureStreamingBuild:Display: Compiling optional shaders took 0.311 seconds.
+[2017.06.15-18.43.30:455][ 51]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.06.15-18.43.43:800][509]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.43.43:845][509]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.43.43:865][509]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-18.43.43:899][509]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy 2D_Test, compiling. 
+[2017.06.15-18.43.44:730][509]TextureStreamingBuild:Display: Compiling optional shaders took 0.835 seconds.
+[2017.06.15-18.43.55:954][706]SourceControl: Info rm 'Content/2DSideScroller/Materials/PrototypingSpriteMaterial.uasset'
+[2017.06.15-18.44.17:581][986]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-18.44.17:640][986]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-18.44.17:651][986]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-18.44.22:533][307]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-18.44.22:546][307]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-18.47.12:444][626]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.022
+[2017.06.15-18.47.12:445][626]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/materials/2D_Test] ([1] browsable assets)...
+[2017.06.15-18.47.12:462][626]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2DSideScrollerBP/materials/2D_Test.2D_Test]
+[2017.06.15-18.47.12:462][626]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/materials/2D_Test]
+[2017.06.15-18.47.12:480][626]LogSavePackage: Save=16.44ms
+[2017.06.15-18.47.12:480][626]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2D_Test_Auto49B03A9AE4D4443D5D81094B91A4704EC.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/materials/2D_Test_Auto4.uasset'
+[2017.06.15-18.47.12:481][626]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/materials/2D_Test_Auto4.uasset
+[2017.06.15-18.47.12:482][626]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScroller/Materials/2DLight_Test] ([1] browsable assets)...
+[2017.06.15-18.47.12:498][626]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2DSideScroller/Materials/2DLight_Test.2DLight_Test]
+[2017.06.15-18.47.12:498][626]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScroller/Materials/2DLight_Test]
+[2017.06.15-18.47.12:515][626]LogSavePackage: Save=14.08ms
+[2017.06.15-18.47.12:515][626]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DLight_Test_Auto43D4B134647506F00F0141E9CC7ADA8FC.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScroller/Materials/2DLight_Test_Auto4.uasset'
+[2017.06.15-18.47.12:517][626]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScroller/Materials/2DLight_Test_Auto4.uasset
+[2017.06.15-18.47.12:517][626]LogFileHelpers: Auto-saving content packages took 0.072
+[2017.06.15-19.01.15:831][503]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset' is outside repository
+[2017.06.15-19.01.15:831][503]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset' is outside repository
+[2017.06.15-19.01.15:831][503]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset' is outside repository
+[2017.06.15-19.01.15:831][503]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset' is outside repository
+[2017.06.15-19.01.19:497][719]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/Matinee/MAT_EnableTrack_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/Matinee/MAT_EnableTrack_Mat.uasset' is outside repository
+[2017.06.15-19.01.19:551][722]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim_Mat.uasset' is outside repository
+[2017.06.15-19.01.19:669][729]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster_Mat.uasset' is outside repository
+[2017.06.15-19.01.19:964][747]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director_Mat.uasset' is outside repository
+[2017.06.15-19.01.20:155][757]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event_Mat.uasset' is outside repository
+[2017.06.15-19.01.22:737][901]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorShellMaterials/WorldUVs/MI_BaseMesh_WUV.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorShellMaterials/WorldUVs/MI_BaseMesh_WUV.uasset' is outside repository
+[2017.06.15-19.01.22:755][902]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorShellMaterials/SketchUp/MI_BaseMesh_WUV_SketchUp.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorShellMaterials/SketchUp/MI_BaseMesh_WUV_SketchUp.uasset' is outside repository
+[2017.06.15-19.01.23:116][923]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMeshes/Camera/MI_CineCam_Body.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMeshes/Camera/MI_CineCam_Body.uasset' is outside repository
+[2017.06.15-19.01.23:196][927]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMeshes/Camera/MI_CineCam_ViewFinder.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMeshes/Camera/MI_CineCam_ViewFinder.uasset' is outside repository
+[2017.06.15-19.01.23:221][928]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/Camera/MI_CineMat_CameraBody.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/Camera/MI_CineMat_CameraBody.uasset' is outside repository
+[2017.06.15-19.01.23:260][930]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/Camera/MI_CineMat_CamViewFinder.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/Camera/MI_CineMat_CamViewFinder.uasset' is outside repository
+[2017.06.15-19.01.23:540][946]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset' is outside repository
+[2017.06.15-19.01.23:590][949]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMeshes/Camera/MI_CraneRig.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMeshes/Camera/MI_CraneRig.uasset' is outside repository
+[2017.06.15-19.01.23:607][950]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/VREditor/BasicMeshes/MI_Cube_01.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/VREditor/BasicMeshes/MI_Cube_01.uasset' is outside repository
+[2017.06.15-19.01.23:941][970]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/VREditor/BasicMeshes/MI_Cube_02.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/VREditor/BasicMeshes/MI_Cube_02.uasset' is outside repository
+[2017.06.15-19.01.31:394][629]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset' is outside repository
+[2017.06.15-19.01.37:991][219]LogEditorViewport: Clicking Background
+[2017.06.15-19.01.40:795][534]Cmd: TRANSACTION UNDO
+[2017.06.15-19.01.40:795][534]LogEditorTransaction: Undo Clicking Background
+[2017.06.15-19.01.40:817][534]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.01.41:710][599]Cmd: TRANSACTION UNDO
+[2017.06.15-19.01.41:710][599]LogEditorTransaction: Undo Replace component used material
+[2017.06.15-19.01.41:718][599]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.01.55:918][619]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset' is outside repository
+[2017.06.15-19.02.32:810][484]LogSavePackage: Save=547.88ms
+[2017.06.15-19.02.32:810][484]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_Auto5456833BE488ED63167A183B04019E63C.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto5.umap'
+[2017.06.15-19.02.32:813][484]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto5.umap
+[2017.06.15-19.02.32:814][484]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.581
+[2017.06.15-19.02.32:814][484]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.581
+[2017.06.15-19.03.16:268][412]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.03.16:279][412]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_2, compiling. 
+[2017.06.15-19.03.20:840][687]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultDiffuse.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultDiffuse.uasset' is outside repository
+[2017.06.15-19.03.20:840][687]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/DefaultTexture.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/DefaultTexture.uasset' is outside repository
+[2017.06.15-19.03.22:535][782]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultCubemap.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultCubemap.uasset' is outside repository
+[2017.06.15-19.03.22:624][787]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultBokeh.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultBokeh.uasset' is outside repository
+[2017.06.15-19.03.23:013][808]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/DebugNumberStrip.uasset' is outside repository
+[2017.06.15-19.03.23:030][809]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Maps/Templates/Thumbnails/Default.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Maps/Templates/Thumbnails/Default.uasset' is outside repository
+[2017.06.15-19.03.23:030][809]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/DefaultAlphaTexture.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/DefaultAlphaTexture.uasset' is outside repository
+[2017.06.15-19.03.23:030][809]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultBloomKernel.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultBloomKernel.uasset' is outside repository
+[2017.06.15-19.03.23:755][850]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/DebugNumberPeriod.uasset' is outside repository
+[2017.06.15-19.03.23:811][853]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/Sky/DaylightAmbientCubemap.uasset' is outside repository
+[2017.06.15-19.03.23:863][856]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/daylight.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/daylight.uasset' is outside repository
+[2017.06.15-19.03.23:901][858]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Editor/Slate/Icons/AssetIcons/Cylinder_64x.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Editor/Slate/Icons/AssetIcons/Cylinder_64x.uasset' is outside repository
+[2017.06.15-19.03.23:953][861]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Editor/Slate/Icons/AssetIcons/Cylinder_16x.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Editor/Slate/Icons/AssetIcons/Cylinder_16x.uasset' is outside repository
+[2017.06.15-19.03.34:186][450]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/Anchor.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/Anchor.uasset' is outside repository
+[2017.06.15-19.03.34:186][450]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset' is outside repository
+[2017.06.15-19.03.57:219][978]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultDiffuse.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultDiffuse.uasset' is outside repository
+[2017.06.15-19.03.57:219][978]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/DefaultTexture.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/DefaultTexture.uasset' is outside repository
+[2017.06.15-19.04.04:289][383]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineLightProfiles/90Degree_IES.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineLightProfiles/90Degree_IES.uasset' is outside repository
+[2017.06.15-19.04.04:663][403]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineLightProfiles/180Degree_IES.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineLightProfiles/180Degree_IES.uasset' is outside repository
+[2017.06.15-19.04.04:888][416]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository
+[2017.06.15-19.04.10:906][774]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.06.15-19.04.16:091][103]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultDiffuse.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultDiffuse.uasset' is outside repository
+[2017.06.15-19.04.16:091][103]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/DefaultTexture.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/DefaultTexture.uasset' is outside repository
+[2017.06.15-19.04.17:836][207]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset' is outside repository
+[2017.06.15-19.04.19:941][328]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.04.19:961][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_2, compiling. 
+[2017.06.15-19.04.47:534][  0]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.04.47:546][  0]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.04.47:584][  0]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_2, compiling. 
+[2017.06.15-19.04.51:189][217]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.04.51:206][217]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_2, compiling. 
+[2017.06.15-19.05.16:011][606]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.05.17:405][693]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.05.26:239][988]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.05.35:176][420]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.05.49:857][651]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.05.49:872][651]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_2, compiling. 
+[2017.06.15-19.05.53:074][837]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.06.02:024][ 84]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.06.03:774][186]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.06.03:792][186]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_2, compiling. 
+[2017.06.15-19.07.24:661][879]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset' is outside repository
+[2017.06.15-19.07.24:661][879]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset' is outside repository
+[2017.06.15-19.07.24:661][879]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset' is outside repository
+[2017.06.15-19.07.24:661][879]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset' is outside repository
+[2017.06.15-19.07.33:262][602]LogMaterialEditor: Saving and Compiling material 2DLight_Test
+[2017.06.15-19.07.33:738][602]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.07.33:781][602]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.07.33:802][602]LogMaterial: Missing cached shader map for material 2DLight_Test, compiling. 
+[2017.06.15-19.07.33:835][602]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy 2DLight_Test, compiling. 
+[2017.06.15-19.07.34:729][602]TextureStreamingBuild:Display: Compiling optional shaders took 0.899 seconds.
+[2017.06.15-19.07.35:983][602]LogSavePackage: Save=15.39ms
+[2017.06.15-19.07.35:983][602]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DLight_TestF9228D3546E675AB48DF5AAF8CCC767D.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScroller/Materials/2DLight_Test.uasset'
+[2017.06.15-19.07.35:988][602]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScroller/Materials/2DLight_Test.uasset
+[2017.06.15-19.07.42:096][ 47]LogEditorViewport: Clicking Background
+[2017.06.15-19.07.57:438][517]Cmd: DELETE
+[2017.06.15-19.07.57:438][517]Cmd: ACTOR DELETE
+[2017.06.15-19.07.57:442][517]LogEditorActor: Deleted Actor: PointLight
+[2017.06.15-19.07.57:488][517]LogEditorActor: Deleted 1 Actors (0.050 secs)
+[2017.06.15-19.08.08:374][519]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-19.08.08:392][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-19.08.08:392][519]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 7:08:08 AM)
+[2017.06.15-19.08.08:392][519]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-19.08.08:411][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019032s)
+[2017.06.15-19.08.08:411][519]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-19.08.08:412][519]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2017.06.15-19.08.08:412][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.020005s)
+[2017.06.15-19.08.08:432][519]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-19.08.08:438][519]LogInit: FAudioDevice initialized.
+[2017.06.15-19.08.08:467][519]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-19.08.08:496][519]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-13.08.08
+[2017.06.15-19.08.08:499][519]LogWorld: Bringing up level for play took: 0.029822
+[2017.06.15-19.08.08:501][519]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.535
+[2017.06.15-19.08.33:859][164]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (crashed_ship_Sprite)
+[2017.06.15-19.08.47:850][360]LogEditorViewport: Clicking Background
+[2017.06.15-19.08.49:767][513]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (crashed_ship_Sprite)
+[2017.06.15-19.09.17:486][834]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2017.06.15-19.09.23:176][333]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.09.26:287][550]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.09.29:956][823]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.09.30:981][912]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.09.32:552][ 61]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.09.38:410][546]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.09.38:912][596]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2017.06.15-19.09.39:902][695]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.09.41:449][851]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.09.46:096][248]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.09.48:026][445]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.09.50:459][626]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.09.53:241][772]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2017.06.15-19.09.53:719][821]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.09.55:409][997]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.09.59:142][376]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.09.59:879][434]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-19.09.59:896][434]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-19.09.59:896][434]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 7:09:59 AM)
+[2017.06.15-19.09.59:896][434]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-19.09.59:916][434]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019889s)
+[2017.06.15-19.09.59:916][434]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-19.09.59:916][434]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2017.06.15-19.09.59:917][434]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.020878s)
+[2017.06.15-19.09.59:937][434]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-19.09.59:943][434]LogInit: FAudioDevice initialized.
+[2017.06.15-19.09.59:974][434]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-19.09.59:986][434]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-13.09.59
+[2017.06.15-19.09.59:988][434]LogWorld: Bringing up level for play took: 0.012744
+[2017.06.15-19.09.59:990][434]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.025
+[2017.06.15-19.10.21:283][229]LogEditorViewport: Clicking Background
+[2017.06.15-19.10.21:841][289]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2017.06.15-19.10.23:682][484]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.10.24:705][577]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-19.10.24:723][577]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-19.10.24:723][577]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 7:10:24 AM)
+[2017.06.15-19.10.24:723][577]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-19.10.24:743][577]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019249s)
+[2017.06.15-19.10.24:743][577]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-19.10.24:743][577]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2017.06.15-19.10.24:743][577]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.020116s)
+[2017.06.15-19.10.24:764][577]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-19.10.24:770][577]LogInit: FAudioDevice initialized.
+[2017.06.15-19.10.24:801][577]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-19.10.24:813][577]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-13.10.24
+[2017.06.15-19.10.24:814][577]LogWorld: Bringing up level for play took: 0.012398
+[2017.06.15-19.10.24:816][577]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.851
+[2017.06.15-19.10.33:100][436]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.10.33:191][436]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.10.33:203][436]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.10.51:069][625]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.10.51:081][625]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_3, compiling. 
+[2017.06.15-19.11.02:480][312]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.11.02:495][312]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_3, compiling. 
+[2017.06.15-19.11.05:047][455]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.11.05:064][455]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_3, compiling. 
+[2017.06.15-19.12.17:838][163]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultDiffuse.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultDiffuse.uasset' is outside repository
+[2017.06.15-19.12.17:838][163]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/DefaultTexture.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/DefaultTexture.uasset' is outside repository
+[2017.06.15-19.12.24:575][553]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository
+[2017.06.15-19.12.24:575][553]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineLightProfiles/180Degree_IES.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineLightProfiles/180Degree_IES.uasset' is outside repository
+[2017.06.15-19.12.25:908][629]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset' is outside repository
+[2017.06.15-19.12.26:748][676]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.12.26:765][676]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_3, compiling. 
+[2017.06.15-19.12.30:012][888]LogMaterialEditor: Saving and Compiling material 2D_Test
+[2017.06.15-19.12.30:494][888]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.12.30:535][888]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-19.12.30:555][888]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-19.12.30:589][888]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy 2D_Test, compiling. 
+[2017.06.15-19.12.31:308][888]TextureStreamingBuild:Display: Compiling optional shaders took 0.724 seconds.
+[2017.06.15-19.12.32:545][888]LogSavePackage: Save=14.30ms
+[2017.06.15-19.12.32:545][888]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2D_Test0884C0974DB86EE2B7AE028F7A279E2D.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/materials/2D_Test.uasset'
+[2017.06.15-19.12.32:551][888]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/materials/2D_Test.uasset
+[2017.06.15-19.12.39:435][307]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.12.55:333][363]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.12.55:883][394]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.12.56:977][456]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.12.57:524][487]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.12.58:063][517]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.13.44:841][628]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.13.47:565][802]LogEditorTransaction: Undo Create Pin Link
+[2017.06.15-19.13.47:573][802]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.13.47:585][802]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.13.51:138][  0]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.13.59:488][496]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.13.59:506][496]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionSpriteTextureSampler_3, compiling. 
+[2017.06.15-19.14.06:334][938]LogMaterialEditor: Saving and Compiling material 2D_Test
+[2017.06.15-19.14.06:812][938]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.14.06:853][938]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-19.14.06:874][938]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-19.14.06:907][938]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy 2D_Test, compiling. 
+[2017.06.15-19.14.07:637][938]TextureStreamingBuild:Display: Compiling optional shaders took 0.735 seconds.
+[2017.06.15-19.14.08:876][938]LogSavePackage: Save=14.20ms
+[2017.06.15-19.14.08:876][938]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2D_Test5DD141DD48034B388CD01583DBD76468.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/materials/2D_Test.uasset'
+[2017.06.15-19.14.08:878][938]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/materials/2D_Test.uasset
+[2017.06.15-19.14.16:440][558]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge365)
+[2017.06.15-19.14.17:936][660]LogEditorViewport: Clicking Background
+[2017.06.15-19.14.24:185][172]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-19.14.24:206][172]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-19.14.24:207][172]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 7:14:24 AM)
+[2017.06.15-19.14.24:207][172]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-19.14.24:227][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019939s)
+[2017.06.15-19.14.24:227][172]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-19.14.24:227][172]LogPlayLevel: PIE: World Init took: (0.000593s)
+[2017.06.15-19.14.24:228][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.020879s)
+[2017.06.15-19.14.24:247][172]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-19.14.24:254][172]LogInit: FAudioDevice initialized.
+[2017.06.15-19.14.24:287][172]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-19.14.24:300][172]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-13.14.24
+[2017.06.15-19.14.24:302][172]LogWorld: Bringing up level for play took: 0.012850
+[2017.06.15-19.14.24:303][172]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.338
+[2017.06.15-19.14.24:306][172]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.15-19.14.24:306][172]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2017.06.15-19.14.24:306][172]MaterialEditorStats: Info Texture samplers: 3/16
+[2017.06.15-19.14.24:306][172]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.15-19.14.30:431][669]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart)
+[2017.06.15-19.14.32:209][857]Cmd: DELETE
+[2017.06.15-19.14.32:209][857]Cmd: ACTOR DELETE
+[2017.06.15-19.14.32:213][857]LogEditorActor: Deleted Actor: PlayerStart
+[2017.06.15-19.14.32:243][857]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2017.06.15-19.14.47:004][753]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2017.06.15-19.14.47:956][826]LogEditorViewport: Clicking Background
+[2017.06.15-19.14.48:542][884]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2017.06.15-19.14.52:110][251]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-19.14.54:279][382]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-19.14.54:297][382]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-19.14.54:297][382]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 7:14:54 AM)
+[2017.06.15-19.14.54:297][382]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-19.14.54:317][382]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019944s)
+[2017.06.15-19.14.54:318][382]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-19.14.54:318][382]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2017.06.15-19.14.54:318][382]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.020811s)
+[2017.06.15-19.14.54:339][382]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-19.14.54:345][382]LogInit: FAudioDevice initialized.
+[2017.06.15-19.14.54:375][382]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-19.14.54:400][382]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-13.14.54
+[2017.06.15-19.14.54:402][382]LogWorld: Bringing up level for play took: 0.025261
+[2017.06.15-19.14.54:404][382]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.439
+[2017.06.15-19.15.10:361][958]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (crashed_ship_Sprite)
+[2017.06.15-19.15.38:720][538]Cmd: EDIT COPY
+[2017.06.15-19.15.39:207][591]Cmd: EDIT PASTE
+[2017.06.15-19.15.41:635][830]LogEditorViewport: Clicking Background
+[2017.06.15-19.15.43:166][988]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-19.15.43:184][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-19.15.43:184][988]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 7:15:43 AM)
+[2017.06.15-19.15.43:185][988]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-19.15.43:205][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020057s)
+[2017.06.15-19.15.43:206][988]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-19.15.43:206][988]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2017.06.15-19.15.43:206][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.020984s)
+[2017.06.15-19.15.43:225][988]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-19.15.43:231][988]LogInit: FAudioDevice initialized.
+[2017.06.15-19.15.43:258][988]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-19.15.43:271][988]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-13.15.43
+[2017.06.15-19.15.43:272][988]LogWorld: Bringing up level for play took: 0.012579
+[2017.06.15-19.15.43:274][988]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.691
+[2017.06.15-19.16.01:643][952]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (crashed_ship_Sprite)
+[2017.06.15-19.16.10:323][685]Cmd: DELETE
+[2017.06.15-19.16.10:323][685]Cmd: ACTOR DELETE
+[2017.06.15-19.16.10:327][685]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.06.15-19.16.10:364][685]LogEditorActor: Deleted 1 Actors (0.041 secs)
+[2017.06.15-19.16.12:409][855]LogEditorViewport: Clicking on Actor (LMB): SkyLight (SkyLight)
+[2017.06.15-19.16.13:123][907]Cmd: DELETE
+[2017.06.15-19.16.13:123][907]Cmd: ACTOR DELETE
+[2017.06.15-19.16.13:126][907]LogEditorActor: Deleted Actor: SkyLight
+[2017.06.15-19.16.13:163][907]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2017.06.15-19.16.15:056][ 63]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.06.15-19.16.45:096][204]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.06.15-19.16.45:956][301]Cmd: DELETE
+[2017.06.15-19.16.45:956][301]Cmd: ACTOR DELETE
+[2017.06.15-19.16.45:960][301]LogEditorActor: Deleted Actor: SpotLight
+[2017.06.15-19.16.46:002][301]LogEditorActor: Deleted 1 Actors (0.045 secs)
+[2017.06.15-19.16.53:613][ 13]LogEditorViewport: Clicking Background
+[2017.06.15-19.16.59:051][558]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge352)
+[2017.06.15-19.17.08:892][501]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset' is outside repository
+[2017.06.15-19.17.08:892][501]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset' is outside repository
+[2017.06.15-19.17.16:024][170]LogEditorViewport: Clicking Background
+[2017.06.15-19.17.23:809][968]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-19.17.23:826][968]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-19.17.23:826][968]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 7:17:23 AM)
+[2017.06.15-19.17.23:826][968]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-19.17.23:846][968]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020160s)
+[2017.06.15-19.17.23:847][968]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-19.17.23:847][968]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2017.06.15-19.17.23:847][968]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.021119s)
+[2017.06.15-19.17.23:868][968]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-19.17.23:875][968]LogInit: FAudioDevice initialized.
+[2017.06.15-19.17.23:906][968]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-19.17.23:918][968]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-13.17.23
+[2017.06.15-19.17.23:920][968]LogWorld: Bringing up level for play took: 0.012870
+[2017.06.15-19.17.23:922][968]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.043
+[2017.06.15-19.17.54:055][964]LogSavePackage: Save=545.67ms
+[2017.06.15-19.17.54:055][964]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_Auto6F59D501844E4733FAA470BB6988C8F30.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto6.umap'
+[2017.06.15-19.17.54:056][964]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto6.umap
+[2017.06.15-19.17.54:058][964]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.576
+[2017.06.15-19.17.54:058][964]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.576
+[2017.06.15-19.28.01:274][682]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.045
+[2017.06.15-19.28.01:276][682]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter] ([1] browsable assets)...
+[2017.06.15-19.28.01:276][682]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter]
+[2017.06.15-19.28.01:450][682]LogSavePackage: Save=161.72ms
+[2017.06.15-19.28.01:450][682]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerCharacter_Auto76A72BA1146279346078CAE80D3DCD09A.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter_Auto7.uasset'
+[2017.06.15-19.28.01:453][682]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter_Auto7.uasset
+[2017.06.15-19.28.01:453][682]LogFileHelpers: Auto-saving content packages took 0.178
+[2017.06.15-19.49.51:059][200]LogEditorViewport: Clicking Background
+[2017.06.15-19.49.52:861][376]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge147)
+[2017.06.15-19.50.01:789][141]LogEditorViewport: Clicking Background
+[2017.06.15-19.50.05:904][515]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge365)
+[2017.06.15-19.50.11:225][975]LogEditorViewport: Clicking Background
+[2017.06.15-19.50.13:781][224]EditorErrors: New page: Actor attachment
+[2017.06.15-19.50.15:560][334]Cmd: TRANSACTION UNDO
+[2017.06.15-19.50.15:560][334]LogEditorTransaction: Undo Attach actors
+[2017.06.15-19.50.15:571][334]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.50.25:615][105]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset' is outside repository
+[2017.06.15-19.50.25:615][105]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset' is outside repository
+[2017.06.15-19.50.25:615][105]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset' is outside repository
+[2017.06.15-19.50.25:615][105]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset' is outside repository
+[2017.06.15-19.50.29:308][313]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset' is outside repository
+[2017.06.15-19.50.29:308][313]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset' is outside repository
+[2017.06.15-19.50.29:308][313]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset' is outside repository
+[2017.06.15-19.50.29:308][313]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset' is outside repository
+[2017.06.15-19.50.31:820][433]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/SimplePivotPainterExampleMat_Inst.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/PivotPainter2/SimplePivotPainterExampleMat_Inst.uasset' is outside repository
+[2017.06.15-19.50.31:820][433]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/MaterialTemplates/PerfTricks/Spherical2dReflection.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/MaterialTemplates/PerfTricks/Spherical2dReflection.uasset' is outside repository
+[2017.06.15-19.50.31:820][433]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/StaticMeshDecal.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/StaticMeshDecal.uasset' is outside repository
+[2017.06.15-19.50.31:820][433]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/TextureBasedMorphDemo.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/TextureBasedWPO/TextureBasedMorphDemo.uasset' is outside repository
+[2017.06.15-19.50.31:820][433]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineDebugMaterials/TexturePaint_2Tex_Color.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineDebugMaterials/TexturePaint_2Tex_Color.uasset' is outside repository
+[2017.06.15-19.50.34:064][537]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/HueShift_Inst.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/HueShift_Inst.uasset' is outside repository
+[2017.06.15-19.50.34:087][538]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/GradientMap_Multi_Example.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/GradientMap_Multi_Example.uasset' is outside repository
+[2017.06.15-19.50.34:383][550]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/FlowMaps.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/FlowMaps.uasset' is outside repository
+[2017.06.15-19.50.34:411][551]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/Materials/BasicAsset02.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/Materials/BasicAsset02.uasset' is outside repository
+[2017.06.15-19.50.34:507][555]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacity_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacity_Mat.uasset' is outside repository
+[2017.06.15-19.50.38:002][745]LogEditorViewport: Clicking Background
+[2017.06.15-19.50.56:435][728]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge345)
+[2017.06.15-19.51.04:439][302]Cmd: TRANSACTION UNDO
+[2017.06.15-19.51.04:439][302]LogEditorTransaction: Undo Clicking on Actors
+[2017.06.15-19.51.04:599][302]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.51.05:259][354]Cmd: TRANSACTION UNDO
+[2017.06.15-19.51.05:259][354]LogEditorTransaction: Undo Clicking Background
+[2017.06.15-19.51.05:440][354]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.51.06:097][387]Cmd: TRANSACTION UNDO
+[2017.06.15-19.51.06:097][387]LogEditorTransaction: Undo Replace component used material
+[2017.06.15-19.51.06:141][387]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-19.51.15:192][ 82]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacity_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacity_Mat.uasset' is outside repository
+[2017.06.15-19.51.15:192][ 82]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset' is outside repository
+[2017.06.15-19.51.15:192][ 82]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/AlphaBrushMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/AlphaBrushMaterial.uasset' is outside repository
+[2017.06.15-19.51.15:192][ 82]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/BufferVisualization/AmbientOcclusion.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/BufferVisualization/AmbientOcclusion.uasset' is outside repository
+[2017.06.15-19.51.18:160][286]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset' is outside repository
+[2017.06.15-19.51.18:160][286]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset' is outside repository
+[2017.06.15-19.51.18:160][286]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset' is outside repository
+[2017.06.15-19.51.18:160][286]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset' is outside repository
+[2017.06.15-19.51.23:412][723]LogEditorViewport: Clicking Background
+[2017.06.15-19.51.59:838][483]LogSavePackage: Save=1173.17ms
+[2017.06.15-19.51.59:838][483]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_Auto86E7D308845239F45240B6D9C5D092D49.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto8.umap'
+[2017.06.15-19.51.59:843][483]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto8.umap
+[2017.06.15-19.51.59:849][483]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 1.234
+[2017.06.15-19.51.59:849][483]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.234
+[2017.06.15-19.54.27:236][661]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.15-19.54.27:712][670]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.15-19.54.29:518][795]LogEditorViewport: Clicking Background
+[2017.06.15-19.54.30:833][946]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-19.54.30:852][946]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-19.54.30:852][946]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 7:54:30 AM)
+[2017.06.15-19.54.30:852][946]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-19.54.30:872][946]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019584s)
+[2017.06.15-19.54.30:872][946]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-19.54.30:873][946]LogPlayLevel: PIE: World Init took: (0.000621s)
+[2017.06.15-19.54.30:873][946]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.020492s)
+[2017.06.15-19.54.30:894][946]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-19.54.30:900][946]LogInit: FAudioDevice initialized.
+[2017.06.15-19.54.30:930][946]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-19.54.30:942][946]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-13.54.30
+[2017.06.15-19.54.30:944][946]LogWorld: Bringing up level for play took: 0.012497
+[2017.06.15-19.54.30:946][946]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.981
+[2017.06.15-19.54.30:948][946]MaterialEditorStats: Info Base pass shader: 91 instructions
+[2017.06.15-19.54.30:948][946]MaterialEditorStats: Info Vertex shader: 32 instructions
+[2017.06.15-19.54.30:948][946]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.06.15-19.54.30:948][946]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.06.15-19.54.42:464][171]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-19.54.42:484][171]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-19.54.42:484][171]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 7:54:42 AM)
+[2017.06.15-19.54.42:484][171]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-19.54.42:502][171]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018250s)
+[2017.06.15-19.54.42:503][171]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-19.54.42:503][171]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2017.06.15-19.54.42:503][171]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.019110s)
+[2017.06.15-19.54.42:524][171]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-19.54.42:531][171]LogInit: FAudioDevice initialized.
+[2017.06.15-19.54.42:563][171]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-19.54.42:576][171]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-13.54.42
+[2017.06.15-19.54.42:577][171]LogWorld: Bringing up level for play took: 0.012508
+[2017.06.15-19.54.42:579][171]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.614
+[2017.06.15-19.55.03:518][679]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.15-19.55.06:539][905]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-19.55.06:557][905]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-19.55.06:557][905]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 7:55:06 AM)
+[2017.06.15-19.55.06:557][905]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-19.55.06:577][905]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019927s)
+[2017.06.15-19.55.06:578][905]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-19.55.06:578][905]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2017.06.15-19.55.06:578][905]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.020781s)
+[2017.06.15-19.55.06:599][905]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-19.55.06:605][905]LogInit: FAudioDevice initialized.
+[2017.06.15-19.55.06:633][905]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-19.55.06:646][905]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-13.55.06
+[2017.06.15-19.55.06:648][905]LogWorld: Bringing up level for play took: 0.013019
+[2017.06.15-19.55.06:649][905]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.685
+[2017.06.15-19.58.25:876][662]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-19.58.25:895][662]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-19.58.25:895][662]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 7:58:25 AM)
+[2017.06.15-19.58.25:895][662]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-19.58.25:916][662]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020404s)
+[2017.06.15-19.58.25:917][662]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-19.58.25:917][662]LogPlayLevel: PIE: World Init took: (0.000834s)
+[2017.06.15-19.58.25:917][662]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.021594s)
+[2017.06.15-19.58.25:939][662]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-19.58.25:946][662]LogInit: FAudioDevice initialized.
+[2017.06.15-19.58.25:979][662]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-19.58.25:991][662]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-13.58.25
+[2017.06.15-19.58.25:993][662]LogWorld: Bringing up level for play took: 0.013114
+[2017.06.15-19.58.25:995][662]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.03
+[2017.06.15-19.58.46:935][223]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.15-19.58.49:606][416]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-19.58.49:623][416]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-19.58.49:623][416]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 7:58:49 AM)
+[2017.06.15-19.58.49:623][416]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-19.58.49:641][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018332s)
+[2017.06.15-19.58.49:642][416]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-19.58.49:642][416]LogPlayLevel: PIE: World Init took: (0.000591s)
+[2017.06.15-19.58.49:642][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.019218s)
+[2017.06.15-19.58.49:663][416]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-19.58.49:669][416]LogInit: FAudioDevice initialized.
+[2017.06.15-19.58.49:701][416]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-19.58.49:713][416]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-13.58.49
+[2017.06.15-19.58.49:715][416]LogWorld: Bringing up level for play took: 0.012556
+[2017.06.15-19.58.49:717][416]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.249
+[2017.06.15-19.59.09:552][817]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.15-19.59.13:245][ 71]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-19.59.13:265][ 71]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-19.59.13:265][ 71]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 7:59:13 AM)
+[2017.06.15-19.59.13:265][ 71]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-19.59.13:284][ 71]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019319s)
+[2017.06.15-19.59.13:285][ 71]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-19.59.13:285][ 71]LogPlayLevel: PIE: World Init took: (0.000521s)
+[2017.06.15-19.59.13:285][ 71]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.020172s)
+[2017.06.15-19.59.13:307][ 71]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-19.59.13:312][ 71]LogInit: FAudioDevice initialized.
+[2017.06.15-19.59.13:339][ 71]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-19.59.13:351][ 71]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-13.59.13
+[2017.06.15-19.59.13:352][ 71]LogWorld: Bringing up level for play took: 0.011995
+[2017.06.15-19.59.13:354][ 71]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.611
+[2017.06.15-19.59.35:502][642]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.15-19.59.43:589][491]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-19.59.43:609][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-19.59.43:609][491]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 7:59:43 AM)
+[2017.06.15-19.59.43:609][491]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-19.59.43:629][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019488s)
+[2017.06.15-19.59.43:629][491]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-19.59.43:629][491]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2017.06.15-19.59.43:630][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.020332s)
+[2017.06.15-19.59.43:650][491]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-19.59.43:656][491]LogInit: FAudioDevice initialized.
+[2017.06.15-19.59.43:683][491]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-19.59.43:695][491]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-13.59.43
+[2017.06.15-19.59.43:697][491]LogWorld: Bringing up level for play took: 0.012910
+[2017.06.15-19.59.43:698][491]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.267
+[2017.06.15-20.00.16:693][761]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.15-20.00.20:990][ 78]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-20.00.21:011][ 78]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-20.00.21:011][ 78]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 8:00:21 AM)
+[2017.06.15-20.00.21:011][ 78]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-20.00.21:029][ 78]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018147s)
+[2017.06.15-20.00.21:030][ 78]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-20.00.21:030][ 78]LogPlayLevel: PIE: World Init took: (0.000637s)
+[2017.06.15-20.00.21:030][ 78]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.019052s)
+[2017.06.15-20.00.21:051][ 78]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-20.00.21:057][ 78]LogInit: FAudioDevice initialized.
+[2017.06.15-20.00.21:085][ 78]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-20.00.21:097][ 78]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-14.00.21
+[2017.06.15-20.00.21:099][ 78]LogWorld: Bringing up level for play took: 0.012509
+[2017.06.15-20.00.21:101][ 78]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.865
+[2017.06.15-20.00.39:085][706]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.15-20.00.44:869][ 69]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.15-20.00.48:307][318]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-20.00.48:324][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-20.00.48:324][318]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 8:00:48 AM)
+[2017.06.15-20.00.48:324][318]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-20.00.48:343][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018461s)
+[2017.06.15-20.00.48:343][318]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-20.00.48:343][318]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2017.06.15-20.00.48:344][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.019319s)
+[2017.06.15-20.00.48:365][318]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-20.00.48:371][318]LogInit: FAudioDevice initialized.
+[2017.06.15-20.00.48:402][318]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-20.00.48:428][318]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-14.00.48
+[2017.06.15-20.00.48:430][318]LogWorld: Bringing up level for play took: 0.024951
+[2017.06.15-20.00.48:431][318]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.466
+[2017.06.15-20.02.24:620][ 38]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.15-20.02.30:638][454]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge350)
+[2017.06.15-20.02.32:521][588]LogEditorViewport: Clicking Background
+[2017.06.15-20.02.40:055][329]LogEditorViewport: Clicking Background
+[2017.06.15-20.02.50:115][241]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge350)
+[2017.06.15-20.02.51:065][340]Cmd: EDIT COPY
+[2017.06.15-20.02.51:932][441]Cmd: EDIT PASTE
+[2017.06.15-20.03.04:073][625]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-20.03.04:090][625]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-20.03.04:090][625]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 8:03:04 AM)
+[2017.06.15-20.03.04:090][625]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-20.03.04:109][625]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019242s)
+[2017.06.15-20.03.04:110][625]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-20.03.04:110][625]LogPlayLevel: PIE: World Init took: (0.000548s)
+[2017.06.15-20.03.04:110][625]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.020061s)
+[2017.06.15-20.03.04:132][625]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-20.03.04:139][625]LogInit: FAudioDevice initialized.
+[2017.06.15-20.03.04:169][625]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-20.03.04:182][625]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-14.03.04
+[2017.06.15-20.03.04:184][625]LogWorld: Bringing up level for play took: 0.013046
+[2017.06.15-20.03.04:185][625]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.221
+[2017.06.15-20.03.34:692][966]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.06.15-20.03.37:935][320]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.06.15-20.03.46:134][208]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.06.15-20.03.49:700][569]LogEditorViewport: Clicking Background
+[2017.06.15-20.03.50:045][605]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.06.15-20.04.12:132][853]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-20.04.12:152][853]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-20.04.12:152][853]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 8:04:12 AM)
+[2017.06.15-20.04.12:152][853]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-20.04.12:171][853]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019119s)
+[2017.06.15-20.04.12:172][853]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-20.04.12:172][853]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2017.06.15-20.04.12:172][853]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.020130s)
+[2017.06.15-20.04.12:194][853]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-20.04.12:200][853]LogInit: FAudioDevice initialized.
+[2017.06.15-20.04.12:233][853]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-20.04.12:245][853]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-14.04.12
+[2017.06.15-20.04.12:246][853]LogWorld: Bringing up level for play took: 0.012661
+[2017.06.15-20.04.12:248][853]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.283
+[2017.06.15-20.04.45:838][624]LogSavePackage: Save=558.17ms
+[2017.06.15-20.04.45:838][624]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_Auto9C9C78D8F43ADA109B3AD3F82DF8DF881.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto9.umap'
+[2017.06.15-20.04.45:840][624]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto9.umap
+[2017.06.15-20.04.45:842][624]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.617
+[2017.06.15-20.04.45:842][624]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.617
+[2017.06.15-20.04.45:844][624]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter] ([1] browsable assets)...
+[2017.06.15-20.04.45:844][624]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter]
+[2017.06.15-20.04.46:013][624]LogSavePackage: Save=158.92ms
+[2017.06.15-20.04.46:013][624]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerCharacter_Auto937B2FC9B4D7DA6D479C58ABAC15D9B66.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter_Auto9.uasset'
+[2017.06.15-20.04.46:014][624]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter_Auto9.uasset
+[2017.06.15-20.04.46:014][624]LogFileHelpers: Auto-saving content packages took 0.171
+[2017.06.15-20.05.15:138][ 52]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.06.15-20.05.16:717][223]Cmd: DELETE
+[2017.06.15-20.05.16:717][223]Cmd: ACTOR DELETE
+[2017.06.15-20.05.16:721][223]LogEditorActor: Deleted Actor: SpotLight
+[2017.06.15-20.05.16:759][223]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2017.06.15-20.05.25:467][147]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Ledge348)
+[2017.06.15-20.05.26:681][253]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.06.15-20.05.45:107][574]LogEditorViewport: Clicking on Actor (LMB): PlayerStart (PlayerStart2)
+[2017.06.15-20.05.47:971][842]LogNavigationPoint: PostEditMove Clear paths rebuilt
+[2017.06.15-20.05.49:244][958]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-20.05.49:264][958]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-20.05.49:264][958]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 8:05:49 AM)
+[2017.06.15-20.05.49:264][958]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-20.05.49:285][958]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021081s)
+[2017.06.15-20.05.49:286][958]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-20.05.49:286][958]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2017.06.15-20.05.49:286][958]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.021970s)
+[2017.06.15-20.05.49:308][958]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-20.05.49:314][958]LogInit: FAudioDevice initialized.
+[2017.06.15-20.05.49:346][958]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-20.05.49:359][958]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-14.05.49
+[2017.06.15-20.05.49:361][958]LogWorld: Bringing up level for play took: 0.013160
+[2017.06.15-20.05.49:363][958]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.602
+[2017.06.15-20.06.05:002][472]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.06.15-20.06.08:541][825]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset' is outside repository
+[2017.06.15-20.06.38:915][479]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-20.06.38:935][479]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-20.06.38:935][479]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 8:06:38 AM)
+[2017.06.15-20.06.38:935][479]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-20.06.38:955][479]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019910s)
+[2017.06.15-20.06.38:956][479]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-20.06.38:956][479]LogPlayLevel: PIE: World Init took: (0.000562s)
+[2017.06.15-20.06.38:956][479]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.020799s)
+[2017.06.15-20.06.38:978][479]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-20.06.38:984][479]LogInit: FAudioDevice initialized.
+[2017.06.15-20.06.39:014][479]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-20.06.39:045][479]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-14.06.39
+[2017.06.15-20.06.39:048][479]LogWorld: Bringing up level for play took: 0.031743
+[2017.06.15-20.06.39:052][479]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 1.087
+[2017.06.15-20.06.47:606][359]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (crashed_ship_Sprite)
+[2017.06.15-20.07.16:112][804]Cmd: DELETE
+[2017.06.15-20.07.16:112][804]Cmd: ACTOR DELETE
+[2017.06.15-20.07.16:115][804]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.06.15-20.07.16:155][804]LogEditorActor: Deleted 1 Actors (0.043 secs)
+[2017.06.15-20.07.19:498][ 79]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.06.15-20.07.20:493][186]Cmd: DELETE
+[2017.06.15-20.07.20:493][186]Cmd: ACTOR DELETE
+[2017.06.15-20.07.20:497][186]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.06.15-20.07.20:535][186]LogEditorActor: Deleted 1 Actors (0.042 secs)
+[2017.06.15-20.07.40:496][ 75]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge348)
+[2017.06.15-20.07.41:095][132]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2017.06.15-20.08.21:592][164]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2017.06.15-20.08.25:669][577]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight2)
+[2017.06.15-20.08.26:690][694]Cmd: DELETE
+[2017.06.15-20.08.26:690][694]Cmd: ACTOR DELETE
+[2017.06.15-20.08.26:693][694]LogEditorActor: Deleted Actor: SpotLight
+[2017.06.15-20.08.26:741][694]LogEditorActor: Deleted 1 Actors (0.051 secs)
+[2017.06.15-20.08.29:747][999]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2017.06.15-20.09.28:046][622]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (crashed_ship_Sprite)
+[2017.06.15-20.09.28:707][671]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (crashed_ship_Sprite)
+[2017.06.15-20.09.28:822][680]LogEditorViewport: Clicking on Component (LMB): PaperSpriteComponent (RenderComponent)
+[2017.06.15-20.09.41:251][403]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.06.15-20.09.48:301][ 81]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-20.09.48:320][ 81]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-20.09.48:320][ 81]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 8:09:48 AM)
+[2017.06.15-20.09.48:321][ 81]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-20.09.48:342][ 81]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021668s)
+[2017.06.15-20.09.48:343][ 81]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-20.09.48:343][ 81]LogPlayLevel: PIE: World Init took: (0.000553s)
+[2017.06.15-20.09.48:343][ 81]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.022601s)
+[2017.06.15-20.09.48:367][ 81]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-20.09.48:373][ 81]LogInit: FAudioDevice initialized.
+[2017.06.15-20.09.48:402][ 81]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-20.09.48:415][ 81]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-14.09.48
+[2017.06.15-20.09.48:416][ 81]LogWorld: Bringing up level for play took: 0.012975
+[2017.06.15-20.09.48:418][ 81]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.453
+[2017.06.15-20.11.03:559][959]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (crashed_ship_Sprite)
+[2017.06.15-20.11.05:471][ 88]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.06.15-20.11.21:795][490]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2017.06.15-20.11.49:405][259]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.06.15-20.12.29:385][426]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-20.12.29:407][426]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-20.12.29:407][426]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 8:12:29 AM)
+[2017.06.15-20.12.29:407][426]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-20.12.29:427][426]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020460s)
+[2017.06.15-20.12.29:428][426]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-20.12.29:428][426]LogPlayLevel: PIE: World Init took: (0.000696s)
+[2017.06.15-20.12.29:428][426]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.021542s)
+[2017.06.15-20.12.29:452][426]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-20.12.29:458][426]LogInit: FAudioDevice initialized.
+[2017.06.15-20.12.29:485][426]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-20.12.29:498][426]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-14.12.29
+[2017.06.15-20.12.29:499][426]LogWorld: Bringing up level for play took: 0.012788
+[2017.06.15-20.12.29:501][426]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.464
+[2017.06.15-20.12.35:500][ 39]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2017.06.15-20.12.46:634][130]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (crashed_ship_Sprite)
+[2017.06.15-20.12.47:111][156]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.06.15-20.14.14:476][888]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultDecalMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/DefaultDecalMaterial.uasset' is outside repository
+[2017.06.15-20.14.14:476][888]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.06.15-20.14.20:506][345]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineDebugMaterials/BlackUnlitMaterial.uasset' is outside repository
+[2017.06.15-20.14.20:506][345]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.06.15-20.14.20:506][345]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/Utilities/ImageReflectionPreview.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/Utilities/ImageReflectionPreview.uasset' is outside repository
+[2017.06.15-20.14.20:506][345]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_2sidedLit.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/ArtTools/RenderToTexture/Materials/Debug/M_2sidedLit.uasset' is outside repository
+[2017.06.15-20.14.30:656][175]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial_Inst.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/VREditor/LaserPointer/LaserPointerMaterial_Inst.uasset' is outside repository
+[2017.06.15-20.14.30:656][175]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/LayerVisMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/LayerVisMaterial.uasset' is outside repository
+[2017.06.15-20.14.30:656][175]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineDebugMaterials/LevelColorationLitMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineDebugMaterials/LevelColorationLitMaterial.uasset' is outside repository
+[2017.06.15-20.14.30:656][175]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/LevelGridMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/LevelGridMaterial.uasset' is outside repository
+[2017.06.15-20.14.41:905][505]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.06.15-20.14.44:401][687]LogEditorViewport: Clicking Background
+[2017.06.15-20.14.46:888][857]LogEditorViewport: Clicking Background
+[2017.06.15-20.14.47:284][898]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight3)
+[2017.06.15-20.14.49:853][137]LogEditorViewport: Clicking on Actor (LMB): SpotLight (SpotLight)
+[2017.06.15-20.15.09:374][825]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.15-20.15.09:394][825]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.15-20.15.09:394][825]PIE: New page: PIE session: Rainforest_Alien (Jun 15, 2017, 8:15:09 AM)
+[2017.06.15-20.15.09:395][825]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.15-20.15.09:413][825]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018936s)
+[2017.06.15-20.15.09:414][825]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.15-20.15.09:414][825]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2017.06.15-20.15.09:414][825]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.019897s)
+[2017.06.15-20.15.09:437][825]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.15-20.15.09:443][825]LogInit: FAudioDevice initialized.
+[2017.06.15-20.15.09:474][825]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.15-20.15.09:487][825]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.15-14.15.09
+[2017.06.15-20.15.09:488][825]LogWorld: Bringing up level for play took: 0.012999
+[2017.06.15-20.15.09:490][825]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.475
+[2017.06.15-20.15.53:035][384]LogSavePackage: Save=753.53ms
+[2017.06.15-20.15.53:035][384]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_Auto0CB8A1D8047D1AAD974BA12ADA9014308.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto0.umap'
+[2017.06.15-20.15.53:038][384]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto0.umap
+[2017.06.15-20.15.53:039][384]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.796
+[2017.06.15-20.15.53:039][384]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.796
+[2017.06.15-20.16.15:400][899]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge350)
+[2017.06.15-20.16.20:156][360]LogEditorViewport: Clicking Background
