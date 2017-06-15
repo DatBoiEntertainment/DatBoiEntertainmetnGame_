@@ -1513,3 +1513,84 @@ LogInit: Object subsystem initialized
 [2017.06.15-20.15.53:039][384]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.796
 [2017.06.15-20.16.15:400][899]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Ledge350)
 [2017.06.15-20.16.20:156][360]LogEditorViewport: Clicking Background
+[2017.06.15-20.18.24:711][467]SourceControl: Info rm 'Content/2DSideScrollerBP/Item/Test_PlayerMoveTO_B.uasset'
+[2017.06.15-20.18.24:711][467]SourceControl: Info rm 'Content/2DSideScrollerBP/Item/Test_PlayermoveTO_BT.uasset'
+[2017.06.15-20.18.34:771][133]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.06.15-20.18.34:814][133]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-20.18.34:835][133]LogMaterial: Missing cached shader map for material 2D_Test, compiling. 
+[2017.06.15-20.18.34:871][133]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy 2D_Test, compiling. 
+[2017.06.15-20.18.35:775][133]TextureStreamingBuild:Display: Compiling optional shaders took 0.908 seconds.
+[2017.06.15-20.18.35:961][133]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2017.06.15-20.19.44:376][180]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Test_Item_C_0' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'SimpleConstructionScript_0' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Trigger_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Cube_GEN_VARIABLE' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DEADCLASS_Test_Item_C_1' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test ITem' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Var' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Mouse' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test ITem' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object '2Dchar' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'DefaultSceneRoot' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Cube' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Trigger' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'UserConstructionScript' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:326][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test Item' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Test ITem' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_SKEL_Test_Item_C_135' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:327][939]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'REINST_Test_Item_C_134' or package '/Engine/Transient'.
+[2017.06.15-20.21.02:737][939]SourceControl: Info rm 'Content/2DSideScrollerBP/Item/Test_Item.uasset'
+[2017.06.15-20.21.12:137][879]LogSlate: Took 0.003394 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.06.15-20.22.01:229][ 12]LogSavePackage: Save=4.01ms
+[2017.06.15-20.22.01:229][ 12]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/S_ItemData24D699E1481932162C224D860E7BD15B.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/S_ItemData.uasset'
+[2017.06.15-20.22.01:232][ 12]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/S_ItemData.uasset
+[2017.06.15-20.23.54:139][421]LogEditorTransaction: Undo Add Node
+[2017.06.15-20.24.15:288][398]BlueprintLog: New page: Compile Item_MasterBP
+[2017.06.15-20.25.17:095][631]BlueprintLog: New page: Compile Item_MasterBP
+[2017.06.15-20.25.30:226][831]LogSavePackage: Save=8.47ms
+[2017.06.15-20.25.30:226][831]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Item_MasterBP73BF13FF4ED9205B807867B2B2B2A8DA.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Item_MasterBP.uasset'
+[2017.06.15-20.25.30:229][831]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/Item_MasterBP.uasset
+[2017.06.15-20.25.54:927][508]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.15-20.25.58:463][508]LogSavePackage: Save=4.44ms
+[2017.06.15-20.25.58:463][508]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/S_ItemData748D180147AE976D10F682B7CA9F8E59.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/S_ItemData.uasset'
+[2017.06.15-20.25.58:467][508]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Item/S_ItemData.uasset
+[2017.06.15-20.26.13:293][508]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.15-20.26.13:377][508]SourceControl: Info [V1.5.1 10d48c6] Set Up Item Data
+[2017.06.15-20.26.13:377][508]SourceControl: Info  5 files changed, 0 insertions(+), 0 deletions(-)
+[2017.06.15-20.26.13:377][508]SourceControl: Info  create mode 100644 Content/2DSideScrollerBP/Item/Item_MasterBP.uasset
+[2017.06.15-20.26.13:377][508]SourceControl: Info  create mode 100644 Content/2DSideScrollerBP/Item/S_ItemData.uasset
+[2017.06.15-20.26.13:377][508]SourceControl: Info  delete mode 100644 Content/2DSideScrollerBP/Item/Test_Item.uasset
+[2017.06.15-20.26.13:377][508]SourceControl: Info  delete mode 100644 Content/2DSideScrollerBP/Item/Test_PlayerMoveTO_B.uasset
+[2017.06.15-20.26.13:377][508]SourceControl: Info  delete mode 100644 Content/2DSideScrollerBP/Item/Test_PlayermoveTO_BT.uasset
+[2017.06.15-20.26.13:383][508]SourceControl: Info Commited [V1.5.1 10d48c6] Set Up Item Data.
+[2017.06.15-20.26.16:455][781]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.012
+[2017.06.15-20.26.16:457][781]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter] ([1] browsable assets)...
+[2017.06.15-20.26.16:457][781]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter]
+[2017.06.15-20.26.16:630][781]LogSavePackage: Save=160.79ms
+[2017.06.15-20.26.16:630][781]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerCharacter_Auto1432D7BF4415C18A358E8C1850A2879EC.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter_Auto1.uasset'
+[2017.06.15-20.26.16:632][781]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter_Auto1.uasset
+[2017.06.15-20.26.16:632][781]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/materials/2D_Test] ([1] browsable assets)...
+[2017.06.15-20.26.16:649][781]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2DSideScrollerBP/materials/2D_Test.2D_Test]
+[2017.06.15-20.26.16:649][781]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/materials/2D_Test]
+[2017.06.15-20.26.16:673][781]LogSavePackage: Save=15.11ms
+[2017.06.15-20.26.16:673][781]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2D_Test_Auto13A768D4849D9AE42B426C1A3AEE0FCE8.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/materials/2D_Test_Auto1.uasset'
+[2017.06.15-20.26.16:674][781]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/materials/2D_Test_Auto1.uasset
+[2017.06.15-20.26.16:674][781]LogFileHelpers: Auto-saving content packages took 0.218
