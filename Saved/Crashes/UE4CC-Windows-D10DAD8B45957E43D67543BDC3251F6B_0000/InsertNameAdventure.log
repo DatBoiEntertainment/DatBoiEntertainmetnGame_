@@ -2047,5 +2047,3 @@ LogInit: Object subsystem initialized
 [2017.06.16-01.44.59:371][908]LogOutputDevice:Error: ntdll.dll!0x00000000C2810D61
 [2017.06.16-01.44.59:371][908]LogOutputDevice:Error: 
 [2017.06.16-01.44.59:378][908]LogStats:                SubmitErrorReport -  0.000 s
-[2017.06.16-01.45.02:223][908]LogStats:                    SendNewReport -  2.845 s
-[2017.06.16-01.45.02:223][908]LogStats:             FDebug::EnsureFailed -  3.784 s
