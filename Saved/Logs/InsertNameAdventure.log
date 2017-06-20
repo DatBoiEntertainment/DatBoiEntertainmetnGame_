@@ -268,3 +268,52 @@ LogInit: Object subsystem initialized
 [2017.06.20-21.44.31:682][ 37]SourceControl: Info  2 files changed, 0 insertions(+), 0 deletions(-)
 [2017.06.20-21.44.31:682][ 37]SourceControl: Info  rewrite Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap (95%)
 [2017.06.20-21.44.31:688][ 37]SourceControl: Info Commited [V1.5.1 a678481] HUD.
+[2017.06.20-21.45.13:484][270]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.20-21.45.13:571][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.20-21.45.13:571][270]PIE: New page: PIE session: Rainforest_Alien (Jun 20, 2017, 9:45:13 AM)
+[2017.06.20-21.45.13:571][270]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.20-21.45.13:604][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033080s)
+[2017.06.20-21.45.13:605][270]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.20-21.45.13:605][270]LogPlayLevel: PIE: World Init took: (0.001122s)
+[2017.06.20-21.45.13:606][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.034573s)
+[2017.06.20-21.45.13:639][270]LogInit: XAudio2 using 'Speakers (Skullcandy GMX Dolby Transmitter)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.20-21.45.13:647][270]LogInit: FAudioDevice initialized.
+[2017.06.20-21.45.13:686][270]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.20-21.45.13:712][270]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.20-15.45.13
+[2017.06.20-21.45.13:716][270]LogWorld: Bringing up level for play took: 0.026967
+[2017.06.20-21.45.13:721][270]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.822
+[2017.06.20-21.45.13:740][270]LogParticles:Warning: Spawning 30000 GPU particles in one frame[10271]: Rain_PS/Particle Emitter
+[2017.06.20-21.45.13:758][270]LogParticles:Warning: Spawning 30000 GPU particles in one frame[10271]: Rain_PS/Particle Emitter
+[2017.06.20-21.45.13:800][271]LogParticles:Warning: Spawning 26966 GPU particles in one frame[10272]: Rain_PS/Particle Emitter
+[2017.06.20-21.45.13:816][271]LogParticles:Warning: Spawning 26966 GPU particles in one frame[10272]: Rain_PS/Particle Emitter
+[2017.06.20-21.46.46:436][  8]BlueprintLog: New page: Compile ActionSlot
+[2017.06.20-21.46.46:679][  8]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.06.20-21.46.47:959][145]LogTemp: Repeting last play command: Selected Viewport
+[2017.06.20-21.46.48:000][145]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.06.20-21.46.48:000][145]PIE: New page: PIE session: Rainforest_Alien (Jun 20, 2017, 9:46:48 AM)
+[2017.06.20-21.46.48:000][145]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.06.20-21.46.48:035][145]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034451s)
+[2017.06.20-21.46.48:036][145]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.06.20-21.46.48:036][145]LogPlayLevel: PIE: World Init took: (0.001139s)
+[2017.06.20-21.46.48:037][145]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.036015s)
+[2017.06.20-21.46.48:073][145]LogInit: XAudio2 using 'Speakers (Skullcandy GMX Dolby Transmitter)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.06.20-21.46.48:082][145]LogInit: FAudioDevice initialized.
+[2017.06.20-21.46.48:122][145]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.06.20-21.46.48:149][145]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.06.20-15.46.48
+[2017.06.20-21.46.48:152][145]LogWorld: Bringing up level for play took: 0.027827
+[2017.06.20-21.46.48:160][145]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.739
+[2017.06.20-21.46.48:181][145]LogRenderer: Reallocating scene render targets to support 1616x756 NumSamples 1 (Frame:1).
+[2017.06.20-21.46.48:275][146]LogParticles:Warning: Spawning 26683 GPU particles in one frame[20147]: Rain_PS/Particle Emitter
+[2017.06.20-21.46.48:291][146]LogParticles:Warning: Spawning 26683 GPU particles in one frame[20147]: Rain_PS/Particle Emitter
+[2017.06.20-21.47.14:241][355]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.20-21.47.14:399][355]EditorErrors:Warning: Warning No assets to check in!
+[2017.06.20-21.47.56:481][752]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.20-21.47.56:634][752]EditorErrors:Warning: Warning No assets to check in!
+[2017.06.20-21.47.58:839][950]LogSavePackage: Save=96.67ms
+[2017.06.20-21.47.58:839][950]LogSavePackage: Moving '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/ActionSlot82D8D865423A09EAD59D4593D0F1B8AC.tmp' to '../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Blueprints/UI/ActionSlot.uasset'
+[2017.06.20-21.47.58:843][950]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Family/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Blueprints/UI/ActionSlot.uasset
+[2017.06.20-21.48.01:202][205]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/' is outside repository
+[2017.06.20-21.48.06:792][205]LogSourceControl: FGitCheckInWorker: commit successful
+[2017.06.20-21.48.06:847][205]SourceControl: Info [V1.5.1 bceb1a6] HUD
+[2017.06.20-21.48.06:847][205]SourceControl: Info  1 file changed, 0 insertions(+), 0 deletions(-)
+[2017.06.20-21.48.06:854][205]SourceControl: Info Commited [V1.5.1 bceb1a6] HUD.
