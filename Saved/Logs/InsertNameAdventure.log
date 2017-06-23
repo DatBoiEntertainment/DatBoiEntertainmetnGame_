@@ -234,3 +234,13 @@ LogInit: Object subsystem initialized
 [2017.06.23-19.46.55:573][889]SourceControl: Info  create mode 100644 Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/dirt_mound_left_and_right_sheet_Sprite_1.uasset
 [2017.06.23-19.46.55:573][889]SourceControl: Info  create mode 100644 Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/dirt_mound_left_and_right_sheet_TileSet.uasset
 [2017.06.23-19.46.55:579][889]SourceControl: Info Commited [V1.5.1 0e57b9c] The Dirt Update.
+[2017.06.23-19.47.53:263][  0]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.06.23-19.48.02:271][ 75]LogFileHelpers: Editor autosave (incl. sublevels) for '/Temp/Untitled_1' took 0.009
+[2017.06.23-19.48.02:273][ 75]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/dirt_mound_left_and_right_sheet] ([1] browsable assets)...
+[2017.06.23-19.48.02:274][ 75]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/dirt_mound_left_and_right_sheet.dirt_mound_left_and_right_sheet]
+[2017.06.23-19.48.02:274][ 75]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/dirt_mound_left_and_right_sheet]
+[2017.06.23-19.48.02:280][ 75]LogSavePackage: Save=4.29ms
+[2017.06.23-19.48.02:280][ 75]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/dirt_mound_left_and_right_sheet_Auto1734BF2254F4224D7E728B8B3AC8CF73B.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/dirt_mound_left_and_right_sheet_Auto1.uasset'
+[2017.06.23-19.48.02:281][ 75]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/dirt_mound_left_and_right_sheet_Auto1.uasset
+[2017.06.23-19.48.02:281][ 75]LogFileHelpers: Auto-saving content packages took 0.008
+[2017.06.23-19.48.02:702][125]LogEditorViewport: Clicking Background
