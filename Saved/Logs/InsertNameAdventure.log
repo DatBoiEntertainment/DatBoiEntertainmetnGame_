@@ -1,9 +1,9 @@
-﻿Log file open, 07/05/17 13:33:23
+﻿Log file open, 07/06/17 17:13:48
 LogInit:Display: Running engine for game: InsertNameAdventure
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1740145956) SRandInit(1740145956).
+LogInit:Display: RandInit(-1676791156) SRandInit(-1676791155).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.764240
+LogStats: Stats thread started at 0.093348
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,507 +50,683 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.07.05-19.33.23:502][  0]LogInit: Selected Device Profile: [Windows]
-[2017.07.05-19.33.23:502][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.07.05-19.33.23:557][  0]LogInit: Computer: DESKTOP-6MFT485
-[2017.07.05-19.33.23:557][  0]LogInit: User: JustinWells20
-[2017.07.05-19.33.23:557][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.07.05-19.33.23:557][  0]LogInit: High frequency timer resolution =3.328126 MHz
-[2017.07.05-19.33.23:557][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.07.05-19.33.23:557][  0]LogMemory: Platform Memory Stats for Windows
-[2017.07.05-19.33.23:557][  0]LogMemory: Process Physical Memory: 273.46 MB used, 273.46 MB peak
-[2017.07.05-19.33.23:557][  0]LogMemory: Process Virtual Memory: 266.71 MB used, 266.71 MB peak
-[2017.07.05-19.33.23:557][  0]LogMemory: Physical Memory: 2897.06 MB used,  13424.68 MB free, 16321.74 MB total
-[2017.07.05-19.33.23:557][  0]LogMemory: Virtual Memory: 651.38 MB used,  13424.68 MB free, 134217728.00 MB total
-[2017.07.05-19.33.23:876][  0]LogInit: Using OS detected language (en-US).
-[2017.07.05-19.33.23:876][  0]LogInit: Using OS detected locale (en-US).
-[2017.07.05-19.33.23:955][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2017.07.05-19.33.26:444][  0]LogD3D11RHI: D3D11 adapters:
-[2017.07.05-19.33.27:015][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
-[2017.07.05-19.33.27:015][  0]LogD3D11RHI:       8081/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.07.05-19.33.27:017][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.07.05-19.33.27:017][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.07.05-19.33.27:017][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.07.05-19.33.27:024][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.07.05-19.33.27:024][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
-[2017.07.05-19.33.27:024][  0]LogWindows: EnumDisplayDevices:
-[2017.07.05-19.33.27:024][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
-[2017.07.05-19.33.27:024][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
-[2017.07.05-19.33.27:024][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.07.05-19.33.27:025][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
-[2017.07.05-19.33.27:025][  0]LogWindows: DebugString: FoundDriverCount:4 
-[2017.07.05-19.33.27:025][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
-[2017.07.05-19.33.27:025][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
-[2017.07.05-19.33.27:025][  0]LogD3D11RHI:      Driver Date: 6-27-2017
-[2017.07.05-19.33.27:025][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.07.05-19.33.27:562][  0]LogD3D11RHI: Async texture creation enabled
-[2017.07.05-19.33.27:606][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.07.05-19.33.27:664][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Intermediate/Shaders/WorkingDirectory/24864/).
-[2017.07.05-19.33.27:664][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Justin Wells/AppData/Local/Temp/UnrealShaderWorkingDir/F22FA0444A9E2445FA11B88C8B2809AC/'.
-[2017.07.05-19.33.27:665][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.07.05-19.33.30:213][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.07.05-19.33.30:257][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.07.05-19.33.30:300][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.07.05-19.33.30:343][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.07.05-19.33.30:389][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.07.05-19.33.30:432][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.07.05-19.33.30:473][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.07.05-19.33.30:516][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.07.05-19.33.30:553][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.07.05-19.33.30:599][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.07.05-19.33.30:641][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.07.05-19.33.30:684][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.07.05-19.33.30:726][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.07.05-19.33.30:767][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.07.05-19.33.30:809][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.07.05-19.33.30:896][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.07.05-19.33.30:896][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.07.05-19.33.30:932][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.07.05-19.33.31:020][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.07.05-19.33.31:045][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.07.05-19.33.31:086][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.07.05-19.33.31:126][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.07.05-19.33.31:172][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.07.05-19.33.31:218][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.07.05-19.33.31:218][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.07.05-19.33.31:841][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.07.05-19.33.32:365][  0]LogDerivedDataCache: Loaded boot cache 0.52s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.07.05-19.33.32:365][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.07.05-19.33.32:365][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.07.05-19.33.32:365][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.07.05-19.33.32:365][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.07.05-19.33.32:365][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.07.05-19.33.32:395][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.07.05-19.33.32:415][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Justin Wells/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.07.05-19.33.32:428][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.07.05-19.33.32:431][  0]LogSlate: Using Freetype 2.6.0
-[2017.07.05-19.33.32:447][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.07.05-19.33.32:447][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.07.05-19.33.33:340][  0]LogInit: Selected Device Profile: [Windows]
-[2017.07.05-19.33.33:549][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.07.05-19.33.33:760][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.07.05-19.33.33:807][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.07.05-19.33.33:847][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.07.05-19.33.33:847][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.07.05-19.33.33:847][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.07.05-19.33.35:268][  0]LogNetVersion: InsertNameAdventure , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1278457987)
-[2017.07.05-19.33.35:362][  0]LogAssetRegistry: FAssetRegistry took 0.0282 seconds to start up
-[2017.07.05-19.33.35:723][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.340545 seconds
-[2017.07.05-19.33.35:729][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.07.05-19.33.35:729][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
-[2017.07.05-19.33.35:729][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.07.05-19.33.35:781][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.07.05-19.33.39:549][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.07.05-19.33.39:604][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.07.05-19.33.40:220][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.07.05-19.33.40:653][  0]SourceControl: Info Source control is disabled
-[2017.07.05-19.33.41:768][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.07.05-19.33.42:304][  0]LogEngine: Initializing Engine...
-[2017.07.05-19.33.42:392][  0]LogHMD: Failed to initialize OpenVR with code 126
-[2017.07.05-19.33.42:746][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.07.05-19.33.42:747][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.07.05-19.33.42:896][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.07.05-19.33.42:923][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.07.05-19.33.42:936][  0]LogInit: FAudioDevice initialized.
-[2017.07.05-19.33.42:974][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.07.05-19.33.42:986][  0]LogInit: Texture streaming: Enabled
-[2017.07.05-19.33.43:075][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.07.05-19.33.43:329][  0]LogInit: Transaction tracking system initialized
-[2017.07.05-19.33.43:647][  0]BlueprintLog: New page: Editor Load
-[2017.07.05-19.33.44:604][  0]LocalizationService: Info Localization service is disabled
-[2017.07.05-19.33.45:249][  0]LogConsoleResponse:Display: 
-[2017.07.05-19.33.45:580][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.07.05-19.33.45:580][  0]LogCook:Display: Mobile HDR setting 1
-[2017.07.05-19.33.45:942][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' took 0.02s
-[2017.07.05-19.33.46:766][  0]LogSlate: Took 0.004991 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.07.05-19.34.15:431][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.07.05-19.34.15:441][  0]LightingResults: New page: Lighting Build
-[2017.07.05-19.34.15:494][  0]MapCheck: New page: Map Check
-[2017.07.05-19.34.15:494][  0]LightingResults: New page: Lighting Build
-[2017.07.05-19.34.15:540][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.07.05-19.34.15:546][  0]LoadErrors: New page: New Map
-[2017.07.05-19.34.15:698][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.07.05-19.34.16:004][  0]LogCollectionManager: Loaded 0 collections in 0.001435 seconds
-[2017.07.05-19.34.16:110][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' took 0.01s
-[2017.07.05-19.34.16:110][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells20/Collections/' took 0.01s
-[2017.07.05-19.34.16:111][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' took 0.01s
-[2017.07.05-19.34.16:111][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
-[2017.07.05-19.34.16:122][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2329 classes and 491 folders.
-[2017.07.05-19.34.16:180][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.07.05-19.34.16:490][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
-[2017.07.05-19.34.16:532][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.07.05-19.34.16:562][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.07.05-19.34.16:591][  0]LogSlate: Took 0.004256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.07.05-19.34.16:600][  0]LogSlate: Took 0.004176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.07.05-19.34.16:718][  0]LogRenderer: Reallocating scene render targets to support 2556x924 NumSamples 1 (Frame:1).
-[2017.07.05-19.34.16:920][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.07.05-19.34.16:987][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
-[2017.07.05-19.34.16:987][  0]LogLoad: (Engine Initialization) Total time: 56.58 seconds
-[2017.07.05-19.34.16:987][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.09 seconds
-[2017.07.05-19.34.16:987][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
-[2017.07.05-19.34.16:999][  0]LogOcInput: OculusInput pre-init called
-[2017.07.05-19.34.16:999][  0]LogHMD: Starting GearVRController plugin
-[2017.07.05-19.34.17:026][  0]SourceControl: Info On branch V1.5.1
-[2017.07.05-19.34.17:026][  0]SourceControl: Info Your branch is up-to-date with 'origin/V1.5.1'.
-[2017.07.05-19.34.17:026][  0]SourceControl: Info Changes not staged for commit:
-[2017.07.05-19.34.17:026][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
-[2017.07.05-19.34.17:026][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
-[2017.07.05-19.34.17:026][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
-[2017.07.05-19.34.17:026][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
-[2017.07.05-19.34.17:026][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-565292514305125025B5FB8719AA9B54/CrashReportClient.ini
-[2017.07.05-19.34.17:026][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D6E908AF412890423B1CF785E1A41070/CrashReportClient.ini
-[2017.07.05-19.34.17:026][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-E670D9A143EBBA4ED6646CBC48B801F9/CrashReportClient.ini
-[2017.07.05-19.34.17:026][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
-[2017.07.05-19.34.17:026][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
-[2017.07.05-19.34.17:026][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
-[2017.07.05-19.34.17:026][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.06.30-17.47.58.log
-[2017.07.05-19.34.17:026][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.07.01-17.00.13.log
-[2017.07.05-19.34.17:026][  0]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
-[2017.07.05-19.34.17:026][  0]SourceControl: Info Untracked files:
-[2017.07.05-19.34.17:026][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
-[2017.07.05-19.34.17:026][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-0B8B245544BD53A4A659C78B67065318/
-[2017.07.05-19.34.17:026][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-D31EE8534C2EF6C0B0DE44A97C1293C5/
-[2017.07.05-19.34.17:026][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.07.03-10.30.51.log
-[2017.07.05-19.34.17:026][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.07.05-13.33.23.log
-[2017.07.05-19.34.17:026][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
-[2017.07.05-19.34.17:027][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.07.05-19.34.17:097][  1]LogAssetRegistry: Asset discovery search completed in 41.7571 seconds
-[2017.07.05-19.34.17:099][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
-[2017.07.05-19.34.17:099][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000022 seconds (updated 0 objects)
-[2017.07.05-19.34.37:011][236]LogSlate: Took 0.004338 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.07.05-19.34.37:778][236]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.07.05-19.34.37:807][236]LightingResults: New page: Lighting Build
-[2017.07.05-19.34.37:807][236]LoadErrors: New page: Loading map: Rainforest_Alien.umap
-[2017.07.05-19.34.37:807][236]MapCheck: New page: Map Check
-[2017.07.05-19.34.37:807][236]LightingResults: New page: Lighting Build
-[2017.07.05-19.34.37:898][236]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.07.05-19.34.37:938][236]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.07.05-19.34.37:979][236]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 40.894ms to complete.
-[2017.07.05-19.34.37:979][236]LogFileHelpers: Loading map 'Rainforest_Alien' took 0.173
-[2017.07.05-19.34.56:171][299]LogSlate: Took 0.004836 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.07.05-19.35.00:310][516]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PaperTileMapComponent_0' or package '/Engine/Transient'.
-[2017.07.05-19.35.00:767][516]SourceControl: Info rm 'Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Rain_Forrest_TM1.uasset'
-[2017.07.05-19.35.18:651][257]Cmd: TRANSACTION UNDO
-[2017.07.05-19.35.18:651][257]LogEditorTransaction: Undo Tile Painting
-[2017.07.05-19.35.18:761][257]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.07.05-19.37.24:160][437]Cmd: TRANSACTION UNDO
-[2017.07.05-19.37.24:160][437]LogEditorTransaction: Undo Tile Painting
-[2017.07.05-19.37.24:619][465]Cmd: TRANSACTION UNDO
-[2017.07.05-19.37.24:619][465]LogEditorTransaction: Undo Tile Painting
-[2017.07.05-19.37.24:822][474]Cmd: TRANSACTION UNDO
-[2017.07.05-19.37.24:822][474]LogEditorTransaction: Undo Tile Painting
-[2017.07.05-19.37.25:014][483]Cmd: TRANSACTION UNDO
-[2017.07.05-19.37.25:014][483]LogEditorTransaction: Undo Tile Painting
-[2017.07.05-19.37.25:178][489]Cmd: TRANSACTION UNDO
-[2017.07.05-19.37.25:178][489]LogEditorTransaction: Undo Tile Painting
-[2017.07.05-19.37.25:416][503]Cmd: TRANSACTION UNDO
-[2017.07.05-19.37.25:416][503]LogEditorTransaction: Undo Tile Painting
-[2017.07.05-19.42.23:633][ 61]LogSlate: Took 0.000119 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.07.05-19.42.24:419][ 61]LogSavePackage: Save=56515.36ms
-[2017.07.05-19.42.24:419][ 61]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rain_Forrest_TM5E280A8141D4337BC4B84EAEA9423F88.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Rain_Forrest_TM.uasset'
-[2017.07.05-19.42.24:424][ 61]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Rain_Forrest_TM.uasset
-[2017.07.05-19.42.33:116][334]LogTemp: Repeting last play command: New Editor Window (PIE)
-[2017.07.05-19.42.33:166][334]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.07.05-19.42.33:170][334]PIE: New page: PIE session: Rainforest_Alien (Jul 5, 2017, 7:42:33 AM)
-[2017.07.05-19.42.33:171][334]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
-[2017.07.05-19.42.33:174][334]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002935s)
-[2017.07.05-19.42.33:175][334]LogAIModule: Creating AISystem for world Rainforest_Alien
-[2017.07.05-19.42.33:176][334]LogPlayLevel: PIE: World Init took: (0.001356s)
-[2017.07.05-19.42.33:176][334]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.005289s)
-[2017.07.05-19.42.35:023][334]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.07.05-19.42.35:029][334]LogInit: FAudioDevice initialized.
-[2017.07.05-19.42.35:108][334]LogLoad: Game class is '2DSideScrollerGameMode_C'
-[2017.07.05-19.42.37:643][334]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.05-13.42.37
-[2017.07.05-19.42.37:653][334]LogWorld: Bringing up level for play took: 0.018059
-[2017.07.05-19.42.37:702][334]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
-[2017.07.05-19.42.37:727][334]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 4.157
-[2017.07.05-19.42.37:811][335]LogEditorViewport: Clicking Background
-[2017.07.05-19.48.10:862][463]LogSavePackage: Save=31.98ms
-[2017.07.05-19.48.10:862][463]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien4AB3E7F54B6C155AC0047484384B8208.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap'
-[2017.07.05-19.48.10:864][463]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap
-[2017.07.05-19.48.13:913][797]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.07.05-19.48.14:125][798]Cmd: QUIT_EDITOR
-[2017.07.05-19.48.14:699][798]LogExit: Preparing to exit.
-[2017.07.05-19.48.15:009][798]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' was aborted.
-[2017.07.05-19.48.15:047][798]LogExit: Editor shut down
-[2017.07.05-19.48.15:055][798]LogExit: Transaction tracking system shut down
-[2017.07.05-19.48.15:346][798]LogObj: Freed 0b from 0 cluster array pools.
-[2017.07.05-19.48.15:346][798]LogExit: Object subsystem successfully closed.
-[2017.07.05-19.48.15:480][798]LogD3D11RHI: Shutdown
-[2017.07.05-19.48.15:480][798]LogD3D11RHI: CleanupD3DDevice
-[2017.07.05-19.48.15:556][798]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.07.05-19.48.15:591][798]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
-[2017.07.05-19.48.15:591][798]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
-[2017.07.05-19.48.15:591][798]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
-[2017.07.05-19.48.15:591][798]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
-[2017.07.05-19.48.15:591][798]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
-[2017.07.05-19.48.15:592][798]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2017.07.05-19.48.15:593][798]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
-[2017.07.05-19.48.15:593][798]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
-[2017.07.05-19.48.15:593][798]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
-[2017.07.05-19.48.15:593][798]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' was aborted.
-[2017.07.05-19.48.15:593][798]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells20/Collections/' was aborted.
-[2017.07.05-19.48.15:593][798]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' was aborted.
-[2017.07.05-19.48.15:594][798]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
-[2017.07.05-19.48.15:594][798]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
-[2017.07.05-19.48.15:594][798]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
-[2017.07.05-19.48.15:595][798]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
-[2017.07.05-19.48.15:595][798]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
-[2017.07.05-19.48.15:595][798]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
-[2017.07.05-19.48.15:595][798]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
-[2017.07.05-19.48.15:595][798]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
-[2017.07.05-19.48.15:595][798]LogModuleManager: Shutting down and abandoning module BspMode (494)
-[2017.07.05-19.48.15:595][798]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
-[2017.07.05-19.48.15:595][798]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
-[2017.07.05-19.48.15:596][798]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
-[2017.07.05-19.48.15:596][798]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
-[2017.07.05-19.48.15:596][798]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
-[2017.07.05-19.48.15:597][798]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
-[2017.07.05-19.48.15:597][798]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
-[2017.07.05-19.48.15:597][798]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
-[2017.07.05-19.48.15:597][798]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
-[2017.07.05-19.48.15:597][798]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
-[2017.07.05-19.48.15:597][798]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
-[2017.07.05-19.48.15:597][798]LogModuleManager: Shutting down and abandoning module Media (471)
-[2017.07.05-19.48.15:597][798]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
-[2017.07.05-19.48.15:597][798]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
-[2017.07.05-19.48.15:597][798]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
-[2017.07.05-19.48.15:598][798]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
-[2017.07.05-19.48.15:598][798]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
-[2017.07.05-19.48.15:598][798]LogModuleManager: Shutting down and abandoning module SessionServices (458)
-[2017.07.05-19.48.15:598][798]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
-[2017.07.05-19.48.15:598][798]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
-[2017.07.05-19.48.15:598][798]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
-[2017.07.05-19.48.15:600][798]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
-[2017.07.05-19.48.15:601][798]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
-[2017.07.05-19.48.15:602][798]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
-[2017.07.05-19.48.15:603][798]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
-[2017.07.05-19.48.15:603][798]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
-[2017.07.05-19.48.15:603][798]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
-[2017.07.05-19.48.15:603][798]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
-[2017.07.05-19.48.15:603][798]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
-[2017.07.05-19.48.16:188][798]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
-[2017.07.05-19.48.16:188][798]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
-[2017.07.05-19.48.16:188][798]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
-[2017.07.05-19.48.16:188][798]LogModuleManager: Shutting down and abandoning module MergeActors (428)
-[2017.07.05-19.48.16:189][798]LogModuleManager: Shutting down and abandoning module SizeMap (426)
-[2017.07.05-19.48.16:189][798]LogModuleManager: Shutting down and abandoning module TreeMap (424)
-[2017.07.05-19.48.16:189][798]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
-[2017.07.05-19.48.16:189][798]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
-[2017.07.05-19.48.16:190][798]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
-[2017.07.05-19.48.16:190][798]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
-[2017.07.05-19.48.16:190][798]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
-[2017.07.05-19.48.16:191][798]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
-[2017.07.05-19.48.16:191][798]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
-[2017.07.05-19.48.16:191][798]LogModuleManager: Shutting down and abandoning module XmlParser (408)
-[2017.07.05-19.48.16:191][798]LogModuleManager: Shutting down and abandoning module Blutility (406)
-[2017.07.05-19.48.16:192][798]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
-[2017.07.05-19.48.16:192][798]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
-[2017.07.05-19.48.16:192][798]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
-[2017.07.05-19.48.16:192][798]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
-[2017.07.05-19.48.16:193][798]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
-[2017.07.05-19.48.16:193][798]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
-[2017.07.05-19.48.16:194][798]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
-[2017.07.05-19.48.16:195][798]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
-[2017.07.05-19.48.16:195][798]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
-[2017.07.05-19.48.16:248][798]LogModuleManager: Shutting down and abandoning module AutomationController (386)
-[2017.07.05-19.48.16:248][798]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
-[2017.07.05-19.48.16:249][798]LogModuleManager: Shutting down and abandoning module Layers (382)
-[2017.07.05-19.48.16:249][798]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
-[2017.07.05-19.48.16:249][798]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
-[2017.07.05-19.48.16:250][798]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
-[2017.07.05-19.48.16:250][798]LogModuleManager: Shutting down and abandoning module Persona (374)
-[2017.07.05-19.48.16:251][798]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
-[2017.07.05-19.48.16:251][798]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
-[2017.07.05-19.48.16:251][798]LogModuleManager: Shutting down and abandoning module Kismet (368)
-[2017.07.05-19.48.16:251][798]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
-[2017.07.05-19.48.16:251][798]LogModuleManager: Shutting down and abandoning module Toolbox (364)
-[2017.07.05-19.48.16:252][798]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
-[2017.07.05-19.48.16:252][798]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
-[2017.07.05-19.48.16:253][798]LogModuleManager: Shutting down and abandoning module OutputLog (358)
-[2017.07.05-19.48.16:254][798]LogModuleManager: Shutting down and abandoning module GammaUI (356)
-[2017.07.05-19.48.16:254][798]LogModuleManager: Shutting down and abandoning module Documentation (354)
-[2017.07.05-19.48.16:254][798]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
-[2017.07.05-19.48.16:254][798]LogModuleManager: Shutting down and abandoning module MovieScene (350)
-[2017.07.05-19.48.16:254][798]LogModuleManager: Shutting down and abandoning module Niagara (348)
-[2017.07.05-19.48.16:254][798]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
-[2017.07.05-19.48.16:256][798]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
-[2017.07.05-19.48.16:256][798]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
-[2017.07.05-19.48.16:256][798]LogModuleManager: Shutting down and abandoning module PortalServices (340)
-[2017.07.05-19.48.16:256][798]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
-[2017.07.05-19.48.16:256][798]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
-[2017.07.05-19.48.16:256][798]LogModuleManager: Shutting down and abandoning module AIModule (334)
-[2017.07.05-19.48.16:256][798]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
-[2017.07.05-19.48.16:256][798]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
-[2017.07.05-19.48.16:256][798]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
-[2017.07.05-19.48.16:501][798]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
-[2017.07.05-19.48.16:503][798]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
-[2017.07.05-19.48.16:503][798]LogModuleManager: Shutting down and abandoning module SteamVR (322)
-[2017.07.05-19.48.16:503][798]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
-[2017.07.05-19.48.16:503][798]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
-[2017.07.05-19.48.16:503][798]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
-[2017.07.05-19.48.16:503][798]LogModuleManager: Shutting down and abandoning module OculusInput (314)
-[2017.07.05-19.48.16:503][798]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
-[2017.07.05-19.48.16:503][798]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
-[2017.07.05-19.48.16:503][798]LogModuleManager: Shutting down and abandoning module CableComponent (308)
-[2017.07.05-19.48.16:503][798]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
-[2017.07.05-19.48.16:503][798]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
-[2017.07.05-19.48.16:503][798]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
-[2017.07.05-19.48.16:504][798]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
-[2017.07.05-19.48.16:504][798]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
-[2017.07.05-19.48.16:505][798]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
-[2017.07.05-19.48.16:505][798]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
-[2017.07.05-19.48.16:505][798]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
-[2017.07.05-19.48.16:505][798]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
-[2017.07.05-19.48.16:505][798]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
-[2017.07.05-19.48.16:505][798]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
-[2017.07.05-19.48.16:505][798]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
-[2017.07.05-19.48.16:507][798]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
-[2017.07.05-19.48.16:508][798]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
-[2017.07.05-19.48.16:508][798]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
-[2017.07.05-19.48.16:508][798]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
-[2017.07.05-19.48.16:508][798]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
-[2017.07.05-19.48.16:509][798]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
-[2017.07.05-19.48.16:509][798]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
-[2017.07.05-19.48.16:510][798]LogModuleManager: Shutting down and abandoning module SourceControl (267)
-[2017.07.05-19.48.16:510][798]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
-[2017.07.05-19.48.16:510][798]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
-[2017.07.05-19.48.16:510][798]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
-[2017.07.05-19.48.16:510][798]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
-[2017.07.05-19.48.16:510][798]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
-[2017.07.05-19.48.16:510][798]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
-[2017.07.05-19.48.16:511][798]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
-[2017.07.05-19.48.16:511][798]LogModuleManager: Shutting down and abandoning module MainFrame (252)
-[2017.07.05-19.48.16:511][798]LogModuleManager: Shutting down and abandoning module HotReload (251)
-[2017.07.05-19.48.16:512][798]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Binaries/Win64' was aborted.
-[2017.07.05-19.48.16:512][798]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
-[2017.07.05-19.48.16:512][798]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
-[2017.07.05-19.48.16:512][798]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
-[2017.07.05-19.48.16:512][798]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
-[2017.07.05-19.48.16:512][798]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
-[2017.07.05-19.48.16:513][798]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
-[2017.07.05-19.48.16:614][798]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
-[2017.07.05-19.48.16:714][798]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2017.07.05-19.48.16:715][798]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2017.07.05-19.48.16:715][798]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2017.07.05-19.48.16:715][798]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2017.07.05-19.48.16:717][798]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2017.07.05-19.48.16:718][798]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2017.07.05-19.48.16:719][798]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2017.07.05-19.48.16:719][798]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2017.07.05-19.48.16:719][798]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2017.07.05-19.48.16:719][798]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2017.07.05-19.48.16:719][798]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2017.07.05-19.48.16:719][798]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2017.07.05-19.48.16:720][798]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2017.07.05-19.48.16:720][798]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2017.07.05-19.48.16:720][798]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2017.07.05-19.48.16:720][798]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2017.07.05-19.48.16:721][798]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2017.07.05-19.48.16:721][798]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2017.07.05-19.48.16:723][798]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2017.07.05-19.48.16:723][798]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2017.07.05-19.48.16:724][798]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2017.07.05-19.48.16:724][798]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2017.07.05-19.48.16:726][798]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2017.07.05-19.48.16:727][798]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2017.07.05-19.48.16:729][798]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2017.07.05-19.48.16:729][798]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2017.07.05-19.48.16:729][798]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2017.07.05-19.48.16:731][798]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2017.07.05-19.48.16:731][798]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2017.07.05-19.48.16:734][798]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2017.07.05-19.48.16:734][798]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2017.07.05-19.48.16:734][798]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2017.07.05-19.48.16:734][798]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2017.07.05-19.48.16:734][798]LogModuleManager: Shutting down and abandoning module Core (164)
-[2017.07.05-19.48.16:734][798]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2017.07.05-19.48.16:829][798]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.07.05-19.48.16:829][798]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' was aborted.
-[2017.07.05-19.48.16:829][798]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.07.05-19.48.16:829][798]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2017.07.05-19.48.16:832][798]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2017.07.05-19.48.16:833][798]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2017.07.05-19.48.16:833][798]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2017.07.05-19.48.16:833][798]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2017.07.05-19.48.16:833][798]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2017.07.05-19.48.16:834][798]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2017.07.05-19.48.16:835][798]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2017.07.05-19.48.16:835][798]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2017.07.05-19.48.16:835][798]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.07.05-19.48.16:877][798]LogDerivedDataCache: Shutdown
-[2017.07.05-19.48.16:877][798]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.07.05-19.48.16:877][798]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.07.05-19.48.16:877][798]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.07.05-19.48.16:877][798]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.07.05-19.48.16:878][798]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.07.05-19.48.16:878][798]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.07.05-19.48.16:878][798]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.07.05-19.48.16:878][798]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.07.05-19.48.16:878][798]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.07.05-19.48.16:878][798]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2017.07.05-19.48.16:879][798]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2017.07.05-19.48.16:880][798]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.07.05-19.48.16:880][798]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.07.05-19.48.16:880][798]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.07.05-19.48.16:880][798]LogOnline:Display: Unloading online subsystem: NULL
-[2017.07.05-19.48.16:881][798]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.07.05-19.48.16:882][798]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.07.05-19.48.16:882][798]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.07.05-19.48.16:882][798]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B9D563168-47BB-5BB4-BC61-1BA9DF23F19F%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.0-3452394%2B%2B%2BUE4%2BRelease-4.16&UserID=520fd5774504bba7d7d4dfbb2efd774d%7C3ef35b30eb8d444d8e26d7fb1794d4bf%7C7a44e29e-0876-4249-91a8-eb020dafba7b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.07.05-19.48.16:899][798]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.07.05-19.48.16:901][798]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2017.07.05-19.48.16:902][798]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2017.07.05-19.48.16:903][798]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2017.07.05-19.48.16:903][798]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.07.05-19.48.16:903][798]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.07.05-19.48.16:903][798]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.07.05-19.48.16:903][798]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.07.05-19.48.16:903][798]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.07.05-19.48.16:905][798]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.07.05-19.48.16:906][798]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.07.05-19.48.16:906][798]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.07.05-19.48.16:906][798]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.07.05-19.48.16:906][798]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.07.05-19.48.16:906][798]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.07.05-19.48.16:906][798]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.07.05-19.48.16:906][798]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.07.05-19.48.16:906][798]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.07.05-19.48.16:906][798]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.07.05-19.48.16:909][798]LogExit: Exiting.
-[2017.07.05-19.48.16:925][798]Log file closed, 07/05/17 13:48:16
+[2017.07.06-23.13.48:926][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.06-23.13.48:926][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.06-23.13.48:998][  0]LogInit: Computer: DESKTOP-6MFT485
+[2017.07.06-23.13.48:998][  0]LogInit: User: JustinWells20
+[2017.07.06-23.13.48:998][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.06-23.13.48:998][  0]LogInit: High frequency timer resolution =3.328126 MHz
+[2017.07.06-23.13.48:999][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.06-23.13.48:999][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.06-23.13.48:999][  0]LogMemory: Process Physical Memory: 273.79 MB used, 273.79 MB peak
+[2017.07.06-23.13.48:999][  0]LogMemory: Process Virtual Memory: 266.56 MB used, 266.56 MB peak
+[2017.07.06-23.13.48:999][  0]LogMemory: Physical Memory: 3369.17 MB used,  12952.57 MB free, 16321.74 MB total
+[2017.07.06-23.13.48:999][  0]LogMemory: Virtual Memory: 651.38 MB used,  12952.57 MB free, 134217728.00 MB total
+[2017.07.06-23.13.49:345][  0]LogInit: Using OS detected language (en-US).
+[2017.07.06-23.13.49:345][  0]LogInit: Using OS detected locale (en-US).
+[2017.07.06-23.13.49:425][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.06-23.13.51:942][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.06-23.13.52:438][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.07.06-23.13.52:438][  0]LogD3D11RHI:       8081/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2017.07.06-23.13.52:439][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.06-23.13.52:439][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.06-23.13.52:439][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.06-23.13.52:448][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.06-23.13.52:448][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.06-23.13.52:448][  0]LogWindows: EnumDisplayDevices:
+[2017.07.06-23.13.52:448][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.07.06-23.13.52:448][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.06-23.13.52:448][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.06-23.13.52:448][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.06-23.13.52:448][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.06-23.13.52:448][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.07.06-23.13.52:449][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.07.06-23.13.52:449][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.07.06-23.13.52:449][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.06-23.13.52:910][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.06-23.13.52:956][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.06-23.13.52:968][  0]LogShaderCompilers: Guid format shader working directory is -53 characters bigger than the processId version (../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Intermediate/Shaders/WorkingDirectory/8732/).
+[2017.07.06-23.13.52:968][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Justin Wells/AppData/Local/Temp/UnrealShaderWorkingDir/50523B3447BE044AD81F9694549D3E20/'.
+[2017.07.06-23.13.52:969][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.06-23.13.54:829][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.06-23.13.54:869][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.06-23.13.54:909][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.06-23.13.54:950][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.06-23.13.54:994][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.06-23.13.55:035][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.06-23.13.55:076][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.06-23.13.55:116][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.06-23.13.55:151][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.06-23.13.55:194][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.06-23.13.55:236][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.06-23.13.55:276][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.06-23.13.55:316][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.06-23.13.55:355][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.06-23.13.55:395][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.06-23.13.55:475][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.06-23.13.55:475][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.06-23.13.55:505][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.06-23.13.55:592][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.06-23.13.55:616][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.06-23.13.55:656][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.06-23.13.55:696][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.06-23.13.55:735][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.06-23.13.55:779][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.06-23.13.55:779][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.06-23.13.56:265][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.06-23.13.56:812][  0]LogDerivedDataCache: Loaded boot cache 0.55s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.06-23.13.56:812][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.06-23.13.56:812][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.06-23.13.56:812][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.06-23.13.56:812][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.06-23.13.56:812][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.06-23.13.56:894][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.06-23.13.56:906][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Justin Wells/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.06-23.13.56:923][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.06-23.13.56:928][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.06-23.13.56:945][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.06-23.13.56:945][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.06-23.13.57:895][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.06-23.13.58:060][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.06-23.13.58:254][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.06-23.13.58:300][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.06-23.13.58:339][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.06-23.13.58:339][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.06-23.13.58:339][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.06-23.13.59:632][  0]LogNetVersion: InsertNameAdventure , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1278457987)
+[2017.07.06-23.13.59:721][  0]LogAssetRegistry: FAssetRegistry took 0.0296 seconds to start up
+[2017.07.06-23.13.59:782][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.039387 seconds
+[2017.07.06-23.13.59:787][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.06-23.13.59:787][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.06-23.13.59:787][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.06-23.13.59:840][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.06-23.14.03:582][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.06-23.14.03:635][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.06-23.14.04:281][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.06-23.14.04:731][  0]SourceControl: Info Source control is disabled
+[2017.07.06-23.14.05:808][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.06-23.14.06:323][  0]LogEngine: Initializing Engine...
+[2017.07.06-23.14.06:325][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.07.06-23.14.06:671][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.06-23.14.06:672][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.06-23.14.06:820][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.06-23.14.06:838][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.06-23.14.06:857][  0]LogInit: FAudioDevice initialized.
+[2017.07.06-23.14.06:892][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.06-23.14.06:904][  0]LogInit: Texture streaming: Enabled
+[2017.07.06-23.14.06:984][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.06-23.14.07:214][  0]LogInit: Transaction tracking system initialized
+[2017.07.06-23.14.07:542][  0]BlueprintLog: New page: Editor Load
+[2017.07.06-23.14.08:472][  0]LocalizationService: Info Localization service is disabled
+[2017.07.06-23.14.09:307][  0]LogConsoleResponse:Display: 
+[2017.07.06-23.14.09:664][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.06-23.14.09:664][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.06-23.14.10:240][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' took 0.03s
+[2017.07.06-23.14.11:626][  0]LogSlate: Took 0.009176 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.06-23.14.13:363][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.06-23.14.13:364][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.06-23.14.13:367][  0]LightingResults: New page: Lighting Build
+[2017.07.06-23.14.13:410][  0]MapCheck: New page: Map Check
+[2017.07.06-23.14.13:410][  0]LightingResults: New page: Lighting Build
+[2017.07.06-23.14.13:426][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.06-23.14.13:433][  0]LoadErrors: New page: New Map
+[2017.07.06-23.14.13:739][  0]LogCollectionManager: Loaded 0 collections in 0.001532 seconds
+[2017.07.06-23.14.13:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' took 0.01s
+[2017.07.06-23.14.13:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells20/Collections/' took 0.01s
+[2017.07.06-23.14.13:824][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' took 0.01s
+[2017.07.06-23.14.13:824][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.06-23.14.13:833][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2329 classes and 491 folders.
+[2017.07.06-23.14.13:892][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.07.06-23.14.14:212][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.06-23.14.14:267][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.07.06-23.14.14:302][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.06-23.14.14:324][  0]LogSlate: Took 0.007965 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.06-23.14.14:338][  0]LogSlate: Took 0.010339 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.06-23.14.14:445][  0]LogRenderer: Reallocating scene render targets to support 2556x924 NumSamples 1 (Frame:1).
+[2017.07.06-23.14.14:770][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.06-23.14.14:844][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.07.06-23.14.14:858][  0]LogLoad: (Engine Initialization) Total time: 28.19 seconds
+[2017.07.06-23.14.14:858][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.07.06-23.14.14:858][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.06-23.14.15:200][  0]LogOcInput: OculusInput pre-init called
+[2017.07.06-23.14.15:200][  0]LogHMD: Starting GearVRController plugin
+[2017.07.06-23.14.15:223][  0]SourceControl: Info On branch V1.5.1
+[2017.07.06-23.14.15:223][  0]SourceControl: Info Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.07.06-23.14.15:223][  0]SourceControl: Info Changes to be committed:
+[2017.07.06-23.14.15:223][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/CLT_5.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/CLT_6.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Sprite_Sheet.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Sprite_Sheet_Sprite_0.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Sprite_Sheet_Sprite_1.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Sprite_Sheet_Sprite_2.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Sprite_Sheet_Sprite_3.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Sprite_Sheet_Sprite_4.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Sprite_Sheet_Sprite_5.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Sprite_Sheet_Sprite_6.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Sprite_Sheet_Sprite_7.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Sprite_Sheet_Sprite_8.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Sprite_Sheet_Sprite_9.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Sprite_Sheet_TileSet.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info Changes not staged for commit:
+[2017.07.06-23.14.15:223][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.07.06-23.14.15:223][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Maps/Levels/2DSideScrollerExampleMap.umap
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Rain_Forrest_TM.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/SpriteSheet_Environment_1_Rain_Forrest_1_Sprite_45.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto1.umap
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto3.umap
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto4.umap
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Backup/2DSideScrollerCharacter_2017-06-23-14-23-58.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Backup/2DSideScrollerCharacter_2017-06-23-14-37-25.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Backup/Rain_Forrest_Level_L_2017-06-23-14-02-41.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Backup/dirt_mound_left_and_right_sheet_2017-06-23-15-37-53.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2D15D5394EC4D9EB81A45381B4A2E5E0/CrashReportClient.ini
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-42F2D5EE401A09575EE834A9A0EE09F1/CrashReportClient.ini
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-4561FD9D4967C63E69BF6FA3F4DC6B6A/CrashReportClient.ini
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-4C70E5B04B91E2CFE07A0AB9E8BE4B13/CrashReportClient.ini
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-54589FFA4E67776DA55A5F825E5DD49C/CrashReportClient.ini
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-A08355874F061B4E30F597B307C61046/CrashReportClient.ini
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-AE53F65E4C13E4C7D08BB1A6A34BF40F/CrashReportClient.ini
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D31EE8534C2EF6C0B0DE44A97C1293C5/CrashReportClient.ini
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-E8B0914049F8794B9AD171AD6C371927/CrashReportClient.ini
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-F93D5CE64EEB071992756CA1875C3026/CrashReportClient.ini
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.06.30-19.12.37.log
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.06.30-19.47.16.log
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.07.01-13.55.11.log
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.07.06-23.14.15:223][  0]SourceControl: Info Untracked files:
+[2017.07.06-23.14.15:223][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/CLT_5_Auto3.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Sprite_Sheet_Auto2.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Backup/2DSideScrollerCharacter_2017-07-05-15-20-01.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Backup/2DSideScrollerExampleMap_2017-07-06-13-42-31.umap
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Backup/Rain_Forrest_TM_2017-07-05-15-20-30.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Backup/Rain_Forrest_TM_2017-07-06-13-41-58.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-05-15-20-27.umap
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-06-13-15-25.umap
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-06-13-37-29.umap
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-06-13-53-22.umap
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-06-14-05-37.umap
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-06-14-20-30.umap
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Backup/SpriteSheet_Environment_1_Rain_Forrest_1_Sprite_45_2017-07-06-14-14-51.uasset
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-14AC58204B991C5F6E04B48AD1294595/
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-9D86D2B54394671630791788A57C6D56/
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-EE94F096456BEE97CB252E959506E708/
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.07.05-15.09.22.log
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.07.06-12.40.59.log
+[2017.07.06-23.14.15:223][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.07.06-17.13.48.log
+[2017.07.06-23.14.15:224][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.06-23.14.15:547][  1]LogAssetRegistry: Asset discovery search completed in 15.8484 seconds
+[2017.07.06-23.14.15:549][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000005 seconds (found 0 objects)
+[2017.07.06-23.14.15:549][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000033 seconds (updated 0 objects)
+[2017.07.06-23.14.16:213][  3]LogSlate: Took 0.003723 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.06-23.16.00:860][953]LogSlate: Took 0.000105 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.06-23.16.01:563][953]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.06-23.16.01:596][953]LightingResults: New page: Lighting Build
+[2017.07.06-23.16.01:596][953]LoadErrors: New page: Loading map: Rainforest_Alien.umap
+[2017.07.06-23.16.01:597][953]MapCheck: New page: Map Check
+[2017.07.06-23.16.01:597][953]LightingResults: New page: Lighting Build
+[2017.07.06-23.16.01:679][953]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.06-23.16.01:719][953]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.06-23.16.01:763][953]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.552ms to complete.
+[2017.07.06-23.16.01:763][953]LogFileHelpers: Loading map 'Rainforest_Alien' took 0.167
+[2017.07.06-23.16.03:196][114]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.06-23.16.03:250][114]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.06-23.16.03:251][114]PIE: New page: PIE session: Rainforest_Alien (Jul 6, 2017, 11:16:03 AM)
+[2017.07.06-23.16.03:251][114]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.06-23.16.03:253][114]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002140s)
+[2017.07.06-23.16.03:254][114]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.06-23.16.03:254][114]LogPlayLevel: PIE: World Init took: (0.000492s)
+[2017.07.06-23.16.03:254][114]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.002832s)
+[2017.07.06-23.16.03:265][114]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.06-23.16.03:271][114]LogInit: FAudioDevice initialized.
+[2017.07.06-23.16.03:322][114]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.06-23.16.03:332][114]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.06-17.16.03
+[2017.07.06-23.16.03:339][114]LogWorld: Bringing up level for play took: 0.013201
+[2017.07.06-23.16.03:388][114]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 11 classes and 0 folders.
+[2017.07.06-23.16.03:401][114]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 1.034
+[2017.07.06-23.17.24:353][752]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.07.06-23.17.24:894][752]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.06-23.17.25:025][752]LogSlate: Took 0.003913 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.06-23.17.27:584][ 29]LogSlate: Took 0.003883 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.06-23.18.12:323][225]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.07.06-23.18.40:255][973]BlueprintLog: New page: Compile 2DSideScrollerCharacter
+[2017.07.06-23.19.04:771][532]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight4)
+[2017.07.06-23.19.05:977][672]Cmd: DELETE
+[2017.07.06-23.19.05:977][672]Cmd: ACTOR DELETE
+[2017.07.06-23.19.05:980][672]LogEditorActor: Deleted Actor: PointLight
+[2017.07.06-23.19.05:994][672]LogEditorActor: Deleted 1 Actors (0.016 secs)
+[2017.07.06-23.19.06:817][770]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight5)
+[2017.07.06-23.19.06:950][782]Cmd: DELETE
+[2017.07.06-23.19.06:950][782]Cmd: ACTOR DELETE
+[2017.07.06-23.19.06:950][782]LogEditorActor: Deleted Actor: PointLight
+[2017.07.06-23.19.06:964][782]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.07.06-23.19.08:516][967]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight)
+[2017.07.06-23.19.08:608][974]Cmd: DELETE
+[2017.07.06-23.19.08:608][974]Cmd: ACTOR DELETE
+[2017.07.06-23.19.08:608][974]LogEditorActor: Deleted Actor: PointLight
+[2017.07.06-23.19.08:622][974]LogEditorActor: Deleted 1 Actors (0.014 secs)
+[2017.07.06-23.19.09:233][ 47]LogEditorViewport: Clicking on Actor (LMB): PointLight (PointLight2)
+[2017.07.06-23.19.09:332][ 55]Cmd: DELETE
+[2017.07.06-23.19.09:332][ 55]Cmd: ACTOR DELETE
+[2017.07.06-23.19.09:333][ 55]LogEditorActor: Deleted Actor: PointLight
+[2017.07.06-23.19.09:350][ 55]LogEditorActor: Deleted 1 Actors (0.018 secs)
+[2017.07.06-23.20.20:059][995]LogAudio:Warning: Current Audio Device with ID {0.0.0.00000000}.{27c1dc97-4e9f-4e48-9b36-ae049f227a07} was removed. Shutting down audio device.
+[2017.07.06-23.27.18:352][248]LogSavePackage: Save=26.50ms
+[2017.07.06-23.27.18:352][248]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_Auto16079506845B8B4AB47C219A3734CDCCC.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto1.umap'
+[2017.07.06-23.27.18:353][248]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto1.umap
+[2017.07.06-23.27.18:358][248]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.073
+[2017.07.06-23.27.18:358][248]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.073
+[2017.07.06-23.27.18:360][248]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter] ([1] browsable assets)...
+[2017.07.06-23.27.18:360][248]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter]
+[2017.07.06-23.27.18:598][248]LogSavePackage: Save=226.99ms
+[2017.07.06-23.27.18:598][248]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerCharacter_Auto1D640ACE349683E3BA2EC019D07C1839B.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter_Auto1.uasset'
+[2017.07.06-23.27.18:601][248]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter_Auto1.uasset
+[2017.07.06-23.27.18:601][248]LogFileHelpers: Auto-saving content packages took 0.242
+[2017.07.06-23.52.57:320][800]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Justin Wells/Desktop/UE4 Art/PNG's/Rain Forrest Assets/Sprite Sheets/Dirt 3 Ramp Sprite Sheet.png)
+[2017.07.06-23.52.57:327][800]LogTexture:Display: Building textures: Dirt_3_Ramp_Sprite_Sheet (AutoDXT, 256X256)
+[2017.07.06-23.52.57:440][801]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.014
+[2017.07.06-23.52.57:442][801]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet] ([1] browsable assets)...
+[2017.07.06-23.52.57:449][801]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet.Dirt_3_Ramp_Sprite_Sheet]
+[2017.07.06-23.52.57:450][801]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet]
+[2017.07.06-23.52.57:459][801]LogSavePackage: Save=8.09ms
+[2017.07.06-23.52.57:459][801]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Auto221E561964E9AD90E4B7CCC8F57AC8BF6.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Auto2.uasset'
+[2017.07.06-23.52.57:460][801]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Auto2.uasset
+[2017.07.06-23.52.57:460][801]LogFileHelpers: Auto-saving content packages took 0.019
+[2017.07.06-23.53.00:291][ 92]LogTexture:Display: Building textures: Dirt_3_Ramp_Sprite_Sheet (BGRA8, 256X256)
+[2017.07.06-23.53.38:485][526]Cmd: TRANSACTION UNDO
+[2017.07.06-23.53.38:485][526]LogEditorTransaction: Undo Edit Num Cells X
+[2017.07.06-23.53.39:453][635]Cmd: TRANSACTION UNDO
+[2017.07.06-23.53.39:453][635]LogEditorTransaction: Undo Edit Num Cells Y
+[2017.07.06-23.54.28:187][975]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.06-23.54.52:475][672]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.07.07-00.03.25:690][795]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.017
+[2017.07.07-00.03.25:692][795]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet] ([1] browsable assets)...
+[2017.07.07-00.03.25:700][795]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet.Dirt_3_Ramp_Sprite_Sheet]
+[2017.07.07-00.03.25:700][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet]
+[2017.07.07-00.03.25:708][795]LogSavePackage: Save=7.04ms
+[2017.07.07-00.03.25:708][795]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Auto325D80A454EE949FE2D9E83A8BFC4A6A6.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Auto3.uasset'
+[2017.07.07-00.03.25:709][795]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Auto3.uasset
+[2017.07.07-00.03.25:710][795]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_1] ([1] browsable assets)...
+[2017.07.07-00.03.25:716][795]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_1.Dirt_3_Ramp_Sprite_Sheet_Sprite_1]
+[2017.07.07-00.03.25:716][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_1]
+[2017.07.07-00.03.25:724][795]LogSavePackage: Save=6.53ms
+[2017.07.07-00.03.25:724][795]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Sprite_1_Auto33A5B85E9429E6C5207558D811109D56B.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_1_Auto3.uasset'
+[2017.07.07-00.03.25:725][795]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_1_Auto3.uasset
+[2017.07.07-00.03.25:725][795]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_3] ([1] browsable assets)...
+[2017.07.07-00.03.25:732][795]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_3.Dirt_3_Ramp_Sprite_Sheet_Sprite_3]
+[2017.07.07-00.03.25:732][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_3]
+[2017.07.07-00.03.25:740][795]LogSavePackage: Save=6.31ms
+[2017.07.07-00.03.25:740][795]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Sprite_3_Auto3755708D4492930DC1C6C19917931A007.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_3_Auto3.uasset'
+[2017.07.07-00.03.25:741][795]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_3_Auto3.uasset
+[2017.07.07-00.03.25:741][795]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_4] ([1] browsable assets)...
+[2017.07.07-00.03.25:748][795]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_4.Dirt_3_Ramp_Sprite_Sheet_Sprite_4]
+[2017.07.07-00.03.25:748][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_4]
+[2017.07.07-00.03.25:756][795]LogSavePackage: Save=6.50ms
+[2017.07.07-00.03.25:756][795]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Sprite_4_Auto398978A31458EEC48C0019394B55744F2.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_4_Auto3.uasset'
+[2017.07.07-00.03.25:758][795]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_4_Auto3.uasset
+[2017.07.07-00.03.25:758][795]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_TileSet] ([1] browsable assets)...
+[2017.07.07-00.03.25:766][795]OBJ SavePackage:     Rendered thumbnail for [PaperTileSet /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_TileSet.Dirt_3_Ramp_Sprite_Sheet_TileSet]
+[2017.07.07-00.03.25:766][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_TileSet]
+[2017.07.07-00.03.25:777][795]LogSavePackage: Save=9.56ms
+[2017.07.07-00.03.25:777][795]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_TileSet_Auto356758DFB468FCC66E599CD8F60D19D31.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_TileSet_Auto3.uasset'
+[2017.07.07-00.03.25:778][795]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_TileSet_Auto3.uasset
+[2017.07.07-00.03.25:778][795]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_7] ([1] browsable assets)...
+[2017.07.07-00.03.25:785][795]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_7.Dirt_3_Ramp_Sprite_Sheet_Sprite_7]
+[2017.07.07-00.03.25:785][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_7]
+[2017.07.07-00.03.25:793][795]LogSavePackage: Save=6.38ms
+[2017.07.07-00.03.25:793][795]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Sprite_7_Auto34DE697254E69EB1734C0CD97F9FD5845.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_7_Auto3.uasset'
+[2017.07.07-00.03.25:794][795]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_7_Auto3.uasset
+[2017.07.07-00.03.25:795][795]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_8] ([1] browsable assets)...
+[2017.07.07-00.03.25:802][795]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_8.Dirt_3_Ramp_Sprite_Sheet_Sprite_8]
+[2017.07.07-00.03.25:802][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_8]
+[2017.07.07-00.03.25:810][795]LogSavePackage: Save=6.46ms
+[2017.07.07-00.03.25:810][795]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Sprite_8_Auto3E6A72D3A46CAA2A4DE3644A099ED3466.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_8_Auto3.uasset'
+[2017.07.07-00.03.25:811][795]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_8_Auto3.uasset
+[2017.07.07-00.03.25:812][795]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_9] ([1] browsable assets)...
+[2017.07.07-00.03.25:818][795]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_9.Dirt_3_Ramp_Sprite_Sheet_Sprite_9]
+[2017.07.07-00.03.25:818][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_9]
+[2017.07.07-00.03.25:825][795]LogSavePackage: Save=6.34ms
+[2017.07.07-00.03.25:825][795]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Sprite_9_Auto30061EC904835534BF6545C92DD084DD0.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_9_Auto3.uasset'
+[2017.07.07-00.03.25:827][795]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_9_Auto3.uasset
+[2017.07.07-00.03.25:827][795]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_12] ([1] browsable assets)...
+[2017.07.07-00.03.25:834][795]OBJ SavePackage:     Rendered thumbnail for [PaperSprite /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_12.Dirt_3_Ramp_Sprite_Sheet_Sprite_12]
+[2017.07.07-00.03.25:834][795]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_12]
+[2017.07.07-00.03.25:842][795]LogSavePackage: Save=6.21ms
+[2017.07.07-00.03.25:842][795]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Sprite_12_Auto3FE9D3A2E4B9B6C56C43BE0A120338098.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_12_Auto3.uasset'
+[2017.07.07-00.03.25:843][795]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_12_Auto3.uasset
+[2017.07.07-00.03.25:843][795]LogFileHelpers: Auto-saving content packages took 0.152
+[2017.07.07-00.12.21:097][251]LogSavePackage: Save=11.26ms
+[2017.07.07-00.12.21:097][251]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_TileSetD7A0170542BD50089C6C33A9E0B283AC.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_TileSet.uasset'
+[2017.07.07-00.12.21:104][251]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_TileSet.uasset
+[2017.07.07-00.21.59:134][654]LogSavePackage: Save=10.96ms
+[2017.07.07-00.21.59:134][654]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_TileSetC8179B3E4E5B2017EB189E985E302FE4.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_TileSet.uasset'
+[2017.07.07-00.21.59:137][654]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_TileSet.uasset
+[2017.07.07-00.22.02:813][870]LogSavePackage: Save=224.14ms
+[2017.07.07-00.22.02:813][870]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/2DSideScrollerCharacterDC82457248241C9436F695A651374756.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.uasset'
+[2017.07.07-00.22.02:820][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.uasset
+[2017.07.07-00.22.02:840][870]LogSavePackage: Save=8.34ms
+[2017.07.07-00.22.02:840][870]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_SheetDF71EED445CD92C5DCD201A3797E0B74.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet.uasset'
+[2017.07.07-00.22.02:846][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet.uasset
+[2017.07.07-00.22.02:951][870]LogSavePackage: Save=6.20ms
+[2017.07.07-00.22.02:951][870]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Sprite_1EF538A4B47A812827706CFB71B196426.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_1.uasset'
+[2017.07.07-00.22.02:959][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_1.uasset
+[2017.07.07-00.22.03:073][870]LogSavePackage: Save=6.28ms
+[2017.07.07-00.22.03:073][870]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Sprite_12137FAA6B4ED49DDF6AA76B960EBC6DF1.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_12.uasset'
+[2017.07.07-00.22.03:080][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_12.uasset
+[2017.07.07-00.22.03:179][870]LogSavePackage: Save=6.21ms
+[2017.07.07-00.22.03:179][870]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Sprite_34115B474457F6541667899929DCBBCFE.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_3.uasset'
+[2017.07.07-00.22.03:185][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_3.uasset
+[2017.07.07-00.22.03:288][870]LogSavePackage: Save=6.55ms
+[2017.07.07-00.22.03:288][870]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Sprite_472137BBB4A9E4E4E663274A910098873.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_4.uasset'
+[2017.07.07-00.22.03:294][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_4.uasset
+[2017.07.07-00.22.03:395][870]LogSavePackage: Save=6.14ms
+[2017.07.07-00.22.03:395][870]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Sprite_722F4EB84415D7E01AF66DB9FD5E37AAF.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_7.uasset'
+[2017.07.07-00.22.03:401][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_7.uasset
+[2017.07.07-00.22.03:503][870]LogSavePackage: Save=6.21ms
+[2017.07.07-00.22.03:503][870]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Sprite_8BF86E36B46E908C84D10148E0B12CF6A.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_8.uasset'
+[2017.07.07-00.22.03:509][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_8.uasset
+[2017.07.07-00.22.03:610][870]LogSavePackage: Save=6.31ms
+[2017.07.07-00.22.03:610][870]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Ramp_Sprite_Sheet_Sprite_9BA07577B46D65B1E852FFA907E31FB35.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_9.uasset'
+[2017.07.07-00.22.03:615][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Ramp_Sprite_Sheet_Sprite_9.uasset
+[2017.07.07-00.22.03:791][870]LogSavePackage: Save=24.49ms
+[2017.07.07-00.22.03:791][870]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien166D1BCC41FAA4A705E6BC834F8E74B0.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap'
+[2017.07.07-00.22.03:796][870]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap
+[2017.07.07-00.22.03:832][870]LogFileHelpers: Saving map 'Rainforest_Alien' took 0.132
+[2017.07.07-00.22.03:923][870]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.07-00.22.04:116][871]Cmd: QUIT_EDITOR
+[2017.07.07-00.22.04:646][871]LogExit: Preparing to exit.
+[2017.07.07-00.22.05:712][871]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' was aborted.
+[2017.07.07-00.22.05:742][871]LogExit: Editor shut down
+[2017.07.07-00.22.05:749][871]LogExit: Transaction tracking system shut down
+[2017.07.07-00.22.05:848][871]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.07-00.22.05:848][871]LogExit: Object subsystem successfully closed.
+[2017.07.07-00.22.05:881][871]LogD3D11RHI: Shutdown
+[2017.07.07-00.22.05:881][871]LogD3D11RHI: CleanupD3DDevice
+[2017.07.07-00.22.06:001][871]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.07-00.22.06:021][871]LogModuleManager: Shutting down and abandoning module TextureEditor (532)
+[2017.07.07-00.22.06:021][871]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.07.07-00.22.06:021][871]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.07.07-00.22.06:022][871]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.07.07-00.22.06:022][871]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.07.07-00.22.06:022][871]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.07.07-00.22.06:022][871]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.07.07-00.22.06:022][871]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.07.07-00.22.06:022][871]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.07-00.22.06:023][871]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.07.07-00.22.06:023][871]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.07.07-00.22.06:023][871]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.07.07-00.22.06:023][871]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' was aborted.
+[2017.07.07-00.22.06:023][871]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells20/Collections/' was aborted.
+[2017.07.07-00.22.06:023][871]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' was aborted.
+[2017.07.07-00.22.06:023][871]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.07.07-00.22.06:023][871]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.07.07-00.22.06:023][871]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.07.07-00.22.06:024][871]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.07.07-00.22.06:025][871]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.07.07-00.22.06:025][871]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.07.07-00.22.06:025][871]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.07.07-00.22.06:025][871]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.07.07-00.22.06:025][871]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.07.07-00.22.06:025][871]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.07.07-00.22.06:026][871]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.07.07-00.22.06:026][871]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.07.07-00.22.06:027][871]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.07.07-00.22.06:027][871]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.07.07-00.22.06:027][871]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.07.07-00.22.06:027][871]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.07.07-00.22.06:027][871]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.07.07-00.22.06:658][871]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.07.07-00.22.06:658][871]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.07.07-00.22.06:658][871]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.07.07-00.22.06:658][871]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.07.07-00.22.06:659][871]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.07.07-00.22.06:659][871]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.07.07-00.22.06:659][871]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.07.07-00.22.06:659][871]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.07.07-00.22.06:660][871]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.07.07-00.22.06:660][871]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.07.07-00.22.06:660][871]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.07.07-00.22.06:660][871]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.07.07-00.22.06:660][871]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.07.07-00.22.06:660][871]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.07.07-00.22.06:660][871]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.07.07-00.22.06:660][871]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.07.07-00.22.06:660][871]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.07.07-00.22.06:660][871]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.07.07-00.22.06:660][871]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.07.07-00.22.06:660][871]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.07.07-00.22.06:661][871]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.07.07-00.22.06:661][871]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.07.07-00.22.06:662][871]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.07.07-00.22.06:662][871]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.07.07-00.22.06:715][871]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.07.07-00.22.06:715][871]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.07.07-00.22.06:715][871]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.07.07-00.22.06:715][871]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.07.07-00.22.06:715][871]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.07.07-00.22.06:715][871]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.07.07-00.22.06:715][871]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.07.07-00.22.06:716][871]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.07.07-00.22.06:716][871]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.07.07-00.22.06:716][871]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.07.07-00.22.06:722][871]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.07.07-00.22.06:722][871]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.07.07-00.22.06:722][871]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.07.07-00.22.06:722][871]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.07.07-00.22.06:723][871]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.07.07-00.22.06:723][871]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.07.07-00.22.06:723][871]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.07.07-00.22.06:723][871]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.07.07-00.22.06:723][871]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.07.07-00.22.06:723][871]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.07.07-00.22.06:723][871]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.07.07-00.22.06:723][871]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.07.07-00.22.06:724][871]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.07.07-00.22.06:724][871]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.07.07-00.22.06:724][871]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.07.07-00.22.06:724][871]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.07.07-00.22.06:724][871]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.07.07-00.22.06:724][871]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.07.07-00.22.06:724][871]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.07.07-00.22.06:724][871]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.07.07-00.22.06:762][871]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.07.07-00.22.06:763][871]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.07.07-00.22.06:763][871]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.07.07-00.22.06:763][871]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.07.07-00.22.06:763][871]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.07.07-00.22.06:763][871]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.07.07-00.22.06:763][871]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.07.07-00.22.06:763][871]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.07.07-00.22.06:763][871]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.07.07-00.22.06:763][871]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.07.07-00.22.06:763][871]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.07.07-00.22.06:763][871]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.07.07-00.22.06:763][871]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.07.07-00.22.06:763][871]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.07.07-00.22.06:763][871]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.07.07-00.22.06:764][871]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.07.07-00.22.06:765][871]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.07.07-00.22.06:765][871]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.07.07-00.22.06:765][871]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.07.07-00.22.06:765][871]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Binaries/Win64' was aborted.
+[2017.07.07-00.22.06:765][871]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.07-00.22.06:766][871]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.07-00.22.06:766][871]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.07-00.22.06:766][871]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.07-00.22.06:766][871]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.07-00.22.06:766][871]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.07-00.22.06:866][871]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.07-00.22.06:966][871]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.07-00.22.06:966][871]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.07-00.22.06:967][871]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.07-00.22.06:967][871]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.07-00.22.06:967][871]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.07-00.22.06:967][871]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.07-00.22.06:967][871]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.07-00.22.06:967][871]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.07-00.22.06:967][871]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.07-00.22.06:967][871]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.07-00.22.06:967][871]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.07-00.22.06:967][871]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.07-00.22.06:968][871]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.07-00.22.06:968][871]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.07-00.22.06:968][871]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.07-00.22.06:968][871]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.07-00.22.06:969][871]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.07-00.22.06:969][871]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.07-00.22.06:970][871]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.07-00.22.06:970][871]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.07-00.22.06:970][871]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.07-00.22.06:970][871]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.07-00.22.06:970][871]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.07-00.22.06:970][871]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.07-00.22.06:970][871]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.07-00.22.06:970][871]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.07-00.22.06:971][871]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.07-00.22.06:971][871]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.07-00.22.06:971][871]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.07-00.22.06:973][871]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.07-00.22.06:973][871]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.07-00.22.06:973][871]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.07-00.22.06:973][871]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.07-00.22.06:974][871]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.07-00.22.06:974][871]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.07-00.22.07:474][871]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.07-00.22.07:475][871]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' was aborted.
+[2017.07.07-00.22.07:475][871]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.07-00.22.07:475][871]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.07-00.22.07:493][871]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.07-00.22.07:494][871]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.07-00.22.07:494][871]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.07-00.22.07:494][871]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.07-00.22.07:494][871]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.07-00.22.07:494][871]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.07-00.22.07:494][871]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.07-00.22.07:494][871]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.07-00.22.07:494][871]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.07-00.22.07:550][871]LogDerivedDataCache: Shutdown
+[2017.07.07-00.22.07:550][871]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.07-00.22.07:550][871]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.07-00.22.07:550][871]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.07-00.22.07:550][871]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.07-00.22.07:551][871]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.07-00.22.07:552][871]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.07-00.22.07:552][871]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.07-00.22.07:553][871]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.07-00.22.07:553][871]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.07-00.22.07:553][871]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.07-00.22.07:553][871]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD87198CD-4772-2326-33CD-A5B68F3529B1%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.0-3452394%2B%2B%2BUE4%2BRelease-4.16&UserID=520fd5774504bba7d7d4dfbb2efd774d%7C3ef35b30eb8d444d8e26d7fb1794d4bf%7C7a44e29e-0876-4249-91a8-eb020dafba7b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.07-00.22.07:556][871]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.07-00.22.07:557][871]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.07-00.22.07:557][871]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.07-00.22.07:558][871]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.07-00.22.07:558][871]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.07-00.22.07:558][871]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.07-00.22.07:558][871]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.07-00.22.07:558][871]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.07-00.22.07:558][871]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.07-00.22.07:559][871]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.07-00.22.07:560][871]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.07-00.22.07:560][871]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.07-00.22.07:560][871]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.07-00.22.07:560][871]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.07-00.22.07:560][871]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.07-00.22.07:560][871]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.07-00.22.07:560][871]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.07-00.22.07:560][871]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.07-00.22.07:560][871]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.07-00.22.07:561][871]LogExit: Exiting.
+[2017.07.07-00.22.07:580][871]Log file closed, 07/06/17 18:22:07
