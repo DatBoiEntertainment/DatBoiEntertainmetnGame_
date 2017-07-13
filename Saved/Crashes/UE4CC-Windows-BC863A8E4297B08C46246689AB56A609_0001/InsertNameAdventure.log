@@ -1,0 +1,415 @@
+﻿Log file open, 07/13/17 09:10:20
+LogInit:Display: Running engine for game: InsertNameAdventure
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1233412405) SRandInit(1233412405).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.097810
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3452394
+LogInit: Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 22 2017 17:47:00
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.13-15.10.20:737][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.13-15.10.20:737][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.13-15.10.20:796][  0]LogInit: Computer: DESKTOP-6MFT485
+[2017.07.13-15.10.20:796][  0]LogInit: User: JustinWells20
+[2017.07.13-15.10.20:796][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.13-15.10.20:796][  0]LogInit: High frequency timer resolution =3.328127 MHz
+[2017.07.13-15.10.20:797][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.13-15.10.20:797][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.13-15.10.20:797][  0]LogMemory: Process Physical Memory: 274.23 MB used, 274.23 MB peak
+[2017.07.13-15.10.20:797][  0]LogMemory: Process Virtual Memory: 262.53 MB used, 262.53 MB peak
+[2017.07.13-15.10.20:797][  0]LogMemory: Physical Memory: 3414.91 MB used,  12906.82 MB free, 16321.74 MB total
+[2017.07.13-15.10.20:797][  0]LogMemory: Virtual Memory: 647.44 MB used,  12906.82 MB free, 134217728.00 MB total
+[2017.07.13-15.10.21:128][  0]LogInit: Using OS detected language (en-US).
+[2017.07.13-15.10.21:128][  0]LogInit: Using OS detected locale (en-US).
+[2017.07.13-15.10.21:240][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.13-15.10.23:649][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.13-15.10.24:161][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.07.13-15.10.24:161][  0]LogD3D11RHI:       8081/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.13-15.10.24:163][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.13-15.10.24:163][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.13-15.10.24:163][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.13-15.10.24:170][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.13-15.10.24:170][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.13-15.10.24:170][  0]LogWindows: EnumDisplayDevices:
+[2017.07.13-15.10.24:170][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.07.13-15.10.24:170][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.07.13-15.10.24:170][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.13-15.10.24:170][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.13-15.10.24:170][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.13-15.10.24:170][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.07.13-15.10.24:171][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.07.13-15.10.24:171][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.07.13-15.10.24:171][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.13-15.10.24:653][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.13-15.10.24:728][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.13-15.10.24:791][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Intermediate/Shaders/WorkingDirectory/17364/).
+[2017.07.13-15.10.24:791][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Justin Wells/AppData/Local/Temp/UnrealShaderWorkingDir/88EA49A340674E1EB1A0A187050D8B45/'.
+[2017.07.13-15.10.24:792][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.13-15.10.26:555][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.13-15.10.26:595][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.13-15.10.26:634][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.13-15.10.26:673][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.13-15.10.26:716][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.13-15.10.26:755][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.13-15.10.26:794][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.13-15.10.26:833][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.13-15.10.26:867][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.13-15.10.26:909][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.13-15.10.26:949][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.13-15.10.26:988][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.13-15.10.27:027][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.13-15.10.27:065][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.13-15.10.27:105][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.13-15.10.27:184][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.13-15.10.27:184][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.13-15.10.27:214][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.13-15.10.27:299][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.13-15.10.27:323][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.13-15.10.27:362][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.13-15.10.27:401][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.13-15.10.27:440][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.13-15.10.27:482][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.13-15.10.27:482][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.13-15.10.27:963][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.13-15.10.28:498][  0]LogDerivedDataCache: Loaded boot cache 0.53s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.13-15.10.28:499][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.13-15.10.28:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.13-15.10.28:499][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.13-15.10.28:499][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.13-15.10.28:499][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.13-15.10.28:547][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.13-15.10.28:562][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Justin Wells/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.13-15.10.28:578][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.13-15.10.28:584][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.13-15.10.28:600][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.13-15.10.28:600][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.13-15.10.29:829][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.13-15.10.30:029][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.13-15.10.30:233][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.13-15.10.30:285][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.13-15.10.30:323][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.13-15.10.30:323][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.13-15.10.30:323][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.13-15.10.31:665][  0]LogNetVersion: InsertNameAdventure , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1278457987)
+[2017.07.13-15.10.31:754][  0]LogAssetRegistry: FAssetRegistry took 0.0294 seconds to start up
+[2017.07.13-15.10.31:820][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.045304 seconds
+[2017.07.13-15.10.31:825][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.13-15.10.31:825][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.13-15.10.31:825][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.13-15.10.31:877][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.13-15.10.35:540][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.13-15.10.35:574][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.13-15.10.36:257][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.13-15.10.36:669][  0]SourceControl: Info Source control is disabled
+[2017.07.13-15.10.37:725][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.13-15.10.38:239][  0]LogEngine: Initializing Engine...
+[2017.07.13-15.10.38:241][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2017.07.13-15.10.38:577][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.13-15.10.38:577][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.13-15.10.38:811][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.13-15.10.38:832][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.13-15.10.38:854][  0]LogInit: FAudioDevice initialized.
+[2017.07.13-15.10.38:889][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.13-15.10.38:900][  0]LogInit: Texture streaming: Enabled
+[2017.07.13-15.10.38:979][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.13-15.10.39:206][  0]LogInit: Transaction tracking system initialized
+[2017.07.13-15.10.39:485][  0]BlueprintLog: New page: Editor Load
+[2017.07.13-15.10.40:330][  0]LocalizationService: Info Localization service is disabled
+[2017.07.13-15.10.40:941][  0]LogConsoleResponse:Display: 
+[2017.07.13-15.10.41:267][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.13-15.10.41:267][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.13-15.10.41:419][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' took 0.02s
+[2017.07.13-15.10.42:362][  0]LogSlate: Took 0.007046 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.13-15.11.25:387][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.13-15.11.25:394][  0]LightingResults: New page: Lighting Build
+[2017.07.13-15.11.25:440][  0]MapCheck: New page: Map Check
+[2017.07.13-15.11.25:440][  0]LightingResults: New page: Lighting Build
+[2017.07.13-15.11.25:458][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.13-15.11.25:462][  0]LoadErrors: New page: New Map
+[2017.07.13-15.11.25:557][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.13-15.11.25:729][  0]LogCollectionManager: Loaded 0 collections in 0.001492 seconds
+[2017.07.13-15.11.25:812][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' took 0.01s
+[2017.07.13-15.11.25:812][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells20/Collections/' took 0.01s
+[2017.07.13-15.11.25:812][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' took 0.01s
+[2017.07.13-15.11.25:812][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.13-15.11.25:821][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2329 classes and 491 folders.
+[2017.07.13-15.11.25:879][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.13-15.11.26:203][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.07.13-15.11.26:245][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.13-15.11.26:268][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.13-15.11.26:287][  0]LogSlate: Took 0.004920 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.13-15.11.26:295][  0]LogSlate: Took 0.004737 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.13-15.11.26:402][  0]LogRenderer: Reallocating scene render targets to support 1756x608 NumSamples 1 (Frame:1).
+[2017.07.13-15.11.26:551][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.13-15.11.26:611][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.13-15.11.26:611][  0]LogLoad: (Engine Initialization) Total time: 68.09 seconds
+[2017.07.13-15.11.26:611][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.07.13-15.11.26:611][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.13-15.11.26:624][  0]LogOcInput: OculusInput pre-init called
+[2017.07.13-15.11.26:624][  0]LogHMD: Starting GearVRController plugin
+[2017.07.13-15.11.26:643][  0]SourceControl: Info On branch V1.5.1
+[2017.07.13-15.11.26:643][  0]SourceControl: Info Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.07.13-15.11.26:643][  0]SourceControl: Info Changes not staged for commit:
+[2017.07.13-15.11.26:643][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.07.13-15.11.26:643][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-B2DD895647429B8093A9E986FFB6C28D/CrashReportClient.ini
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-C3FCE51E4D9CB1D4D73A32A487C343E9/CrashReportClient.ini
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D194C06443C4F4FB3C8E668B46AD2ED0/CrashReportClient.ini
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-FFB3BD7841B252F25265D5BFB4814F90/CrashReportClient.ini
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.07.11-11.23.56.log
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.07.11-11.38.24.log
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.07.11-13.57.48.log
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.07.11-15.56.44.log
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.07.11-16.03.04.log
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.07.13-15.11.26:643][  0]SourceControl: Info Untracked files:
+[2017.07.13-15.11.26:643][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-BC863A8E4297B08C46246689AB56A609/
+[2017.07.13-15.11.26:643][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.07.13-09.10.20.log
+[2017.07.13-15.11.26:643][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.07.13-15.11.26:643][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.13-15.11.26:670][  0]LogSlate: Took 0.004680 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.13-15.11.26:707][  1]LogAssetRegistry: Asset discovery search completed in 54.9749 seconds
+[2017.07.13-15.11.26:709][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.07.13-15.11.26:709][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.07.13-15.11.27:651][ 94]LogSlate: Took 0.000126 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.13-15.14.12:311][  0]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository
+[2017.07.13-15.14.12:311][  0]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineLightProfiles/180Degree_IES.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineLightProfiles/180Degree_IES.uasset' is outside repository
+[2017.07.13-15.14.12:311][  0]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/1Dto2DIndex.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/1Dto2DIndex.uasset' is outside repository
+[2017.07.13-15.14.12:311][  0]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset' is outside repository
+[2017.07.13-15.14.12:311][  0]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/PivotPainter2/2dArrayLookupByIndex.uasset' is outside repository
+[2017.07.13-15.14.12:311][  0]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions01/ImageAdjustment/3ColorBlend.uasset' is outside repository
+[2017.07.13-15.14.12:311][  0]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/3dParticleOpacity.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/3dParticleOpacity.uasset' is outside repository
+[2017.07.13-15.14.14:585][267]LogSlate: Took 0.000209 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.13-15.14.15:530][267]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.13-15.14.15:563][267]LightingResults: New page: Lighting Build
+[2017.07.13-15.14.15:563][267]LoadErrors: New page: Loading map: Rainforest_Alien.umap
+[2017.07.13-15.14.15:564][267]MapCheck: New page: Map Check
+[2017.07.13-15.14.15:564][267]LightingResults: New page: Lighting Build
+[2017.07.13-15.14.15:595][267]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.13-15.14.15:650][267]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.13-15.14.15:696][267]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.457ms to complete.
+[2017.07.13-15.14.15:696][267]LogFileHelpers: Loading map 'Rainforest_Alien' took 0.134
+[2017.07.13-15.14.19:944][754]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.13-15.14.20:013][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.13-15.14.20:014][754]PIE: New page: PIE session: Rainforest_Alien (Jul 13, 2017, 3:14:20 AM)
+[2017.07.13-15.14.20:015][754]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.13-15.14.20:023][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008807s)
+[2017.07.13-15.14.20:024][754]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.13-15.14.20:024][754]LogPlayLevel: PIE: World Init took: (0.000616s)
+[2017.07.13-15.14.20:024][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.009773s)
+[2017.07.13-15.14.20:038][754]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.13-15.14.20:045][754]LogInit: FAudioDevice initialized.
+[2017.07.13-15.14.20:108][754]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.13-15.14.20:122][754]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.13-09.14.20
+[2017.07.13-15.14.20:133][754]LogWorld: Bringing up level for play took: 0.021944
+[2017.07.13-15.14.20:170][754]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.07.13-15.14.20:187][754]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.2
+[2017.07.13-15.14.20:220][754]LogRenderer: Reallocating scene render targets to support 1756x756 NumSamples 1 (Frame:1).
+[2017.07.13-15.17.50:446][451]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.17.50:535][451]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.17.50:548][451]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.17.50:593][451]LogSlate: Took 0.008529 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.13-15.17.55:022][950]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.17.55:045][950]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.18.03:472][827]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tree_backdrop_Sprite_6)
+[2017.07.13-15.18.09:816][408]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.18.09:830][408]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.13-15.18.09:860][408]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.13-15.18.09:870][408]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.18.09:884][408]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.07.13-15.18.09:916][408]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.13-15.18.09:921][408]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.07.13-15.18.11:627][581]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.18.11:641][581]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.13-15.18.11:671][581]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.13-15.18.11:676][581]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.07.13-15.18.11:679][581]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.13-15.19.52:523][502]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.19.55:204][780]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.19.55:227][780]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.13-15.19.58:694][136]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.20.00:191][287]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.20.00:241][288]LogSlate: Took 0.003672 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.13-15.20.03:098][570]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.20.11:859][492]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.20.17:291][ 48]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.20.22:712][587]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.20.22:717][587]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.21.01:568][631]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/Grid.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/Grid.uasset' is outside repository
+[2017.07.13-15.21.01:568][631]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset' is outside repository
+[2017.07.13-15.21.01:568][631]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Tutorial/SubEditors/TutorialAssets/icon_Editor_Preferences_General_40x.uasset' is outside repository
+[2017.07.13-15.21.01:568][631]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Tutorial/Basics/TutorialAssets/icon_tab_Levels_40x.uasset' is outside repository
+[2017.07.13-15.21.09:007][400]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Greyscale.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Greyscale.uasset' is outside repository
+[2017.07.13-15.21.09:059][405]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/GreyCheck.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/GreyCheck.uasset' is outside repository
+[2017.07.13-15.21.09:372][436]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/Gray.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/Gray.uasset' is outside repository
+[2017.07.13-15.21.09:422][440]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/GradientTexture0.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/GradientTexture0.uasset' is outside repository
+[2017.07.13-15.21.09:453][443]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Gradient.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Gradient.uasset' is outside repository
+[2017.07.13-15.21.09:464][444]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset' is outside repository
+[2017.07.13-15.21.10:013][496]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.21.10:019][496]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.21.10:035][496]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.13-15.21.29:947][131]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.21.29:953][131]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.21.33:485][477]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.21.33:492][477]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.21.33:505][477]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.13-15.21.37:749][888]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.21.37:755][888]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.21.37:772][888]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.13-15.21.39:467][ 51]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.21.39:473][ 51]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.21.47:501][838]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.21.47:507][838]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.21.47:525][838]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.13-15.21.51:954][145]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.21.51:959][145]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.21.58:020][747]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.21.58:025][747]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.21.58:039][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.07.13-15.21.58:048][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.07.13-15.21.58:079][747]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.21.58:084][747]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.21.58:123][747]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.07.13-15.22.01:630][ 97]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.22.01:636][ 97]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.22.01:654][ 97]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.07.13-15.22.21:151][848]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.22.21:157][848]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.22.25:574][144]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.22.25:580][144]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.22.38:008][165]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.22.38:014][165]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.22.48:831][223]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.22.48:838][223]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.23.01:023][397]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.13-15.23.01:028][397]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.23.01:043][397]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.13-15.24.58:717][ 97]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.011
+[2017.07.13-15.24.58:720][ 97]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M] ([1] browsable assets)...
+[2017.07.13-15.24.58:733][ 97]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M.Hologram_M]
+[2017.07.13-15.24.58:733][ 97]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M]
+[2017.07.13-15.24.58:756][ 97]LogSavePackage: Save=17.83ms
+[2017.07.13-15.24.58:756][ 97]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Hologram_M_Auto18B65F1824CCFA3236AE83F98CA2C75E5.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Auto1.uasset'
+[2017.07.13-15.24.58:757][ 97]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Auto1.uasset
+[2017.07.13-15.24.58:757][ 97]LogFileHelpers: Auto-saving content packages took 0.039
+[2017.07.13-15.35.34:490][757]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.35.41:300][448]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Gradient.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Gradient.uasset' is outside repository
+[2017.07.13-15.35.41:300][448]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/GradientTexture0.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineResources/GradientTexture0.uasset' is outside repository
+[2017.07.13-15.35.41:300][448]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/GreyCheck.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorMaterials/GreyCheck.uasset' is outside repository
+[2017.07.13-15.35.41:300][448]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/Grid.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/Grid.uasset' is outside repository
+[2017.07.13-15.35.43:240][608]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Engine_MI_Shaders/T_Base_Tile_Variation.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Engine_MI_Shaders/T_Base_Tile_Variation.uasset' is outside repository
+[2017.07.13-15.35.43:240][608]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorShellMaterials/T_BaseButton.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorShellMaterials/T_BaseButton.uasset' is outside repository
+[2017.07.13-15.35.44:701][748]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.35.44:718][748]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.13-15.35.52:630][537]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.07.13-15.35.52:635][537]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.36.09:496][301]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.07.13-15.36.09:501][301]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.36.41:788][961]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Justin Wells/Desktop/UE4 Art/PNG's/Rain Forrest Assets/HoloPlanet Normal Map.png)
+[2017.07.13-15.36.41:794][961]LogTexture:Display: Building textures: HoloPlanet_Normal_Map (AutoDXT, 16X16)
+[2017.07.13-15.36.47:744][324]SourceControl: Info rm 'Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/NormalMap_HoloPlanet.uasset'
+[2017.07.13-15.36.59:513][593]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.07.13-15.36.59:518][593]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.36.59:531][593]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.07.13-15.36.59:561][593]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.07.13-15.36.59:565][593]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.07.13-15.36.59:569][593]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.07.13-15.37.29:934][243]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.013
+[2017.07.13-15.37.29:935][243]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/HoloPlanet_Normal_Map] ([1] browsable assets)...
+[2017.07.13-15.37.29:936][243]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/HoloPlanet_Normal_Map.HoloPlanet_Normal_Map]
+[2017.07.13-15.37.29:936][243]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/HoloPlanet_Normal_Map]
+[2017.07.13-15.37.29:943][243]LogSavePackage: Save=5.20ms
+[2017.07.13-15.37.29:943][243]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/HoloPlanet_Normal_Map_Auto2F7CA92AE437DD3C3D7E4F6BFC8C66C38.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/HoloPlanet_Normal_Map_Auto2.uasset'
+[2017.07.13-15.37.29:944][243]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/HoloPlanet_Normal_Map_Auto2.uasset
+[2017.07.13-15.37.29:944][243]LogFileHelpers: Auto-saving content packages took 0.010
+[2017.07.13-15.38.56:866][866]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'MaterialExpressionTextureSample_3' or package '/Engine/Transient'.
+[2017.07.13-15.38.56:869][866]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.13-15.38.56:881][866]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'Hologram_M' or package '/Engine/Transient'.
+[2017.07.13-15.38.56:883][866]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.07.13-15.38.56:886][866]LogObjectTools:Warning: ForceReplaceReferences replaced references for a transient object 'PreviewMaterial_1' or package '/Engine/Transient'.
+[2017.07.13-15.38.57:059][869]LogUObjectArray:Warning: Invalid object index -572662307
+[2017.07.13-15.38.57:276][869]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.223 s
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: === Handled ensure: ===
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: 
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: Ensure condition failed: !Value || Value->IsValidLowLevel() [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Runtime\Engine\Private\Materials\MaterialUniformExpressions.cpp] [Line: 365]
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: Texture not valid! UE-23902! Parameter (non-parameter)
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: Stack: 
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DB6C32B6
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DB46DE02
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DB484376
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D894E25B
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D8956AC6
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000D0AF050C
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000D05CA8E3
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000D05D52CB
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000D0535AAA
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000D0536462
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000D0588145
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Renderer.dll!0x00000000D0A6FB20
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D8F2FC6B
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D8F58D83
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Engine.dll!0x00000000D905E67C
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000D1B2B672
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-SlateRHIRenderer.dll!0x00000000EF1B666D
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-SlateRHIRenderer.dll!0x00000000EF1BA520
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-SlateRHIRenderer.dll!0x00000000EF1C19C8
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DB32FFAD
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DB3303CD
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-RenderCore.dll!0x00000000ED6B1687
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-RenderCore.dll!0x00000000ED6B2776
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DB6D3788
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000DB6CDFA9
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: KERNEL32.DLL!0x0000000015B82774
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: ntdll.dll!0x0000000015E90D61
+[2017.07.13-15.38.57:276][869]LogOutputDevice:Error: 
+[2017.07.13-15.38.57:276][869]LogStats:                SubmitErrorReport -  0.000 s
+[2017.07.13-15.38.57:539][869]LogStats:                    SendNewReport -  0.263 s
+[2017.07.13-15.38.57:539][869]LogStats:             FDebug::EnsureFailed -  0.487 s
