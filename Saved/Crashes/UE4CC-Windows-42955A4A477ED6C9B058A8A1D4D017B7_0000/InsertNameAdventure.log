@@ -1,0 +1,361 @@
+﻿Log file open, 07/12/17 15:16:12
+LogInit:Display: Running engine for game: InsertNameAdventure
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1477300310) SRandInit(1477300310).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.082064
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3452394
+LogInit: Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 22 2017 17:47:00
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.12-21.16.13:159][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.12-21.16.13:159][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.12-21.16.13:218][  0]LogInit: Computer: DESKTOP-6MFT485
+[2017.07.12-21.16.13:218][  0]LogInit: User: JustinWells20
+[2017.07.12-21.16.13:218][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.12-21.16.13:218][  0]LogInit: High frequency timer resolution =3.328127 MHz
+[2017.07.12-21.16.13:218][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.12-21.16.13:219][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.12-21.16.13:219][  0]LogMemory: Process Physical Memory: 274.46 MB used, 274.46 MB peak
+[2017.07.12-21.16.13:219][  0]LogMemory: Process Virtual Memory: 270.61 MB used, 270.61 MB peak
+[2017.07.12-21.16.13:219][  0]LogMemory: Physical Memory: 3884.08 MB used,  12437.66 MB free, 16321.74 MB total
+[2017.07.12-21.16.13:219][  0]LogMemory: Virtual Memory: 655.38 MB used,  12437.66 MB free, 134217728.00 MB total
+[2017.07.12-21.16.13:307][  0]LogInit: Using OS detected language (en-US).
+[2017.07.12-21.16.13:307][  0]LogInit: Using OS detected locale (en-US).
+[2017.07.12-21.16.13:354][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.12-21.16.15:967][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.12-21.16.16:566][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.07.12-21.16.16:566][  0]LogD3D11RHI:       8081/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.12-21.16.16:568][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.12-21.16.16:568][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.12-21.16.16:568][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.12-21.16.16:573][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.12-21.16.16:573][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.12-21.16.16:573][  0]LogWindows: EnumDisplayDevices:
+[2017.07.12-21.16.16:573][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.07.12-21.16.16:573][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.07.12-21.16.16:573][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.12-21.16.16:574][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.12-21.16.16:574][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.12-21.16.16:574][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.07.12-21.16.16:574][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.07.12-21.16.16:574][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.07.12-21.16.16:574][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.12-21.16.17:126][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.12-21.16.17:162][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.12-21.16.17:210][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Intermediate/Shaders/WorkingDirectory/11144/).
+[2017.07.12-21.16.17:210][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Justin Wells/AppData/Local/Temp/UnrealShaderWorkingDir/20116D054BAD120DE702B882DCE663A7/'.
+[2017.07.12-21.16.17:210][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.12-21.16.18:983][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.12-21.16.19:025][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.12-21.16.19:067][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.12-21.16.19:111][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.12-21.16.19:155][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.12-21.16.19:196][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.12-21.16.19:237][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.12-21.16.19:278][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.12-21.16.19:314][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.12-21.16.19:358][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.12-21.16.19:398][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.12-21.16.19:439][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.12-21.16.19:479][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.12-21.16.19:519][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.12-21.16.19:560][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.12-21.16.19:640][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.12-21.16.19:640][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.12-21.16.19:671][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.12-21.16.19:758][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.12-21.16.19:783][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.12-21.16.19:823][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.12-21.16.19:863][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.12-21.16.19:903][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.12-21.16.19:945][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.12-21.16.19:945][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.12-21.16.20:351][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.12-21.16.20:784][  0]LogDerivedDataCache: Loaded boot cache 0.43s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.12-21.16.20:784][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.12-21.16.20:784][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.12-21.16.20:784][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.12-21.16.20:784][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.12-21.16.20:784][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.12-21.16.20:806][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.12-21.16.20:818][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Justin Wells/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.12-21.16.20:827][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.12-21.16.20:828][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.12-21.16.20:839][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.12-21.16.20:839][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.12-21.16.21:398][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.12-21.16.21:460][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.12-21.16.21:592][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.12-21.16.21:630][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.12-21.16.21:669][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.12-21.16.21:669][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.12-21.16.21:669][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.12-21.16.22:153][  0]LogNetVersion: InsertNameAdventure , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1278457987)
+[2017.07.12-21.16.22:208][  0]LogAssetRegistry: FAssetRegistry took 0.0246 seconds to start up
+[2017.07.12-21.16.22:269][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.041952 seconds
+[2017.07.12-21.16.22:274][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.12-21.16.22:274][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.12-21.16.22:274][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.12-21.16.22:329][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.12-21.16.25:732][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.12-21.16.25:766][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.12-21.16.26:348][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.12-21.16.26:710][  0]SourceControl: Info Source control is disabled
+[2017.07.12-21.16.27:787][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.12-21.16.28:324][  0]LogEngine: Initializing Engine...
+[2017.07.12-21.16.28:329][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2017.07.12-21.16.28:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.12-21.16.28:502][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.12-21.16.28:605][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.12-21.16.28:617][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.12-21.16.28:628][  0]LogInit: FAudioDevice initialized.
+[2017.07.12-21.16.28:671][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.12-21.16.28:679][  0]LogInit: Texture streaming: Enabled
+[2017.07.12-21.16.28:778][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.12-21.16.28:996][  0]LogInit: Transaction tracking system initialized
+[2017.07.12-21.16.29:248][  0]BlueprintLog: New page: Editor Load
+[2017.07.12-21.16.30:008][  0]LocalizationService: Info Localization service is disabled
+[2017.07.12-21.16.30:551][  0]LogConsoleResponse:Display: 
+[2017.07.12-21.16.30:685][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.12-21.16.30:685][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.12-21.16.31:670][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' took 0.02s
+[2017.07.12-21.16.31:684][  0]LogSlate: Took 0.005245 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.12-21.16.33:569][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.12-21.16.33:576][  0]LightingResults: New page: Lighting Build
+[2017.07.12-21.16.33:615][  0]MapCheck: New page: Map Check
+[2017.07.12-21.16.33:616][  0]LightingResults: New page: Lighting Build
+[2017.07.12-21.16.33:624][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.12-21.16.33:626][  0]LoadErrors: New page: New Map
+[2017.07.12-21.16.33:709][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.12-21.16.33:823][  0]LogCollectionManager: Loaded 0 collections in 0.001253 seconds
+[2017.07.12-21.16.33:900][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' took 0.01s
+[2017.07.12-21.16.33:900][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells20/Collections/' took 0.01s
+[2017.07.12-21.16.33:900][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' took 0.01s
+[2017.07.12-21.16.33:900][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.12-21.16.33:908][  0]LogContentBrowser: Native class hierarchy populated in 0.0081 seconds. Added 2329 classes and 491 folders.
+[2017.07.12-21.16.33:960][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.07.12-21.16.34:260][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.12-21.16.34:293][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.12-21.16.34:313][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.12-21.16.34:326][  0]LogSlate: Took 0.005870 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.12-21.16.34:333][  0]LogSlate: Took 0.004758 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.12-21.16.34:413][  0]LogRenderer: Reallocating scene render targets to support 1756x608 NumSamples 1 (Frame:1).
+[2017.07.12-21.16.34:532][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.12-21.16.34:589][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.12-21.16.34:589][  0]LogLoad: (Engine Initialization) Total time: 23.38 seconds
+[2017.07.12-21.16.34:589][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.05 seconds
+[2017.07.12-21.16.34:589][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.12-21.16.34:600][  0]LogOcInput: OculusInput pre-init called
+[2017.07.12-21.16.34:600][  0]LogHMD: Starting GearVRController plugin
+[2017.07.12-21.16.34:616][  0]SourceControl: Info On branch V1.5.1
+[2017.07.12-21.16.34:616][  0]SourceControl: Info Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.07.12-21.16.34:616][  0]SourceControl: Info Changes not staged for commit:
+[2017.07.12-21.16.34:616][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.07.12-21.16.34:616][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.07.12-21.16.34:616][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.07.12-21.16.34:616][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.07.12-21.16.34:616][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.07.12-21.16.34:616][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.07.11-15.27.07.log
+[2017.07.12-21.16.34:616][  0]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.07.12-21.16.34:616][  0]SourceControl: Info Untracked files:
+[2017.07.12-21.16.34:616][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.07.12-21.16.34:616][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-42955A4A477ED6C9B058A8A1D4D017B7/
+[2017.07.12-21.16.34:616][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.07.12-15.16.12.log
+[2017.07.12-21.16.34:616][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.07.12-21.16.34:616][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.12-21.16.34:636][  0]LogSlate: Took 0.000138 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.12-21.16.34:642][  1]LogAssetRegistry: Asset discovery search completed in 12.4545 seconds
+[2017.07.12-21.16.34:644][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.07.12-21.16.34:644][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000027 seconds (updated 0 objects)
+[2017.07.12-21.16.35:636][115]LogSlate: Took 0.000148 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.12-21.16.42:443][881]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.12-21.16.42:752][881]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 112 classes and 0 folders.
+[2017.07.12-21.16.43:387][881]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.12-21.16.43:452][882]LogSlate: Took 0.000157 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.12-21.17.01:703][ 14]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.12-21.17.01:739][ 14]LightingResults: New page: Lighting Build
+[2017.07.12-21.17.01:740][ 14]LoadErrors: New page: Loading map: Rainforest_Alien.umap
+[2017.07.12-21.17.01:740][ 14]MapCheck: New page: Map Check
+[2017.07.12-21.17.01:740][ 14]LightingResults: New page: Lighting Build
+[2017.07.12-21.17.01:769][ 14]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.12-21.17.01:827][ 14]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.12-21.17.01:873][ 14]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.851ms to complete.
+[2017.07.12-21.17.01:873][ 14]LogFileHelpers: Loading map 'Rainforest_Alien' took 0.134
+[2017.07.12-21.19.06:747][604]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Rain_Forrest_TM)
+[2017.07.12-21.19.07:473][674]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Dungeon_Art_Sprite_19)
+[2017.07.12-21.19.30:500][287]LogEditorViewport: Clicking Background
+[2017.07.12-21.22.19:304][ 83]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Dungeon_Art_Sprite_19)
+[2017.07.12-21.22.25:098][700]LogEditorViewport: Clicking Background
+[2017.07.12-21.23.00:154][277]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Rain_Forrest_TM)
+[2017.07.12-21.23.01:049][368]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Rain_Forrest_TM)
+[2017.07.12-21.23.02:127][491]LogEditorViewport: Clicking Background
+[2017.07.12-21.23.31:594][929]LogRenderer: Reallocating scene render targets to support 1756x924 NumSamples 1 (Frame:1).
+[2017.07.12-21.23.44:097][327]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.12-21.23.44:153][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.12-21.23.44:154][327]PIE: New page: PIE session: Rainforest_Alien (Jul 12, 2017, 9:23:44 AM)
+[2017.07.12-21.23.44:154][327]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.12-21.23.44:161][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007683s)
+[2017.07.12-21.23.44:162][327]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.12-21.23.44:162][327]LogPlayLevel: PIE: World Init took: (0.000578s)
+[2017.07.12-21.23.44:162][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.008542s)
+[2017.07.12-21.23.44:187][327]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.12-21.23.44:194][327]LogInit: FAudioDevice initialized.
+[2017.07.12-21.23.44:260][327]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.12-21.23.44:281][327]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.12-15.23.44
+[2017.07.12-21.23.44:291][327]LogWorld: Bringing up level for play took: 0.021402
+[2017.07.12-21.23.44:325][327]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.07.12-21.23.44:339][327]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.727
+[2017.07.12-21.25.14:055][882]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.12-21.25.14:081][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.12-21.25.14:081][882]PIE: New page: PIE session: Rainforest_Alien (Jul 12, 2017, 9:25:14 AM)
+[2017.07.12-21.25.14:081][882]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.12-21.25.14:090][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008613s)
+[2017.07.12-21.25.14:090][882]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.12-21.25.14:090][882]LogPlayLevel: PIE: World Init took: (0.000571s)
+[2017.07.12-21.25.14:091][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.009416s)
+[2017.07.12-21.25.14:113][882]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.12-21.25.14:118][882]LogInit: FAudioDevice initialized.
+[2017.07.12-21.25.14:171][882]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.12-21.25.14:189][882]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.12-15.25.14
+[2017.07.12-21.25.14:199][882]LogWorld: Bringing up level for play took: 0.021720
+[2017.07.12-21.25.14:212][882]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.854
+[2017.07.12-21.25.57:876][968]Cmd: TRANSACTION UNDO
+[2017.07.12-21.25.57:876][968]LogEditorTransaction: Undo Delete Selection
+[2017.07.12-21.25.58:258][  2]Cmd: TRANSACTION UNDO
+[2017.07.12-21.25.58:258][  2]LogEditorTransaction: Undo Delete Selection
+[2017.07.12-21.26.19:681][482]LogSavePackage: Save=10.25ms
+[2017.07.12-21.26.19:681][482]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Sprite_Sheet_TileSet6575755E4396BE174066F7B8FEAEF27B.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Title_Sets/Dirt_3_Sprite_Sheet_TileSet.uasset'
+[2017.07.12-21.26.19:687][482]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Title_Sets/Dirt_3_Sprite_Sheet_TileSet.uasset
+[2017.07.12-21.26.22:550][820]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.12-21.26.22:574][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.12-21.26.22:574][820]PIE: New page: PIE session: Rainforest_Alien (Jul 12, 2017, 9:26:22 AM)
+[2017.07.12-21.26.22:574][820]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.12-21.26.22:583][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008816s)
+[2017.07.12-21.26.22:584][820]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.12-21.26.22:584][820]LogPlayLevel: PIE: World Init took: (0.000598s)
+[2017.07.12-21.26.22:584][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.009676s)
+[2017.07.12-21.26.22:606][820]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.12-21.26.22:610][820]LogInit: FAudioDevice initialized.
+[2017.07.12-21.26.22:656][820]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.12-21.26.22:673][820]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.12-15.26.22
+[2017.07.12-21.26.22:683][820]LogWorld: Bringing up level for play took: 0.021265
+[2017.07.12-21.26.22:694][820]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.371
+[2017.07.12-21.26.49:016][964]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
+	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingHead:021D
+[2017.07.12-21.26.49:016][964]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingHead' from node: DestroyActor in graph: TracingHead in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.07.12-21.26.49:017][964]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
+	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingChest:021D
+[2017.07.12-21.26.49:017][964]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingChest' from node: DestroyActor in graph: TracingChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.07.12-21.26.49:017][964]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
+	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingLegs:021D
+[2017.07.12-21.26.49:017][964]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingLegs' from node: DestroyActor in graph: TracingLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.07.12-21.26.49:017][964]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
+	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingMidChest:021D
+[2017.07.12-21.26.49:017][964]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidChest' from node: DestroyActor in graph: TracingMidChest in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.07.12-21.26.49:017][964]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
+	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingMidLegs:021D
+[2017.07.12-21.26.49:017][964]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingMidLegs' from node: DestroyActor in graph: TracingMidLegs in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.07.12-21.26.49:017][964]LogScript:Warning: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+	2DSideScrollerCharacter_C /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien:PersistentLevel.2DSideScrollerCharacter_C_0
+	Function /Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.2DSideScrollerCharacter_C:TracingFeet:021D
+[2017.07.12-21.26.49:017][964]PIE:Error: Error Blueprint Runtime Error: Accessed None trying to read property CallFunc_BreakHitResult_HitActor from function: 'TracingFeet' from node: DestroyActor in graph: TracingFeet in object: 2DSideScrollerCharacter with description: Accessed None trying to read property CallFunc_BreakHitResult_HitActor
+[2017.07.12-21.27.24:810][195]LogEditorViewport: Clicking Background
+[2017.07.12-21.27.28:049][549]LogEditorViewport: Clicking Background
+[2017.07.12-21.27.28:507][602]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.07.12-21.27.29:386][696]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Dungeon_Art_Sprite_20)
+[2017.07.12-21.27.32:142][ 10]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Dungeon_Art_Sprite_7)
+[2017.07.12-21.27.45:194][537]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Dungeon_Art_Sprite_4)
+[2017.07.12-21.27.46:003][627]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Dungeon_Art_Sprite_5)
+[2017.07.12-21.27.46:632][695]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Dungeon_Art_Sprite_6)
+[2017.07.12-21.27.47:674][807]Cmd: EDIT COPY
+[2017.07.12-21.27.48:129][859]Cmd: EDIT PASTE
+[2017.07.12-21.27.58:891][920]LogEditorViewport: Clicking Background
+[2017.07.12-21.28.01:363][211]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Rain_Forrest_TM)
+[2017.07.12-21.28.01:948][264]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Dungeon_Art_Sprite_26)
+[2017.07.12-21.28.02:988][384]Cmd: DELETE
+[2017.07.12-21.28.02:988][384]Cmd: ACTOR DELETE
+[2017.07.12-21.28.02:990][384]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.07.12-21.28.03:018][384]LogEditorActor: Deleted 1 Actors (0.030 secs)
+[2017.07.12-21.28.05:922][716]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.12-21.28.05:947][716]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.12-21.28.05:947][716]PIE: New page: PIE session: Rainforest_Alien (Jul 12, 2017, 9:28:05 AM)
+[2017.07.12-21.28.05:947][716]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.12-21.28.05:956][716]LogPlayLevel: PIE: StaticDuplicateObject took: (0.008508s)
+[2017.07.12-21.28.05:956][716]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.12-21.28.05:957][716]LogPlayLevel: PIE: World Init took: (0.000522s)
+[2017.07.12-21.28.05:957][716]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.009271s)
+[2017.07.12-21.28.05:975][716]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.12-21.28.05:981][716]LogInit: FAudioDevice initialized.
+[2017.07.12-21.28.06:028][716]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.12-21.28.06:041][716]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.12-15.28.06
+[2017.07.12-21.28.06:051][716]LogWorld: Bringing up level for play took: 0.020753
+[2017.07.12-21.28.06:062][716]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.996
+[2017.07.12-21.29.39:207][847]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.186 s
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: === Handled ensure: ===
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: 
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: Ensure condition failed: LevelViewport.IsValid() [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\PlayLevel.cpp] [Line: 3553]
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: 
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: Stack: 
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E5B732B6
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E591DE02
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000E5934376
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DC23238D
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DBD00DAB
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000DC524FD6
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: UE4Editor.exe!0x00000000212DE2DC
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: UE4Editor.exe!0x00000000212CF0E0
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: UE4Editor.exe!0x00000000212CF15A
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: UE4Editor.exe!0x00000000212E0DB9
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: UE4Editor.exe!0x00000000212E2696
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: KERNEL32.DLL!0x0000000015B82774
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: ntdll.dll!0x0000000015E90D61
+[2017.07.12-21.29.39:207][847]LogOutputDevice:Error: 
+[2017.07.12-21.29.39:216][847]LogStats:                SubmitErrorReport -  0.000 s

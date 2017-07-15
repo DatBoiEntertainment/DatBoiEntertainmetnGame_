@@ -1,9 +1,18 @@
+<<<<<<< HEAD
 ﻿Log file open, 07/12/17 15:29:07
 LogInit:Display: Running engine for game: InsertNameAdventure
 LogPlatformFile: Not using cached read wrapper
 LogInit:Display: RandInit(-853201256) SRandInit(-853201256).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
 LogStats: Stats thread started at 0.083171
+=======
+﻿Log file open, 07/14/17 11:51:12
+LogInit:Display: Running engine for game: InsertNameAdventure
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1961240560) SRandInit(-1961240560).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.081393
+>>>>>>> ed2f5d25cc0c36dfec49f0265d855c4e49efd33b
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,6 +59,7 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 [2017.07.12-21.29.07:728][  0]LogInit: Selected Device Profile: [Windows]
 [2017.07.12-21.29.07:728][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2017.07.12-21.29.07:766][  0]LogInit: Computer: DESKTOP-SV0KJJ8
@@ -547,3 +557,938 @@ LogInit: Object subsystem initialized
 [2017.07.12-22.20.44:671][ 98]LogModuleManager: Shutting down and abandoning module PakFile (2)
 [2017.07.12-22.20.44:673][ 98]LogExit: Exiting.
 [2017.07.12-22.20.44:693][ 98]Log file closed, 07/12/17 16:20:44
+=======
+[2017.07.14-17.51.13:139][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.14-17.51.13:139][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.14-17.51.13:165][  0]LogInit: Computer: DESKTOP-6MFT485
+[2017.07.14-17.51.13:165][  0]LogInit: User: JustinWells20
+[2017.07.14-17.51.13:165][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.14-17.51.13:165][  0]LogInit: High frequency timer resolution =3.328128 MHz
+[2017.07.14-17.51.13:166][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.14-17.51.13:166][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.14-17.51.13:166][  0]LogMemory: Process Physical Memory: 274.51 MB used, 274.51 MB peak
+[2017.07.14-17.51.13:166][  0]LogMemory: Process Virtual Memory: 274.51 MB used, 274.51 MB peak
+[2017.07.14-17.51.13:166][  0]LogMemory: Physical Memory: 2839.89 MB used,  13481.85 MB free, 16321.74 MB total
+[2017.07.14-17.51.13:166][  0]LogMemory: Virtual Memory: 659.38 MB used,  13481.85 MB free, 134217728.00 MB total
+[2017.07.14-17.51.13:253][  0]LogInit: Using OS detected language (en-US).
+[2017.07.14-17.51.13:253][  0]LogInit: Using OS detected locale (en-US).
+[2017.07.14-17.51.13:255][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.14-17.51.13:983][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.14-17.51.14:493][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.07.14-17.51.14:493][  0]LogD3D11RHI:       8081/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.14-17.51.14:494][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.14-17.51.14:494][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.14-17.51.14:494][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.14-17.51.14:499][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.14-17.51.14:499][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.14-17.51.14:499][  0]LogWindows: EnumDisplayDevices:
+[2017.07.14-17.51.14:499][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.07.14-17.51.14:499][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.07.14-17.51.14:499][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.14-17.51.14:499][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.14-17.51.14:499][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.14-17.51.14:499][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.07.14-17.51.14:499][  0]LogD3D11RHI:   Driver Version: 384.76 (internal:22.21.13.8476, unified:384.76)
+[2017.07.14-17.51.14:499][  0]LogD3D11RHI:      Driver Date: 6-27-2017
+[2017.07.14-17.51.14:499][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.14-17.51.14:972][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.14-17.51.15:000][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.14-17.51.15:049][  0]LogShaderCompilers: Guid format shader working directory is -53 characters bigger than the processId version (../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Intermediate/Shaders/WorkingDirectory/3580/).
+[2017.07.14-17.51.15:050][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Justin Wells/AppData/Local/Temp/UnrealShaderWorkingDir/8C3B737B4E55BCB2DDC3D2B42276A24B/'.
+[2017.07.14-17.51.15:050][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.14-17.51.15:918][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.14-17.51.15:959][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.14-17.51.16:003][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.14-17.51.16:044][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.14-17.51.16:088][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.14-17.51.16:131][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.14-17.51.16:172][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.14-17.51.16:213][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.14-17.51.16:249][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.14-17.51.16:293][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.14-17.51.16:335][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.14-17.51.16:379][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.14-17.51.16:421][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.14-17.51.16:465][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.14-17.51.16:508][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.14-17.51.16:593][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.14-17.51.16:593][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.14-17.51.16:623][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.14-17.51.16:702][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.14-17.51.16:728][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.14-17.51.16:771][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.14-17.51.16:814][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.14-17.51.16:857][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.14-17.51.16:896][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.14-17.51.16:896][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.14-17.51.17:334][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.14-17.51.17:443][  0]LogDerivedDataCache: Loaded boot cache 0.11s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.14-17.51.17:443][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.14-17.51.17:443][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.14-17.51.17:443][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.14-17.51.17:443][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.14-17.51.17:443][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.14-17.51.17:459][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.14-17.51.17:471][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Justin Wells/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.14-17.51.17:479][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.14-17.51.17:479][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.14-17.51.17:480][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.14-17.51.17:480][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.14-17.51.17:737][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.14-17.51.17:795][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.14-17.51.17:921][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.14-17.51.17:955][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.14-17.51.17:991][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.14-17.51.17:991][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.14-17.51.17:991][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.14-17.51.18:455][  0]LogNetVersion: InsertNameAdventure , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1278457987)
+[2017.07.14-17.51.18:512][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2017.07.14-17.51.18:561][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.029613 seconds
+[2017.07.14-17.51.18:566][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.14-17.51.18:566][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.14-17.51.18:566][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.14-17.51.18:620][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.14-17.51.20:650][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.14-17.51.20:682][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.14-17.51.21:163][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.14-17.51.21:510][  0]SourceControl: Info Source control is disabled
+[2017.07.14-17.51.22:478][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.14-17.51.22:992][  0]LogEngine: Initializing Engine...
+[2017.07.14-17.51.22:993][  0]LogHMD: Failed to initialize OpenVR with code 101
+[2017.07.14-17.51.23:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.14-17.51.23:163][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.14-17.51.23:263][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.14-17.51.23:275][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.14-17.51.23:298][  0]LogInit: FAudioDevice initialized.
+[2017.07.14-17.51.23:332][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.14-17.51.23:340][  0]LogInit: Texture streaming: Enabled
+[2017.07.14-17.51.23:413][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.14-17.51.23:580][  0]LogInit: Transaction tracking system initialized
+[2017.07.14-17.51.23:818][  0]BlueprintLog: New page: Editor Load
+[2017.07.14-17.51.24:532][  0]LocalizationService: Info Localization service is disabled
+[2017.07.14-17.51.25:105][  0]LogConsoleResponse:Display: 
+[2017.07.14-17.51.25:240][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.14-17.51.25:240][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.14-17.51.26:226][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' took 0.02s
+[2017.07.14-17.51.26:234][  0]LogSlate: Took 0.000247 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.14-17.52.02:436][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.14-17.52.02:441][  0]LightingResults: New page: Lighting Build
+[2017.07.14-17.52.02:475][  0]MapCheck: New page: Map Check
+[2017.07.14-17.52.02:475][  0]LightingResults: New page: Lighting Build
+[2017.07.14-17.52.02:486][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.14-17.52.02:488][  0]LoadErrors: New page: New Map
+[2017.07.14-17.52.02:548][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.14-17.52.02:626][  0]LogCollectionManager: Loaded 0 collections in 0.001188 seconds
+[2017.07.14-17.52.02:696][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' took 0.01s
+[2017.07.14-17.52.02:696][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells20/Collections/' took 0.01s
+[2017.07.14-17.52.02:696][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' took 0.01s
+[2017.07.14-17.52.02:696][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.07.14-17.52.02:703][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2329 classes and 491 folders.
+[2017.07.14-17.52.02:754][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.14-17.52.02:782][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.14-17.52.02:814][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.14-17.52.02:834][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.14-17.52.02:855][  0]LogSlate: Took 0.000159 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.14-17.52.02:858][  0]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.14-17.52.02:938][  0]LogRenderer: Reallocating scene render targets to support 1756x636 NumSamples 1 (Frame:1).
+[2017.07.14-17.52.03:055][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.14-17.52.03:110][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.14-17.52.03:110][  0]LogLoad: (Engine Initialization) Total time: 51.30 seconds
+[2017.07.14-17.52.03:110][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.04 seconds
+[2017.07.14-17.52.03:110][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.14-17.52.03:122][  0]LogOcInput: OculusInput pre-init called
+[2017.07.14-17.52.03:122][  0]LogHMD: Starting GearVRController plugin
+[2017.07.14-17.52.03:138][  0]SourceControl: Info On branch V1.5.1
+[2017.07.14-17.52.03:138][  0]SourceControl: Info Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.07.14-17.52.03:138][  0]SourceControl: Info Changes not staged for commit:
+[2017.07.14-17.52.03:138][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.07.14-17.52.03:138][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.07.14-17.52.03:138][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.07.14-17.52.03:138][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.07.14-17.52.03:138][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.07.13-09.39.01.log
+[2017.07.14-17.52.03:138][  0]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.07.14-17.52.03:138][  0]SourceControl: Info Untracked files:
+[2017.07.14-17.52.03:138][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.07.14-17.52.03:138][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-B011C6E347AF3BCB8BCDFB9BC4E3CA97/
+[2017.07.14-17.52.03:138][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.07.14-11.51.12.log
+[2017.07.14-17.52.03:138][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.07.14-17.52.03:139][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.14-17.52.03:161][  0]LogSlate: Took 0.000122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.14-17.52.03:181][  1]LogAssetRegistry: Asset discovery search completed in 44.6909 seconds
+[2017.07.14-17.52.03:182][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.07.14-17.52.03:182][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.07.14-17.52.04:141][109]LogSlate: Took 0.000141 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.14-17.52.07:320][488]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.14-17.52.08:037][488]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.14-17.52.08:068][488]LightingResults: New page: Lighting Build
+[2017.07.14-17.52.08:068][488]LoadErrors: New page: Loading map: Rainforest_Alien.umap
+[2017.07.14-17.52.08:069][488]MapCheck: New page: Map Check
+[2017.07.14-17.52.08:069][488]LightingResults: New page: Lighting Build
+[2017.07.14-17.52.08:093][488]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.14-17.52.08:143][488]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.14-17.52.08:188][488]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.361ms to complete.
+[2017.07.14-17.52.08:188][488]LogFileHelpers: Loading map 'Rainforest_Alien' took 0.121
+[2017.07.14-17.52.19:248][754]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.14-17.52.19:298][754]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.14-17.52.19:298][754]PIE: New page: PIE session: Rainforest_Alien (Jul 14, 2017, 5:52:19 AM)
+[2017.07.14-17.52.19:298][754]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.14-17.52.19:307][754]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009583s)
+[2017.07.14-17.52.19:308][754]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.14-17.52.19:308][754]LogPlayLevel: PIE: World Init took: (0.000663s)
+[2017.07.14-17.52.19:308][754]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.010545s)
+[2017.07.14-17.52.19:322][754]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.14-17.52.19:328][754]LogInit: FAudioDevice initialized.
+[2017.07.14-17.52.19:388][754]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.14-17.52.19:401][754]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.14-11.52.19
+[2017.07.14-17.52.19:411][754]LogWorld: Bringing up level for play took: 0.021680
+[2017.07.14-17.52.19:443][754]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.07.14-17.52.19:454][754]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 1.041
+[2017.07.14-17.52.19:490][754]LogRenderer: Reallocating scene render targets to support 1756x756 NumSamples 1 (Frame:1).
+[2017.07.14-18.01.31:762][506]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.07.14-18.01.37:615][172]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Really_big_shroom_Sprite_6)
+[2017.07.14-18.01.38:316][248]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.02.48:490][306]LogSavePackage: Save=286.63ms
+[2017.07.14-18.02.48:490][306]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_Auto19AB1DEB94523D39A25D431BE43CC77E2.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto1.umap'
+[2017.07.14-18.02.48:492][306]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto1.umap
+[2017.07.14-18.02.48:495][306]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.326
+[2017.07.14-18.02.48:495][306]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.326
+[2017.07.14-18.03.17:301][417]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.21.00:410][571]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/Justin Wells/Desktop/UE4 Art/PNG's/Rain Forrest Assets/Sprite Sheets/Dirt 3 Outpost floor.png)
+[2017.07.14-18.21.00:416][571]LogTexture:Display: Building textures: Dirt_3_Outpost_floor (AutoDXT, 64X64)
+[2017.07.14-18.21.00:616][588]LogSlate: Took 0.000146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.14-18.21.03:614][901]LogTexture:Display: Building textures: Dirt_3_Outpost_floor (BGRA8, 64X64)
+[2017.07.14-18.21.04:797][ 33]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.07.14-18.21.06:507][207]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.010
+[2017.07.14-18.21.06:509][207]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/PNG/Dirt_3_Outpost_floor] ([1] browsable assets)...
+[2017.07.14-18.21.06:510][207]OBJ SavePackage:     Rendered thumbnail for [Texture2D /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/PNG/Dirt_3_Outpost_floor.Dirt_3_Outpost_floor]
+[2017.07.14-18.21.06:510][207]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/PNG/Dirt_3_Outpost_floor]
+[2017.07.14-18.21.06:516][207]LogSavePackage: Save=4.63ms
+[2017.07.14-18.21.06:516][207]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Outpost_floor_Auto262EBBF434114D44F4528F08078FDBEBE.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/PNG/Dirt_3_Outpost_floor_Auto2.uasset'
+[2017.07.14-18.21.06:517][207]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/PNG/Dirt_3_Outpost_floor_Auto2.uasset
+[2017.07.14-18.21.06:517][207]LogFileHelpers: Auto-saving content packages took 0.010
+[2017.07.14-18.21.27:153][564]LogSlate: Took 0.000150 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.14-18.22.04:406][778]SourceControl: Info On branch V1.5.1
+[2017.07.14-18.22.04:406][778]SourceControl: Info Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.07.14-18.22.04:406][778]SourceControl: Info Changes not staged for commit:
+[2017.07.14-18.22.04:406][778]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.07.14-18.22.04:406][778]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.07.14-18.22.04:406][778]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.07.14-18.22.04:406][778]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.07.14-18.22.04:406][778]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto1.umap
+[2017.07.14-18.22.04:406][778]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.07.14-18.22.04:406][778]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.07.14-18.22.04:406][778]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.07.14-18.22.04:406][778]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.07.13-09.39.01.log
+[2017.07.14-18.22.04:406][778]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.07.14-18.22.04:406][778]SourceControl: Info Untracked files:
+[2017.07.14-18.22.04:406][778]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.07.14-18.22.04:406][778]SourceControl: Info 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/PNG/Dirt_3_Outpost_floor_Auto2.uasset
+[2017.07.14-18.22.04:406][778]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-14-12-02-48.umap
+[2017.07.14-18.22.04:406][778]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-B011C6E347AF3BCB8BCDFB9BC4E3CA97/
+[2017.07.14-18.22.04:406][778]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.07.14-11.51.12.log
+[2017.07.14-18.22.04:406][778]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.07.14-18.22.04:647][778]LogSavePackage: Save=6.31ms
+[2017.07.14-18.22.04:647][778]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Outpost_floor_Sprite_009E003E44D0B8C760F0F6B8CFF48A7AA.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Outpost_floor_Sprite_0.uasset'
+[2017.07.14-18.22.04:649][778]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Outpost_floor_Sprite_0.uasset
+[2017.07.14-18.22.04:755][778]LogSavePackage: Save=5.85ms
+[2017.07.14-18.22.04:755][778]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Outpost_floor_Sprite_197D28CF44E1D1D09BB0B4F9DBB491D89.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Outpost_floor_Sprite_1.uasset'
+[2017.07.14-18.22.04:757][778]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Outpost_floor_Sprite_1.uasset
+[2017.07.14-18.22.21:536][604]SourceControl: Info On branch V1.5.1
+[2017.07.14-18.22.21:536][604]SourceControl: Info Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.07.14-18.22.21:536][604]SourceControl: Info Changes to be committed:
+[2017.07.14-18.22.21:536][604]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.07.14-18.22.21:536][604]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Outpost_floor_Sprite_0.uasset
+[2017.07.14-18.22.21:536][604]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Outpost_floor_Sprite_1.uasset
+[2017.07.14-18.22.21:536][604]SourceControl: Info Changes not staged for commit:
+[2017.07.14-18.22.21:536][604]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.07.14-18.22.21:536][604]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.07.14-18.22.21:536][604]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.07.14-18.22.21:536][604]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.07.14-18.22.21:536][604]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto1.umap
+[2017.07.14-18.22.21:536][604]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.07.14-18.22.21:536][604]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.07.14-18.22.21:536][604]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.07.14-18.22.21:536][604]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.07.13-09.39.01.log
+[2017.07.14-18.22.21:536][604]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.07.14-18.22.21:536][604]SourceControl: Info Untracked files:
+[2017.07.14-18.22.21:536][604]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.07.14-18.22.21:536][604]SourceControl: Info 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/PNG/Dirt_3_Outpost_floor_Auto2.uasset
+[2017.07.14-18.22.21:536][604]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-14-12-02-48.umap
+[2017.07.14-18.22.21:536][604]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-B011C6E347AF3BCB8BCDFB9BC4E3CA97/
+[2017.07.14-18.22.21:536][604]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.07.14-11.51.12.log
+[2017.07.14-18.22.21:725][604]LogSavePackage: Save=6.07ms
+[2017.07.14-18.22.21:725][604]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Outpost_floor_TileSetC92713CC4ED0537D94A5A89E48F0CA02.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Title_Sets/Dirt_3_Outpost_floor_TileSet.uasset'
+[2017.07.14-18.22.21:727][604]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Title_Sets/Dirt_3_Outpost_floor_TileSet.uasset
+[2017.07.14-18.22.55:516][324]Cmd: TRANSACTION UNDO
+[2017.07.14-18.22.55:516][324]LogEditorTransaction: Undo Modification in Viewport
+[2017.07.14-18.23.18:689][775]LogRenderer: Reallocating scene render targets to support 1756x924 NumSamples 1 (Frame:229).
+[2017.07.14-18.24.31:346][430]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.14-18.24.31:354][430]LogSavePackage: Save=4887.36ms
+[2017.07.14-18.24.31:354][430]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rain_Forrest_TM7AEE46BF4C00F52513CF0091307A7F50.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Tile_Maps/Rain_Forrest_TM.uasset'
+[2017.07.14-18.24.31:359][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Tile_Maps/Rain_Forrest_TM.uasset
+[2017.07.14-18.24.33:563][675]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.14-18.24.33:591][675]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.14-18.24.33:591][675]PIE: New page: PIE session: Rainforest_Alien (Jul 14, 2017, 6:24:33 AM)
+[2017.07.14-18.24.33:591][675]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.14-18.24.33:602][675]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011039s)
+[2017.07.14-18.24.33:603][675]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.14-18.24.33:603][675]LogPlayLevel: PIE: World Init took: (0.000653s)
+[2017.07.14-18.24.33:603][675]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.011980s)
+[2017.07.14-18.24.33:672][675]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.14-18.24.33:678][675]LogInit: FAudioDevice initialized.
+[2017.07.14-18.24.33:726][675]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.14-18.24.33:815][675]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.14-12.24.33
+[2017.07.14-18.24.33:827][675]LogWorld: Bringing up level for play took: 0.023516
+[2017.07.14-18.24.33:839][675]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.573
+[2017.07.14-18.25.05:673][458]MapCheck: New page: Map Check
+[2017.07.14-18.25.05:686][458]LightingResults: New page: Lighting Build - Jul 14, 2017, 6:25:05 AM
+[2017.07.14-18.25.05:719][458]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.07.14-18.25.05:768][458]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.07.14-18.25.05:776][458]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.07.14-18.25.06:298][458]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.07.14-18.25.06:299][458]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3580
+[2017.07.14-18.25.08:920][458]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.07.14-18.25.08:920][458]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.07.14-18.25.08:920][458]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.07.14-18.25.08:920][458]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.07.14-18.25.08:920][458]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.07.14-18.25.08:920][458]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.07.14-18.25.09:039][458]LogEditorBuildUtils: Build time 0:03
+[2017.07.14-18.25.09:052][458]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Hologram_M, compiling. 
+[2017.07.14-18.25.09:059][458]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Hologram_M, compiling. 
+[2017.07.14-18.25.10:570][512]Job is a success!
+[2017.07.14-18.25.10:627][513]LogTexture:Display: Building textures: LQ_Lightmap_0_1 (DXT1, 64X64)
+[2017.07.14-18.25.10:627][513]LogTexture:Display: Building textures: HQ_Lightmap0_1 (AutoDXT, 64X64)
+[2017.07.14-18.25.10:627][513]LogTexture:Display: Building textures: ShadowMapTexture2D_0 (G8, 64X32)
+[2017.07.14-18.25.10:656][513]Lightmass on DESKTOP-6MFT485: 446 ms total, 108 ms importing, 17 ms setup, 109 ms photons, 183 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 701 ms total, 109 ms processing.
+[2017.07.14-18.25.10:662][513]LogStaticLightingSystem: Illumination: 4.95 sec (1 ms encoding lightmaps, 1 ms encoding shadowmaps)
+[2017.07.14-18.25.10:662][513]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.07.14-18.25.10:662][513]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.07.14-18.25.10:922][513]DumpUnbuiltLightIteractions
+[2017.07.14-18.25.10:922][513]Lights with unbuilt interactions: 0
+[2017.07.14-18.25.10:922][513]
+[2017.07.14-18.25.10:922][513]Primitives with unbuilt interactions: 0
+[2017.07.14-18.25.10:949][514]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.07.14-18.25.10:950][514]MapCheck: New page: Rainforest_Alien - Jul 14, 2017, 6:25:10 AM
+[2017.07.14-18.25.11:028][514]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 78.211ms to complete.
+[2017.07.14-18.25.11:905][618]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.14-18.25.11:929][618]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.14-18.25.11:929][618]PIE: New page: PIE session: Rainforest_Alien (Jul 14, 2017, 6:25:11 AM)
+[2017.07.14-18.25.11:929][618]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.14-18.25.11:940][618]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010794s)
+[2017.07.14-18.25.11:941][618]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.14-18.25.11:941][618]LogPlayLevel: PIE: World Init took: (0.000609s)
+[2017.07.14-18.25.11:941][618]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.011611s)
+[2017.07.14-18.25.11:962][618]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.14-18.25.11:968][618]LogInit: FAudioDevice initialized.
+[2017.07.14-18.25.12:027][618]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.14-18.25.12:039][618]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.14-12.25.12
+[2017.07.14-18.25.12:049][618]LogWorld: Bringing up level for play took: 0.021550
+[2017.07.14-18.25.12:063][618]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.35
+[2017.07.14-18.30.34:825][912]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.14-18.30.34:850][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.14-18.30.34:850][912]PIE: New page: PIE session: Rainforest_Alien (Jul 14, 2017, 6:30:34 AM)
+[2017.07.14-18.30.34:850][912]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.14-18.30.34:862][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011542s)
+[2017.07.14-18.30.34:862][912]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.14-18.30.34:862][912]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2017.07.14-18.30.34:863][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.012625s)
+[2017.07.14-18.30.34:880][912]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.14-18.30.34:887][912]LogInit: FAudioDevice initialized.
+[2017.07.14-18.30.34:941][912]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.14-18.30.34:953][912]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.14-12.30.34
+[2017.07.14-18.30.34:964][912]LogWorld: Bringing up level for play took: 0.022340
+[2017.07.14-18.30.34:977][912]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.564
+[2017.07.14-18.32.12:842][812]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.32.12:934][812]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.32.12:944][812]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.32.12:977][812]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_4, compiling. 
+[2017.07.14-18.32.12:981][812]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.07.14-18.32.12:984][812]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.14-18.32.12:988][812]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.07.14-18.32.12:992][812]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.07.14-18.32.12:995][812]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_3, compiling. 
+[2017.07.14-18.32.17:765][239]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.32.28:234][231]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.32.30:499][447]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.32.36:456][ 31]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.32.38:959][262]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.32.40:315][384]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.32.45:786][896]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.32.45:794][896]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.32.50:328][313]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.32.50:337][313]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.32.52:876][547]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.32.52:880][547]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.33.26:498][689]LogSavePackage: Save=268.64ms
+[2017.07.14-18.33.26:498][689]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_Auto3B967774748D8BC70901E8E98F371F784.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto3.umap'
+[2017.07.14-18.33.26:500][689]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto3.umap
+[2017.07.14-18.33.26:503][689]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.298
+[2017.07.14-18.33.26:503][689]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.298
+[2017.07.14-18.33.26:505][689]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Title_Sets/Dirt_3_Outpost_floor_TileSet] ([1] browsable assets)...
+[2017.07.14-18.33.26:513][689]OBJ SavePackage:     Rendered thumbnail for [PaperTileSet /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Title_Sets/Dirt_3_Outpost_floor_TileSet.Dirt_3_Outpost_floor_TileSet]
+[2017.07.14-18.33.26:513][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Title_Sets/Dirt_3_Outpost_floor_TileSet]
+[2017.07.14-18.33.26:528][689]LogSavePackage: Save=6.68ms
+[2017.07.14-18.33.26:528][689]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Dirt_3_Outpost_floor_TileSet_Auto346BD639E4948CFD60EBB1C9FD6423CC0.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Title_Sets/Dirt_3_Outpost_floor_TileSet_Auto3.uasset'
+[2017.07.14-18.33.26:529][689]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Title_Sets/Dirt_3_Outpost_floor_TileSet_Auto3.uasset
+[2017.07.14-18.33.26:529][689]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData] ([1] browsable assets)...
+[2017.07.14-18.33.26:529][689]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData]
+[2017.07.14-18.33.26:543][689]LogSavePackage: Save=5.74ms
+[2017.07.14-18.33.26:543][689]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_BuiltData_Auto37403076547FF4AA37779ACBB0502721F.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData_Auto3.uasset'
+[2017.07.14-18.33.26:545][689]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData_Auto3.uasset
+[2017.07.14-18.33.26:545][689]LogFileHelpers: Auto-saving content packages took 0.041
+[2017.07.14-18.33.47:269][901]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.33.47:274][901]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.33.48:722][ 32]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.33.48:726][ 32]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.33.51:190][251]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.33.51:194][251]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.33.52:575][373]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.33.52:579][373]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.33.54:878][583]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.33.54:882][583]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.33.56:882][757]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.33.56:888][757]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.34.05:515][588]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.07.14-18.34.18:342][832]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.34.18:347][832]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.34.18:360][832]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.34.18:366][832]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.34.27:537][831]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.34.27:542][831]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.34.40:919][214]LogMaterialEditor: Applying material Hologram_M
+[2017.07.14-18.34.41:393][214]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.34.41:402][214]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.34.41:432][214]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.34.41:447][214]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.34.41:476][214]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hologram_M, compiling. 
+[2017.07.14-18.34.42:006][214]TextureStreamingBuild:Display: Compiling optional shaders took 0.534 seconds.
+[2017.07.14-18.34.43:484][354]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.34.44:394][438]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.34.46:595][660]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.07.14-18.34.55:538][635]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.14-18.34.55:561][635]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.14-18.34.55:561][635]PIE: New page: PIE session: Rainforest_Alien (Jul 14, 2017, 6:34:55 AM)
+[2017.07.14-18.34.55:561][635]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.14-18.34.55:572][635]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010749s)
+[2017.07.14-18.34.55:573][635]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.14-18.34.55:573][635]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2017.07.14-18.34.55:573][635]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.011580s)
+[2017.07.14-18.34.55:587][635]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.14-18.34.55:593][635]LogInit: FAudioDevice initialized.
+[2017.07.14-18.34.55:646][635]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.14-18.34.55:658][635]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.14-12.34.55
+[2017.07.14-18.34.55:668][635]LogWorld: Bringing up level for play took: 0.021023
+[2017.07.14-18.34.55:680][635]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.733
+[2017.07.14-18.34.55:685][635]MaterialEditorStats: Info Base pass shader without light map: 78 instructions
+[2017.07.14-18.34.55:685][635]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.07.14-18.34.55:685][635]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.07.14-18.34.55:685][635]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.14-18.35.05:553][762]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.35.16:970][743]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.35.16:975][743]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.35.18:780][899]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.35.18:785][899]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.35.21:469][133]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.35.21:474][133]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.35.24:350][379]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.35.24:356][379]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.35.24:363][379]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.14-18.35.27:544][646]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.35.27:549][646]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.35.27:561][646]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.14-18.35.40:903][756]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.35.40:908][756]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.35.40:918][756]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.14-18.35.44:248][ 40]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.35.44:253][ 40]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.35.45:731][160]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.35.45:736][160]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.35.53:545][850]LogMaterialEditor: Applying material Hologram_M
+[2017.07.14-18.35.54:036][850]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.35.54:043][850]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.35.54:071][850]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.35.54:081][850]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.35.54:111][850]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hologram_M, compiling. 
+[2017.07.14-18.35.54:710][850]TextureStreamingBuild:Display: Compiling optional shaders took 0.604 seconds.
+[2017.07.14-18.35.57:729][110]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.14-18.35.57:734][110]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.35.58:839][198]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.36.08:052][  8]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.36.08:065][  8]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.14-18.36.18:895][957]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.36.33:375][229]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.36.33:383][229]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.14-18.36.33:389][229]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.14-18.36.33:420][229]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.36.33:452][229]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.14-18.36.40:336][852]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.36.40:349][852]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.07.14-18.36.45:875][344]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.36.52:282][897]LogMaterial: Missing cached shader map for material PreviewMaterial_1, compiling. 
+[2017.07.14-18.36.52:288][897]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.36.53:268][975]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.37.02:290][768]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.37.06:595][159]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.37.12:327][671]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.37.24:102][736]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.37.38:254][945]LogMaterialEditor: Applying material Hologram_M
+[2017.07.14-18.37.38:756][945]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.37.38:785][945]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.37.38:796][945]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.37.38:826][945]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hologram_M, compiling. 
+[2017.07.14-18.37.39:314][945]TextureStreamingBuild:Display: Compiling optional shaders took 0.492 seconds.
+[2017.07.14-18.37.43:792][404]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.14-18.37.43:816][404]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.14-18.37.43:816][404]PIE: New page: PIE session: Rainforest_Alien (Jul 14, 2017, 6:37:43 AM)
+[2017.07.14-18.37.43:816][404]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.14-18.37.43:827][404]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011147s)
+[2017.07.14-18.37.43:827][404]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.14-18.37.43:828][404]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2017.07.14-18.37.43:828][404]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.012119s)
+[2017.07.14-18.37.43:843][404]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.14-18.37.43:849][404]LogInit: FAudioDevice initialized.
+[2017.07.14-18.37.43:906][404]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.14-18.37.43:919][404]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.14-12.37.43
+[2017.07.14-18.37.43:930][404]LogWorld: Bringing up level for play took: 0.023287
+[2017.07.14-18.37.43:945][404]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.468
+[2017.07.14-18.37.43:953][404]MaterialEditorStats: Info Base pass shader without light map: 74 instructions
+[2017.07.14-18.37.43:953][404]MaterialEditorStats: Info Vertex shader: 123 instructions
+[2017.07.14-18.37.43:953][404]MaterialEditorStats: Info Texture samplers: 4/16
+[2017.07.14-18.37.43:953][404]MaterialEditorStats: Info User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.07.14-18.38.06:304][434]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.38.11:132][927]LogMaterialEditor: Applying material Hologram_M
+[2017.07.14-18.38.11:640][927]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.38.11:670][927]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.38.11:681][927]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.38.11:710][927]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hologram_M, compiling. 
+[2017.07.14-18.38.12:179][927]TextureStreamingBuild:Display: Compiling optional shaders took 0.472 seconds.
+[2017.07.14-18.38.20:074][628]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.07.14-18.38.25:480][128]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.38.26:079][187]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.38.31:117][685]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.38.32:348][808]LogMaterialEditor: Applying material Hologram_M
+[2017.07.14-18.38.32:846][808]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.38.32:876][808]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.38.32:887][808]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.38.32:917][808]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hologram_M, compiling. 
+[2017.07.14-18.38.33:386][808]TextureStreamingBuild:Display: Compiling optional shaders took 0.473 seconds.
+[2017.07.14-18.38.38:857][326]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.14-18.38.38:881][326]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.14-18.38.38:881][326]PIE: New page: PIE session: Rainforest_Alien (Jul 14, 2017, 6:38:38 AM)
+[2017.07.14-18.38.38:881][326]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.14-18.38.38:892][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010665s)
+[2017.07.14-18.38.38:893][326]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.14-18.38.38:893][326]LogPlayLevel: PIE: World Init took: (0.000514s)
+[2017.07.14-18.38.38:893][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.011485s)
+[2017.07.14-18.38.38:906][326]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.14-18.38.38:913][326]LogInit: FAudioDevice initialized.
+[2017.07.14-18.38.38:969][326]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.14-18.38.38:982][326]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.14-12.38.38
+[2017.07.14-18.38.38:993][326]LogWorld: Bringing up level for play took: 0.022927
+[2017.07.14-18.38.39:007][326]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.594
+[2017.07.14-18.38.56:674][ 65]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.39.04:768][880]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.39.10:699][458]LogMaterialEditor: Applying material Hologram_M
+[2017.07.14-18.39.11:189][458]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.39.11:219][458]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.39.11:230][458]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.39.11:258][458]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hologram_M, compiling. 
+[2017.07.14-18.39.11:748][458]TextureStreamingBuild:Display: Compiling optional shaders took 0.493 seconds.
+[2017.07.14-18.39.19:995][210]MapCheck: New page: Map Check
+[2017.07.14-18.39.20:005][210]LightingResults: New page: Lighting Build - Jul 14, 2017, 6:39:20 AM
+[2017.07.14-18.39.20:013][210]LogSwarmInterface: [OpenConnection] Registering TCP channel ...
+[2017.07.14-18.39.20:017][210]LogSwarmInterface: [OpenConnection] Connecting to agent ...
+[2017.07.14-18.39.20:017][210]LogSwarmInterface: [TryOpenConnection] Testing the Agent
+[2017.07.14-18.39.20:018][210]LogSwarmInterface: [TryOpenConnection] Opening Connection to Agent
+[2017.07.14-18.39.20:018][210]LogSwarmInterface: [TryOpenConnection] Local Process ID is 3580
+[2017.07.14-18.39.24:558][210]LogStaticLightingSystem:Warning: No importance volume found, so the scene bounding box was used.  You can optimize your scene's quality and lighting build times by adding importance volumes.
+[2017.07.14-18.39.24:559][210]LogStaticLightingSystem: Running Lightmass w/ ImmediateImport mode ENABLED
+[2017.07.14-18.39.24:559][210]LogStaticLightingSystem: Running Lightmass w/ ImmediateProcess mode ENABLED
+[2017.07.14-18.39.24:559][210]LogStaticLightingSystem: Running Lightmass w/ Sorting mode ENABLED
+[2017.07.14-18.39.24:559][210]LogStaticLightingSystem: Running Lightmass w/ Mapping paddings ENABLED
+[2017.07.14-18.39.24:559][210]LogStaticLightingSystem: Running Lightmass w/ Mapping debug paddings DISABLED
+[2017.07.14-18.39.24:654][210]LogEditorBuildUtils: Build time 0:04
+[2017.07.14-18.39.24:660][210]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Hologram_M, compiling. 
+[2017.07.14-18.39.24:666][210]LogMaterial: Missing cached shader map for material FLightmassMaterialRenderer Hologram_M, compiling. 
+[2017.07.14-18.39.26:092][254]Job is a success!
+[2017.07.14-18.39.26:141][255]LogTexture:Display: Building textures: HQ_Lightmap1_1 (AutoDXT, 64X64)
+[2017.07.14-18.39.26:141][255]LogTexture:Display: Building textures: LQ_Lightmap_1_1 (DXT1, 64X64)
+[2017.07.14-18.39.26:141][255]LogTexture:Display: Building textures: ShadowMapTexture2D_1 (G8, 64X32)
+[2017.07.14-18.39.26:160][255]Lightmass on DESKTOP-6MFT485: 447 ms total, 103 ms importing, 18 ms setup, 112 ms photons, 181 ms processing, 0 ms extra exporting [2/2 mappings]. Threads: 695 ms total, 113 ms processing.
+[2017.07.14-18.39.26:167][255]LogStaticLightingSystem: Illumination: 6.14 sec (0 ms encoding lightmaps, 0 ms encoding shadowmaps)
+[2017.07.14-18.39.26:167][255]LogStaticLightingSystem: Lightmap texture memory:  0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 2 textures
+[2017.07.14-18.39.26:167][255]LogStaticLightingSystem: Shadowmap texture memory: 0.0 MB (0.0 MB streaming, 0.0 MB non-streaming), 1 textures
+[2017.07.14-18.39.26:563][255]DumpUnbuiltLightIteractions
+[2017.07.14-18.39.26:563][255]Lights with unbuilt interactions: 0
+[2017.07.14-18.39.26:563][255]
+[2017.07.14-18.39.26:563][255]Primitives with unbuilt interactions: 0
+[2017.07.14-18.39.26:591][256]Cmd: MAP CHECK NOTIFYRESULTS
+[2017.07.14-18.39.26:592][256]MapCheck: New page: Rainforest_Alien - Jul 14, 2017, 6:39:26 AM
+[2017.07.14-18.39.26:649][256]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 57.73ms to complete.
+[2017.07.14-18.39.27:183][309]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.14-18.39.27:207][309]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.14-18.39.27:207][309]PIE: New page: PIE session: Rainforest_Alien (Jul 14, 2017, 6:39:27 AM)
+[2017.07.14-18.39.27:207][309]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.14-18.39.27:218][309]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010840s)
+[2017.07.14-18.39.27:218][309]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.14-18.39.27:219][309]LogPlayLevel: PIE: World Init took: (0.000638s)
+[2017.07.14-18.39.27:219][309]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.011691s)
+[2017.07.14-18.39.27:240][309]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.14-18.39.27:246][309]LogInit: FAudioDevice initialized.
+[2017.07.14-18.39.27:298][309]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.14-18.39.27:321][309]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.14-12.39.27
+[2017.07.14-18.39.27:337][309]LogWorld: Bringing up level for play took: 0.037646
+[2017.07.14-18.39.27:351][309]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.938
+[2017.07.14-18.42.26:366][889]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.42.26:455][890]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.07.14-18.42.46:734][603]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.42.46:745][603]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.14-18.42.51:330][998]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.42.51:344][998]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.07.14-18.43.39:289][363]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.43.39:315][363]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.43.39:376][364]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.07.14-18.43.53:164][599]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.45.18:259][152]LogSavePackage: Save=272.35ms
+[2017.07.14-18.45.18:259][152]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_Auto4E6A62E904EDE15D92CF515B3B4F08A2D.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto4.umap'
+[2017.07.14-18.45.18:260][152]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto4.umap
+[2017.07.14-18.45.18:262][152]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.303
+[2017.07.14-18.45.18:262][152]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.303
+[2017.07.14-18.45.18:264][152]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData] ([1] browsable assets)...
+[2017.07.14-18.45.18:264][152]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData]
+[2017.07.14-18.45.18:276][152]LogSavePackage: Save=5.47ms
+[2017.07.14-18.45.18:276][152]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_BuiltData_Auto48F22C4A14771CD45376B0285195C23AA.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData_Auto4.uasset'
+[2017.07.14-18.45.18:278][152]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData_Auto4.uasset
+[2017.07.14-18.45.18:279][152]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M] ([1] browsable assets)...
+[2017.07.14-18.45.18:290][152]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M.Hologram_M]
+[2017.07.14-18.45.18:290][152]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M]
+[2017.07.14-18.45.18:324][152]LogSavePackage: Save=25.64ms
+[2017.07.14-18.45.18:324][152]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Hologram_M_Auto4C578415A47CEA0BA388A2B8294E24108.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Auto4.uasset'
+[2017.07.14-18.45.18:326][152]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Auto4.uasset
+[2017.07.14-18.45.18:326][152]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst] ([1] browsable assets)...
+[2017.07.14-18.45.18:337][152]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst.Hologram_M_Inst]
+[2017.07.14-18.45.18:337][152]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst]
+[2017.07.14-18.45.18:349][152]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hologram_M_Inst, compiling. 
+[2017.07.14-18.45.18:736][152]TextureStreamingBuild:Display: Compiling optional shaders took 0.389 seconds.
+[2017.07.14-18.45.18:765][152]LogSavePackage: Save=12.72ms
+[2017.07.14-18.45.18:765][152]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Hologram_M_Inst_Auto41206C83540F4179B6869D886088118A5.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_Auto4.uasset'
+[2017.07.14-18.45.18:767][152]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_Auto4.uasset
+[2017.07.14-18.45.18:767][152]LogFileHelpers: Auto-saving content packages took 0.503
+[2017.07.14-18.47.16:243][174]SourceControl: Info On branch V1.5.1
+[2017.07.14-18.47.16:243][174]SourceControl: Info Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.07.14-18.47.16:243][174]SourceControl: Info Changes to be committed:
+[2017.07.14-18.47.16:243][174]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Outpost_floor_Sprite_0.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Outpost_floor_Sprite_1.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Title_Sets/Dirt_3_Outpost_floor_TileSet.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info Changes not staged for commit:
+[2017.07.14-18.47.16:243][174]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.07.14-18.47.16:243][174]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Tile_Maps/Rain_Forrest_TM.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Auto4.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_Auto4.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto1.umap
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto3.umap
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto4.umap
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData_Auto3.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData_Auto4.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	deleted:    Saved/Backup/Dirt_3_Ramp_TileSet_2017-07-11-12-34-20.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	deleted:    Saved/Backup/Rain_Forrest_TM_2017-07-11-12-45-38.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.07.13-09.39.01.log
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.07.14-18.47.16:243][174]SourceControl: Info Untracked files:
+[2017.07.14-18.47.16:243][174]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/PNG/Dirt_3_Outpost_floor_Auto2.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Title_Sets/Dirt_3_Outpost_floor_TileSet_Auto3.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	Saved/Backup/Dirt_3_Outpost_floor_TileSet_2017-07-14-12-33-26.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	Saved/Backup/Hologram_M_2017-07-14-12-45-18.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	Saved/Backup/Hologram_M_Inst_2017-07-14-12-45-18.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	Saved/Backup/Rain_Forrest_TM_2017-07-14-12-24-26.uasset
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-14-12-02-48.umap
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-14-12-33-26.umap
+[2017.07.14-18.47.16:243][174]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-14-12-45-17.umap
+[2017.07.14-18.47.16:244][174]SourceControl: Info 	Saved/Backup/Rainforest_Alien_BuiltData_2017-07-14-12-33-26.uasset
+[2017.07.14-18.47.16:244][174]SourceControl: Info 	Saved/Backup/Rainforest_Alien_BuiltData_2017-07-14-12-45-18.uasset
+[2017.07.14-18.47.16:244][174]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-B011C6E347AF3BCB8BCDFB9BC4E3CA97/
+[2017.07.14-18.47.16:244][174]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.07.14-11.51.12.log
+[2017.07.14-18.47.16:445][174]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hologram_M_InstBlue, compiling. 
+[2017.07.14-18.47.16:828][174]TextureStreamingBuild:Display: Compiling optional shaders took 0.385 seconds.
+[2017.07.14-18.47.16:849][174]LogSavePackage: Save=12.30ms
+[2017.07.14-18.47.16:849][174]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Hologram_M_InstBlueB4911ACB46B38F9D300C3A9DF122F73C.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_InstBlue.uasset'
+[2017.07.14-18.47.16:852][174]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_InstBlue.uasset
+[2017.07.14-18.47.16:948][174]LogSavePackage: Save=3.33ms
+[2017.07.14-18.47.16:948][174]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Hologram_M_Inst94660BFC47226D1FFA2365977413230B.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst.uasset'
+[2017.07.14-18.47.16:954][174]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst.uasset
+[2017.07.14-18.47.35:071][136]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.47.35:731][203]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.07.14-18.47.52:919][ 99]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.07.14-18.47.57:531][614]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2017.07.14-18.48.01:911][ 96]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/HighResScreenshotCaptureRegion.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/HighResScreenshotCaptureRegion.uasset' is outside repository
+[2017.07.14-18.48.01:911][ 96]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/VREditor/LaserPointer/HoverMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/VREditor/LaserPointer/HoverMaterial.uasset' is outside repository
+[2017.07.14-18.48.01:911][ 96]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/HueShift_Inst.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/HueShift_Inst.uasset' is outside repository
+[2017.07.14-18.48.38:455][118]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.48.54:618][640]SourceControl: Info On branch V1.5.1
+[2017.07.14-18.48.54:618][640]SourceControl: Info Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.07.14-18.48.54:618][640]SourceControl: Info Changes to be committed:
+[2017.07.14-18.48.54:618][640]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_InstBlue.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Outpost_floor_Sprite_0.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Outpost_floor_Sprite_1.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Title_Sets/Dirt_3_Outpost_floor_TileSet.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info Changes not staged for commit:
+[2017.07.14-18.48.54:618][640]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.07.14-18.48.54:618][640]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Tile_Maps/Rain_Forrest_TM.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Auto4.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_Auto4.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto1.umap
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto3.umap
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto4.umap
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData_Auto3.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData_Auto4.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	deleted:    Saved/Backup/Dirt_3_Ramp_TileSet_2017-07-11-12-34-20.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	deleted:    Saved/Backup/Rain_Forrest_TM_2017-07-11-12-45-38.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.07.13-09.39.01.log
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.07.14-18.48.54:618][640]SourceControl: Info Untracked files:
+[2017.07.14-18.48.54:618][640]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/PNG/Dirt_3_Outpost_floor_Auto2.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Title_Sets/Dirt_3_Outpost_floor_TileSet_Auto3.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	Saved/Backup/Dirt_3_Outpost_floor_TileSet_2017-07-14-12-33-26.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	Saved/Backup/Hologram_M_2017-07-14-12-45-18.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	Saved/Backup/Hologram_M_Inst_2017-07-14-12-45-18.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	Saved/Backup/Rain_Forrest_TM_2017-07-14-12-24-26.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-14-12-02-48.umap
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-14-12-33-26.umap
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-14-12-45-17.umap
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	Saved/Backup/Rainforest_Alien_BuiltData_2017-07-14-12-33-26.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	Saved/Backup/Rainforest_Alien_BuiltData_2017-07-14-12-45-18.uasset
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-B011C6E347AF3BCB8BCDFB9BC4E3CA97/
+[2017.07.14-18.48.54:618][640]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.07.14-11.51.12.log
+[2017.07.14-18.48.54:805][640]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hologram_M_Inst_InstGreen, compiling. 
+[2017.07.14-18.48.55:171][640]TextureStreamingBuild:Display: Compiling optional shaders took 0.369 seconds.
+[2017.07.14-18.48.55:192][640]LogSavePackage: Save=12.10ms
+[2017.07.14-18.48.55:192][640]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Hologram_M_Inst_InstGreenF931CD9D4F06877C05454DA8852AA8E4.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_InstGreen.uasset'
+[2017.07.14-18.48.55:195][640]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_InstGreen.uasset
+[2017.07.14-18.49.24:549][856]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2017.07.14-18.49.37:965][325]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/HighResScreenshotCaptureRegion.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/HighResScreenshotCaptureRegion.uasset' is outside repository
+[2017.07.14-18.49.37:965][325]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/VREditor/LaserPointer/HoverMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/VREditor/LaserPointer/HoverMaterial.uasset' is outside repository
+[2017.07.14-18.49.37:965][325]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/HueShift_Inst.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/HueShift_Inst.uasset' is outside repository
+[2017.07.14-18.49.51:713][821]SourceControl: Info On branch V1.5.1
+[2017.07.14-18.49.51:713][821]SourceControl: Info Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.07.14-18.49.51:713][821]SourceControl: Info Changes to be committed:
+[2017.07.14-18.49.51:713][821]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_InstBlue.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_InstGreen.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Outpost_floor_Sprite_0.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Outpost_floor_Sprite_1.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Title_Sets/Dirt_3_Outpost_floor_TileSet.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info Changes not staged for commit:
+[2017.07.14-18.49.51:713][821]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.07.14-18.49.51:713][821]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Tile_Maps/Rain_Forrest_TM.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Auto4.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_Auto4.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto1.umap
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto3.umap
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto4.umap
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData_Auto3.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData_Auto4.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	deleted:    Saved/Backup/Dirt_3_Ramp_TileSet_2017-07-11-12-34-20.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	deleted:    Saved/Backup/Rain_Forrest_TM_2017-07-11-12-45-38.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.07.13-09.39.01.log
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.07.14-18.49.51:713][821]SourceControl: Info Untracked files:
+[2017.07.14-18.49.51:713][821]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/PNG/Dirt_3_Outpost_floor_Auto2.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Title_Sets/Dirt_3_Outpost_floor_TileSet_Auto3.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	Saved/Backup/Dirt_3_Outpost_floor_TileSet_2017-07-14-12-33-26.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	Saved/Backup/Hologram_M_2017-07-14-12-45-18.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	Saved/Backup/Hologram_M_Inst_2017-07-14-12-45-18.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	Saved/Backup/Rain_Forrest_TM_2017-07-14-12-24-26.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-14-12-02-48.umap
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-14-12-33-26.umap
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-07-14-12-45-17.umap
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	Saved/Backup/Rainforest_Alien_BuiltData_2017-07-14-12-33-26.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	Saved/Backup/Rainforest_Alien_BuiltData_2017-07-14-12-45-18.uasset
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-B011C6E347AF3BCB8BCDFB9BC4E3CA97/
+[2017.07.14-18.49.51:713][821]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.07.14-11.51.12.log
+[2017.07.14-18.49.51:899][821]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hologram_M_Inst_InstRed, compiling. 
+[2017.07.14-18.49.52:262][821]TextureStreamingBuild:Display: Compiling optional shaders took 0.365 seconds.
+[2017.07.14-18.49.52:282][821]LogSavePackage: Save=11.90ms
+[2017.07.14-18.49.52:282][821]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Hologram_M_Inst_InstRedA943B3E2413371DF62175488FB8DA316.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_InstRed.uasset'
+[2017.07.14-18.49.52:285][821]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_InstRed.uasset
+[2017.07.14-18.50.30:559][979]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.50.34:279][307]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Outpost_floor_and_holo_stand_Sprite_0)
+[2017.07.14-18.50.38:512][760]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.50.40:199][905]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.50.40:643][955]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Outpost_floor_and_holo_stand_Sprite_1)
+[2017.07.14-18.50.44:925][421]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.50.45:546][489]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Outpost_floor_and_holo_stand_Sprite_2)
+[2017.07.14-18.50.47:171][668]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.52.30:747][767]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.14-18.52.30:771][767]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.14-18.52.30:771][767]PIE: New page: PIE session: Rainforest_Alien (Jul 14, 2017, 6:52:30 AM)
+[2017.07.14-18.52.30:771][767]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.14-18.52.30:782][767]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011011s)
+[2017.07.14-18.52.30:782][767]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.14-18.52.30:783][767]LogPlayLevel: PIE: World Init took: (0.000701s)
+[2017.07.14-18.52.30:783][767]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.012020s)
+[2017.07.14-18.52.30:797][767]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.14-18.52.30:804][767]LogInit: FAudioDevice initialized.
+[2017.07.14-18.52.30:855][767]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.14-18.52.30:868][767]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.14-12.52.30
+[2017.07.14-18.52.30:878][767]LogWorld: Bringing up level for play took: 0.022129
+[2017.07.14-18.52.30:892][767]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.479
+[2017.07.14-18.52.51:391][ 52]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.07.14-18.52.52:248][142]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere)
+[2017.07.14-18.52.54:193][368]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Sphere2)
+[2017.07.14-18.52.54:587][407]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Sphere3)
+[2017.07.14-18.52.55:140][467]LogEditorViewport: Clicking on Actor (CTRL LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.52.56:038][569]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Outpost_floor_and_holo_stand_Sprite_2)
+[2017.07.14-18.52.57:231][704]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Outpost_floor_and_holo_stand_Sprite_1)
+[2017.07.14-18.52.58:206][814]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Outpost_floor_and_holo_stand_Sprite_0)
+[2017.07.14-18.52.59:615][977]Cmd: DELETE
+[2017.07.14-18.52.59:615][977]Cmd: ACTOR DELETE
+[2017.07.14-18.52.59:618][977]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.14-18.52.59:618][977]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.14-18.52.59:619][977]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.14-18.52.59:619][977]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.07.14-18.52.59:620][977]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.07.14-18.52.59:620][977]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.07.14-18.52.59:620][977]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.07.14-18.52.59:647][977]LogEditorActor: Deleted 7 Actors (0.031 secs)
+[2017.07.14-18.53.00:566][ 84]Cmd: TRANSACTION UNDO
+[2017.07.14-18.53.00:566][ 84]LogEditorTransaction: Undo Delete Actors
+[2017.07.14-18.53.00:595][ 84]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-18.53.01:854][219]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.07.14-18.53.06:275][685]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere3)
+[2017.07.14-18.53.06:868][748]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Outpost_floor_and_holo_stand_Sprite_2)
+[2017.07.14-18.53.07:606][829]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Outpost_floor_and_holo_stand_Sprite_1)
+[2017.07.14-18.53.08:022][873]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Sphere2)
+[2017.07.14-18.53.08:622][940]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (Sphere)
+[2017.07.14-18.53.09:265][ 13]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Outpost_floor_and_holo_stand_Sprite_0)
+[2017.07.14-18.53.10:966][211]Cmd: DELETE
+[2017.07.14-18.53.10:966][211]Cmd: ACTOR DELETE
+[2017.07.14-18.53.10:968][211]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.14-18.53.10:969][211]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.07.14-18.53.10:969][211]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.07.14-18.53.10:969][211]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.14-18.53.10:969][211]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.14-18.53.10:970][211]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.07.14-18.53.10:997][211]LogEditorActor: Deleted 6 Actors (0.031 secs)
+[2017.07.14-18.55.29:992][213]LogSavePackage: Save=287.74ms
+[2017.07.14-18.55.29:992][213]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_Auto5DB7CDF124FA5EDB437A1E6BA437D01F0.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto5.umap'
+[2017.07.14-18.55.29:994][213]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto5.umap
+[2017.07.14-18.55.29:996][213]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.314
+[2017.07.14-18.55.29:996][213]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.314
+[2017.07.14-18.55.29:998][213]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_InstBlue] ([1] browsable assets)...
+[2017.07.14-18.55.29:998][213]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_InstBlue]
+[2017.07.14-18.55.30:009][213]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hologram_M_InstBlue, compiling. 
+[2017.07.14-18.55.30:377][213]TextureStreamingBuild:Display: Compiling optional shaders took 0.370 seconds.
+[2017.07.14-18.55.30:398][213]LogSavePackage: Save=4.71ms
+[2017.07.14-18.55.30:398][213]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Hologram_M_InstBlue_Auto56939D8FB45AF50EBF2419F85667EB1CA.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_InstBlue_Auto5.uasset'
+[2017.07.14-18.55.30:399][213]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_InstBlue_Auto5.uasset
+[2017.07.14-18.55.30:400][213]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_InstGreen] ([1] browsable assets)...
+[2017.07.14-18.55.30:400][213]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_InstGreen]
+[2017.07.14-18.55.30:411][213]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hologram_M_Inst_InstGreen, compiling. 
+[2017.07.14-18.55.30:590][213]TextureStreamingBuild:Display: Compiling optional shaders took 0.182 seconds.
+[2017.07.14-18.55.30:610][213]LogSavePackage: Save=4.22ms
+[2017.07.14-18.55.30:610][213]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Hologram_M_Inst_InstGreen_Auto505B9FD0642338172AEA0AC85D9BADFFC.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_InstGreen_Auto5.uasset'
+[2017.07.14-18.55.30:611][213]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_InstGreen_Auto5.uasset
+[2017.07.14-18.55.30:612][213]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_InstRed] ([1] browsable assets)...
+[2017.07.14-18.55.30:623][213]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_InstRed.Hologram_M_Inst_InstRed]
+[2017.07.14-18.55.30:623][213]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_InstRed]
+[2017.07.14-18.55.30:635][213]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Hologram_M_Inst_InstRed, compiling. 
+[2017.07.14-18.55.30:824][213]TextureStreamingBuild:Display: Compiling optional shaders took 0.192 seconds.
+[2017.07.14-18.55.30:854][213]LogSavePackage: Save=13.13ms
+[2017.07.14-18.55.30:854][213]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Hologram_M_Inst_InstRed_Auto598C9305448865C5A0C838F97AE91F780.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_InstRed_Auto5.uasset'
+[2017.07.14-18.55.30:855][213]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Hologram_M_Inst_InstRed_Auto5.uasset
+[2017.07.14-18.55.30:855][213]LogFileHelpers: Auto-saving content packages took 0.858
+[2017.07.14-18.56.45:418][695]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.14-18.56.45:442][695]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.14-18.56.45:442][695]PIE: New page: PIE session: Rainforest_Alien (Jul 14, 2017, 6:56:45 AM)
+[2017.07.14-18.56.45:443][695]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.14-18.56.45:454][695]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011214s)
+[2017.07.14-18.56.45:454][695]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.14-18.56.45:454][695]LogPlayLevel: PIE: World Init took: (0.000603s)
+[2017.07.14-18.56.45:455][695]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.012082s)
+[2017.07.14-18.56.45:470][695]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.14-18.56.45:477][695]LogInit: FAudioDevice initialized.
+[2017.07.14-18.56.45:525][695]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.14-18.56.45:538][695]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.14-12.56.45
+[2017.07.14-18.56.45:549][695]LogWorld: Bringing up level for play took: 0.022801
+[2017.07.14-18.56.45:561][695]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.852
+[2017.07.14-19.01.24:842][200]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.14-19.01.24:865][200]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.14-19.01.24:865][200]PIE: New page: PIE session: Rainforest_Alien (Jul 14, 2017, 7:01:24 AM)
+[2017.07.14-19.01.24:865][200]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.14-19.01.24:876][200]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010772s)
+[2017.07.14-19.01.24:877][200]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.14-19.01.24:877][200]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2017.07.14-19.01.24:877][200]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.011727s)
+[2017.07.14-19.01.24:892][200]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.14-19.01.24:898][200]LogInit: FAudioDevice initialized.
+[2017.07.14-19.01.24:950][200]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.14-19.01.24:963][200]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.14-13.01.24
+[2017.07.14-19.01.24:973][200]LogWorld: Bringing up level for play took: 0.022519
+[2017.07.14-19.01.24:985][200]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.573
+[2017.07.14-19.01.43:075][310]Cmd: TRANSACTION UNDO
+[2017.07.14-19.01.43:075][310]LogEditorTransaction: Undo Edit Cloud Speed
+[2017.07.14-19.01.43:083][310]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-19.01.43:926][399]Cmd: TRANSACTION UNDO
+[2017.07.14-19.01.43:926][399]LogEditorTransaction: Undo Edit Cloud Color
+[2017.07.14-19.01.43:928][399]LogMaterial: Missing cached shader map for material Hologram_M, compiling. 
+[2017.07.14-19.01.46:415][687]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.14-19.01.46:439][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.14-19.01.46:439][687]PIE: New page: PIE session: Rainforest_Alien (Jul 14, 2017, 7:01:46 AM)
+[2017.07.14-19.01.46:439][687]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.14-19.01.46:450][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.011284s)
+[2017.07.14-19.01.46:451][687]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.14-19.01.46:451][687]LogPlayLevel: PIE: World Init took: (0.000530s)
+[2017.07.14-19.01.46:451][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.012124s)
+[2017.07.14-19.01.46:465][687]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.14-19.01.46:471][687]LogInit: FAudioDevice initialized.
+[2017.07.14-19.01.46:520][687]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.14-19.01.46:533][687]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.14-13.01.46
+[2017.07.14-19.01.46:543][687]LogWorld: Bringing up level for play took: 0.021343
+[2017.07.14-19.01.46:555][687]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.142
+[2017.07.14-19.02.30:973][649]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.14-19.02.30:996][649]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.14-19.02.30:996][649]PIE: New page: PIE session: Rainforest_Alien (Jul 14, 2017, 7:02:30 AM)
+[2017.07.14-19.02.30:996][649]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.14-19.02.31:007][649]LogPlayLevel: PIE: StaticDuplicateObject took: (0.010573s)
+[2017.07.14-19.02.31:007][649]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.14-19.02.31:008][649]LogPlayLevel: PIE: World Init took: (0.000547s)
+[2017.07.14-19.02.31:008][649]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.011372s)
+[2017.07.14-19.02.31:025][649]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.14-19.02.31:030][649]LogInit: FAudioDevice initialized.
+[2017.07.14-19.02.31:078][649]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.14-19.02.31:091][649]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.14-13.02.31
+[2017.07.14-19.02.31:102][649]LogWorld: Bringing up level for play took: 0.023177
+[2017.07.14-19.02.31:114][649]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.702
+[2017.07.14-19.05.17:651][554]LogSavePackage: Save=264.90ms
+[2017.07.14-19.05.17:651][554]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien8E35CEA24E741AD8ADA706963D8451E4.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap'
+[2017.07.14-19.05.17:658][554]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap
+[2017.07.14-19.05.17:759][554]LogSavePackage: Save=5.70ms
+[2017.07.14-19.05.17:759][554]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_BuiltData273777F648C66F67151E589B9307624D.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData.uasset'
+[2017.07.14-19.05.17:766][554]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData.uasset
+>>>>>>> ed2f5d25cc0c36dfec49f0265d855c4e49efd33b
