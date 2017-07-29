@@ -1,0 +1,977 @@
+﻿Log file open, 07/28/17 09:39:45
+LogInit:Display: Running engine for game: InsertNameAdventure
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1027799857) SRandInit(-1027799857).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.084668
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3452394
+LogInit: Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 22 2017 17:47:00
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.28-15.39.45:899][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.28-15.39.45:899][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.28-15.39.45:909][  0]LogInit: Computer: DESKTOP-6MFT485
+[2017.07.28-15.39.45:909][  0]LogInit: User: JustinWells20
+[2017.07.28-15.39.45:909][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.28-15.39.45:909][  0]LogInit: High frequency timer resolution =3.328128 MHz
+[2017.07.28-15.39.45:909][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.28-15.39.45:909][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.28-15.39.45:909][  0]LogMemory: Process Physical Memory: 274.96 MB used, 274.96 MB peak
+[2017.07.28-15.39.45:909][  0]LogMemory: Process Virtual Memory: 262.61 MB used, 262.61 MB peak
+[2017.07.28-15.39.45:909][  0]LogMemory: Physical Memory: 2795.41 MB used,  13526.33 MB free, 16321.74 MB total
+[2017.07.28-15.39.45:909][  0]LogMemory: Virtual Memory: 647.44 MB used,  13526.33 MB free, 134217728.00 MB total
+[2017.07.28-15.39.45:966][  0]LogInit: Using OS detected language (en-US).
+[2017.07.28-15.39.45:966][  0]LogInit: Using OS detected locale (en-US).
+[2017.07.28-15.39.45:969][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.07.28-15.39.46:729][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.28-15.39.47:236][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.07.28-15.39.47:236][  0]LogD3D11RHI:       8085/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.28-15.39.47:237][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.28-15.39.47:237][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.28-15.39.47:237][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.28-15.39.47:243][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.28-15.39.47:243][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.28-15.39.47:243][  0]LogWindows: EnumDisplayDevices:
+[2017.07.28-15.39.47:244][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.07.28-15.39.47:244][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.07.28-15.39.47:244][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.28-15.39.47:244][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.07.28-15.39.47:244][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.07.28-15.39.47:244][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.07.28-15.39.47:244][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.07.28-15.39.47:244][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.07.28-15.39.47:244][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.28-15.39.47:755][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.28-15.39.47:790][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.07.28-15.39.47:839][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Intermediate/Shaders/WorkingDirectory/11408/).
+[2017.07.28-15.39.47:839][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Justin Wells/AppData/Local/Temp/UnrealShaderWorkingDir/97843C694793C0944FE6AEBF6CC0943E/'.
+[2017.07.28-15.39.47:839][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.28-15.39.48:684][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.28-15.39.48:722][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.28-15.39.48:761][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.28-15.39.48:800][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.28-15.39.48:841][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.28-15.39.48:880][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.28-15.39.48:919][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.28-15.39.48:959][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.28-15.39.48:994][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.28-15.39.49:032][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.28-15.39.49:070][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.28-15.39.49:110][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.28-15.39.49:148][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.28-15.39.49:187][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.28-15.39.49:224][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.28-15.39.49:301][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.28-15.39.49:301][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.28-15.39.49:330][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.28-15.39.49:407][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.28-15.39.49:431][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.28-15.39.49:469][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.28-15.39.49:507][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.28-15.39.49:544][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.28-15.39.49:584][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.28-15.39.49:584][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.28-15.39.49:951][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.28-15.39.50:035][  0]LogDerivedDataCache: Loaded boot cache 0.08s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.28-15.39.50:035][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.28-15.39.50:035][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.28-15.39.50:035][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.28-15.39.50:035][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.28-15.39.50:035][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.28-15.39.50:048][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.28-15.39.50:061][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Justin Wells/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.28-15.39.50:070][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.28-15.39.50:070][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.28-15.39.50:071][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.28-15.39.50:071][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.28-15.39.50:340][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.28-15.39.50:399][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.28-15.39.50:527][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.28-15.39.50:560][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.28-15.39.50:595][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.28-15.39.50:595][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.28-15.39.50:595][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.28-15.39.51:036][  0]LogNetVersion: InsertNameAdventure , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1278457987)
+[2017.07.28-15.39.51:091][  0]LogAssetRegistry: FAssetRegistry took 0.0249 seconds to start up
+[2017.07.28-15.39.51:138][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.030622 seconds
+[2017.07.28-15.39.51:142][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.28-15.39.51:142][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.07.28-15.39.51:142][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.28-15.39.51:192][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.28-15.39.53:137][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.28-15.39.53:169][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.28-15.39.53:569][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.28-15.39.53:872][  0]SourceControl: Info Source control is disabled
+[2017.07.28-15.39.54:785][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.28-15.39.55:233][  0]LogEngine: Initializing Engine...
+[2017.07.28-15.39.55:246][  0]LogHMD: Failed to initialize OpenVR with code 103
+[2017.07.28-15.39.55:427][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.28-15.39.55:427][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.28-15.39.55:534][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.28-15.39.55:545][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.28-15.39.55:553][  0]LogInit: FAudioDevice initialized.
+[2017.07.28-15.39.55:588][  0]LogDerivedDataCache: Saved boot cache 0.03s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.28-15.39.55:599][  0]LogInit: Texture streaming: Enabled
+[2017.07.28-15.39.55:673][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.28-15.39.55:864][  0]LogInit: Transaction tracking system initialized
+[2017.07.28-15.39.56:131][  0]BlueprintLog: New page: Editor Load
+[2017.07.28-15.39.56:874][  0]LocalizationService: Info Localization service is disabled
+[2017.07.28-15.39.57:410][  0]LogConsoleResponse:Display: 
+[2017.07.28-15.39.57:543][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.28-15.39.57:543][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.28-15.39.57:951][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' took 0.02s
+[2017.07.28-15.39.58:482][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.28-15.39.59:622][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.28-15.39.59:626][  0]LightingResults: New page: Lighting Build
+[2017.07.28-15.39.59:659][  0]MapCheck: New page: Map Check
+[2017.07.28-15.39.59:659][  0]LightingResults: New page: Lighting Build
+[2017.07.28-15.39.59:670][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.28-15.39.59:671][  0]LoadErrors: New page: New Map
+[2017.07.28-15.39.59:737][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.28-15.39.59:816][  0]LogCollectionManager: Loaded 0 collections in 0.001352 seconds
+[2017.07.28-15.39.59:890][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' took 0.01s
+[2017.07.28-15.39.59:890][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells20/Collections/' took 0.01s
+[2017.07.28-15.39.59:891][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' took 0.01s
+[2017.07.28-15.39.59:891][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.07.28-15.39.59:899][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2329 classes and 491 folders.
+[2017.07.28-15.39.59:953][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.07.28-15.39.59:987][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.07.28-15.40.00:020][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.28-15.40.00:039][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.28-15.40.00:046][  0]LogSlate: Took 0.000145 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.28-15.40.00:049][  0]LogSlate: Took 0.000166 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.28-15.40.00:138][  0]LogRenderer: Reallocating scene render targets to support 1792x636 NumSamples 1 (Frame:1).
+[2017.07.28-15.40.00:208][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.28-15.40.00:262][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.07.28-15.40.00:262][  0]LogLoad: (Engine Initialization) Total time: 15.64 seconds
+[2017.07.28-15.40.00:262][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.03 seconds
+[2017.07.28-15.40.00:263][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.07.28-15.40.00:274][  0]LogOcInput: OculusInput pre-init called
+[2017.07.28-15.40.00:274][  0]LogHMD: Starting GearVRController plugin
+[2017.07.28-15.40.00:293][  0]SourceControl: Info On branch V1.5.1
+[2017.07.28-15.40.00:293][  0]SourceControl: Info Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.07.28-15.40.00:293][  0]SourceControl: Info Changes not staged for commit:
+[2017.07.28-15.40.00:293][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.07.28-15.40.00:293][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.07.28-15.40.00:293][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.07.28-15.40.00:293][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2A40C9B14C3F32BDF5FCBB9B315A2E41/CrashReportClient.ini
+[2017.07.28-15.40.00:293][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Editor.ini
+[2017.07.28-15.40.00:293][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.07.28-15.40.00:293][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.07.26-08.56.29.log
+[2017.07.28-15.40.00:293][  0]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.07.28-15.40.00:293][  0]SourceControl: Info Untracked files:
+[2017.07.28-15.40.00:293][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.07.28-15.40.00:293][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-8CB038A8444CABE0F0D3E1A6FCAEAEEF/
+[2017.07.28-15.40.00:293][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.07.28-09.39.45.log
+[2017.07.28-15.40.00:293][  0]SourceControl: Info no changes added to commit (use "git add" and/or "git commit -a")
+[2017.07.28-15.40.00:293][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.28-15.40.00:313][  0]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.28-15.40.00:338][  1]LogAssetRegistry: Asset discovery search completed in 9.2685 seconds
+[2017.07.28-15.40.00:339][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.07.28-15.40.00:339][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.07.28-15.40.03:430][359]LogSlate: Took 0.000129 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.28-15.40.04:312][359]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.28-15.40.04:350][359]LightingResults: New page: Lighting Build
+[2017.07.28-15.40.04:350][359]LoadErrors: New page: Loading map: Rainforest_Alien.umap
+[2017.07.28-15.40.04:351][359]MapCheck: New page: Map Check
+[2017.07.28-15.40.04:351][359]LightingResults: New page: Lighting Build
+[2017.07.28-15.40.04:384][359]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.28-15.40.04:439][359]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.28-15.40.04:491][359]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 51.357ms to complete.
+[2017.07.28-15.40.04:491][359]LogFileHelpers: Loading map 'Rainforest_Alien' took 0.142
+[2017.07.28-15.40.06:604][596]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.28-15.40.06:660][596]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-15.40.06:660][596]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.28-15.40.06:660][596]PIE: New page: PIE session: Rainforest_Alien (Jul 28, 2017, 3:40:06 AM)
+[2017.07.28-15.40.06:660][596]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.28-15.40.06:676][596]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015826s)
+[2017.07.28-15.40.06:677][596]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.28-15.40.06:677][596]LogPlayLevel: PIE: World Init took: (0.000630s)
+[2017.07.28-15.40.06:677][596]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.016785s)
+[2017.07.28-15.40.06:691][596]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.28-15.40.06:696][596]LogInit: FAudioDevice initialized.
+[2017.07.28-15.40.06:756][596]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.28-15.40.06:777][596]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.28-09.40.06
+[2017.07.28-15.40.06:791][596]LogWorld: Bringing up level for play took: 0.033513
+[2017.07.28-15.40.06:825][596]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.07.28-15.40.06:837][596]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.639
+[2017.07.28-15.40.06:837][596]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-15.40.06:876][596]LogRenderer: Reallocating scene render targets to support 1792x756 NumSamples 1 (Frame:1).
+[2017.07.28-15.41.29:557][417]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-15.41.29:619][417]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-15.41.48:140][489]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-15.41.49:938][684]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-15.41.50:590][731]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-15.41.52:060][837]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-15.45.54:760][687]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-15.46.19:302][930]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Skyboxes/Skybox_1'
+[2017.07.28-15.46.19:302][930]LogLinker:Warning: Can't find file for asset '/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Skyboxes/Skybox_1' while loading ../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset.
+[2017.07.28-15.46.19:302][930]LoadErrors:Error: Error /Engine/EngineSky/M_Sky_Panning_Clouds2 : Can't find file for asset. /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Skyboxes/Skybox_1
+[2017.07.28-15.46.19:303][930]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Skyboxes/Skybox_1'
+[2017.07.28-15.46.19:303][930]LogLinker:Warning: Can't find file for asset '/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Skyboxes/Skybox_1' while loading ../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset.
+[2017.07.28-15.46.19:395][930]LogLinker:Warning: Can't find file '/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Skyboxes/Skybox_1'
+[2017.07.28-15.46.19:396][930]LoadErrors: Info Failed to load /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Skyboxes/Skybox_1.Skybox_1 Referenced by MaterialExpressionTextureSample_5
+[2017.07.28-15.46.19:396][930]LogLinker:Warning: Can't find file for asset '/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Skyboxes/Skybox_1' while loading NULL.
+[2017.07.28-15.46.19:401][930]LogMaterial: Missing cached shader map for material M_Sky_Panning_Clouds2, compiling. 
+[2017.07.28-15.46.19:402][930]LogMaterial:Warning: Failed to compile Material /Engine/EngineSky/M_Sky_Panning_Clouds2.M_Sky_Panning_Clouds2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-15.46.19:402][930]LogMaterial:Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.07.28-15.46.19:502][931]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineSky/BP_Sky_Sphere.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineSky/BP_Sky_Sphere.uasset' is outside repository
+[2017.07.28-15.47.11:789][326]Cmd: DELETE
+[2017.07.28-15.47.11:789][326]Cmd: ACTOR DELETE
+[2017.07.28-15.47.11:790][326]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.07.28-15.47.11:804][326]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.07.28-15.48.45:817][482]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.07.28-15.49.53:708][363]LogEditorViewport: Clicking on Actor (context menu): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-15.50.37:845][552]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-15.51.17:921][278]LogSlate: Took 0.000516 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.28-15.51.27:283][304]LogSavePackage: Save=579.02ms
+[2017.07.28-15.51.27:283][304]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_Auto172D2470347EF3DABE4DE9AA80DD442C4.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto1.umap'
+[2017.07.28-15.51.27:286][304]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto1.umap
+[2017.07.28-15.51.27:288][304]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.612
+[2017.07.28-15.51.27:288][304]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.612
+[2017.07.28-15.53.43:596][354]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-15.53.43:596][354]LogMaterial:Warning: Failed to compile Material /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/SkyboxRain_M.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-15.53.43:596][354]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-15.53.43:641][354]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-15.53.43:641][354]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-15.53.43:641][354]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-15.53.43:753][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.28-15.53.43:759][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2017.07.28-15.53.43:761][354]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-15.53.43:761][354]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-15.53.43:761][354]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-15.53.43:764][354]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-15.53.43:765][354]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-15.53.43:765][354]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-15.53.43:791][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.28-15.53.43:795][354]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2017.07.28-15.53.43:801][354]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.28-15.53.44:070][370]LogSlate: Took 0.000127 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.28-15.54.05:569][561]LogMaterialEditor: Applying material SkyboxRain_M
+[2017.07.28-15.54.05:569][561]LogDialogs:Warning: Suppressed: The current material has compilation errors, so it will not render correctly in feature level SM5.
+Are you sure you wish to continue?
+[2017.07.28-15.54.06:035][561]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-15.54.06:036][561]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-15.54.06:036][561]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-15.54.06:059][561]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-15.54.06:059][561]LogMaterial:Warning: Failed to compile Material /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/SkyboxRain_M.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-15.54.06:059][561]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-15.54.06:063][561]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-15.54.06:064][561]LogMaterial:Warning: Failed to compile Material /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/SkyboxRain_M.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-15.54.06:064][561]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-15.54.06:082][561]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SkyboxRain_M, compiling. 
+[2017.07.28-15.54.06:083][561]TextureStreamingBuild:Display: Compiling optional shaders took 0.004 seconds.
+[2017.07.28-15.54.31:879][380]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-15.54.31:880][380]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-15.54.31:880][380]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-15.54.31:904][380]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.28-15.54.31:909][380]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2017.07.28-15.55.13:033][442]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-15.55.13:033][442]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-15.55.13:033][442]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-15.55.13:063][442]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.28-15.55.13:066][442]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2017.07.28-15.55.32:507][565]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.55.32:640][565]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.55.32:652][565]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.55.44:333][ 94]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.55.44:347][ 94]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.55.56:788][262]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.55.56:833][262]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.56.12:642][947]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.56.12:670][947]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.56.17:046][394]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.56.25:320][147]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.56.29:376][580]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.56.36:525][207]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.56.47:092][300]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.56.47:120][300]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.56.51:958][791]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.56.52:018][791]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.56.59:280][483]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.57.29:034][302]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.57.37:856][227]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.57.40:078][450]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.57.52:142][745]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.58.07:432][323]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.58.19:877][451]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.58.22:908][756]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.58.29:076][378]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.58.30:650][529]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-15.58.30:656][529]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.58.42:344][417]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-15.58.42:349][417]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.58.45:303][706]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-15.58.45:309][706]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.58.50:663][221]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-15.58.50:669][221]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.58.51:659][315]LogEditorTransaction: Undo Material Editor: New Expression
+[2017.07.28-15.58.51:663][315]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.58.51:689][315]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-15.58.51:689][315]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-15.58.51:689][315]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-15.58.51:694][315]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.28-15.58.51:698][315]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2017.07.28-15.58.51:726][315]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-15.58.51:732][315]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.58.57:428][772]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-15.58.57:434][772]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.59.00:974][121]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-15.59.00:980][121]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.59.16:541][374]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-15.59.16:547][374]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.59.26:650][307]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-15.59.26:656][307]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.59.29:596][599]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-15.59.29:602][599]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.59.31:991][827]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-15.59.31:997][827]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.59.32:048][827]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-15.59.32:054][827]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.59.46:030][345]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-15.59.46:036][345]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.59.49:385][670]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-15.59.49:392][670]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-15.59.56:140][335]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-15.59.56:146][335]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.17:232][322]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-16.00.17:238][322]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.22:091][787]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-16.00.22:097][787]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.28:157][379]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-16.00.28:163][379]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.30:329][584]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-16.00.30:335][584]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.30:390][584]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-16.00.30:396][584]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.38:172][283]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-16.00.38:178][283]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.45:075][965]LogEditorTransaction: Undo Rename Node
+[2017.07.28-16.00.45:078][965]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-16.00.45:078][965]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-16.00.45:078][965]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-16.00.45:108][965]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.28-16.00.45:111][965]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2017.07.28-16.00.45:113][965]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-16.00.45:119][965]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.46:334][ 59]LogEditorTransaction: Undo Edit Parameter Name
+[2017.07.28-16.00.46:338][ 59]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.46:363][ 59]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-16.00.46:363][ 59]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-16.00.46:363][ 59]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-16.00.46:389][ 59]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.28-16.00.46:393][ 59]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2017.07.28-16.00.46:394][ 59]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-16.00.46:401][ 59]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.47:827][181]LogEditorTransaction: Undo Material Editor: Convert
+[2017.07.28-16.00.47:832][181]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.47:859][181]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-16.00.47:859][181]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-16.00.47:859][181]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-16.00.47:889][181]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.28-16.00.47:893][181]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2017.07.28-16.00.47:894][181]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-16.00.47:900][181]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.52:943][652]LogEditorTransaction: Redo Material Editor: Convert
+[2017.07.28-16.00.52:947][652]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.52:971][652]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-16.00.52:971][652]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-16.00.52:972][652]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-16.00.52:997][652]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.28-16.00.53:001][652]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2017.07.28-16.00.53:002][652]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-16.00.53:008][652]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.53:605][691]LogEditorTransaction: Redo Edit Parameter Name
+[2017.07.28-16.00.53:609][691]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.53:635][691]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-16.00.53:635][691]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-16.00.53:635][691]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-16.00.53:664][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.28-16.00.53:668][691]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2017.07.28-16.00.53:669][691]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-16.00.53:675][691]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.00.56:957][995]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-16.00.56:963][995]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.01.07:788][ 90]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-16.01.07:794][ 90]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.01.12:375][527]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-16.01.12:380][527]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.01.17:726][ 47]LogMaterial: Missing cached shader map for material PreviewMaterial_0, compiling. 
+[2017.07.28-16.01.17:732][ 47]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.01.23:558][501]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.01.34:060][499]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.01.53:643][292]LogActorFactory: Actor Factory created Sphere
+[2017.07.28-16.01.55:139][411]LogActorFactory: Actor Factory created Sphere
+[2017.07.28-16.02.00:593][970]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-16.02.06:602][587]LogMaterialEditor: Applying material Clould_M
+[2017.07.28-16.02.07:103][587]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.02.07:171][587]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.02.07:220][587]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.02.07:277][587]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Clould_M, compiling. 
+[2017.07.28-16.02.09:264][587]TextureStreamingBuild:Display: Compiling optional shaders took 1.993 seconds.
+[2017.07.28-16.02.10:803][751]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2017.07.28-16.02.31:615][ 15]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-16.02.33:436][136]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2017.07.28-16.02.34:484][242]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2017.07.28-16.02.47:889][456]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-16.02.49:777][598]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2017.07.28-16.03.08:498][296]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-16.03.11:705][561]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2017.07.28-16.03.18:102][179]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-16.03.19:292][278]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.28-16.03.19:317][278]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.03.19:317][278]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.28-16.03.19:317][278]PIE: New page: PIE session: Rainforest_Alien (Jul 28, 2017, 4:03:19 AM)
+[2017.07.28-16.03.19:317][278]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.28-16.03.19:335][278]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018126s)
+[2017.07.28-16.03.19:336][278]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.28-16.03.19:336][278]LogPlayLevel: PIE: World Init took: (0.000713s)
+[2017.07.28-16.03.19:336][278]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.019131s)
+[2017.07.28-16.03.19:351][278]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.28-16.03.19:358][278]LogInit: FAudioDevice initialized.
+[2017.07.28-16.03.19:407][278]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.28-16.03.19:427][278]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.28-10.03.19
+[2017.07.28-16.03.19:443][278]LogWorld: Bringing up level for play took: 0.034429
+[2017.07.28-16.03.19:456][278]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.742
+[2017.07.28-16.03.19:456][278]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.03.19:462][278]MaterialEditorStats:Error: Error [SM5] (Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-16.03.19:463][278]MaterialEditorStats: Info Base pass shader: 84 instructions
+[2017.07.28-16.03.19:463][278]MaterialEditorStats: Info Vertex shader: 26 instructions
+[2017.07.28-16.03.19:463][278]MaterialEditorStats: Info Texture samplers: 2/16
+[2017.07.28-16.03.25:497][993]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.03.25:568][993]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.03.31:438][629]LogRenderer: Reallocating scene render targets to support 1792x924 NumSamples 1 (Frame:1).
+[2017.07.28-16.03.35:563][921]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2017.07.28-16.04.03:711][749]LogEditorViewport: Clicking on Actor (context menu): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-16.04.03:815][750]LogEditorViewport: Clicking on Component (context menu): StaticMeshComponent (Sky)
+[2017.07.28-16.04.07:241][ 15]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2017.07.28-16.04.12:554][536]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-16.04.13:253][613]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.28-16.04.13:278][613]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.04.13:278][613]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.28-16.04.13:278][613]PIE: New page: PIE session: Rainforest_Alien (Jul 28, 2017, 4:04:13 AM)
+[2017.07.28-16.04.13:278][613]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.28-16.04.13:296][613]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017329s)
+[2017.07.28-16.04.13:296][613]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.28-16.04.13:296][613]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2017.07.28-16.04.13:297][613]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.018170s)
+[2017.07.28-16.04.13:311][613]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.28-16.04.13:316][613]LogInit: FAudioDevice initialized.
+[2017.07.28-16.04.13:366][613]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.28-16.04.13:386][613]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.28-10.04.13
+[2017.07.28-16.04.13:401][613]LogWorld: Bringing up level for play took: 0.034049
+[2017.07.28-16.04.13:413][613]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.784
+[2017.07.28-16.04.13:414][613]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.04.15:314][833]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.04.15:378][833]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.04.15:977][891]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2017.07.28-16.04.46:004][639]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.28-16.04.46:028][639]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.04.46:028][639]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.28-16.04.46:028][639]PIE: New page: PIE session: Rainforest_Alien (Jul 28, 2017, 4:04:46 AM)
+[2017.07.28-16.04.46:028][639]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.28-16.04.46:046][639]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017451s)
+[2017.07.28-16.04.46:046][639]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.28-16.04.46:046][639]LogPlayLevel: PIE: World Init took: (0.000532s)
+[2017.07.28-16.04.46:047][639]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.018272s)
+[2017.07.28-16.04.46:061][639]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.28-16.04.46:066][639]LogInit: FAudioDevice initialized.
+[2017.07.28-16.04.46:125][639]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.28-16.04.46:167][639]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.28-10.04.46
+[2017.07.28-16.04.46:201][639]LogWorld: Bringing up level for play took: 0.073423
+[2017.07.28-16.04.46:212][639]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.014
+[2017.07.28-16.04.46:212][639]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.04.48:582][915]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.04.48:659][915]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.04.49:311][984]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2017.07.28-16.05.00:177][988]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.28-16.05.00:201][988]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.05.00:201][988]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.28-16.05.00:201][988]PIE: New page: PIE session: Rainforest_Alien (Jul 28, 2017, 4:05:00 AM)
+[2017.07.28-16.05.00:201][988]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.28-16.05.00:218][988]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017276s)
+[2017.07.28-16.05.00:219][988]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.28-16.05.00:219][988]LogPlayLevel: PIE: World Init took: (0.000477s)
+[2017.07.28-16.05.00:219][988]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.018079s)
+[2017.07.28-16.05.00:233][988]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.28-16.05.00:238][988]LogInit: FAudioDevice initialized.
+[2017.07.28-16.05.00:286][988]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.28-16.05.00:304][988]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.28-10.05.00
+[2017.07.28-16.05.00:320][988]LogWorld: Bringing up level for play took: 0.032575
+[2017.07.28-16.05.00:331][988]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.134
+[2017.07.28-16.05.00:331][988]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.05.01:594][127]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.05.01:669][127]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.05.10:016][884]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2017.07.28-16.05.51:827][414]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.28-16.05.51:853][414]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.05.51:853][414]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.28-16.05.51:853][414]PIE: New page: PIE session: Rainforest_Alien (Jul 28, 2017, 4:05:51 AM)
+[2017.07.28-16.05.51:853][414]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.28-16.05.51:871][414]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017146s)
+[2017.07.28-16.05.51:871][414]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.28-16.05.51:871][414]LogPlayLevel: PIE: World Init took: (0.000601s)
+[2017.07.28-16.05.51:871][414]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.018026s)
+[2017.07.28-16.05.51:885][414]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.28-16.05.51:891][414]LogInit: FAudioDevice initialized.
+[2017.07.28-16.05.51:937][414]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.28-16.05.51:955][414]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.28-10.05.51
+[2017.07.28-16.05.51:971][414]LogWorld: Bringing up level for play took: 0.033404
+[2017.07.28-16.05.51:983][414]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.215
+[2017.07.28-16.05.51:983][414]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.05.55:731][856]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.05.55:807][856]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.06.01:677][527]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2017.07.28-16.06.53:463][953]LogSavePackage: Save=530.16ms
+[2017.07.28-16.06.53:463][953]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien_Auto2AC40969648B5B4BA52B321B2CDF979A1.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto2.umap'
+[2017.07.28-16.06.53:466][953]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto2.umap
+[2017.07.28-16.06.53:468][953]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien' took 0.583
+[2017.07.28-16.06.53:468][953]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.583
+[2017.07.28-16.06.53:470][953]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/SkyboxRain_M] ([1] browsable assets)...
+[2017.07.28-16.06.53:486][953]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/SkyboxRain_M.SkyboxRain_M]
+[2017.07.28-16.06.53:486][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/SkyboxRain_M]
+[2017.07.28-16.06.53:511][953]LogSavePackage: Save=14.96ms
+[2017.07.28-16.06.53:511][953]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/SkyboxRain_M_Auto2D981F00C4B40FB5DD558838B87D5BFC1.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/SkyboxRain_M_Auto2.uasset'
+[2017.07.28-16.06.53:513][953]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/SkyboxRain_M_Auto2.uasset
+[2017.07.28-16.06.53:513][953]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/Clould_M] ([1] browsable assets)...
+[2017.07.28-16.06.53:538][953]OBJ SavePackage:     Rendered thumbnail for [Material /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/Clould_M.Clould_M]
+[2017.07.28-16.06.53:538][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/Clould_M]
+[2017.07.28-16.06.53:551][953]LogSavePackage: Save=11.30ms
+[2017.07.28-16.06.53:551][953]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Clould_M_Auto260A105194F372FCC5B0566AE3F76A82A.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/Clould_M_Auto2.uasset'
+[2017.07.28-16.06.53:552][953]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/Clould_M_Auto2.uasset
+[2017.07.28-16.06.53:552][953]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/Clould_M_Inst] ([1] browsable assets)...
+[2017.07.28-16.06.53:574][953]OBJ SavePackage:     Rendered thumbnail for [MaterialInstanceConstant /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/Clould_M_Inst.Clould_M_Inst]
+[2017.07.28-16.06.53:575][953]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/Clould_M_Inst]
+[2017.07.28-16.06.53:589][953]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Clould_M_Inst, compiling. 
+[2017.07.28-16.06.53:864][953]TextureStreamingBuild:Display: Compiling optional shaders took 0.279 seconds.
+[2017.07.28-16.06.53:882][953]LogSavePackage: Save=9.12ms
+[2017.07.28-16.06.53:882][953]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Clould_M_Inst_Auto275C437EE47196305C4098B8941A5597D.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/Clould_M_Inst_Auto2.uasset'
+[2017.07.28-16.06.53:883][953]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/Clould_M_Inst_Auto2.uasset
+[2017.07.28-16.06.53:883][953]LogFileHelpers: Auto-saving content packages took 0.414
+[2017.07.28-16.08.12:621][101]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-16.08.13:687][214]LogEditorViewport: Clicking on Actor (LMB): PostProcessVolume (PostProcessVolume)
+[2017.07.28-16.08.14:367][279]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sphere2)
+[2017.07.28-16.08.18:119][714]Cmd: DELETE
+[2017.07.28-16.08.18:119][714]Cmd: ACTOR DELETE
+[2017.07.28-16.08.18:124][714]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.28-16.08.18:154][714]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2017.07.28-16.08.20:385][926]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.07.28-16.08.20:894][926]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.28-16.11.01:745][ 62]LogSlate: Took 0.000168 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.07.28-16.11.18:683][903]BlueprintLog: New page: Compile SkyBox_BP
+[2017.07.28-16.11.26:826][781]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-16.11.48:687][171]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset' is outside repository
+[2017.07.28-16.12.06:880][865]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacity_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacity_Mat.uasset' is outside repository
+[2017.07.28-16.12.06:880][865]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset' is outside repository
+[2017.07.28-16.12.06:880][865]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/AlphaBrushMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EditorLandscapeResources/AlphaBrushMaterial.uasset' is outside repository
+[2017.07.28-16.12.06:880][865]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/BufferVisualization/AmbientOcclusion.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/BufferVisualization/AmbientOcclusion.uasset' is outside repository
+[2017.07.28-16.12.06:880][865]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineMaterials/AntiAliasedTextMaterialTranslucent.uasset' is outside repository
+[2017.07.28-16.12.07:702][952]SourceControl: Info fatal: C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset: 'C:/Program Files/Epic Games/UE_4.16/Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset' is outside repository
+[2017.07.28-16.12.14:611][675]BlueprintLog: New page: Compile SkyBox_BP
+[2017.07.28-16.12.56:664][133]BlueprintLog: New page: Compile SkyBox_BP
+[2017.07.28-16.12.58:134][251]LogTemp: Repeting last play command: New Editor Window (PIE)
+[2017.07.28-16.12.58:167][251]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.12.58:167][251]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.28-16.12.58:168][251]PIE: New page: PIE session: Rainforest_Alien (Jul 28, 2017, 4:12:58 AM)
+[2017.07.28-16.12.58:168][251]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.07.28-16.12.58:184][251]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016815s)
+[2017.07.28-16.12.58:185][251]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.07.28-16.12.58:185][251]LogPlayLevel: PIE: World Init took: (0.000633s)
+[2017.07.28-16.12.58:185][251]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.017769s)
+[2017.07.28-16.12.58:204][251]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.28-16.12.58:210][251]LogInit: FAudioDevice initialized.
+[2017.07.28-16.12.58:258][251]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.07.28-16.12.58:277][251]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.07.28-10.12.58
+[2017.07.28-16.12.58:291][251]LogWorld: Bringing up level for play took: 0.031768
+[2017.07.28-16.12.58:305][251]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.107
+[2017.07.28-16.12.58:305][251]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.13.02:046][571]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.13.02:111][571]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.07.28-16.13.13:953][596]BlueprintLog: New page: Compile SkyBox_BP
+[2017.07.28-16.13.19:989][140]BlueprintLog: New page: Compile SkyBox_BP
+[2017.07.28-16.13.23:177][463]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-16.13.46:864][243]LogActorFactory: Actor Factory created Sphere
+[2017.07.28-16.13.48:349][405]LogActorFactory: Actor Factory created Sphere
+[2017.07.28-16.14.16:777][607]Cmd: DELETE
+[2017.07.28-16.14.16:777][607]Cmd: ACTOR DELETE
+[2017.07.28-16.14.16:778][607]LogEditorActor: Deleted Actor: StaticMeshActor
+[2017.07.28-16.14.16:792][607]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.07.28-16.14.22:817][199]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.07.28-16.14.38:803][883]Cmd: TRANSACTION UNDO
+[2017.07.28-16.14.38:803][883]LogEditorTransaction: Undo Edit Sky M
+[2017.07.28-16.14.38:808][883]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-16.14.38:809][883]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-16.14.38:809][883]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-16.14.38:836][883]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.07.28-16.14.38:845][883]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSampleParameterCube_0, compiling. 
+[2017.07.28-16.14.38:856][883]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.14.56:524][740]LogMaterialEditor: Applying material SkyboxRain_M
+[2017.07.28-16.14.56:524][740]LogDialogs:Warning: Suppressed: The current material has compilation errors, so it will not render correctly in feature level SM5.
+Are you sure you wish to continue?
+[2017.07.28-16.14.57:004][740]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-16.14.57:004][740]LogMaterial:Warning: Failed to compile Material /Engine/Transient.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-16.14.57:004][740]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-16.14.57:026][740]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-16.14.57:026][740]LogMaterial:Warning: Failed to compile Material /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/SkyboxRain_M.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-16.14.57:026][740]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-16.14.57:027][740]LogMaterial: Missing cached shader map for material SkyboxRain_M, compiling. 
+[2017.07.28-16.14.57:028][740]LogMaterial:Warning: Failed to compile Material /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/SkyboxRain_M.SkyboxRain_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.07.28-16.14.57:028][740]LogMaterial:Warning: 	(Node TextureSampleParameterCube) ParamCube> Requires TextureCube
+[2017.07.28-16.14.57:050][740]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy SkyboxRain_M, compiling. 
+[2017.07.28-16.14.57:051][740]TextureStreamingBuild:Display: Compiling optional shaders took 0.004 seconds.
+[2017.07.28-16.15.49:445][202]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.15.49:511][202]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.15.49:561][202]LogMaterial: Missing cached shader map for material Clould_M, compiling. 
+[2017.07.28-16.15.49:624][202]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Clould_M, compiling. 
+[2017.07.28-16.15.51:611][202]TextureStreamingBuild:Display: Compiling optional shaders took 1.992 seconds.
+[2017.07.28-16.15.51:875][202]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Clould_M_Inst, compiling. 
+[2017.07.28-16.15.52:826][202]TextureStreamingBuild:Display: Compiling optional shaders took 0.954 seconds.
+[2017.07.28-16.16.10:498][929]LogSavePackage: Save=12.47ms
+[2017.07.28-16.16.10:498][929]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Clould_MF6B8FA644BC8F9C1BE60BBA2D35A8710.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/Clould_M.uasset'
+[2017.07.28-16.16.10:506][929]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/Clould_M.uasset
+[2017.07.28-16.16.10:617][929]LogSavePackage: Save=8.68ms
+[2017.07.28-16.16.10:617][929]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Clould_M_InstC67F844840B46E2EA558DA84869B14AD.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/Clould_M_Inst.uasset'
+[2017.07.28-16.16.10:623][929]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/Clould_M_Inst.uasset
+[2017.07.28-16.16.10:765][929]LogSavePackage: Save=22.01ms
+[2017.07.28-16.16.10:765][929]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/SkyBox_BP1B8D51FA4139EDCDF4B9F7BAE2D2F5AB.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/SkyBox_BP.uasset'
+[2017.07.28-16.16.10:768][929]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/SkyBox_BP.uasset
+[2017.07.28-16.16.10:807][929]LogSavePackage: Save=14.61ms
+[2017.07.28-16.16.10:807][929]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/SkyboxRain_MDC35331A412388EFD19CD38FE2F489E9.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/SkyboxRain_M.uasset'
+[2017.07.28-16.16.10:812][929]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sky/RainForrest/SkyboxRain_M.uasset
+[2017.07.28-16.16.11:444][929]LogSavePackage: Save=549.66ms
+[2017.07.28-16.16.11:444][929]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien26EA2F7E4839025AE2E953912B0F76AE.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap'
+[2017.07.28-16.16.11:448][929]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap
+[2017.07.28-16.16.11:494][929]LogFileHelpers: Saving map 'Rainforest_Alien' took 0.679
+[2017.07.28-16.16.11:615][929]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.07.28-16.16.11:813][930]Cmd: QUIT_EDITOR
+[2017.07.28-16.16.12:728][930]LogExit: Preparing to exit.
+[2017.07.28-16.16.13:987][930]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' was aborted.
+[2017.07.28-16.16.14:054][930]LogExit: Editor shut down
+[2017.07.28-16.16.14:063][930]LogExit: Transaction tracking system shut down
+[2017.07.28-16.16.14:146][930]LogObj: Freed 0b from 0 cluster array pools.
+[2017.07.28-16.16.14:146][930]LogExit: Object subsystem successfully closed.
+[2017.07.28-16.16.14:160][930]LogD3D11RHI: Shutdown
+[2017.07.28-16.16.14:160][930]LogD3D11RHI: CleanupD3DDevice
+[2017.07.28-16.16.14:240][930]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.07.28-16.16.14:252][930]LogModuleManager: Shutting down and abandoning module BlueprintGraph (536)
+[2017.07.28-16.16.14:253][930]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (534)
+[2017.07.28-16.16.14:253][930]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (532)
+[2017.07.28-16.16.14:253][930]LogModuleManager: Shutting down and abandoning module MaterialEditor (530)
+[2017.07.28-16.16.14:253][930]LogModuleManager: Shutting down and abandoning module TextureEditor (528)
+[2017.07.28-16.16.14:253][930]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.07.28-16.16.14:253][930]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.07.28-16.16.14:253][930]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.07.28-16.16.14:253][930]LogModuleManager: Shutting down and abandoning module SceneOutliner (520)
+[2017.07.28-16.16.14:253][930]LogModuleManager: Shutting down and abandoning module AddContentDialog (518)
+[2017.07.28-16.16.14:253][930]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.07.28-16.16.14:253][930]LogModuleManager: Shutting down and abandoning module WidgetCarousel (517)
+[2017.07.28-16.16.14:253][930]LogModuleManager: Shutting down and abandoning module EditorWidgets (514)
+[2017.07.28-16.16.14:253][930]LogModuleManager: Shutting down and abandoning module CollectionManager (512)
+[2017.07.28-16.16.14:253][930]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' was aborted.
+[2017.07.28-16.16.14:253][930]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells20/Collections/' was aborted.
+[2017.07.28-16.16.14:253][930]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' was aborted.
+[2017.07.28-16.16.14:253][930]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.07.28-16.16.14:254][930]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.07.28-16.16.14:888][930]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.07.28-16.16.14:889][930]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.07.28-16.16.14:889][930]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.07.28-16.16.14:889][930]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.07.28-16.16.14:889][930]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.07.28-16.16.14:889][930]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.07.28-16.16.14:889][930]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.07.28-16.16.14:889][930]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.07.28-16.16.14:889][930]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.07.28-16.16.14:942][930]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.07.28-16.16.14:942][930]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.07.28-16.16.14:942][930]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.07.28-16.16.14:942][930]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.07.28-16.16.14:942][930]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.07.28-16.16.14:942][930]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.07.28-16.16.14:942][930]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.07.28-16.16.14:942][930]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.07.28-16.16.14:942][930]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.07.28-16.16.14:942][930]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.07.28-16.16.14:962][930]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.07.28-16.16.14:962][930]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.07.28-16.16.14:962][930]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.07.28-16.16.14:962][930]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.07.28-16.16.14:962][930]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.07.28-16.16.14:962][930]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.07.28-16.16.14:962][930]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.07.28-16.16.14:963][930]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.07.28-16.16.14:963][930]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.07.28-16.16.14:963][930]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.07.28-16.16.14:963][930]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.07.28-16.16.14:963][930]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.07.28-16.16.14:963][930]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.07.28-16.16.14:963][930]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.07.28-16.16.14:963][930]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.07.28-16.16.14:963][930]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.07.28-16.16.14:963][930]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.07.28-16.16.14:963][930]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.07.28-16.16.14:963][930]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.07.28-16.16.14:963][930]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.07.28-16.16.15:021][930]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.07.28-16.16.15:022][930]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.07.28-16.16.15:022][930]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.07.28-16.16.15:022][930]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.07.28-16.16.15:022][930]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.07.28-16.16.15:022][930]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.07.28-16.16.15:022][930]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.07.28-16.16.15:022][930]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.07.28-16.16.15:022][930]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.07.28-16.16.15:022][930]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.07.28-16.16.15:022][930]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.07.28-16.16.15:022][930]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.07.28-16.16.15:022][930]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.07.28-16.16.15:022][930]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.07.28-16.16.15:022][930]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.07.28-16.16.15:022][930]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.07.28-16.16.15:024][930]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.07.28-16.16.15:024][930]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.07.28-16.16.15:024][930]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.07.28-16.16.15:024][930]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Binaries/Win64' was aborted.
+[2017.07.28-16.16.15:026][930]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.07.28-16.16.15:026][930]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.07.28-16.16.15:026][930]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.07.28-16.16.15:026][930]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.07.28-16.16.15:026][930]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.07.28-16.16.15:026][930]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.07.28-16.16.15:127][930]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.07.28-16.16.15:228][930]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.07.28-16.16.15:228][930]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.07.28-16.16.15:228][930]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.07.28-16.16.15:228][930]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.07.28-16.16.15:228][930]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.07.28-16.16.15:228][930]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.07.28-16.16.15:230][930]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.07.28-16.16.15:231][930]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.07.28-16.16.15:231][930]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.07.28-16.16.15:231][930]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.07.28-16.16.15:231][930]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.07.28-16.16.15:231][930]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.07.28-16.16.15:231][930]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.07.28-16.16.15:231][930]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.07.28-16.16.15:231][930]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.07.28-16.16.15:231][930]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.07.28-16.16.15:231][930]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.07.28-16.16.15:231][930]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.07.28-16.16.15:231][930]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.07.28-16.16.15:231][930]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.07.28-16.16.15:232][930]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.07.28-16.16.15:232][930]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.07.28-16.16.15:232][930]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.07.28-16.16.15:232][930]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.07.28-16.16.15:232][930]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.07.28-16.16.15:232][930]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.07.28-16.16.15:232][930]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.07.28-16.16.15:232][930]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.07.28-16.16.15:232][930]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.07.28-16.16.15:239][930]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.07.28-16.16.15:240][930]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.07.28-16.16.15:240][930]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.07.28-16.16.15:240][930]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.07.28-16.16.15:240][930]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.07.28-16.16.15:240][930]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.07.28-16.16.15:333][930]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.07.28-16.16.15:334][930]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' was aborted.
+[2017.07.28-16.16.15:334][930]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.07.28-16.16.15:334][930]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.07.28-16.16.15:336][930]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.07.28-16.16.15:337][930]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.07.28-16.16.15:337][930]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.07.28-16.16.15:337][930]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.07.28-16.16.15:338][930]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.07.28-16.16.15:338][930]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.07.28-16.16.15:338][930]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.07.28-16.16.15:338][930]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.07.28-16.16.15:338][930]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.07.28-16.16.15:433][930]LogDerivedDataCache: Shutdown
+[2017.07.28-16.16.15:433][930]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.07.28-16.16.15:433][930]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.07.28-16.16.15:433][930]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.07.28-16.16.15:434][930]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.07.28-16.16.15:435][930]LogOnline:Display: Unloading online subsystem: NULL
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.07.28-16.16.15:435][930]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.07.28-16.16.15:435][930]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.07.28-16.16.15:435][930]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B7B5E37BC-47FB-CB61-607B-3797669C1550%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.0-3452394%2B%2B%2BUE4%2BRelease-4.16&UserID=520fd5774504bba7d7d4dfbb2efd774d%7C3ef35b30eb8d444d8e26d7fb1794d4bf%7C7a44e29e-0876-4249-91a8-eb020dafba7b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.07.28-16.16.15:447][930]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.07.28-16.16.15:450][930]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.07.28-16.16.15:450][930]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.07.28-16.16.15:450][930]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.07.28-16.16.15:450][930]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.07.28-16.16.15:450][930]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.07.28-16.16.15:450][930]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.07.28-16.16.15:450][930]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.07.28-16.16.15:450][930]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.07.28-16.16.15:454][930]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.07.28-16.16.15:454][930]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.07.28-16.16.15:454][930]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.07.28-16.16.15:454][930]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.07.28-16.16.15:454][930]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.07.28-16.16.15:454][930]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.07.28-16.16.15:454][930]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.07.28-16.16.15:454][930]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.07.28-16.16.15:454][930]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.07.28-16.16.15:454][930]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.07.28-16.16.15:459][930]LogExit: Exiting.
+[2017.07.28-16.16.15:536][930]Log file closed, 07/28/17 10:16:15
