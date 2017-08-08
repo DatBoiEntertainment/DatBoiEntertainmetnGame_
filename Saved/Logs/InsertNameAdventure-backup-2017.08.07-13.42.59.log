@@ -1,0 +1,1249 @@
+﻿Log file open, 08/05/17 17:51:51
+LogInit:Display: Running engine for game: InsertNameAdventure
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1127968874) SRandInit(1127968874).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.576260
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3452394
+LogInit: Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): May 22 2017 17:47:00
+LogInit: Compiled with Visual C++: 19.00.23026.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.05-23.51.52:220][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.05-23.51.52:220][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.05-23.51.52:246][  0]LogInit: Computer: DESKTOP-6MFT485
+[2017.08.05-23.51.52:246][  0]LogInit: User: JustinWells20
+[2017.08.05-23.51.52:246][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.05-23.51.52:246][  0]LogInit: High frequency timer resolution =3.328128 MHz
+[2017.08.05-23.51.52:246][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.05-23.51.52:246][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.05-23.51.52:246][  0]LogMemory: Process Physical Memory: 275.65 MB used, 275.65 MB peak
+[2017.08.05-23.51.52:246][  0]LogMemory: Process Virtual Memory: 262.53 MB used, 262.53 MB peak
+[2017.08.05-23.51.52:246][  0]LogMemory: Physical Memory: 3370.91 MB used,  12950.82 MB free, 16321.74 MB total
+[2017.08.05-23.51.52:246][  0]LogMemory: Virtual Memory: 647.44 MB used,  12950.82 MB free, 134217728.00 MB total
+[2017.08.05-23.51.52:512][  0]LogInit: Using OS detected language (en-US).
+[2017.08.05-23.51.52:512][  0]LogInit: Using OS detected locale (en-US).
+[2017.08.05-23.51.52:563][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.08.05-23.51.55:119][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.05-23.51.55:613][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.08.05-23.51.55:613][  0]LogD3D11RHI:       8085/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.05-23.51.55:614][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.05-23.51.55:614][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.05-23.51.55:614][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.05-23.51.55:621][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.05-23.51.55:621][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.05-23.51.55:621][  0]LogWindows: EnumDisplayDevices:
+[2017.08.05-23.51.55:622][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.08.05-23.51.55:622][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.08.05-23.51.55:622][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.05-23.51.55:622][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.08.05-23.51.55:622][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.08.05-23.51.55:622][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.08.05-23.51.55:622][  0]LogD3D11RHI:   Driver Version: 384.94 (internal:22.21.13.8494, unified:384.94)
+[2017.08.05-23.51.55:622][  0]LogD3D11RHI:      Driver Date: 7-18-2017
+[2017.08.05-23.51.55:622][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.05-23.51.56:105][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.05-23.51.56:156][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.05-23.51.56:215][  0]LogShaderCompilers: Guid format shader working directory is -54 characters bigger than the processId version (../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Intermediate/Shaders/WorkingDirectory/48664/).
+[2017.08.05-23.51.56:215][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Justin Wells/AppData/Local/Temp/UnrealShaderWorkingDir/C2FAEF0444B9472049B48FA6A5D9A395/'.
+[2017.08.05-23.51.56:216][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.05-23.51.57:966][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.05-23.51.58:007][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.05-23.51.58:048][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.05-23.51.58:088][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.05-23.51.58:133][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.05-23.51.58:174][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.05-23.51.58:214][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.05-23.51.58:255][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.05-23.51.58:291][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.05-23.51.58:335][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.05-23.51.58:376][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.05-23.51.58:416][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.05-23.51.58:456][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.05-23.51.58:500][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.05-23.51.58:540][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.05-23.51.58:621][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.05-23.51.58:621][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.05-23.51.58:652][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.05-23.51.58:741][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.05-23.51.58:785][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.05-23.51.58:833][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.05-23.51.58:873][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.05-23.51.58:913][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.05-23.51.58:956][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.05-23.51.58:957][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.05-23.51.59:457][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.05-23.51.59:943][  0]LogDerivedDataCache: Loaded boot cache 0.49s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.05-23.51.59:943][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.05-23.51.59:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.05-23.51.59:943][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.05-23.51.59:943][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.05-23.51.59:943][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.05-23.51.59:982][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.05-23.51.59:995][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Justin Wells/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.05-23.52.00:015][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.05-23.52.00:019][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.05-23.52.00:042][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.05-23.52.00:042][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.05-23.52.01:092][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.05-23.52.01:274][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.05-23.52.01:481][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.05-23.52.01:526][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.05-23.52.01:566][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.05-23.52.01:566][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.05-23.52.01:566][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.05-23.52.02:753][  0]LogNetVersion: InsertNameAdventure , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 1278457987)
+[2017.08.05-23.52.02:843][  0]LogAssetRegistry: FAssetRegistry took 0.0290 seconds to start up
+[2017.08.05-23.52.02:905][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.042231 seconds
+[2017.08.05-23.52.02:910][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.05-23.52.02:910][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.05-23.52.02:910][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.05-23.52.02:963][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.05-23.52.07:212][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.05-23.52.07:248][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.05-23.52.08:001][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.05-23.52.08:428][  0]SourceControl: Info Source control is disabled
+[2017.08.05-23.52.09:550][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.05-23.52.10:102][  0]LogEngine: Initializing Engine...
+[2017.08.05-23.52.10:106][  0]LogHMD: Failed to initialize OpenVR with code 100
+[2017.08.05-23.52.10:418][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.05-23.52.10:418][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.05-23.52.10:552][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.05-23.52.10:567][  0]LogInit: XAudio2 using 'Headphones (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.05-23.52.10:588][  0]LogInit: FAudioDevice initialized.
+[2017.08.05-23.52.10:627][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/Justin Wells/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.05-23.52.10:639][  0]LogInit: Texture streaming: Enabled
+[2017.08.05-23.52.10:728][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.05-23.52.10:949][  0]LogInit: Transaction tracking system initialized
+[2017.08.05-23.52.11:250][  0]BlueprintLog: New page: Editor Load
+[2017.08.05-23.52.12:121][  0]LocalizationService: Info Localization service is disabled
+[2017.08.05-23.52.12:790][  0]LogConsoleResponse:Display: 
+[2017.08.05-23.52.13:130][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.05-23.52.13:131][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.05-23.52.13:707][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' took 0.02s
+[2017.08.05-23.52.14:332][  0]LogSlate: Took 0.004820 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.05-23.52.16:839][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.05-23.52.16:844][  0]LightingResults: New page: Lighting Build
+[2017.08.05-23.52.16:882][  0]MapCheck: New page: Map Check
+[2017.08.05-23.52.16:882][  0]LightingResults: New page: Lighting Build
+[2017.08.05-23.52.16:898][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.05-23.52.16:903][  0]LoadErrors: New page: New Map
+[2017.08.05-23.52.17:099][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.05-23.52.17:246][  0]LogCollectionManager: Loaded 0 collections in 0.001491 seconds
+[2017.08.05-23.52.17:329][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' took 0.01s
+[2017.08.05-23.52.17:329][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells20/Collections/' took 0.01s
+[2017.08.05-23.52.17:329][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' took 0.01s
+[2017.08.05-23.52.17:329][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2017.08.05-23.52.17:338][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2330 classes and 493 folders.
+[2017.08.05-23.52.17:393][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.05-23.52.17:719][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0011 seconds. Added 0 classes and 0 folders.
+[2017.08.05-23.52.17:784][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.05-23.52.17:801][  0]LogSlate: Took 0.005915 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.05-23.52.17:810][  0]LogSlate: Took 0.004933 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.05-23.52.17:962][  0]LogRenderer: Reallocating scene render targets to support 1596x924 NumSamples 1 (Frame:1).
+[2017.08.05-23.52.18:066][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.05-23.52.18:128][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.08.05-23.52.18:129][  0]LogLoad: (Engine Initialization) Total time: 28.71 seconds
+[2017.08.05-23.52.18:129][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.08.05-23.52.18:129][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.08.05-23.52.18:140][  0]LogOcInput: OculusInput pre-init called
+[2017.08.05-23.52.18:140][  0]LogHMD: Starting GearVRController plugin
+[2017.08.05-23.52.18:159][  0]SourceControl: Info On branch V1.5.1
+[2017.08.05-23.52.18:159][  0]SourceControl: Info Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.08.05-23.52.18:159][  0]SourceControl: Info Changes to be committed:
+[2017.08.05-23.52.18:159][  0]SourceControl: Info   (use "git reset HEAD <file>..." to unstage)
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/New_Shroom_Backdrop_Sprite.uasset
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Nice_Shroom_Sprite.uasset
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Nice_Tree_Sprite.uasset
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/PNG/New_Shroom_Backdrop.uasset
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/PNG/Nice_Shroom.uasset
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/PNG/Nice_Tree.uasset
+[2017.08.05-23.52.18:159][  0]SourceControl: Info Changes not staged for commit:
+[2017.08.05-23.52.18:159][  0]SourceControl: Info   (use "git add/rm <file>..." to update what will be committed)
+[2017.08.05-23.52.18:159][  0]SourceControl: Info   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.uasset
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Platforms/BP_Platform_2.uasset
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Sprite_Sheet_Sprite_4.uasset
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Nice_Shroom_Sprite.uasset
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Nice_Tree_Sprite.uasset
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	modified:   Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData.uasset
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.08.05-23.52.18:159][  0]SourceControl: Info 	modified:   Saved/AutoScreenshot.png
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	modified:   Saved/Autosaves/Engine/EngineSky/M_Sky_Panning_Clouds2_Auto2.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter_Auto1.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Platforms/BP_Platform_2_Auto1.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto1.umap
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	modified:   Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_Auto2.umap
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-25EFD338438FBD24C6DAACA08754CE6B/CrashReportClient.ini
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2A81F4C4497133772752F594D429C43D/CrashReportClient.ini
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-951F0F0F4022C412DAC328B87EDCE872/CrashReportClient.ini
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-A636F5B3493AB56D77ED48A7CB257DBC/CrashReportClient.ini
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-FF30CF5946D86FC3EF1AFA838E9AE6A9/CrashReportClient.ini
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	modified:   Saved/Config/Windows/Engine.ini
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.08.01-15.34.06.log
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.08.01-17.30.52.log
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.08.01-19.54.33.log
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.08.01-20.02.09.log
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.08.02-11.43.06.log
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.08.03-10.27.13.log
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.08.03-21.47.01.log
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.08.05-23.52.18:160][  0]SourceControl: Info Untracked files:
+[2017.08.05-23.52.18:160][  0]SourceControl: Info   (use "git add <file>..." to include in what will be committed)
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Dirt_3_Sprite_Sheet_Sprite_4_Auto1.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/PNG/New_Shroom_Backdrop_Auto1.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/2DSideScrollerCharacter_2017-08-05-11-02-42.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/BP_Platform_2_2017-08-04-19-23-26.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/BP_Platform_2_2017-08-05-11-02-42.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/BP_Platform_2_2017-08-05-12-54-52.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/BP_Platform_2_2017-08-05-13-40-27.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/Dirt_3_Sprite_Sheet_Sprite_4_2017-08-05-11-02-43.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/M_Sky_Panning_Clouds2_2017-08-04-18-18-33.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/Nice_Shroom_Sprite_2017-08-04-19-23-26.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/Nice_Tree_Sprite_2017-08-04-19-23-26.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-08-04-16-21-08.umap
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-08-04-18-07-42.umap
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-08-04-18-18-33.umap
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-08-04-19-23-23.umap
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-08-05-11-02-42.umap
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-08-05-12-54-51.umap
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_2017-08-05-13-40-27.umap
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_BuiltData_2017-08-04-18-21-22.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_BuiltData_2017-08-04-19-23-23.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Backup/Rainforest_Alien_BuiltData_2017-08-05-11-04-42.uasset
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-0E7BE0EC43FD6474D5476C86815805F0/
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-135FB8164259687B541A80B4664A3AEA/
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-52B430024EEFC4A74612AB9B02307590/
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-8790CF2B48DE2C20D0B5369D8E7664D2/
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-CB0D68C44C6787736D8B78A69FD1C1AF/
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-F0BA09004AEBF33EC47C04868A096B79/
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Config/CrashReportClient/UE4CC-Windows-F529FFC44D93750389131D90545F9C90/
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Crashes/UE4CC-Windows-8790CF2B48DE2C20D0B5369D8E7664D2_0000/
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.08.04-16.08.12.log
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.08.04-17.55.32.log
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.08.04-19.11.56.log
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.08.04-19.12.45.log
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.08.05-10.04.28.log
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.08.05-12.43.54.log
+[2017.08.05-23.52.18:160][  0]SourceControl: Info 	Saved/Logs/InsertNameAdventure-backup-2017.08.05-17.51.51.log
+[2017.08.05-23.52.18:160][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.05-23.52.18:189][  0]LogSlate: Took 0.004660 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.05-23.52.18:197][  1]LogAssetRegistry: Asset discovery search completed in 15.3762 seconds
+[2017.08.05-23.52.18:199][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000003 seconds (found 0 objects)
+[2017.08.05-23.52.18:199][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000019 seconds (updated 0 objects)
+[2017.08.05-23.52.22:283][483]LogSlate: Took 0.000102 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.05-23.52.23:296][483]LogSlate: Took 0.000124 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.05-23.52.23:915][483]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.08.05-23.52.23:961][483]LightingResults: New page: Lighting Build
+[2017.08.05-23.52.23:961][483]LoadErrors: New page: Loading map: Rainforest_Alien.umap
+[2017.08.05-23.52.23:961][483]MapCheck: New page: Map Check
+[2017.08.05-23.52.23:961][483]LightingResults: New page: Lighting Build
+[2017.08.05-23.52.23:998][483]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.05-23.52.24:056][483]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.05-23.52.24:106][483]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 49.624ms to complete.
+[2017.08.05-23.52.24:106][483]LogFileHelpers: Loading map 'Rainforest_Alien' took 0.146
+[2017.08.05-23.52.24:153][484]LogParticles:Warning: Spawning 32000 GPU particles in one frame[485]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.52.48:698][372]LogParticles:Warning: Spawning 27201 GPU particles in one frame[3373]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.52.49:065][373]LogParticles:Warning: Spawning 30413 GPU particles in one frame[3374]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.52.49:357][374]LogParticles:Warning: Spawning 26667 GPU particles in one frame[3375]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.52.49:692][375]LogParticles:Warning: Spawning 26667 GPU particles in one frame[3376]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.52.50:024][376]LogParticles:Warning: Spawning 26667 GPU particles in one frame[3377]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.52.50:357][377]LogParticles:Warning: Spawning 26666 GPU particles in one frame[3378]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.52.50:690][378]LogParticles:Warning: Spawning 26667 GPU particles in one frame[3379]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.52.51:031][379]LogParticles:Warning: Spawning 26667 GPU particles in one frame[3380]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.52.51:374][380]LogParticles:Warning: Spawning 26666 GPU particles in one frame[3381]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.52.51:709][381]LogParticles:Warning: Spawning 26667 GPU particles in one frame[3382]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.52.52:053][382]LogParticles:Warning: Spawning 26667 GPU particles in one frame[3383]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.52.52:388][383]LogParticles:Warning: Spawning 26666 GPU particles in one frame[3384]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.52.52:722][384]LogParticles:Warning: Spawning 26667 GPU particles in one frame[3385]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.52.53:012][385]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tree_Line_2_Sprite2)
+[2017.08.05-23.52.53:108][385]LogParticles:Warning: Spawning 26667 GPU particles in one frame[3386]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.52.57:798][933]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.05-23.53.00:079][178]LogEditorViewport: Clicking on Actor (LMB): Emitter (RainFall4_PS)
+[2017.08.05-23.53.00:621][223]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tree_Line_2_Sprite2)
+[2017.08.05-23.53.01:446][314]LogSlate: Took 0.003563 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.05-23.53.03:118][512]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tree_Line_2_Sprite3)
+[2017.08.05-23.53.07:208][992]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.05-23.53.28:631][486]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tree_backdrop_Sprite_8)
+[2017.08.05-23.53.29:666][604]Cmd: DELETE
+[2017.08.05-23.53.29:666][604]Cmd: ACTOR DELETE
+[2017.08.05-23.53.29:668][604]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.53.29:678][604]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.08.05-23.53.30:305][678]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tree_backdrop_Sprite_7)
+[2017.08.05-23.53.30:482][694]Cmd: DELETE
+[2017.08.05-23.53.30:482][694]Cmd: ACTOR DELETE
+[2017.08.05-23.53.30:483][694]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.53.30:492][694]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.53.35:949][321]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite45)
+[2017.08.05-23.53.47:630][660]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.05-23.53.49:366][833]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite45)
+[2017.08.05-23.53.51:644][ 55]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite46)
+[2017.08.05-23.53.52:186][115]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite48)
+[2017.08.05-23.53.52:882][194]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite47)
+[2017.08.05-23.53.55:004][444]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite44)
+[2017.08.05-23.53.55:801][534]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite43)
+[2017.08.05-23.53.56:733][641]Cmd: DELETE
+[2017.08.05-23.53.56:733][641]Cmd: ACTOR DELETE
+[2017.08.05-23.53.56:734][641]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.53.56:735][641]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.53.56:735][641]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.53.56:735][641]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.53.56:735][641]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.53.56:735][641]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.53.56:744][641]LogEditorActor: Deleted 6 Actors (0.010 secs)
+[2017.08.05-23.53.59:237][916]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite49)
+[2017.08.05-23.53.59:642][960]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite51)
+[2017.08.05-23.54.00:555][ 65]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite50)
+[2017.08.05-23.54.01:137][130]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite54)
+[2017.08.05-23.54.01:600][181]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite53)
+[2017.08.05-23.54.02:120][239]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite52)
+[2017.08.05-23.54.02:784][314]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite56)
+[2017.08.05-23.54.03:989][454]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite55)
+[2017.08.05-23.54.04:641][527]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite59)
+[2017.08.05-23.54.05:246][595]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite58)
+[2017.08.05-23.54.06:522][743]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite57)
+[2017.08.05-23.54.07:163][815]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite61)
+[2017.08.05-23.54.07:948][904]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite60)
+[2017.08.05-23.54.08:554][972]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite65)
+[2017.08.05-23.54.09:018][ 23]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite63)
+[2017.08.05-23.54.10:070][140]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite63)
+[2017.08.05-23.54.10:559][194]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite62)
+[2017.08.05-23.54.11:822][341]Cmd: DELETE
+[2017.08.05-23.54.11:822][341]Cmd: ACTOR DELETE
+[2017.08.05-23.54.11:823][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:823][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:823][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:823][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:823][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:824][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:824][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:824][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:824][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:824][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:824][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:824][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:824][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:824][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:824][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:824][341]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.11:833][341]LogEditorActor: Deleted 16 Actors (0.011 secs)
+[2017.08.05-23.54.13:895][568]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.05-23.54.14:417][625]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite64)
+[2017.08.05-23.54.15:149][707]Cmd: DELETE
+[2017.08.05-23.54.15:149][707]Cmd: ACTOR DELETE
+[2017.08.05-23.54.15:150][707]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.15:159][707]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.15:607][760]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite67)
+[2017.08.05-23.54.15:781][776]Cmd: DELETE
+[2017.08.05-23.54.15:781][776]Cmd: ACTOR DELETE
+[2017.08.05-23.54.15:782][776]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.15:791][776]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.16:118][814]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite66)
+[2017.08.05-23.54.16:222][822]Cmd: DELETE
+[2017.08.05-23.54.16:222][822]Cmd: ACTOR DELETE
+[2017.08.05-23.54.16:223][822]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.16:232][822]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.16:550][859]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite69)
+[2017.08.05-23.54.16:680][870]Cmd: DELETE
+[2017.08.05-23.54.16:680][870]Cmd: ACTOR DELETE
+[2017.08.05-23.54.16:681][870]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.16:690][870]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.17:000][906]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite71)
+[2017.08.05-23.54.17:403][950]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.05-23.54.17:684][979]Cmd: DELETE
+[2017.08.05-23.54.17:684][979]Cmd: ACTOR DELETE
+[2017.08.05-23.54.17:685][979]LogEditorActor: Deleted Actor: BP_Sky_Sphere_C
+[2017.08.05-23.54.17:694][979]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.18:100][ 27]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite68)
+[2017.08.05-23.54.19:398][177]Cmd: TRANSACTION UNDO
+[2017.08.05-23.54.19:398][177]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.05-23.54.19:417][177]LogSlate: Took 0.000221 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.05-23.54.19:785][220]Cmd: TRANSACTION UNDO
+[2017.08.05-23.54.19:785][220]LogEditorTransaction: Undo Delete Actors
+[2017.08.05-23.54.20:732][329]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite68)
+[2017.08.05-23.54.21:539][420]Cmd: DELETE
+[2017.08.05-23.54.21:539][420]Cmd: ACTOR DELETE
+[2017.08.05-23.54.21:540][420]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.21:549][420]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.22:066][481]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite70)
+[2017.08.05-23.54.22:197][492]Cmd: DELETE
+[2017.08.05-23.54.22:197][492]Cmd: ACTOR DELETE
+[2017.08.05-23.54.22:198][492]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.22:208][492]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.22:593][537]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite71)
+[2017.08.05-23.54.22:664][541]Cmd: DELETE
+[2017.08.05-23.54.22:664][541]Cmd: ACTOR DELETE
+[2017.08.05-23.54.22:665][541]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.22:674][541]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.23:056][586]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite72)
+[2017.08.05-23.54.23:151][593]Cmd: DELETE
+[2017.08.05-23.54.23:151][593]Cmd: ACTOR DELETE
+[2017.08.05-23.54.23:152][593]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.23:161][593]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.23:575][642]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite73)
+[2017.08.05-23.54.23:621][643]Cmd: DELETE
+[2017.08.05-23.54.23:621][643]Cmd: ACTOR DELETE
+[2017.08.05-23.54.23:623][643]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.23:632][643]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.24:040][691]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite75)
+[2017.08.05-23.54.24:095][693]Cmd: DELETE
+[2017.08.05-23.54.24:095][693]Cmd: ACTOR DELETE
+[2017.08.05-23.54.24:096][693]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.24:105][693]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.24:603][752]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite76)
+[2017.08.05-23.54.24:767][767]Cmd: DELETE
+[2017.08.05-23.54.24:767][767]Cmd: ACTOR DELETE
+[2017.08.05-23.54.24:768][767]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.24:777][767]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.25:103][805]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite74)
+[2017.08.05-23.54.25:234][816]Cmd: DELETE
+[2017.08.05-23.54.25:234][816]Cmd: ACTOR DELETE
+[2017.08.05-23.54.25:235][816]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.25:244][816]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.25:729][873]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite77)
+[2017.08.05-23.54.25:917][891]Cmd: DELETE
+[2017.08.05-23.54.25:917][891]Cmd: ACTOR DELETE
+[2017.08.05-23.54.25:918][891]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.25:928][891]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.26:370][943]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Tree_backdrop_Sprite_10)
+[2017.08.05-23.54.26:534][957]Cmd: DELETE
+[2017.08.05-23.54.26:534][957]Cmd: ACTOR DELETE
+[2017.08.05-23.54.26:535][957]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.26:544][957]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.26:988][  9]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite78)
+[2017.08.05-23.54.27:184][ 27]Cmd: DELETE
+[2017.08.05-23.54.27:184][ 27]Cmd: ACTOR DELETE
+[2017.08.05-23.54.27:185][ 27]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.27:195][ 27]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.27:643][ 80]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite79)
+[2017.08.05-23.54.27:833][ 98]Cmd: DELETE
+[2017.08.05-23.54.27:833][ 98]Cmd: ACTOR DELETE
+[2017.08.05-23.54.27:834][ 98]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.27:843][ 98]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.29:207][259]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (BP_Sky_Sphere)
+[2017.08.05-23.54.29:581][299]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite89)
+[2017.08.05-23.54.29:969][340]Cmd: DELETE
+[2017.08.05-23.54.29:969][340]Cmd: ACTOR DELETE
+[2017.08.05-23.54.29:970][340]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.29:979][340]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.30:360][385]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite88)
+[2017.08.05-23.54.30:557][404]Cmd: DELETE
+[2017.08.05-23.54.30:557][404]Cmd: ACTOR DELETE
+[2017.08.05-23.54.30:558][404]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.30:567][404]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.30:957][450]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite87)
+[2017.08.05-23.54.31:144][468]Cmd: DELETE
+[2017.08.05-23.54.31:144][468]Cmd: ACTOR DELETE
+[2017.08.05-23.54.31:146][468]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.31:155][468]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.31:520][511]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite86)
+[2017.08.05-23.54.31:724][531]Cmd: DELETE
+[2017.08.05-23.54.31:724][531]Cmd: ACTOR DELETE
+[2017.08.05-23.54.31:725][531]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.31:735][531]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.32:100][574]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite85)
+[2017.08.05-23.54.32:287][592]Cmd: DELETE
+[2017.08.05-23.54.32:287][592]Cmd: ACTOR DELETE
+[2017.08.05-23.54.32:288][592]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.32:298][592]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.32:653][634]LogEditorViewport: Clicking on Actor (LMB): Emitter (RainFall4_PS)
+[2017.08.05-23.54.32:786][645]Cmd: DELETE
+[2017.08.05-23.54.32:786][645]Cmd: ACTOR DELETE
+[2017.08.05-23.54.32:787][645]LogEditorActor: Deleted Actor: Emitter
+[2017.08.05-23.54.32:796][645]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.33:217][695]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite83)
+[2017.08.05-23.54.34:095][794]Cmd: TRANSACTION UNDO
+[2017.08.05-23.54.34:095][794]LogEditorTransaction: Undo Clicking on Actors
+[2017.08.05-23.54.34:511][841]Cmd: TRANSACTION UNDO
+[2017.08.05-23.54.34:511][841]LogEditorTransaction: Undo Delete Actors
+[2017.08.05-23.54.36:006][995]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite83)
+[2017.08.05-23.54.36:893][ 96]Cmd: DELETE
+[2017.08.05-23.54.36:893][ 96]Cmd: ACTOR DELETE
+[2017.08.05-23.54.36:894][ 96]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.36:903][ 96]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.37:334][147]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite81)
+[2017.08.05-23.54.37:549][168]Cmd: DELETE
+[2017.08.05-23.54.37:549][168]Cmd: ACTOR DELETE
+[2017.08.05-23.54.37:550][168]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.37:559][168]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.38:024][223]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite80)
+[2017.08.05-23.54.38:222][242]Cmd: DELETE
+[2017.08.05-23.54.38:222][242]Cmd: ACTOR DELETE
+[2017.08.05-23.54.38:223][242]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.38:232][242]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.38:609][286]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite82)
+[2017.08.05-23.54.39:006][329]Cmd: DELETE
+[2017.08.05-23.54.39:006][329]Cmd: ACTOR DELETE
+[2017.08.05-23.54.39:007][329]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.39:016][329]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.54.39:310][364]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite84)
+[2017.08.05-23.54.39:632][398]Cmd: DELETE
+[2017.08.05-23.54.39:632][398]Cmd: ACTOR DELETE
+[2017.08.05-23.54.39:633][398]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.08.05-23.54.39:642][398]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.08.05-23.55.14:420][513]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19514]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.14:752][514]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19515]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.15:087][515]LogParticles:Warning: Spawning 26669 GPU particles in one frame[19516]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.15:418][516]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19517]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.15:751][517]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19518]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.16:084][518]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19519]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.16:418][519]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19520]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.16:753][520]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19521]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.17:085][521]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19522]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.17:418][522]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19523]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.17:751][523]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19524]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.18:085][524]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19525]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.18:447][525]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19526]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.18:775][526]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19527]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.19:113][527]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19528]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.19:447][528]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19529]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.19:779][529]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19530]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.20:112][530]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19531]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.20:445][531]LogParticles:Warning: Spawning 26668 GPU particles in one frame[19532]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.20:759][532]LogParticles:Warning: Spawning 26669 GPU particles in one frame[19533]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.21:098][533]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19534]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.21:427][534]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19535]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.21:780][535]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19536]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.22:090][536]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19537]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.22:419][537]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19538]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.22:753][538]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19539]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.23:086][539]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19540]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.23:422][540]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19541]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.23:754][541]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19542]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.24:086][542]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19543]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.24:448][543]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19544]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.24:783][544]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19545]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.25:113][545]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19546]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.25:448][546]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19547]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.25:782][547]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19548]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.26:112][548]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19549]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.26:443][549]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19550]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.26:778][550]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19551]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.27:114][551]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19552]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.27:449][552]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19553]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.27:780][553]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19554]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.28:114][554]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19555]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.28:448][555]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19556]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.28:780][556]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19557]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.29:111][557]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19558]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.29:443][558]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19559]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.29:776][559]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19560]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.30:115][560]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19561]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.30:449][561]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19562]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.30:780][562]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19563]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.31:085][563]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19564]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.31:447][564]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19565]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.31:780][565]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19566]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.32:114][566]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19567]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.32:446][567]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19568]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.32:775][568]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19569]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.33:107][569]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19570]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.33:446][570]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19571]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.33:779][571]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19572]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.34:114][572]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19573]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.34:447][573]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19574]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.34:780][574]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19575]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.35:113][575]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19576]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.35:429][576]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19577]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.35:781][577]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19578]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.36:112][578]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19579]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.36:430][579]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19580]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.36:780][580]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19581]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.37:113][581]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19582]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.37:447][582]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19583]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.37:779][583]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19584]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.38:112][584]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19585]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.38:445][585]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19586]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.38:779][586]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19587]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.39:113][587]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19588]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.39:447][588]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19589]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.39:781][589]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19590]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.40:114][590]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19591]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.40:446][591]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19592]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.40:779][592]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19593]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.41:111][593]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19594]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.41:446][594]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19595]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.41:780][595]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19596]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.42:114][596]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19597]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.42:446][597]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19598]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.42:779][598]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19599]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.43:113][599]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19600]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.43:446][600]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19601]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.43:753][601]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19602]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.44:113][602]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19603]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.44:447][603]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19604]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.44:785][604]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19605]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.45:086][605]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19606]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.45:431][606]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19607]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.45:751][607]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19608]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.46:115][608]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19609]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.46:419][609]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19610]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.46:765][610]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19611]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.47:119][611]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19612]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.47:428][612]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19613]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.47:769][613]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19614]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.48:106][614]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19615]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.48:439][615]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19616]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.48:763][616]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19617]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.49:097][617]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19618]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.49:430][618]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19619]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.49:763][619]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19620]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.50:109][620]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19621]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.50:444][621]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19622]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.50:779][622]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19623]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.51:108][623]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19624]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.51:446][624]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19625]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.51:772][625]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19626]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.52:115][626]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19627]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.52:446][627]LogParticles:Warning: Spawning 26668 GPU particles in one frame[19628]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.52:780][628]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19629]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.53:111][629]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19630]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.53:446][630]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19631]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.53:779][631]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19632]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.54:107][632]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19633]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.54:447][633]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19634]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.54:779][634]LogParticles:Warning: Spawning 26668 GPU particles in one frame[19635]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.55:114][635]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19636]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.55:447][636]LogParticles:Warning: Spawning 26668 GPU particles in one frame[19637]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.55:766][637]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19638]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.56:113][638]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19639]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.56:447][639]LogParticles:Warning: Spawning 26668 GPU particles in one frame[19640]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.56:779][640]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19641]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.57:106][641]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19642]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.57:447][642]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19643]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.57:780][643]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19644]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.58:114][644]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19645]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.58:448][645]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19646]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.58:780][646]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19647]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.59:113][647]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19648]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.59:444][648]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19649]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.55.59:780][649]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19650]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.00:086][650]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19651]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.00:438][651]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19652]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.00:780][652]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19653]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.01:114][653]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19654]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.01:447][654]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19655]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.01:780][655]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19656]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.02:115][656]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19657]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.02:443][657]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19658]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.02:780][658]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19659]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.03:113][659]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19660]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.03:439][660]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19661]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.03:779][661]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19662]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.04:114][662]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19663]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.04:447][663]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19664]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.04:779][664]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19665]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.05:112][665]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19666]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.05:447][666]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19667]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.05:780][667]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19668]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.06:107][668]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19669]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.06:447][669]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19670]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.06:781][670]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19671]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.07:114][671]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19672]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.07:449][672]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19673]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.07:780][673]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19674]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.08:112][674]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19675]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.08:447][675]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19676]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.08:781][676]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19677]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.09:115][677]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19678]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.09:447][678]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19679]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.09:781][679]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19680]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.10:115][680]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19681]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.10:448][681]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19682]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.10:764][682]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19683]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.11:113][683]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19684]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.11:449][684]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19685]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.11:776][685]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19686]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.12:117][686]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19687]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.12:447][687]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19688]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.12:780][688]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19689]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.13:113][689]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19690]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.13:446][690]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19691]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.13:779][691]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19692]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.14:114][692]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19693]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.14:446][693]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19694]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.14:781][694]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19695]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.15:109][695]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19696]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.15:447][696]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19697]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.15:780][697]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19698]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.16:115][698]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19699]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.16:449][699]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19700]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.16:780][700]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19701]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.17:112][701]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19702]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.17:444][702]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19703]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.17:779][703]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19704]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.18:113][704]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19705]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.18:447][705]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19706]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.18:773][706]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19707]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.19:114][707]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19708]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.19:447][708]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19709]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.19:778][709]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19710]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.20:113][710]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19711]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.20:447][711]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19712]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.20:780][712]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19713]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.21:115][713]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19714]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.21:446][714]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19715]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.21:780][715]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19716]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.22:113][716]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19717]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.22:448][717]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19718]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.22:781][718]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19719]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.23:113][719]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19720]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.23:446][720]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19721]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.23:779][721]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19722]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.24:113][722]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19723]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.24:447][723]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19724]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.24:780][724]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19725]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.25:113][725]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19726]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.25:448][726]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19727]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.25:780][727]LogParticles:Warning: Spawning 26670 GPU particles in one frame[19728]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.26:113][728]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19729]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.26:447][729]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19730]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.26:780][730]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19731]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.27:112][731]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19732]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.27:447][732]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19733]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.27:779][733]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19734]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.28:114][734]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19735]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.28:448][735]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19736]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.28:779][736]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19737]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.29:111][737]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19738]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.29:447][738]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19739]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.29:779][739]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19740]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.30:113][740]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19741]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.30:448][741]LogParticles:Warning: Spawning 26671 GPU particles in one frame[19742]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.30:779][742]LogParticles:Warning: Spawning 26668 GPU particles in one frame[19743]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.31:112][743]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19744]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.31:447][744]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19745]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.31:780][745]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19746]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.32:112][746]LogParticles:Warning: Spawning 26668 GPU particles in one frame[19747]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.32:445][747]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19748]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.32:780][748]LogParticles:Warning: Spawning 26671 GPU particles in one frame[19749]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.33:108][749]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19750]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.33:448][750]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19751]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.33:780][751]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19752]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.34:113][752]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19753]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.34:447][753]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19754]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.34:780][754]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19755]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.35:113][755]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19756]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.35:444][756]LogParticles:Warning: Spawning 26669 GPU particles in one frame[19757]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.35:779][757]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19758]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.36:108][758]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19759]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.36:449][759]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19760]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.36:771][760]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19761]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.37:113][761]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19762]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.37:448][762]LogParticles:Warning: Spawning 26670 GPU particles in one frame[19763]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.37:780][763]LogParticles:Warning: Spawning 26668 GPU particles in one frame[19764]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.38:112][764]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19765]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.38:448][765]LogParticles:Warning: Spawning 26668 GPU particles in one frame[19766]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.38:781][766]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19767]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.39:108][767]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19768]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.39:447][768]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19769]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.39:781][769]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19770]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.40:114][770]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19771]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.40:448][771]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19772]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.40:780][772]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19773]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.41:113][773]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19774]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.41:444][774]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19775]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.41:779][775]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19776]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.42:107][776]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19777]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.42:447][777]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19778]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.42:781][778]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19779]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.43:114][779]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19780]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.43:447][780]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19781]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.43:780][781]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19782]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.44:114][782]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19783]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.44:444][783]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19784]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.44:787][784]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19785]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.45:087][785]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19786]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.45:421][786]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19787]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.45:764][787]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19788]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.46:098][788]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19789]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.46:431][789]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19790]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.46:771][790]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19791]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.47:096][791]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19792]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.47:439][792]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19793]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.47:752][793]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19794]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.48:085][794]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19795]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.48:419][795]LogParticles:Warning: Spawning 26668 GPU particles in one frame[19796]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.48:752][796]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19797]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.49:086][797]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19798]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.49:420][798]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19799]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.49:765][799]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19800]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.50:087][800]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19801]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.50:419][801]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19802]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.50:753][802]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19803]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.51:118][803]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19804]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.51:448][804]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19805]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.51:782][805]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19806]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.52:096][806]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19807]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.52:419][807]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19808]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.52:765][808]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19809]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.53:112][809]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19810]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.53:447][810]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19811]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.53:779][811]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19812]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.54:116][812]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19813]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.54:446][813]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19814]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.54:781][814]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19815]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.55:113][815]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19816]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.55:446][816]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19817]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.55:759][817]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19818]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.56:085][818]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19819]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.56:423][819]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19820]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.56:753][820]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19821]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.57:095][821]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19822]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.57:419][822]LogParticles:Warning: Spawning 26673 GPU particles in one frame[19823]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.57:765][823]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19824]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.58:097][824]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19825]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.58:437][825]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19826]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.58:781][826]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19827]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.59:112][827]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19828]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.59:424][828]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19829]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.56.59:767][829]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19830]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.00:087][830]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19831]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.00:440][831]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19832]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.00:781][832]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19833]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.01:085][833]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19834]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.01:448][834]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19835]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.01:771][835]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19836]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.02:112][836]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19837]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.02:434][837]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19838]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.02:781][838]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19839]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.03:113][839]LogParticles:Warning: Spawning 26673 GPU particles in one frame[19840]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.03:448][840]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19841]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.03:781][841]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19842]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.04:113][842]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19843]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.04:447][843]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19844]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.04:762][844]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19845]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.05:111][845]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19846]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.05:427][846]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19847]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.05:781][847]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19848]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.06:091][848]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19849]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.06:447][849]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19850]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.06:780][850]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19851]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.07:113][851]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19852]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.07:448][852]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19853]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.07:781][853]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19854]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.08:113][854]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19855]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.08:448][855]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19856]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.08:780][856]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19857]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.09:107][857]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19858]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.09:448][858]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19859]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.09:781][859]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19860]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.10:089][860]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19861]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.10:448][861]LogParticles:Warning: Spawning 26668 GPU particles in one frame[19862]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.10:781][862]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19863]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.11:113][863]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19864]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.11:444][864]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19865]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.11:780][865]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19866]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.12:107][866]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19867]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.12:442][867]LogParticles:Warning: Spawning 26670 GPU particles in one frame[19868]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.12:781][868]LogParticles:Warning: Spawning 26669 GPU particles in one frame[19869]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.13:113][869]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19870]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.13:448][870]LogParticles:Warning: Spawning 26672 GPU particles in one frame[19871]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.13:777][871]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19872]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.14:113][872]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19873]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.14:448][873]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19874]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.14:781][874]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19875]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.15:109][875]LogParticles:Warning: Spawning 26670 GPU particles in one frame[19876]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.15:448][876]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19877]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.15:781][877]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19878]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.16:102][878]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19879]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.16:448][879]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19880]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.16:779][880]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19881]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.17:111][881]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19882]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.17:444][882]LogParticles:Warning: Spawning 26668 GPU particles in one frame[19883]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.17:780][883]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19884]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.18:114][884]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19885]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.18:448][885]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19886]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.18:780][886]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19887]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.19:115][887]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19888]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.19:448][888]LogParticles:Warning: Spawning 26688 GPU particles in one frame[19889]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.19:780][889]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19890]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.20:115][890]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19891]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.20:449][891]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19892]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.20:763][892]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19893]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.21:109][893]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19894]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.21:442][894]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19895]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.21:780][895]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19896]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.22:114][896]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19897]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.22:448][897]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19898]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.22:780][898]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19899]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.23:114][899]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19900]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.23:448][900]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19901]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.23:781][901]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19902]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.24:115][902]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19903]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.24:447][903]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19904]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.24:781][904]LogParticles:Warning: Spawning 26669 GPU particles in one frame[19905]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.25:115][905]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19906]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.25:448][906]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19907]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.25:780][907]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19908]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.26:113][908]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19909]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.26:445][909]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19910]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.26:775][910]LogParticles:Warning: Spawning 26672 GPU particles in one frame[19911]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.27:109][911]LogParticles:Warning: Spawning 26698 GPU particles in one frame[19912]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.27:449][912]LogParticles:Warning: Spawning 26668 GPU particles in one frame[19913]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.27:782][913]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19914]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.28:114][914]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19915]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.28:449][915]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19916]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.28:781][916]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19917]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.29:116][917]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19918]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.29:449][918]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19919]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.29:784][919]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19920]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.30:115][920]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19921]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.30:451][921]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19922]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.30:782][922]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19923]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.31:118][923]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19924]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.31:449][924]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19925]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.31:781][925]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19926]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.32:087][926]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19927]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.32:445][927]LogParticles:Warning: Spawning 26667 GPU particles in one frame[19928]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.32:778][928]LogParticles:Warning: Spawning 26666 GPU particles in one frame[19929]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.57.43:360][160]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Rain_Forrest_TM)
+[2017.08.05-23.57.43:369][160]LogPaper2D: Triangulation of poly failed.
+[2017.08.05-23.57.44:028][223]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Rain_Forrest_TM)
+[2017.08.05-23.57.47:771][667]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Rain_Forrest_TM)
+[2017.08.05-23.57.48:376][735]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Rain_Forrest_TM)
+[2017.08.05-23.57.52:859][220]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Outpost_floor_and_holo_stand_Sprite_33)
+[2017.08.05-23.57.54:798][446]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Rain_Forrest_TM)
+[2017.08.05-23.57.54:805][446]LogPaper2D: Triangulation of poly failed.
+[2017.08.05-23.57.55:409][504]LogEditorViewport: Clicking on Actor (LMB): BP_Platform_2_C (BP_Platform_2)
+[2017.08.05-23.57.57:893][796]LogEditorViewport: Clicking on Actor (context menu): BP_Platform_2_C (BP_Platform_2)
+[2017.08.05-23.58.00:645][ 52]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 112 classes and 0 folders.
+[2017.08.05-23.58.01:317][ 52]LogSlate: Took 0.003812 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.05-23.58.01:443][ 53]LogParticles:Warning: Spawning 32000 GPU particles in one frame[23054]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.58.46:197][411]LogParticles:Warning: Spawning 26667 GPU particles in one frame[26412]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.59.18:667][452]LogSavePackage: Save=458.33ms
+[2017.08.05-23.59.18:667][452]LogSavePackage: Moving '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Rainforest_Alien4C1132C24CF9B54F0C8815AAA1AF248A.tmp' to '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap'
+[2017.08.05-23.59.18:674][452]LogSavePackage:Display: Finished SavePackage ../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap
+[2017.08.05-23.59.18:722][452]LogFileHelpers: Saving map 'Rainforest_Alien' took 0.599
+[2017.08.05-23.59.18:746][453]LogParticles:Warning: Spawning 32000 GPU particles in one frame[29454]: RainFall4_PS/Particle Emitter
+[2017.08.05-23.59.19:792][568]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.05-23.59.19:903][569]Cmd: QUIT_EDITOR
+[2017.08.05-23.59.19:927][569]LogExit: Preparing to exit.
+[2017.08.05-23.59.20:507][569]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' was aborted.
+[2017.08.05-23.59.20:543][569]LogExit: Editor shut down
+[2017.08.05-23.59.20:548][569]LogExit: Transaction tracking system shut down
+[2017.08.05-23.59.20:637][569]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.05-23.59.20:637][569]LogExit: Object subsystem successfully closed.
+[2017.08.05-23.59.20:662][569]LogD3D11RHI: Shutdown
+[2017.08.05-23.59.20:662][569]LogD3D11RHI: CleanupD3DDevice
+[2017.08.05-23.59.20:722][569]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.05-23.59.20:739][569]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.08.05-23.59.20:739][569]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.08.05-23.59.20:740][569]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (524)
+[2017.08.05-23.59.20:741][569]LogModuleManager: Shutting down and abandoning module CrashTracker (522)
+[2017.08.05-23.59.20:741][569]LogModuleManager: Shutting down and abandoning module AddContentDialog (520)
+[2017.08.05-23.59.20:741][569]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.05-23.59.20:741][569]LogModuleManager: Shutting down and abandoning module WidgetCarousel (519)
+[2017.08.05-23.59.20:741][569]LogModuleManager: Shutting down and abandoning module EditorWidgets (516)
+[2017.08.05-23.59.20:741][569]LogModuleManager: Shutting down and abandoning module CollectionManager (514)
+[2017.08.05-23.59.20:741][569]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Collections/' was aborted.
+[2017.08.05-23.59.20:741][569]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/Developers/JustinWells20/Collections/' was aborted.
+[2017.08.05-23.59.20:741][569]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Saved/Collections/' was aborted.
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module SceneOutliner (512)
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module StatsViewer (510)
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.05-23.59.20:742][569]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.05-23.59.20:743][569]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.05-23.59.20:744][569]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.05-23.59.20:744][569]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.05-23.59.20:744][569]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.05-23.59.20:744][569]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.05-23.59.20:744][569]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.05-23.59.20:744][569]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.05-23.59.20:744][569]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.05-23.59.21:635][569]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.05-23.59.21:635][569]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.05-23.59.21:635][569]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.05-23.59.21:635][569]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.05-23.59.21:635][569]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.05-23.59.21:635][569]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.05-23.59.21:635][569]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.05-23.59.21:635][569]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.05-23.59.21:636][569]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.05-23.59.21:636][569]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.05-23.59.21:636][569]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.05-23.59.21:637][569]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.05-23.59.21:637][569]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.05-23.59.21:637][569]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.05-23.59.21:637][569]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.05-23.59.21:637][569]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.05-23.59.21:637][569]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.05-23.59.21:637][569]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.05-23.59.21:637][569]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.05-23.59.21:637][569]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.05-23.59.21:637][569]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.05-23.59.21:638][569]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.05-23.59.21:638][569]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.05-23.59.21:638][569]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.05-23.59.21:694][569]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.05-23.59.21:694][569]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.05-23.59.21:694][569]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.05-23.59.21:695][569]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.05-23.59.21:696][569]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.05-23.59.21:696][569]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.05-23.59.21:696][569]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.05-23.59.21:696][569]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.05-23.59.21:696][569]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.05-23.59.21:696][569]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.05-23.59.21:701][569]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.05-23.59.21:701][569]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.05-23.59.21:701][569]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.05-23.59.21:702][569]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.05-23.59.21:702][569]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.05-23.59.21:702][569]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.05-23.59.21:702][569]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.05-23.59.21:703][569]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.05-23.59.21:703][569]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.05-23.59.21:703][569]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.05-23.59.21:703][569]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.05-23.59.21:703][569]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.05-23.59.21:703][569]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.05-23.59.21:703][569]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.05-23.59.21:703][569]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.05-23.59.21:703][569]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.05-23.59.21:703][569]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.05-23.59.21:703][569]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.05-23.59.21:703][569]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.05-23.59.21:703][569]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.05-23.59.21:772][569]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.05-23.59.21:773][569]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.05-23.59.21:774][569]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.05-23.59.21:774][569]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.05-23.59.21:774][569]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.05-23.59.21:774][569]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.05-23.59.21:774][569]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.05-23.59.21:774][569]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.05-23.59.21:774][569]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.05-23.59.21:774][569]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.05-23.59.21:774][569]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.05-23.59.21:774][569]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.05-23.59.21:774][569]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.05-23.59.21:774][569]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.05-23.59.21:774][569]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.05-23.59.21:775][569]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.05-23.59.21:775][569]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.05-23.59.21:775][569]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.05-23.59.21:775][569]LogDirectoryWatcher: A directory notification for 'C:/Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Binaries/Win64' was aborted.
+[2017.08.05-23.59.21:775][569]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.05-23.59.21:775][569]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.05-23.59.21:775][569]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.05-23.59.21:775][569]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.05-23.59.21:775][569]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.05-23.59.21:775][569]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.05-23.59.21:877][569]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.05-23.59.21:978][569]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.05-23.59.21:978][569]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.05-23.59.21:978][569]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.05-23.59.21:978][569]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.05-23.59.21:978][569]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.05-23.59.21:978][569]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.05-23.59.21:979][569]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.05-23.59.21:979][569]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.05-23.59.21:979][569]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.05-23.59.21:979][569]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.05-23.59.21:979][569]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.05-23.59.21:979][569]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.05-23.59.21:980][569]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.05-23.59.21:980][569]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.05-23.59.21:980][569]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.05-23.59.21:980][569]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.05-23.59.21:980][569]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.05-23.59.21:980][569]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.05-23.59.21:981][569]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.05-23.59.21:981][569]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.05-23.59.21:981][569]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.05-23.59.21:981][569]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.05-23.59.21:981][569]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.05-23.59.21:981][569]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.05-23.59.21:982][569]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.05-23.59.21:982][569]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.05-23.59.21:982][569]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.05-23.59.21:984][569]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.05-23.59.21:984][569]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.05-23.59.21:985][569]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.05-23.59.21:985][569]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.05-23.59.21:985][569]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.05-23.59.21:985][569]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.05-23.59.21:985][569]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.05-23.59.21:985][569]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.05-23.59.22:082][569]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.05-23.59.22:082][569]LogDirectoryWatcher: A directory notification for '../../../../../../Users/Justin Wells/Documents/Unreal Projects/InsertNameAdventure/DatBoiEntertainmetnGame/Content/' was aborted.
+[2017.08.05-23.59.22:082][569]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.05-23.59.22:082][569]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.05-23.59.22:085][569]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.05-23.59.22:085][569]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.05-23.59.22:085][569]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.05-23.59.22:085][569]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.05-23.59.22:085][569]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.05-23.59.22:085][569]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.05-23.59.22:085][569]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.05-23.59.22:085][569]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.05-23.59.22:085][569]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.05-23.59.22:098][569]LogDerivedDataCache: Shutdown
+[2017.08.05-23.59.22:098][569]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.05-23.59.22:098][569]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.05-23.59.22:098][569]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.05-23.59.22:098][569]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.05-23.59.22:098][569]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.05-23.59.22:098][569]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.05-23.59.22:099][569]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.05-23.59.22:100][569]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.05-23.59.22:100][569]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.05-23.59.22:100][569]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.05-23.59.22:100][569]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.05-23.59.22:101][569]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.05-23.59.22:101][569]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.05-23.59.22:101][569]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B0B232EAF-492D-539D-3371-CEBC5F924D5B%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.0-3452394%2B%2B%2BUE4%2BRelease-4.16&UserID=520fd5774504bba7d7d4dfbb2efd774d%7C3ef35b30eb8d444d8e26d7fb1794d4bf%7C7a44e29e-0876-4249-91a8-eb020dafba7b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.05-23.59.22:125][569]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.05-23.59.22:126][569]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.05-23.59.22:126][569]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.05-23.59.22:127][569]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.05-23.59.22:127][569]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.05-23.59.22:127][569]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.05-23.59.22:127][569]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.05-23.59.22:127][569]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.05-23.59.22:127][569]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.05-23.59.22:128][569]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.05-23.59.22:128][569]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.05-23.59.22:128][569]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.05-23.59.22:128][569]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.05-23.59.22:128][569]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.05-23.59.22:128][569]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.05-23.59.22:128][569]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.05-23.59.22:128][569]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.05-23.59.22:128][569]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.05-23.59.22:128][569]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.05-23.59.22:131][569]LogExit: Exiting.
+[2017.08.05-23.59.22:154][569]Log file closed, 08/05/17 17:59:22
