@@ -1,0 +1,977 @@
+﻿Log file open, 09/05/17 11:03:53
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: InsertNameAdventure
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(184302267) SRandInit(184302267).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.835407
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.05-17.03.54:107][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.05-17.03.54:107][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.05-17.03.54:203][  0]LogInit: Computer: DESKTOP-OMJHMSB
+[2017.09.05-17.03.54:203][  0]LogInit: User: rajjj
+[2017.09.05-17.03.54:203][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.05-17.03.54:203][  0]LogInit: High frequency timer resolution =3.328129 MHz
+[2017.09.05-17.03.54:204][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.05-17.03.54:204][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.05-17.03.54:204][  0]LogMemory: Process Physical Memory: 278.50 MB used, 278.50 MB peak
+[2017.09.05-17.03.54:204][  0]LogMemory: Process Virtual Memory: 273.80 MB used, 273.80 MB peak
+[2017.09.05-17.03.54:204][  0]LogMemory: Physical Memory: 3799.34 MB used,  12522.40 MB free, 16321.74 MB total
+[2017.09.05-17.03.54:204][  0]LogMemory: Virtual Memory: 667.91 MB used,  12522.40 MB free, 134217728.00 MB total
+[2017.09.05-17.03.54:601][  0]LogInit: Using OS detected language (en-US).
+[2017.09.05-17.03.54:601][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.05-17.03.54:648][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.05-17.03.57:085][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.05-17.03.57:606][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.09.05-17.03.57:607][  0]LogD3D11RHI:       8085/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.05-17.03.57:609][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.05-17.03.57:609][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.05-17.03.57:609][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.05-17.03.57:615][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.05-17.03.57:616][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.05-17.03.57:616][  0]LogWindows: EnumDisplayDevices:
+[2017.09.05-17.03.57:616][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.09.05-17.03.57:616][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.09.05-17.03.57:616][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.05-17.03.57:616][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.05-17.03.57:616][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.05-17.03.57:616][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.09.05-17.03.57:617][  0]LogD3D11RHI:   Driver Version: 385.28 (internal:22.21.13.8528, unified:385.28)
+[2017.09.05-17.03.57:617][  0]LogD3D11RHI:      Driver Date: 8-9-2017
+[2017.09.05-17.03.57:617][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.05-17.03.58:118][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.05-17.03.58:184][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.05-17.03.58:239][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Intermediate/Shaders/WorkingDirectory/15500/).
+[2017.09.05-17.03.58:239][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rajjj/AppData/Local/Temp/UnrealShaderWorkingDir/34CA032A4412A33386B77FA73D6F03CE/'.
+[2017.09.05-17.03.58:240][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.05-17.04.00:124][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.05-17.04.00:172][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.05-17.04.00:214][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.05-17.04.00:256][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.05-17.04.00:305][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.05-17.04.00:353][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.05-17.04.00:398][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.05-17.04.00:442][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.05-17.04.00:482][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.05-17.04.00:529][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.05-17.04.00:573][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.05-17.04.00:618][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.05-17.04.00:659][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.05-17.04.00:697][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.05-17.04.00:739][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.05-17.04.00:817][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.05-17.04.00:817][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.05-17.04.00:848][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.05-17.04.00:933][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.05-17.04.00:990][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.05-17.04.01:087][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.05-17.04.01:130][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.05-17.04.01:168][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.05-17.04.01:210][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.05-17.04.01:210][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.05-17.04.01:680][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.05-17.04.02:139][  0]LogDerivedDataCache: Loaded boot cache 0.46s 93MB C:/Users/rajjj/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.05-17.04.02:139][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/rajjj/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.05-17.04.02:139][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.05-17.04.02:139][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.05-17.04.02:139][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.05-17.04.02:139][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.05-17.04.02:174][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.05-17.04.02:186][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rajjj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.05-17.04.02:203][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.05-17.04.02:209][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.05-17.04.02:230][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.05-17.04.02:230][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.05-17.04.02:940][  0]LogAssetRegistry: FAssetRegistry took 0.0279 seconds to start up
+[2017.09.05-17.04.03:060][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.05-17.04.03:583][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.05-17.04.03:616][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.05-17.04.03:617][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.05-17.04.03:617][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.05-17.04.03:617][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.05-17.04.03:617][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.05-17.04.03:639][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.05-17.04.04:265][  0]LogNetVersion: InsertNameAdventure , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3080426378)
+[2017.09.05-17.04.04:643][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.048471 seconds
+[2017.09.05-17.04.04:649][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.05-17.04.04:649][  0]LogUObjectAllocator: 7529104 out of 0 bytes used by permanent object pool.
+[2017.09.05-17.04.04:649][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.05-17.04.04:698][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.05-17.04.08:784][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.05-17.04.08:817][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.05-17.04.09:567][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.05-17.04.09:970][  0]SourceControl: Source control is disabled
+[2017.09.05-17.04.10:848][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.05-17.04.11:032][  0]LogOcInput: OculusInput pre-init called
+[2017.09.05-17.04.11:270][  0]LogEngine: Initializing Engine...
+[2017.09.05-17.04.11:271][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.05-17.04.11:619][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.05-17.04.11:619][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.05-17.04.11:734][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.05-17.04.11:746][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-17.04.11:783][  0]LogInit: FAudioDevice initialized.
+[2017.09.05-17.04.11:859][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/rajjj/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.05-17.04.11:871][  0]LogInit: Texture streaming: Enabled
+[2017.09.05-17.04.11:962][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.05-17.04.12:190][  0]LogInit: Transaction tracking system initialized
+[2017.09.05-17.04.12:452][  0]BlueprintLog: New page: Editor Load
+[2017.09.05-17.04.13:223][  0]LocalizationService: Localization service is disabled
+[2017.09.05-17.04.13:824][  0]LogConsoleResponse: Display: 
+[2017.09.05-17.04.14:151][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.05-17.04.14:151][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.05-17.04.14:152][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.05-17.04.15:012][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/' took 0.02s
+[2017.09.05-17.04.15:062][  0]Cmd: MAP LOAD FILE="../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.05-17.04.15:063][  0]LightingResults: New page: Lighting Build
+[2017.09.05-17.04.15:097][  0]MapCheck: New page: Map Check
+[2017.09.05-17.04.15:097][  0]LightingResults: New page: Lighting Build
+[2017.09.05-17.04.15:549][  0]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'BoolProperty /Game/2DSideScrollerBP/Blueprints/UI/ItemDrag.ItemDrag_C:fromInv', MetaData 'True', Flag 'False'
+[2017.09.05-17.04.15:549][  0]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'ObjectProperty /Game/2DSideScrollerBP/Blueprints/UI/ItemDrag.ItemDrag_C:dragItem', MetaData 'True', Flag 'False'
+[2017.09.05-17.04.15:554][  0]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'BoolProperty /Game/2DSideScrollerBP/Blueprints/UI/ItemDrag.ItemDrag_C:fromInv', MetaData 'True', Flag 'False'
+[2017.09.05-17.04.15:554][  0]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'ObjectProperty /Game/2DSideScrollerBP/Blueprints/UI/ItemDrag.ItemDrag_C:dragItem', MetaData 'True', Flag 'False'
+[2017.09.05-17.04.15:580][  0]LogBlueprint: Warning: [Compiler ActionSlot] Input pin  Drag Item  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2017.09.05-17.04.15:592][  0]LogBlueprint: Warning: [Compiler InventorySlot] Input pin  From Inv  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2017.09.05-17.04.15:592][  0]LogBlueprint: Error: [Compiler InventorySlot] In use pin  Drag Item  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.09.05-17.04.15:688][  0]LogBlueprint: Warning: [Compiler ActionSlot] [0024.59] Compile of ActionSlot successful, but with 1 Warning(s) [in 155 ms] (/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot.ActionSlot)
+[2017.09.05-17.04.15:688][  0]LogBlueprint: Warning: [Compiler InventorySlot] [0024.59] Compile of InventorySlot failed. 1 Fatal Issue(s) 1 Warning(s) [in 155 ms] (/Game/2DSideScrollerBP/Blueprints/UI/InventorySlot.InventorySlot)
+[2017.09.05-17.04.17:165][  0]LogMaterial: Missing cached shader map for material BlueLight_M1, compiling. 
+[2017.09.05-17.04.17:166][  0]LogMaterial: Warning: Failed to compile Material /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/BlueLight_M1.BlueLight_M1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.05-17.04.17:166][  0]LogMaterial: Warning: 	Function Flicker_MF: Missing function input 'Color'
+[2017.09.05-17.04.17:279][  0]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.09.05-17.04.17:320][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.05-17.04.17:338][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.05-17.04.17:393][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 55.598ms to complete.
+[2017.09.05-17.04.17:394][  0]LogFileHelpers: Loading map 'Rainforest_Alien' took 2.332
+[2017.09.05-17.04.17:649][  0]LogCollectionManager: Loaded 0 collections in 0.001963 seconds
+[2017.09.05-17.04.17:730][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Collections/' took 0.01s
+[2017.09.05-17.04.17:730][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/Developers/rajjj/Collections/' took 0.01s
+[2017.09.05-17.04.17:730][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/Collections/' took 0.01s
+[2017.09.05-17.04.17:730][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2017.09.05-17.04.17:739][  0]LogContentBrowser: Native class hierarchy populated in 0.0079 seconds. Added 2386 classes and 500 folders.
+[2017.09.05-17.04.17:792][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0008 seconds. Added 0 classes and 0 folders.
+[2017.09.05-17.04.18:088][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.09.05-17.04.18:129][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.09.05-17.04.18:165][  0]LogSlate: Took 0.004995 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.05-17.04.18:170][  0]LogSlate: Took 0.003705 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.05-17.04.18:179][  0]LogSlate: Took 0.003997 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.05-17.04.18:186][  0]LogSlate: Took 0.004698 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.09.05-17.04.18:294][  0]LogRenderer: Reallocating scene render targets to support 2556x1004 Format 10 NumSamples 1 (Frame:1).
+[2017.09.05-17.04.18:566][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.05-17.04.18:567][  0]LogLoad: (Engine Initialization) Total time: 27.47 seconds
+[2017.09.05-17.04.18:567][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.05-17.04.18:567][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.05-17.04.18:954][  0]SourceControl: On branch V1.5.1
+[2017.09.05-17.04.18:954][  0]SourceControl: Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.09.05-17.04.18:954][  0]SourceControl: Changes not staged for commit:
+[2017.09.05-17.04.18:955][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.09.05-17.04.18:955][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.05-17.04.18:955][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.05-17.04.18:955][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-EBD4076F4725E398633D6C99F57A295F/CrashReportClient.ini
+[2017.09.05-17.04.18:955][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.09.05-17.04.18:955][  0]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.09.01-17.53.27.log
+[2017.09.05-17.04.18:955][  0]SourceControl: 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.09.05-17.04.18:956][  0]SourceControl: Untracked files:
+[2017.09.05-17.04.18:956][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.05-17.04.18:956][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-2362625E47CE8CCDA88E7ABE4F3803B7/
+[2017.09.05-17.04.18:956][  0]SourceControl: 	Saved/Logs/InsertNameAdventure-backup-2017.09.05-11.03.53.log
+[2017.09.05-17.04.18:956][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.09.05-17.04.18:956][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.05-17.04.19:068][  0]LogSlate: Took 0.004284 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.05-17.04.19:267][  1]LogParticles: Warning: Spawning 26666 GPU particles in one frame[2]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.19:586][  2]LogAssetRegistry: Asset discovery search completed in 16.6689 seconds
+[2017.09.05-17.04.19:590][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.05-17.04.19:590][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000195 seconds (updated 0 objects)
+[2017.09.05-17.04.19:598][  2]LogParticles: Warning: Spawning 26667 GPU particles in one frame[3]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.19:656][  3]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.05-17.04.19:705][  3]LogContentBrowser: Native class hierarchy updated for 'Cascade' in 0.0006 seconds. Added 2 classes and 2 folders.
+[2017.09.05-17.04.19:964][  3]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2017.09.05-17.04.19:968][  3]LogMaterial: Missing cached shader map for material Rain_M, compiling. 
+[2017.09.05-17.04.20:133][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.05-17.04.20:137][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.05-17.04.20:141][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.05-17.04.20:147][  3]LogMaterial: Missing cached shader map for material Rain_M, compiling. 
+[2017.09.05-17.04.20:165][  3]LogMaterial: Missing cached shader map for material Rain_M, compiling. 
+[2017.09.05-17.04.20:208][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.05-17.04.20:213][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.05-17.04.20:218][  3]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.05-17.04.20:259][  3]LogParticles: Warning: Spawning 32000 GPU particles in one frame[4]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.20:271][  3]LogSlate: Took 0.004361 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.05-17.04.20:603][  4]LogParticles: Warning: Spawning 27736 GPU particles in one frame[5]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.20:613][  4]LogSlate: Took 0.003733 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.05-17.04.20:949][  5]LogParticles: Warning: Spawning 28293 GPU particles in one frame[6]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.21:283][  6]LogParticles: Warning: Spawning 26698 GPU particles in one frame[7]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.21:627][  7]LogParticles: Warning: Spawning 26674 GPU particles in one frame[8]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.21:956][  8]LogParticles: Warning: Spawning 26668 GPU particles in one frame[9]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.22:279][  9]LogParticles: Warning: Spawning 26671 GPU particles in one frame[10]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.22:613][ 10]LogParticles: Warning: Spawning 26751 GPU particles in one frame[11]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.22:946][ 11]LogParticles: Warning: Spawning 26671 GPU particles in one frame[12]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.23:278][ 12]LogParticles: Warning: Spawning 26666 GPU particles in one frame[13]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.23:278][ 12]MaterialEditorStats: Base pass shader: 60 instructions
+[2017.09.05-17.04.23:278][ 12]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.09.05-17.04.23:278][ 12]MaterialEditorStats: Texture samplers: 5/16
+[2017.09.05-17.04.23:279][ 12]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.05-17.04.23:612][ 13]LogParticles: Warning: Spawning 26667 GPU particles in one frame[14]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.23:955][ 14]LogParticles: Warning: Spawning 26667 GPU particles in one frame[15]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.24:262][ 15]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/' took 5.34s
+[2017.09.05-17.04.24:279][ 15]LogParticles: Warning: Spawning 26667 GPU particles in one frame[16]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.24:604][ 16]LogParticles: Warning: Spawning 26666 GPU particles in one frame[17]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.24:937][ 17]LogParticles: Warning: Spawning 26667 GPU particles in one frame[18]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.25:270][ 18]LogParticles: Warning: Spawning 26667 GPU particles in one frame[19]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.25:604][ 19]LogParticles: Warning: Spawning 26666 GPU particles in one frame[20]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.25:937][ 20]LogParticles: Warning: Spawning 26667 GPU particles in one frame[21]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.26:271][ 21]LogParticles: Warning: Spawning 26667 GPU particles in one frame[22]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.26:604][ 22]LogParticles: Warning: Spawning 26666 GPU particles in one frame[23]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.26:938][ 23]LogParticles: Warning: Spawning 26667 GPU particles in one frame[24]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.27:271][ 24]LogParticles: Warning: Spawning 26667 GPU particles in one frame[25]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.27:604][ 25]LogParticles: Warning: Spawning 26666 GPU particles in one frame[26]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.27:945][ 26]LogParticles: Warning: Spawning 26667 GPU particles in one frame[27]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.28:279][ 27]LogParticles: Warning: Spawning 26667 GPU particles in one frame[28]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.28:613][ 28]LogParticles: Warning: Spawning 26667 GPU particles in one frame[29]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.28:944][ 29]LogParticles: Warning: Spawning 26667 GPU particles in one frame[30]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.29:278][ 30]LogParticles: Warning: Spawning 26666 GPU particles in one frame[31]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.29:612][ 31]LogParticles: Warning: Spawning 26667 GPU particles in one frame[32]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.29:944][ 32]LogParticles: Warning: Spawning 26667 GPU particles in one frame[33]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.30:279][ 33]LogParticles: Warning: Spawning 26666 GPU particles in one frame[34]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.30:613][ 34]LogParticles: Warning: Spawning 26667 GPU particles in one frame[35]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.30:946][ 35]LogParticles: Warning: Spawning 26667 GPU particles in one frame[36]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.31:279][ 36]LogParticles: Warning: Spawning 26666 GPU particles in one frame[37]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.31:611][ 37]LogParticles: Warning: Spawning 26667 GPU particles in one frame[38]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.31:953][ 38]LogParticles: Warning: Spawning 26668 GPU particles in one frame[39]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.32:278][ 39]LogParticles: Warning: Spawning 26666 GPU particles in one frame[40]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.32:608][ 40]LogParticles: Warning: Spawning 26667 GPU particles in one frame[41]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.32:937][ 41]LogParticles: Warning: Spawning 26667 GPU particles in one frame[42]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.33:297][ 42]LogParticles: Warning: Spawning 26666 GPU particles in one frame[43]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.33:623][ 43]LogParticles: Warning: Spawning 26667 GPU particles in one frame[44]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.04.41:524][737]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.05-17.04.41:601][737]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.04.41:601][737]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.05-17.04.43:468][737]PIE: New page: PIE session: Rainforest_Alien (Sep 5, 2017, 5:04:43 AM)
+[2017.09.05-17.04.43:468][737]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.09.05-17.04.43:496][737]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027723s)
+[2017.09.05-17.04.43:496][737]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.09.05-17.04.43:497][737]LogPlayLevel: PIE: World Init took: (0.000776s)
+[2017.09.05-17.04.43:497][737]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.029234s)
+[2017.09.05-17.04.43:510][737]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-17.04.43:516][737]LogInit: FAudioDevice initialized.
+[2017.09.05-17.04.43:553][737]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.09.05-17.04.43:575][737]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.09.05-11.04.43
+[2017.09.05-17.04.43:601][737]LogWorld: Bringing up level for play took: 0.045498
+[2017.09.05-17.04.43:643][737]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.09.05-17.04.43:658][737]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 1.467
+[2017.09.05-17.04.43:659][737]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.04.43:719][738]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.086583 > MaxSimulationTimeStep (0.050) for '2DSideScrollerCharacter_C_0', movement 'Walking'
+[2017.09.05-17.04.43:728][738]LogParticles: Warning: Spawning 32000 GPU particles in one frame[739]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.05.12:649][575]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.05.12:687][575]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.05.24:716][629]LogMaterial: Missing cached shader map for material Rain_M, compiling. 
+[2017.09.05-17.05.24:732][629]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.05-17.05.24:736][629]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.05-17.05.24:740][629]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_1, compiling. 
+[2017.09.05-17.05.27:303][846]LogMaterialEditor: Applying material Rain_M
+[2017.09.05-17.05.27:713][846]LogMaterial: Missing cached shader map for material Rain_M, compiling. 
+[2017.09.05-17.05.27:760][846]LogMaterial: Missing cached shader map for material Rain_M, compiling. 
+[2017.09.05-17.05.27:806][846]LogMaterial: Missing cached shader map for material Rain_M, compiling. 
+[2017.09.05-17.05.27:858][846]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Rain_M, compiling. 
+[2017.09.05-17.05.29:510][846]TextureStreamingBuild: Display: Compiling optional shaders took 1.657 seconds.
+[2017.09.05-17.05.29:549][847]LogParticles: Warning: Spawning 32000 GPU particles in one frame[4848]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.05.37:718][506]LogParticles: Warning: Spawning 32000 GPU particles in one frame[5507]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.05.41:020][809]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.05-17.05.41:050][809]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.05.41:050][809]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.05-17.05.41:051][809]PIE: New page: PIE session: Rainforest_Alien (Sep 5, 2017, 5:05:41 AM)
+[2017.09.05-17.05.41:051][809]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.09.05-17.05.41:077][809]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026708s)
+[2017.09.05-17.05.41:078][809]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.09.05-17.05.41:079][809]LogPlayLevel: PIE: World Init took: (0.001016s)
+[2017.09.05-17.05.41:079][809]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.028646s)
+[2017.09.05-17.05.41:096][809]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-17.05.41:102][809]LogInit: FAudioDevice initialized.
+[2017.09.05-17.05.41:129][809]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.09.05-17.05.41:144][809]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.09.05-11.05.41
+[2017.09.05-17.05.41:150][809]LogWorld: Bringing up level for play took: 0.020646
+[2017.09.05-17.05.41:159][809]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.968
+[2017.09.05-17.05.41:160][809]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.05.50:798][762]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.05.50:837][762]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.05.51:958][852]LogCascade: Quitting Cascade. FXSystem=0x000001A10001D300
+[2017.09.05-17.05.57:406][430]LogEditorViewport: Clicking on Actor (LMB): Emitter (RainFall4_PS)
+[2017.09.05-17.05.57:720][444]LogEditorViewport: Clicking on Actor (context menu): Emitter (RainFall4_PS)
+[2017.09.05-17.06.07:232][993]LogCascade: Quitting Cascade. FXSystem=0x000001A0934682C0
+[2017.09.05-17.06.13:796][383]LogMaterial: Missing cached shader map for material Rain_M, compiling. 
+[2017.09.05-17.06.16:208][512]SourceControl: On branch V1.5.1
+[2017.09.05-17.06.16:208][512]SourceControl: Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.09.05-17.06.16:208][512]SourceControl: Changes not staged for commit:
+[2017.09.05-17.06.16:208][512]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.09.05-17.06.16:208][512]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.05-17.06.16:209][512]SourceControl: 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.09.05-17.06.16:209][512]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.05-17.06.16:209][512]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-EBD4076F4725E398633D6C99F57A295F/CrashReportClient.ini
+[2017.09.05-17.06.16:209][512]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.05-17.06.16:209][512]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.09.05-17.06.16:209][512]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.09.01-17.53.27.log
+[2017.09.05-17.06.16:209][512]SourceControl: 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.09.05-17.06.16:209][512]SourceControl: Untracked files:
+[2017.09.05-17.06.16:209][512]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.05-17.06.16:209][512]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-2362625E47CE8CCDA88E7ABE4F3803B7/
+[2017.09.05-17.06.16:209][512]SourceControl: 	Saved/Logs/InsertNameAdventure-backup-2017.09.05-11.03.53.log
+[2017.09.05-17.06.16:210][512]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.09.05-17.06.16:505][512]LogSavePackage: Save=26.29ms
+[2017.09.05-17.06.16:505][512]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Rain_M5624BD4D4D3ED4AB4754E087485A0E92.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Rain_M.uasset'
+[2017.09.05-17.06.16:510][512]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Rain_M.uasset
+[2017.09.05-17.06.16:751][512]LogSavePackage: Save=4.00ms
+[2017.09.05-17.06.16:751][512]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Rain_ME0CE97B14E291908D6B556AD7C8F0C49.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_M.uasset'
+[2017.09.05-17.06.16:753][512]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_M.uasset
+[2017.09.05-17.06.16:780][512]LogSavePackage: Save=10.95ms
+[2017.09.05-17.06.16:780][512]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Rain_M_InstA5ECAC6744C395C2EA996EA1C3D05DD4.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Rain_M_Inst.uasset'
+[2017.09.05-17.06.16:783][512]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Rain_M_Inst.uasset
+[2017.09.05-17.06.16:940][512]LogSavePackage: Save=3.97ms
+[2017.09.05-17.06.16:940][512]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Rain_M_InstD7FD7E2240F2043C87CB5291D0636196.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_M_Inst.uasset'
+[2017.09.05-17.06.16:943][512]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_M_Inst.uasset
+[2017.09.05-17.06.17:207][513]LogParticles: Warning: Spawning 32000 GPU particles in one frame[8514]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.06.18:564][595]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.09.05-17.06.18:564][595]LogMaterial: Warning: Failed to compile Material /Engine/Transient.Material_0 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.05-17.06.18:565][595]LogMaterial: Warning: 	(Node Multiply) Arithmetic between types float2 and float3 are undefined
+[2017.09.05-17.06.19:029][600]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.09.05-17.06.19:029][600]LogMaterial: Warning: Failed to compile Material /Engine/Transient.Material_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.05-17.06.19:029][600]LogMaterial: Warning: 	(Node Divide) Arithmetic between types float2 and float3 are undefined
+[2017.09.05-17.06.19:043][600]LogParticles: Warning: Spawning 26499 GPU particles in one frame[8601]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.06.36:498][637]LogParticles: Warning: MaxCount = 162560 for Emitter ParticleSpriteEmitter_0 (/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/RainFall/RainFall4_PS.RainFall4_PS)
+[2017.09.05-17.06.51:670][565]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Mt_Backdrop_2_darker_Sprite18)
+[2017.09.05-17.06.52:506][610]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.09.05-17.07.03:833][635]LogEditorTransaction: Undo Delete Selected Module
+[2017.09.05-17.07.03:835][635]LogParticles: Warning: MaxCount = 162560 for Emitter ParticleSpriteEmitter_0 (/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/RainFall/RainFall4_PS.RainFall4_PS)
+[2017.09.05-17.07.03:849][635]LogParticles: Warning: MaxCount = 162560 for Emitter ParticleSpriteEmitter_0 (/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/RainFall/RainFall4_PS.RainFall4_PS)
+[2017.09.05-17.07.03:867][635]LogSlate: Took 0.000187 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.05-17.07.06:189][815]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.05-17.07.06:215][815]LogParticles: Warning: MaxCount = 162560 for Emitter ParticleSpriteEmitter_0 (/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/RainFall/RainFall4_PS.RainFall4_PS)
+[2017.09.05-17.07.07:399][910]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.05-17.07.07:416][910]LogParticles: Warning: MaxCount = 162560 for Emitter ParticleSpriteEmitter_0 (/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/RainFall/RainFall4_PS.RainFall4_PS)
+[2017.09.05-17.07.08:025][959]LogEditorTransaction: Undo Edit Opacity
+[2017.09.05-17.07.08:053][959]LogParticles: Warning: MaxCount = 162560 for Emitter ParticleSpriteEmitter_0 (/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/RainFall/RainFall4_PS.RainFall4_PS)
+[2017.09.05-17.07.08:483][993]LogEditorTransaction: Undo Edit Material
+[2017.09.05-17.07.08:503][993]LogParticles: Warning: MaxCount = 162560 for Emitter ParticleSpriteEmitter_0 (/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/RainFall/RainFall4_PS.RainFall4_PS)
+[2017.09.05-17.07.13:166][387]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Mt_Backdrop_2_darker_Sprite19)
+[2017.09.05-17.07.14:121][463]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.09.05-17.07.16:549][666]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Rain_M_Inst, compiling. 
+[2017.09.05-17.07.16:870][666]TextureStreamingBuild: Display: Compiling optional shaders took 0.325 seconds.
+[2017.09.05-17.07.16:959][667]LogParticles: Warning: Spawning 32000 GPU particles in one frame[12668]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.07.41:987][970]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.05-17.07.42:021][970]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.07.42:022][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.05-17.07.42:022][970]PIE: New page: PIE session: Rainforest_Alien (Sep 5, 2017, 5:07:42 AM)
+[2017.09.05-17.07.42:022][970]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.09.05-17.07.42:049][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026327s)
+[2017.09.05-17.07.42:049][970]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.09.05-17.07.42:049][970]LogPlayLevel: PIE: World Init took: (0.000712s)
+[2017.09.05-17.07.42:050][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.027823s)
+[2017.09.05-17.07.42:065][970]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-17.07.42:071][970]LogInit: FAudioDevice initialized.
+[2017.09.05-17.07.42:096][970]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.09.05-17.07.42:110][970]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.09.05-11.07.42
+[2017.09.05-17.07.42:116][970]LogWorld: Bringing up level for play took: 0.019547
+[2017.09.05-17.07.42:124][970]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.066
+[2017.09.05-17.07.42:125][970]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.09.17:340][ 77]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.09.17:380][ 77]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.09.20:492][311]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_Backdrop_Sprite11)
+[2017.09.05-17.09.22:445][476]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Rain_Forrest_Tree_Backdrop_Sprite11)
+[2017.09.05-17.09.32:766][203]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.09.05-17.09.34:170][315]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.05-17.09.34:204][315]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.09.34:204][315]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.05-17.09.34:205][315]PIE: New page: PIE session: Rainforest_Alien (Sep 5, 2017, 5:09:34 AM)
+[2017.09.05-17.09.34:205][315]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.09.05-17.09.34:231][315]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026037s)
+[2017.09.05-17.09.34:232][315]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.09.05-17.09.34:232][315]LogPlayLevel: PIE: World Init took: (0.000957s)
+[2017.09.05-17.09.34:232][315]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.027759s)
+[2017.09.05-17.09.34:250][315]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-17.09.34:256][315]LogInit: FAudioDevice initialized.
+[2017.09.05-17.09.34:281][315]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.09.05-17.09.34:295][315]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.09.05-11.09.34
+[2017.09.05-17.09.34:300][315]LogWorld: Bringing up level for play took: 0.018952
+[2017.09.05-17.09.34:309][315]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.118
+[2017.09.05-17.09.34:309][315]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.09.43:502][265]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.09.43:541][265]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.09.47:395][581]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_Backdrop_Sprite11)
+[2017.09.05-17.09.48:423][668]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Shrrom_2_Sprite9)
+[2017.09.05-17.09.49:241][735]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Shrrom_2_Sprite9)
+[2017.09.05-17.09.56:988][285]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_Backdrop_Sprite11)
+[2017.09.05-17.09.58:595][419]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.05-17.09.58:624][419]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.09.58:625][419]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.05-17.09.58:625][419]PIE: New page: PIE session: Rainforest_Alien (Sep 5, 2017, 5:09:58 AM)
+[2017.09.05-17.09.58:625][419]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.09.05-17.09.58:652][419]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026874s)
+[2017.09.05-17.09.58:653][419]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.09.05-17.09.58:653][419]LogPlayLevel: PIE: World Init took: (0.000747s)
+[2017.09.05-17.09.58:654][419]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.028421s)
+[2017.09.05-17.09.58:667][419]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-17.09.58:672][419]LogInit: FAudioDevice initialized.
+[2017.09.05-17.09.58:699][419]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.09.05-17.09.58:715][419]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.09.05-11.09.58
+[2017.09.05-17.09.58:720][419]LogWorld: Bringing up level for play took: 0.019806
+[2017.09.05-17.09.58:728][419]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.538
+[2017.09.05-17.09.58:729][419]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.10.04:698][ 32]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.10.04:745][ 32]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.10.06:311][154]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Shrrom_5_Sprite)
+[2017.09.05-17.10.06:776][185]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Shrrom_5_Sprite)
+[2017.09.05-17.10.15:121][762]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_Backdrop_Sprite11)
+[2017.09.05-17.10.16:138][844]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_Backdrop_Sprite11)
+[2017.09.05-17.10.16:718][889]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_Backdrop_Sprite11)
+[2017.09.05-17.10.17:656][967]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Shroom_Backdrop_Sprite11)
+[2017.09.05-17.10.18:415][ 27]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Shroom_Backdrop_Sprite11)
+[2017.09.05-17.10.27:669][655]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.09.05-17.10.28:590][727]LogEditorViewport: Clicking on Actor (context menu): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.09.05-17.10.29:336][785]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.09.05-17.10.30:309][869]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.05-17.10.30:338][869]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.10.30:339][869]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.05-17.10.30:339][869]PIE: New page: PIE session: Rainforest_Alien (Sep 5, 2017, 5:10:30 AM)
+[2017.09.05-17.10.30:339][869]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.09.05-17.10.30:365][869]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026308s)
+[2017.09.05-17.10.30:366][869]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.09.05-17.10.30:366][869]LogPlayLevel: PIE: World Init took: (0.000685s)
+[2017.09.05-17.10.30:367][869]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.027765s)
+[2017.09.05-17.10.30:382][869]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-17.10.30:387][869]LogInit: FAudioDevice initialized.
+[2017.09.05-17.10.30:410][869]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.09.05-17.10.30:425][869]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.09.05-11.10.30
+[2017.09.05-17.10.30:430][869]LogWorld: Bringing up level for play took: 0.019612
+[2017.09.05-17.10.30:439][869]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien 0.248
+[2017.09.05-17.10.30:440][869]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.10.37:841][639]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.10.37:883][639]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.10.40:848][850]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_Backdrop_Sprite11)
+[2017.09.05-17.10.42:861][ 18]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.09.05-17.10.50:755][704]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite22)
+[2017.09.05-17.10.51:234][739]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Rain_Forrest_Tree_1_Sprite22)
+[2017.09.05-17.11.00:760][397]LogSavePackage: Save=7.69ms
+[2017.09.05-17.11.00:760][397]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Rain_Forrest_Tree_1_Sprite457240164D036A2054F60A9970F9361F.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Rain_Forrest_Tree_1_Sprite.uasset'
+[2017.09.05-17.11.00:763][397]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Rain_Forrest_Tree_1_Sprite.uasset
+[2017.09.05-17.11.01:816][487]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_Backdrop_Sprite11)
+[2017.09.05-17.11.02:492][539]LogEditorViewport: Clicking on Actor (LMB): Emitter (RainFall4_PS)
+[2017.09.05-17.11.03:568][627]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.05-17.11.03:596][627]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.11.03:597][627]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.05-17.11.03:597][627]PIE: New page: PIE session: Rainforest_Alien (Sep 5, 2017, 5:11:03 AM)
+[2017.09.05-17.11.03:597][627]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.09.05-17.11.03:622][627]LogPlayLevel: PIE: StaticDuplicateObject took: (0.025416s)
+[2017.09.05-17.11.03:623][627]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.09.05-17.11.03:623][627]LogPlayLevel: PIE: World Init took: (0.000732s)
+[2017.09.05-17.11.03:624][627]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.026871s)
+[2017.09.05-17.11.03:639][627]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-17.11.03:645][627]LogInit: FAudioDevice initialized.
+[2017.09.05-17.11.03:672][627]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.09.05-17.11.03:685][627]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.09.05-11.11.03
+[2017.09.05-17.11.03:689][627]LogWorld: Bringing up level for play took: 0.016829
+[2017.09.05-17.11.03:698][627]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.493
+[2017.09.05-17.11.03:698][627]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.11.13:162][589]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.11.13:203][589]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.11.17:596][941]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Shrrom_2_Sprite9)
+[2017.09.05-17.11.18:107][980]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Shrrom_2_Sprite9)
+[2017.09.05-17.11.24:440][405]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_Backdrop_Sprite11)
+[2017.09.05-17.11.25:128][459]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_Backdrop_Sprite11)
+[2017.09.05-17.11.26:885][580]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.09.05-17.11.28:461][708]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Big_Tree_2_Sprite6)
+[2017.09.05-17.11.29:508][792]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.09.05-17.11.31:648][953]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Shrrom_5_Sprite2)
+[2017.09.05-17.11.32:769][ 45]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (Rain_Forrest_TM)
+[2017.09.05-17.11.33:693][111]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Shroom_Backdrop_Sprite11)
+[2017.09.05-17.11.35:603][247]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.09.05-17.11.37:143][372]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Shrrom_2_Sprite9)
+[2017.09.05-17.11.38:425][479]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_Backdrop_Sprite11)
+[2017.09.05-17.11.39:638][578]Cmd: DELETE
+[2017.09.05-17.11.39:638][578]Cmd: ACTOR DELETE
+[2017.09.05-17.11.39:643][578]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.09.05-17.11.39:654][578]LogEditorActor: Deleted 1 Actors (0.015 secs)
+[2017.09.05-17.11.40:999][709]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Shrrom_2_Sprite9)
+[2017.09.05-17.11.41:734][767]Cmd: DELETE
+[2017.09.05-17.11.41:734][767]Cmd: ACTOR DELETE
+[2017.09.05-17.11.41:736][767]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.09.05-17.11.41:745][767]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.09.05-17.11.42:909][881]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.09.05-17.11.43:811][954]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.05-17.11.43:840][954]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.11.43:841][954]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.05-17.11.43:841][954]PIE: New page: PIE session: Rainforest_Alien (Sep 5, 2017, 5:11:43 AM)
+[2017.09.05-17.11.43:841][954]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.09.05-17.11.43:867][954]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026305s)
+[2017.09.05-17.11.43:868][954]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.09.05-17.11.43:868][954]LogPlayLevel: PIE: World Init took: (0.000686s)
+[2017.09.05-17.11.43:869][954]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.027697s)
+[2017.09.05-17.11.43:882][954]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-17.11.43:888][954]LogInit: FAudioDevice initialized.
+[2017.09.05-17.11.43:916][954]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.09.05-17.11.43:930][954]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.09.05-11.11.43
+[2017.09.05-17.11.43:933][954]LogWorld: Bringing up level for play took: 0.016801
+[2017.09.05-17.11.43:942][954]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.249
+[2017.09.05-17.11.43:942][954]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.11.55:009][100]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.11.55:047][100]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.11.55:707][151]Cmd: TRANSACTION UNDO
+[2017.09.05-17.11.55:707][151]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.05-17.11.56:274][192]Cmd: TRANSACTION UNDO
+[2017.09.05-17.11.56:274][192]LogEditorTransaction: Undo Delete Actors
+[2017.09.05-17.11.56:646][215]Cmd: TRANSACTION UNDO
+[2017.09.05-17.11.56:646][215]LogEditorTransaction: Undo Clicking on Actors
+[2017.09.05-17.11.57:002][242]Cmd: TRANSACTION UNDO
+[2017.09.05-17.11.57:003][242]LogEditorTransaction: Undo Delete Actors
+[2017.09.05-17.11.57:751][296]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Mt_Backdrop_2_darker_Sprite18)
+[2017.09.05-17.12.00:826][517]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.09.05-17.12.01:832][598]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Rain_Forrest_TM)
+[2017.09.05-17.12.04:009][783]Cmd: DELETE
+[2017.09.05-17.12.04:010][783]Cmd: ACTOR DELETE
+[2017.09.05-17.12.04:012][783]LogEditorActor: Deleted Actor: PaperTileMapActor
+[2017.09.05-17.12.04:021][783]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.09.05-17.12.05:467][924]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.05-17.12.05:496][924]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.12.05:496][924]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.05-17.12.05:496][924]PIE: New page: PIE session: Rainforest_Alien (Sep 5, 2017, 5:12:05 AM)
+[2017.09.05-17.12.05:497][924]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.09.05-17.12.05:525][924]LogPlayLevel: PIE: StaticDuplicateObject took: (0.028512s)
+[2017.09.05-17.12.05:526][924]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.09.05-17.12.05:526][924]LogPlayLevel: PIE: World Init took: (0.000666s)
+[2017.09.05-17.12.05:526][924]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.029936s)
+[2017.09.05-17.12.05:542][924]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-17.12.05:548][924]LogInit: FAudioDevice initialized.
+[2017.09.05-17.12.05:576][924]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.09.05-17.12.05:588][924]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.09.05-11.12.05
+[2017.09.05-17.12.05:589][924]LogWorld: Bringing up level for play took: 0.012413
+[2017.09.05-17.12.05:598][924]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.593
+[2017.09.05-17.12.05:598][924]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.12.06:693][ 31]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.12.06:727][ 31]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.12.07:542][105]Cmd: TRANSACTION UNDO
+[2017.09.05-17.12.07:542][105]LogEditorTransaction: Undo Delete Actors
+[2017.09.05-17.12.10:053][259]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.09.05-17.12.17:368][878]LogTemp: Repeating last play command: Selected Viewport
+[2017.09.05-17.12.17:397][878]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.12.17:397][878]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.09.05-17.12.17:398][878]PIE: New page: PIE session: Rainforest_Alien (Sep 5, 2017, 5:12:17 AM)
+[2017.09.05-17.12.17:398][878]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien
+[2017.09.05-17.12.17:425][878]LogPlayLevel: PIE: StaticDuplicateObject took: (0.027129s)
+[2017.09.05-17.12.17:425][878]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.09.05-17.12.17:426][878]LogPlayLevel: PIE: World Init took: (0.000656s)
+[2017.09.05-17.12.17:426][878]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien (0.028481s)
+[2017.09.05-17.12.17:441][878]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.05-17.12.17:447][878]LogInit: FAudioDevice initialized.
+[2017.09.05-17.12.17:474][878]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.09.05-17.12.17:488][878]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien.Rainforest_Alien up for play (max tick rate 0) at 2017.09.05-11.12.17
+[2017.09.05-17.12.17:492][878]LogWorld: Bringing up level for play took: 0.017159
+[2017.09.05-17.12.17:501][878]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Rainforest_Alien -0.69
+[2017.09.05-17.12.17:501][878]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.13.24:201][713]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.13.24:240][713]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien' with GeneratedClass '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.Rainforest_Alien:PersistentLevel.Rainforest_Alien'
+[2017.09.05-17.13.27:692][935]LogSavePackage: Save=812.31ms
+[2017.09.05-17.13.27:692][935]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Rainforest_Alien1B482E544FDE3FD10E7830B792A773D0.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap'
+[2017.09.05-17.13.27:695][935]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap
+[2017.09.05-17.13.27:854][935]LogSavePackage: Save=9.70ms
+[2017.09.05-17.13.27:854][935]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Rainforest_Alien_BuiltDataBA2E6FE5447659972DE1D5848AC4ACE2.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData.uasset'
+[2017.09.05-17.13.27:855][935]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien_BuiltData.uasset
+[2017.09.05-17.13.27:900][936]LogParticles: Warning: Spawning 32000 GPU particles in one frame[46937]: RainFall4_PS/Particle Emitter
+[2017.09.05-17.13.32:636][220]LogSavePackage: Save=10.71ms
+[2017.09.05-17.13.32:637][220]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Rain_M_Inst49B7238A4269D74F37B12FA23E67F6C0.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Rain_M_Inst.uasset'
+[2017.09.05-17.13.32:639][220]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Materials/Rain_M_Inst.uasset
+[2017.09.05-17.13.32:707][220]LogSavePackage: Save=7.20ms
+[2017.09.05-17.13.32:707][220]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Rain_Forrest_Tree_Backdrop_SpriteA467034D4875BAC7B1AD2A87B6A5E0EB.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Rain_Forrest_Tree_Backdrop_Sprite.uasset'
+[2017.09.05-17.13.32:709][220]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Rain_Forrest_Tree_Backdrop_Sprite.uasset
+[2017.09.05-17.13.32:776][220]LogSavePackage: Save=7.21ms
+[2017.09.05-17.13.32:776][220]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Shroom_Backdrop_Sprite85CB522E4D6C2E9FE7B1AE89579BB64F.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Shroom_Backdrop_Sprite.uasset'
+[2017.09.05-17.13.32:779][220]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Shroom_Backdrop_Sprite.uasset
+[2017.09.05-17.13.32:841][220]LogCascade: Quitting Cascade. FXSystem=0x000001A1062D00E0
+[2017.09.05-17.13.33:175][220]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.05-17.13.33:321][221]Cmd: QUIT_EDITOR
+[2017.09.05-17.13.34:343][221]LogExit: Preparing to exit.
+[2017.09.05-17.13.35:115][221]LogDirectoryWatcher: A directory notification failed for 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/', and we were unable to create a new request.
+[2017.09.05-17.13.35:142][221]LogExit: Editor shut down
+[2017.09.05-17.13.35:145][221]LogExit: Transaction tracking system shut down
+[2017.09.05-17.13.35:289][221]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.05-17.13.35:289][221]LogDirectoryWatcher: A directory notification for '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/' was aborted.
+[2017.09.05-17.13.35:289][221]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.05-17.13.35:289][221]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.05-17.13.35:289][221]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.05-17.13.35:337][221]LogExit: Object subsystem successfully closed.
+[2017.09.05-17.13.35:363][221]LogD3D11RHI: Shutdown
+[2017.09.05-17.13.35:363][221]LogD3D11RHI: CleanupD3DDevice
+[2017.09.05-17.13.35:476][221]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.05-17.13.35:493][221]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (538)
+[2017.09.05-17.13.35:493][221]LogModuleManager: Shutting down and abandoning module MaterialEditor (536)
+[2017.09.05-17.13.35:493][221]LogModuleManager: Shutting down and abandoning module DistCurveEditor (534)
+[2017.09.05-17.13.35:493][221]LogModuleManager: Shutting down and abandoning module Cascade (532)
+[2017.09.05-17.13.35:493][221]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.09.05-17.13.35:493][221]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.09.05-17.13.35:493][221]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.09.05-17.13.35:493][221]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.05-17.13.35:494][221]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.09.05-17.13.35:494][221]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.09.05-17.13.35:494][221]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.09.05-17.13.35:494][221]LogDirectoryWatcher: A directory notification for 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/Collections/' was aborted.
+[2017.09.05-17.13.35:494][221]LogDirectoryWatcher: A directory notification for 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/Developers/rajjj/Collections/' was aborted.
+[2017.09.05-17.13.35:494][221]LogDirectoryWatcher: A directory notification for 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Collections/' was aborted.
+[2017.09.05-17.13.35:494][221]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.05-17.13.35:494][221]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.05-17.13.35:494][221]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.05-17.13.35:495][221]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.05-17.13.35:496][221]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.05-17.13.35:496][221]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.05-17.13.35:496][221]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.05-17.13.35:496][221]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.05-17.13.35:496][221]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.05-17.13.35:496][221]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.05-17.13.35:496][221]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.05-17.13.35:496][221]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.05-17.13.35:496][221]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.05-17.13.35:496][221]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.05-17.13.35:496][221]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.05-17.13.35:496][221]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.05-17.13.35:496][221]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.05-17.13.35:681][221]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.05-17.13.35:681][221]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.05-17.13.35:681][221]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.05-17.13.35:681][221]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.05-17.13.35:682][221]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.05-17.13.35:682][221]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.05-17.13.35:682][221]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.05-17.13.35:682][221]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.05-17.13.35:682][221]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.05-17.13.35:683][221]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.05-17.13.35:683][221]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.05-17.13.35:683][221]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.05-17.13.35:683][221]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.05-17.13.35:683][221]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.05-17.13.35:683][221]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.05-17.13.35:683][221]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.05-17.13.35:683][221]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.05-17.13.35:684][221]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.05-17.13.35:684][221]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.05-17.13.35:684][221]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.05-17.13.35:685][221]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.05-17.13.35:685][221]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.05-17.13.35:685][221]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.05-17.13.35:685][221]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.05-17.13.35:740][221]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.05-17.13.35:740][221]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.05-17.13.35:741][221]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.05-17.13.35:742][221]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.05-17.13.35:742][221]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.05-17.13.35:743][221]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.05-17.13.35:743][221]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.05-17.13.35:744][221]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.05-17.13.35:744][221]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.05-17.13.35:744][221]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.05-17.13.35:747][221]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.05-17.13.35:747][221]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.05-17.13.35:747][221]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.05-17.13.35:748][221]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.05-17.13.35:748][221]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.05-17.13.35:748][221]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.05-17.13.35:749][221]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.05-17.13.35:749][221]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.05-17.13.35:749][221]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.05-17.13.35:749][221]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.05-17.13.35:749][221]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.05-17.13.35:750][221]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.05-17.13.35:750][221]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.05-17.13.35:750][221]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.05-17.13.35:750][221]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.05-17.13.35:750][221]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.05-17.13.35:750][221]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.05-17.13.35:750][221]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.05-17.13.35:750][221]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.05-17.13.35:750][221]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.05-17.13.35:750][221]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.05-17.13.35:802][221]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.05-17.13.35:802][221]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.05-17.13.35:803][221]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.05-17.13.35:803][221]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.05-17.13.35:803][221]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.05-17.13.35:803][221]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.05-17.13.35:803][221]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.05-17.13.35:803][221]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.05-17.13.35:803][221]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.05-17.13.35:803][221]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.05-17.13.35:803][221]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.05-17.13.35:804][221]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.05-17.13.35:804][221]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.05-17.13.35:804][221]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.05-17.13.35:804][221]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.05-17.13.35:804][221]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.05-17.13.35:804][221]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.05-17.13.35:804][221]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.05-17.13.35:805][221]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.05-17.13.35:806][221]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.05-17.13.35:806][221]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.05-17.13.35:806][221]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.05-17.13.35:806][221]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.05-17.13.35:806][221]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.05-17.13.35:806][221]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.05-17.13.35:807][221]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.05-17.13.35:807][221]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.05-17.13.35:807][221]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.05-17.13.35:807][221]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.05-17.13.35:807][221]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.05-17.13.35:807][221]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.05-17.13.35:807][221]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.05-17.13.35:809][221]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.05-17.13.35:809][221]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.05-17.13.35:809][221]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.05-17.13.35:811][221]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.05-17.13.35:811][221]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.05-17.13.35:811][221]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.05-17.13.35:811][221]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.05-17.13.35:811][221]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.05-17.13.35:811][221]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.05-17.13.35:811][221]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.05-17.13.35:811][221]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.05-17.13.35:913][221]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.05-17.13.36:013][221]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.05-17.13.36:014][221]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.05-17.13.36:014][221]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.05-17.13.36:014][221]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.05-17.13.36:014][221]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.05-17.13.36:014][221]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.05-17.13.36:017][221]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.05-17.13.36:017][221]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.05-17.13.36:017][221]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.05-17.13.36:017][221]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.05-17.13.36:017][221]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.05-17.13.36:017][221]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.05-17.13.36:017][221]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.05-17.13.36:018][221]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.05-17.13.36:018][221]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.05-17.13.36:018][221]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.05-17.13.36:018][221]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.05-17.13.36:019][221]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.05-17.13.36:019][221]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.05-17.13.36:019][221]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.05-17.13.36:020][221]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.05-17.13.36:020][221]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.05-17.13.36:020][221]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.05-17.13.36:020][221]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.05-17.13.36:021][221]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.05-17.13.36:021][221]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.05-17.13.36:022][221]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.05-17.13.36:022][221]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.05-17.13.36:023][221]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.05-17.13.36:023][221]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.05-17.13.36:029][221]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.05-17.13.36:030][221]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.05-17.13.36:030][221]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.05-17.13.36:030][221]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.05-17.13.36:030][221]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.05-17.13.36:030][221]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.05-17.13.36:030][221]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.05-17.13.36:030][221]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.05-17.13.36:030][221]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.05-17.13.36:031][221]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.05-17.13.36:031][221]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.05-17.13.36:032][221]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.05-17.13.36:032][221]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.05-17.13.36:032][221]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.05-17.13.36:032][221]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.05-17.13.36:032][221]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.05-17.13.36:034][221]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.05-17.13.36:093][221]LogDerivedDataCache: Shutdown
+[2017.09.05-17.13.36:093][221]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.05-17.13.36:093][221]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.05-17.13.36:093][221]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.05-17.13.36:094][221]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.05-17.13.36:094][221]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.05-17.13.36:094][221]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.05-17.13.36:095][221]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.05-17.13.36:095][221]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.05-17.13.36:095][221]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.05-17.13.36:095][221]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.05-17.13.36:095][221]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.05-17.13.36:095][221]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.05-17.13.36:095][221]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.05-17.13.36:095][221]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.05-17.13.36:095][221]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.05-17.13.36:096][221]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.05-17.13.36:096][221]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.05-17.13.36:096][221]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.05-17.13.36:096][221]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.05-17.13.36:096][221]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.05-17.13.36:096][221]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.05-17.13.36:096][221]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.05-17.13.36:096][221]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.05-17.13.36:096][221]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.05-17.13.36:096][221]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.05-17.13.36:096][221]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.05-17.13.36:096][221]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.05-17.13.36:096][221]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.05-17.13.36:096][221]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.05-17.13.36:097][221]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.05-17.13.36:097][221]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.05-17.13.36:097][221]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.05-17.13.36:097][221]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.05-17.13.36:097][221]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.05-17.13.36:097][221]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.05-17.13.36:097][221]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.05-17.13.36:097][221]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.05-17.13.36:097][221]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.05-17.13.36:097][221]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.05-17.13.36:097][221]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.05-17.13.36:097][221]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.05-17.13.36:098][221]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.05-17.13.36:098][221]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.05-17.13.36:098][221]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.05-17.13.36:098][221]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.05-17.13.36:098][221]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.05-17.13.36:098][221]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.05-17.13.36:098][221]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.05-17.13.36:098][221]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.05-17.13.36:098][221]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.05-17.13.36:099][221]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.05-17.13.36:100][221]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.05-17.13.36:100][221]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.05-17.13.36:100][221]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BDE647C9D-46C5-0372-5E0F-999F8FDA11B7%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=5160131d4fbbf6d62e4719b8716de666%7C3ef35b30eb8d444d8e26d7fb1794d4bf%7Cb9c6b803-d102-46e7-b321-ae8f3428388b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.05-17.13.36:122][221]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.05-17.13.36:125][221]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.05-17.13.36:125][221]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.05-17.13.36:125][221]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.05-17.13.36:126][221]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.05-17.13.36:126][221]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.05-17.13.36:126][221]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.05-17.13.36:126][221]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.05-17.13.36:128][221]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.05-17.13.36:129][221]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.05-17.13.36:129][221]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.05-17.13.36:129][221]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.05-17.13.36:129][221]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.05-17.13.36:129][221]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.05-17.13.36:129][221]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.05-17.13.36:129][221]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.05-17.13.36:129][221]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.05-17.13.36:129][221]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.05-17.13.36:129][221]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.05-17.13.36:139][221]LogExit: Exiting.
+[2017.09.05-17.13.36:248][221]Log file closed, 09/05/17 11:13:36
