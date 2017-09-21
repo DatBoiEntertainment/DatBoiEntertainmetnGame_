@@ -1,0 +1,1307 @@
+﻿Log file open, 09/17/17 22:16:43
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: InsertNameAdventure
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(-265284640) SRandInit(-265284640).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.718138
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.09.18-04.16.44:440][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.18-04.16.44:440][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.09.18-04.16.44:496][  0]LogInit: Computer: DESKTOP-OMJHMSB
+[2017.09.18-04.16.44:496][  0]LogInit: User: rajjj
+[2017.09.18-04.16.44:496][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.09.18-04.16.44:496][  0]LogInit: High frequency timer resolution =3.328130 MHz
+[2017.09.18-04.16.44:496][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.09.18-04.16.44:496][  0]LogMemory: Platform Memory Stats for Windows
+[2017.09.18-04.16.44:496][  0]LogMemory: Process Physical Memory: 280.21 MB used, 280.21 MB peak
+[2017.09.18-04.16.44:496][  0]LogMemory: Process Virtual Memory: 275.07 MB used, 275.07 MB peak
+[2017.09.18-04.16.44:496][  0]LogMemory: Physical Memory: 3162.41 MB used,  13159.33 MB free, 16321.74 MB total
+[2017.09.18-04.16.44:496][  0]LogMemory: Virtual Memory: 668.97 MB used,  13159.33 MB free, 134217728.00 MB total
+[2017.09.18-04.16.44:944][  0]LogInit: Using OS detected language (en-US).
+[2017.09.18-04.16.44:944][  0]LogInit: Using OS detected locale (en-US).
+[2017.09.18-04.16.45:013][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.09.18-04.16.47:437][  0]LogD3D11RHI: D3D11 adapters:
+[2017.09.18-04.16.47:983][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.09.18-04.16.47:983][  0]LogD3D11RHI:       8085/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.09.18-04.16.47:985][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.09.18-04.16.47:985][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.09.18-04.16.47:985][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.09.18-04.16.47:991][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.09.18-04.16.47:992][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.09.18-04.16.47:992][  0]LogWindows: EnumDisplayDevices:
+[2017.09.18-04.16.47:992][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.09.18-04.16.47:992][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.09.18-04.16.47:992][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.18-04.16.47:992][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.09.18-04.16.47:992][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.09.18-04.16.47:992][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.09.18-04.16.47:993][  0]LogD3D11RHI:   Driver Version: 385.28 (internal:22.21.13.8528, unified:385.28)
+[2017.09.18-04.16.47:993][  0]LogD3D11RHI:      Driver Date: 8-9-2017
+[2017.09.18-04.16.47:993][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.09.18-04.16.48:500][  0]LogD3D11RHI: Async texture creation enabled
+[2017.09.18-04.16.48:556][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.09.18-04.16.48:611][  0]LogShaderCompilers: Guid format shader working directory is -35 characters bigger than the processId version (../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Intermediate/Shaders/WorkingDirectory/20900/).
+[2017.09.18-04.16.48:611][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rajjj/AppData/Local/Temp/UnrealShaderWorkingDir/A9600EF64AF808D420D1F4BF6C7351A2/'.
+[2017.09.18-04.16.48:612][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.09.18-04.16.50:546][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.09.18-04.16.50:588][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.09.18-04.16.50:631][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.09.18-04.16.50:673][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.09.18-04.16.50:722][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.09.18-04.16.50:765][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.09.18-04.16.50:809][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.09.18-04.16.50:853][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.09.18-04.16.50:890][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.09.18-04.16.50:935][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.09.18-04.16.50:977][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.09.18-04.16.51:019][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.09.18-04.16.51:062][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.09.18-04.16.51:103][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.09.18-04.16.51:145][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.09.18-04.16.51:228][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.09.18-04.16.51:229][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.09.18-04.16.51:260][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.09.18-04.16.51:349][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.09.18-04.16.51:375][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.09.18-04.16.51:416][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.09.18-04.16.51:460][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.09.18-04.16.51:501][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.09.18-04.16.51:546][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.09.18-04.16.51:547][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.09.18-04.16.52:056][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.09.18-04.16.52:479][  0]LogDerivedDataCache: Loaded boot cache 0.42s 93MB C:/Users/rajjj/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.18-04.16.52:479][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/rajjj/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.09.18-04.16.52:479][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.09.18-04.16.52:479][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.09.18-04.16.52:479][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.09.18-04.16.52:479][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.09.18-04.16.52:512][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.09.18-04.16.52:525][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rajjj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.09.18-04.16.52:535][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.09.18-04.16.52:540][  0]LogSlate: Using Freetype 2.6.0
+[2017.09.18-04.16.52:556][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.18-04.16.52:557][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.09.18-04.16.53:403][  0]LogAssetRegistry: FAssetRegistry took 0.0269 seconds to start up
+[2017.09.18-04.16.53:525][  0]LogInit: Selected Device Profile: [Windows]
+[2017.09.18-04.16.53:909][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.09.18-04.16.54:246][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.09.18-04.16.54:285][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.09.18-04.16.54:285][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.09.18-04.16.54:285][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.09.18-04.16.54:285][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.09.18-04.16.54:285][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.09.18-04.16.54:982][  0]LogNetVersion: InsertNameAdventure , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3080426378)
+[2017.09.18-04.16.55:415][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.043499 seconds
+[2017.09.18-04.16.55:421][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.09.18-04.16.55:421][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.09.18-04.16.55:421][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.09.18-04.16.55:481][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.09.18-04.17.00:181][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.09.18-04.17.00:228][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.09.18-04.17.00:941][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.09.18-04.17.01:431][  0]SourceControl: Source control is disabled
+[2017.09.18-04.17.02:894][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.09.18-04.17.03:111][  0]LogOcInput: OculusInput pre-init called
+[2017.09.18-04.17.03:380][  0]LogEngine: Initializing Engine...
+[2017.09.18-04.17.03:385][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.09.18-04.17.03:769][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.09.18-04.17.03:770][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.09.18-04.17.03:922][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.09.18-04.17.03:942][  0]LogInit: XAudio2 using 'Speakers (High Definition Audio Device)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.09.18-04.17.03:950][  0]LogInit: FAudioDevice initialized.
+[2017.09.18-04.17.04:029][  0]LogDerivedDataCache: Saved boot cache 0.08s 93MB C:/Users/rajjj/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.09.18-04.17.04:043][  0]LogInit: Texture streaming: Enabled
+[2017.09.18-04.17.04:157][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.09.18-04.17.04:475][  0]LogInit: Transaction tracking system initialized
+[2017.09.18-04.17.04:780][  0]BlueprintLog: New page: Editor Load
+[2017.09.18-04.17.05:702][  0]LocalizationService: Localization service is disabled
+[2017.09.18-04.17.06:405][  0]LogConsoleResponse: Display: 
+[2017.09.18-04.17.06:752][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.09.18-04.17.06:752][  0]LogCook: Display: Mobile HDR setting 1
+[2017.09.18-04.17.06:753][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.09.18-04.17.06:880][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/' took 0.02s
+[2017.09.18-04.17.07:809][  0]Cmd: MAP LOAD FILE="../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.18-04.17.07:811][  0]LightingResults: New page: Lighting Build
+[2017.09.18-04.17.07:857][  0]MapCheck: New page: Map Check
+[2017.09.18-04.17.07:857][  0]LightingResults: New page: Lighting Build
+[2017.09.18-04.17.08:179][  0]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'BoolProperty /Game/2DSideScrollerBP/Blueprints/UI/ItemDrag.ItemDrag_C:fromInv', MetaData 'True', Flag 'False'
+[2017.09.18-04.17.08:179][  0]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'ObjectProperty /Game/2DSideScrollerBP/Blueprints/UI/ItemDrag.ItemDrag_C:dragItem', MetaData 'True', Flag 'False'
+[2017.09.18-04.17.08:183][  0]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'BoolProperty /Game/2DSideScrollerBP/Blueprints/UI/ItemDrag.ItemDrag_C:fromInv', MetaData 'True', Flag 'False'
+[2017.09.18-04.17.08:183][  0]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'ObjectProperty /Game/2DSideScrollerBP/Blueprints/UI/ItemDrag.ItemDrag_C:dragItem', MetaData 'True', Flag 'False'
+[2017.09.18-04.17.08:209][  0]LogBlueprint: Warning: [Compiler ActionSlot] Input pin  Drag Item  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2017.09.18-04.17.08:221][  0]LogBlueprint: Warning: [Compiler InventorySlot] Input pin  From Inv  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2017.09.18-04.17.08:221][  0]LogBlueprint: Error: [Compiler InventorySlot] In use pin  Drag Item  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.09.18-04.17.08:322][  0]LogBlueprint: Warning: [Compiler ActionSlot] [0026.92] Compile of ActionSlot successful, but with 1 Warning(s) [in 166 ms] (/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot.ActionSlot)
+[2017.09.18-04.17.08:322][  0]LogBlueprint: Warning: [Compiler InventorySlot] [0026.92] Compile of InventorySlot failed. 1 Fatal Issue(s) 1 Warning(s) [in 166 ms] (/Game/2DSideScrollerBP/Blueprints/UI/InventorySlot.InventorySlot)
+[2017.09.18-04.17.08:991][  0]LogMaterial: Missing cached shader map for material BlueLight_M1, compiling. 
+[2017.09.18-04.17.08:994][  0]LogMaterial: Warning: Failed to compile Material /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Materials/BlueLight_M1.BlueLight_M1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.18-04.17.08:994][  0]LogMaterial: Warning: 	Function Flicker_MF: Missing function input 'Color'
+[2017.09.18-04.17.09:310][  0]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.09.18-04.17.09:375][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.18-04.17.09:401][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.18-04.17.09:460][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.092ms to complete.
+[2017.09.18-04.17.09:460][  0]LogFileHelpers: Loading map 'Rainforest_Alien' took 1.652
+[2017.09.18-04.17.09:785][  0]LogCollectionManager: Loaded 0 collections in 0.001254 seconds
+[2017.09.18-04.17.09:873][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Collections/' took 0.01s
+[2017.09.18-04.17.09:873][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/Developers/rajjj/Collections/' took 0.01s
+[2017.09.18-04.17.09:874][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/Collections/' took 0.01s
+[2017.09.18-04.17.09:874][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.09.18-04.17.09:883][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2386 classes and 500 folders.
+[2017.09.18-04.17.09:946][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.09.18-04.17.10:334][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.09.18-04.17.10:377][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.09.18-04.17.10:405][  0]LogSlate: Took 0.007384 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.18-04.17.10:412][  0]LogSlate: Took 0.004227 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.09.18-04.17.10:423][  0]LogSlate: Took 0.004392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.09.18-04.17.10:431][  0]LogSlate: Took 0.005252 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.09.18-04.17.10:546][  0]LogRenderer: Reallocating scene render targets to support 2556x1004 Format 10 NumSamples 1 (Frame:1).
+[2017.09.18-04.17.10:888][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.09.18-04.17.10:889][  0]LogLoad: (Engine Initialization) Total time: 29.48 seconds
+[2017.09.18-04.17.10:889][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.09.18-04.17.10:890][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.09.18-04.17.10:908][  0]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Rain_Forrest_Outpost_TM)
+[2017.09.18-04.17.11:124][  0]SourceControl: On branch V1.5.1
+[2017.09.18-04.17.11:124][  0]SourceControl: Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.09.18-04.17.11:124][  0]SourceControl: No commands done.
+[2017.09.18-04.17.11:124][  0]SourceControl: Next commands to do (2 remaining commands):
+[2017.09.18-04.17.11:124][  0]SourceControl:    pick b627089 Redid mt backdrop and started work on a desert zone
+[2017.09.18-04.17.11:124][  0]SourceControl:    pick 5400dc0 Revert "Redid mt backdrop and started work on a desert zone"
+[2017.09.18-04.17.11:124][  0]SourceControl:   (use "git rebase --edit-todo" to view and edit)
+[2017.09.18-04.17.11:124][  0]SourceControl: You are currently editing a commit while rebasing branch 'V1.5.1' on 'ad616f1'.
+[2017.09.18-04.17.11:124][  0]SourceControl:   (use "git commit --amend" to amend the current commit)
+[2017.09.18-04.17.11:124][  0]SourceControl:   (use "git rebase --continue" once you are satisfied with your changes)
+[2017.09.18-04.17.11:124][  0]SourceControl: Changes not staged for commit:
+[2017.09.18-04.17.11:124][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.09.18-04.17.11:124][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.18-04.17.11:125][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.18-04.17.11:125][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2CBDB66E4DDDD038F194EA84C62FFACA/CrashReportClient.ini
+[2017.09.18-04.17.11:125][  0]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.09.18-04.17.11:125][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.18-04.17.11:125][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.09.18-04.17.11:125][  0]SourceControl: 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.09.18-04.17.11:125][  0]SourceControl: Untracked files:
+[2017.09.18-04.17.11:125][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.18-04.17.11:125][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-BE989E094BD4A495753BB9A56CDA36A4/
+[2017.09.18-04.17.11:125][  0]SourceControl: 	Saved/Logs/InsertNameAdventure-backup-2017.09.17-22.16.43.log
+[2017.09.18-04.17.11:125][  0]SourceControl: no changes added to commit (use "git add" and/or "git commit -a")
+[2017.09.18-04.17.11:126][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.09.18-04.17.11:282][  1]LogAssetRegistry: Asset discovery search completed in 17.9010 seconds
+[2017.09.18-04.17.11:286][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.09.18-04.17.11:286][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000571 seconds (updated 0 objects)
+[2017.09.18-04.17.11:296][  1]LogParticles: Warning: Spawning 29182 GPU particles in one frame[2]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.11:971][ 28]LogSlate: Took 0.005233 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.18-04.17.12:473][ 28]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 113 classes and 0 folders.
+[2017.09.18-04.17.13:536][ 28]LogParticles: Warning: Spawning 32000 GPU particles in one frame[29]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.13:538][ 28]LogSlate: Took 0.000103 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.18-04.17.13:614][ 28]LogSlate: Took 0.004584 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.09.18-04.17.13:861][ 29]LogParticles: Warning: Spawning 26667 GPU particles in one frame[30]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.14:193][ 30]LogParticles: Warning: Spawning 26667 GPU particles in one frame[31]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.14:525][ 31]LogParticles: Warning: Spawning 26666 GPU particles in one frame[32]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.14:858][ 32]LogParticles: Warning: Spawning 26667 GPU particles in one frame[33]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.15:192][ 33]LogParticles: Warning: Spawning 26667 GPU particles in one frame[34]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.15:526][ 34]LogParticles: Warning: Spawning 26666 GPU particles in one frame[35]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.15:874][ 35]LogParticles: Warning: Spawning 26667 GPU particles in one frame[36]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.16:195][ 36]LogParticles: Warning: Spawning 26667 GPU particles in one frame[37]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.16:518][ 37]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/' took 5.41s
+[2017.09.18-04.17.16:538][ 37]LogParticles: Warning: Spawning 26666 GPU particles in one frame[38]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.16:859][ 38]LogParticles: Warning: Spawning 26667 GPU particles in one frame[39]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.17:193][ 39]LogParticles: Warning: Spawning 26667 GPU particles in one frame[40]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.17:534][ 40]LogParticles: Warning: Spawning 26667 GPU particles in one frame[41]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.17:866][ 41]LogParticles: Warning: Spawning 26666 GPU particles in one frame[42]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.18:204][ 42]LogParticles: Warning: Spawning 26667 GPU particles in one frame[43]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.18:528][ 43]LogParticles: Warning: Spawning 26667 GPU particles in one frame[44]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.18:859][ 44]LogParticles: Warning: Spawning 26666 GPU particles in one frame[45]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.19:192][ 45]LogParticles: Warning: Spawning 26667 GPU particles in one frame[46]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.19:527][ 46]LogParticles: Warning: Spawning 26693 GPU particles in one frame[47]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.19:858][ 47]LogParticles: Warning: Spawning 26667 GPU particles in one frame[48]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.27:124][849]BlueprintLog: New page: Compile InventorySlot
+[2017.09.18-04.17.27:323][849]LogBlueprint: Warning: [Compiler ActionSlot] Input pin  Drag Item  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2017.09.18-04.17.27:469][849]LogBlueprint: Warning: [Compiler ActionSlot] [0046.06] Compile of ActionSlot successful, but with 1 Warning(s) [in 336 ms] (/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot.ActionSlot)
+[2017.09.18-04.17.27:709][850]LogParticles: Warning: Spawning 32000 GPU particles in one frame[851]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.33:707][523]BlueprintLog: New page: Compile ActionSlot
+[2017.09.18-04.17.34:159][524]LogParticles: Warning: Spawning 32000 GPU particles in one frame[1525]: RainFall4_PS/Particle Emitter
+[2017.09.18-04.17.35:055][621]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.09.18-04.17.36:991][766]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.09.18-04.18.06:878][836]LogSavePackage: Save=122.26ms
+[2017.09.18-04.18.06:878][836]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/ActionSlot312E41704162E89D8D5610807D5AE638.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Blueprints/UI/ActionSlot.uasset'
+[2017.09.18-04.18.06:882][836]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Blueprints/UI/ActionSlot.uasset
+[2017.09.18-04.18.06:979][836]LogSavePackage: Save=58.33ms
+[2017.09.18-04.18.06:980][836]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/InventorySlot60BB1DAD45D03495290BE99AA616FC65.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Blueprints/UI/InventorySlot.uasset'
+[2017.09.18-04.18.06:982][836]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Blueprints/UI/InventorySlot.uasset
+[2017.09.18-04.18.07:063][836]LogSavePackage: Save=7.43ms
+[2017.09.18-04.18.07:063][836]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/DesertE2FAF4C24FDBA6CE4FF314B90B46896C.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Desert.umap'
+[2017.09.18-04.18.07:065][836]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Desert.umap
+[2017.09.18-04.18.07:166][836]LogSlate: Took 0.000267 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.09.18-04.18.07:170][836]LogFileHelpers: Saving map 'Desert' took 0.187
+[2017.09.18-04.18.07:172][836]Cmd: MAP LOAD FILE="../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Desert.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.18-04.18.07:172][836]LightingResults: New page: Lighting Build
+[2017.09.18-04.18.07:173][836]LoadErrors: New page: Loading map: Desert.umap
+[2017.09.18-04.18.07:178][836]MapCheck: New page: Map Check
+[2017.09.18-04.18.07:178][836]LightingResults: New page: Lighting Build
+[2017.09.18-04.18.07:201][836]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.18-04.18.07:202][836]LogAIModule: Creating AISystem for world Desert
+[2017.09.18-04.18.07:269][836]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.18-04.18.07:329][836]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 59.468ms to complete.
+[2017.09.18-04.18.07:330][836]LogFileHelpers: Loading map 'Desert' took 0.159
+[2017.09.18-04.57.13:946][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 1.png)
+[2017.09.18-04.57.13:951][100]LogTexture: Display: Building textures: Sword_Frame_1 (BGRA8, 15X28)
+[2017.09.18-04.57.14:013][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 2.png)
+[2017.09.18-04.57.14:014][100]LogTexture: Display: Building textures: Sword_Frame_2 (BGRA8, 15X28)
+[2017.09.18-04.57.14:072][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 3.png)
+[2017.09.18-04.57.14:073][100]LogTexture: Display: Building textures: Sword_Frame_3 (BGRA8, 15X28)
+[2017.09.18-04.57.14:131][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 4.png)
+[2017.09.18-04.57.14:133][100]LogTexture: Display: Building textures: Sword_Frame_4 (BGRA8, 15X28)
+[2017.09.18-04.57.14:190][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 5.png)
+[2017.09.18-04.57.14:192][100]LogTexture: Display: Building textures: Sword_Frame_5 (BGRA8, 15X28)
+[2017.09.18-04.57.14:239][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 6.png)
+[2017.09.18-04.57.14:240][100]LogTexture: Display: Building textures: Sword_Frame_6 (BGRA8, 15X28)
+[2017.09.18-04.57.14:287][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 7.png)
+[2017.09.18-04.57.14:289][100]LogTexture: Display: Building textures: Sword_Frame_7 (BGRA8, 15X28)
+[2017.09.18-04.57.14:347][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 8.png)
+[2017.09.18-04.57.14:348][100]LogTexture: Display: Building textures: Sword_Frame_8 (BGRA8, 15X28)
+[2017.09.18-04.57.14:395][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 9.png)
+[2017.09.18-04.57.14:396][100]LogTexture: Display: Building textures: Sword_Frame_9 (BGRA8, 15X28)
+[2017.09.18-04.57.14:443][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 10.png)
+[2017.09.18-04.57.14:445][100]LogTexture: Display: Building textures: Sword_Frame_10 (BGRA8, 15X28)
+[2017.09.18-04.57.14:491][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 11.png)
+[2017.09.18-04.57.14:493][100]LogTexture: Display: Building textures: Sword_Frame_11 (BGRA8, 15X28)
+[2017.09.18-04.57.14:550][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 12.png)
+[2017.09.18-04.57.14:552][100]LogTexture: Display: Building textures: Sword_Frame_12 (BGRA8, 15X28)
+[2017.09.18-04.57.14:597][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 13.png)
+[2017.09.18-04.57.14:599][100]LogTexture: Display: Building textures: Sword_Frame_13 (BGRA8, 15X28)
+[2017.09.18-04.57.14:645][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 14.png)
+[2017.09.18-04.57.14:647][100]LogTexture: Display: Building textures: Sword_Frame_14 (BGRA8, 15X28)
+[2017.09.18-04.57.14:692][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 15.png)
+[2017.09.18-04.57.14:694][100]LogTexture: Display: Building textures: Sword_Frame_15 (BGRA8, 15X28)
+[2017.09.18-04.57.14:740][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 16.png)
+[2017.09.18-04.57.14:742][100]LogTexture: Display: Building textures: Sword_Frame_16 (BGRA8, 15X28)
+[2017.09.18-04.57.14:788][100]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Frame 17.png)
+[2017.09.18-04.57.14:790][100]LogTexture: Display: Building textures: Sword_Frame_17 (BGRA8, 15X28)
+[2017.09.18-04.57.34:880][303]SourceControl: On branch V1.5.1
+[2017.09.18-04.57.34:880][303]SourceControl: Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.09.18-04.57.34:880][303]SourceControl: No commands done.
+[2017.09.18-04.57.34:880][303]SourceControl: Next commands to do (2 remaining commands):
+[2017.09.18-04.57.34:880][303]SourceControl:    pick b627089 Redid mt backdrop and started work on a desert zone
+[2017.09.18-04.57.34:880][303]SourceControl:    pick 5400dc0 Revert "Redid mt backdrop and started work on a desert zone"
+[2017.09.18-04.57.34:880][303]SourceControl:   (use "git rebase --edit-todo" to view and edit)
+[2017.09.18-04.57.34:880][303]SourceControl: You are currently editing a commit while rebasing branch 'V1.5.1' on 'ad616f1'.
+[2017.09.18-04.57.34:880][303]SourceControl:   (use "git commit --amend" to amend the current commit)
+[2017.09.18-04.57.34:880][303]SourceControl:   (use "git rebase --continue" once you are satisfied with your changes)
+[2017.09.18-04.57.34:881][303]SourceControl: Changes to be committed:
+[2017.09.18-04.57.34:881][303]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.09.18-04.57.34:881][303]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/Desert.umap
+[2017.09.18-04.57.34:881][303]SourceControl: Changes not staged for commit:
+[2017.09.18-04.57.34:881][303]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.09.18-04.57.34:881][303]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.18-04.57.34:881][303]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/UI/ActionSlot.uasset
+[2017.09.18-04.57.34:881][303]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/UI/InventorySlot.uasset
+[2017.09.18-04.57.34:881][303]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.18-04.57.34:881][303]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.09.18-04.57.34:881][303]SourceControl: 	deleted:    Saved/Backup/Dirt_5_Sprite_Sheet_Darker_2_TileSet_2017-08-24-09-32-09.uasset
+[2017.09.18-04.57.34:882][303]SourceControl: 	deleted:    Saved/Backup/Rainforest_Alien_2017-08-24-09-42-09.umap
+[2017.09.18-04.57.34:882][303]SourceControl: 	deleted:    Saved/Backup/Rainforest_Alien_2017-08-24-09-47-54.umap
+[2017.09.18-04.57.34:882][303]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2CBDB66E4DDDD038F194EA84C62FFACA/CrashReportClient.ini
+[2017.09.18-04.57.34:882][303]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.09.18-04.57.34:882][303]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.18-04.57.34:882][303]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.09.18-04.57.34:882][303]SourceControl: 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.09.18-04.57.34:882][303]SourceControl: Untracked files:
+[2017.09.18-04.57.34:882][303]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.18-04.57.34:882][303]SourceControl: 	Saved/Backup/ActionSlot_2017-09-17-22-18-06.uasset
+[2017.09.18-04.57.34:882][303]SourceControl: 	Saved/Backup/InventorySlot_2017-09-17-22-18-06.uasset
+[2017.09.18-04.57.34:882][303]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-BE989E094BD4A495753BB9A56CDA36A4/
+[2017.09.18-04.57.34:883][303]SourceControl: 	Saved/Logs/InsertNameAdventure-backup-2017.09.17-22.16.43.log
+[2017.09.18-04.57.35:886][303]LogSavePackage: Save=8.17ms
+[2017.09.18-04.57.35:887][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_10_SpriteFC78C9694DD2954264C507AE73ED6858.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_10_Sprite.uasset'
+[2017.09.18-04.57.35:891][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_10_Sprite.uasset
+[2017.09.18-04.57.36:004][303]LogSavePackage: Save=6.56ms
+[2017.09.18-04.57.36:004][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_11_Sprite403CB87240CF786E533FF6A354982CCB.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_11_Sprite.uasset'
+[2017.09.18-04.57.36:007][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_11_Sprite.uasset
+[2017.09.18-04.57.36:121][303]LogSavePackage: Save=7.21ms
+[2017.09.18-04.57.36:121][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_12_Sprite55AEB87848BA22F6C28DF58070A1F13E.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_12_Sprite.uasset'
+[2017.09.18-04.57.36:124][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_12_Sprite.uasset
+[2017.09.18-04.57.36:240][303]LogSavePackage: Save=6.54ms
+[2017.09.18-04.57.36:240][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_13_Sprite592C60874482AD0345602CA1AC25B76C.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_13_Sprite.uasset'
+[2017.09.18-04.57.36:242][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_13_Sprite.uasset
+[2017.09.18-04.57.36:370][303]LogSavePackage: Save=8.43ms
+[2017.09.18-04.57.36:370][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_14_SpriteA771BAC44A32DDBFBEEAA383CEDEEFE8.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_14_Sprite.uasset'
+[2017.09.18-04.57.36:373][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_14_Sprite.uasset
+[2017.09.18-04.57.36:490][303]LogSavePackage: Save=6.65ms
+[2017.09.18-04.57.36:490][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_15_SpriteFF1134EE4257F82A269DB38B71116002.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_15_Sprite.uasset'
+[2017.09.18-04.57.36:494][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_15_Sprite.uasset
+[2017.09.18-04.57.36:608][303]LogSavePackage: Save=6.75ms
+[2017.09.18-04.57.36:608][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_16_SpriteF2CEFFB34088CC899C8CAD99073E7B4E.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_16_Sprite.uasset'
+[2017.09.18-04.57.36:611][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_16_Sprite.uasset
+[2017.09.18-04.57.36:726][303]LogSavePackage: Save=6.78ms
+[2017.09.18-04.57.36:726][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_17_Sprite9181EC1841A7D76EB52A5BB5DD9F5701.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_17_Sprite.uasset'
+[2017.09.18-04.57.36:729][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_17_Sprite.uasset
+[2017.09.18-04.57.36:852][303]LogSavePackage: Save=6.77ms
+[2017.09.18-04.57.36:852][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_1_Sprite355FB43D4034CCEE990DC0AFA51AC701.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_1_Sprite.uasset'
+[2017.09.18-04.57.36:855][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_1_Sprite.uasset
+[2017.09.18-04.57.36:968][303]LogSavePackage: Save=6.60ms
+[2017.09.18-04.57.36:968][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_2_Sprite41800A6042577274AB915F9D0AD3D66A.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_2_Sprite.uasset'
+[2017.09.18-04.57.36:971][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_2_Sprite.uasset
+[2017.09.18-04.57.37:084][303]LogSavePackage: Save=6.52ms
+[2017.09.18-04.57.37:084][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_3_SpriteCFFD2F34420BD87296D69CA6B16C194A.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_3_Sprite.uasset'
+[2017.09.18-04.57.37:087][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_3_Sprite.uasset
+[2017.09.18-04.57.37:200][303]LogSavePackage: Save=6.55ms
+[2017.09.18-04.57.37:201][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_4_SpriteE16143B945EDE7FF280734BAD14A3CD8.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_4_Sprite.uasset'
+[2017.09.18-04.57.37:204][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_4_Sprite.uasset
+[2017.09.18-04.57.37:317][303]LogSavePackage: Save=6.84ms
+[2017.09.18-04.57.37:317][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_5_SpriteF2A77E0E43082C2E3A184389B0FC49AF.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_5_Sprite.uasset'
+[2017.09.18-04.57.37:320][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_5_Sprite.uasset
+[2017.09.18-04.57.37:444][303]LogSavePackage: Save=6.76ms
+[2017.09.18-04.57.37:444][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_6_SpriteF147467E46D75A327B387EAE12EF17C3.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_6_Sprite.uasset'
+[2017.09.18-04.57.37:447][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_6_Sprite.uasset
+[2017.09.18-04.57.37:560][303]LogSavePackage: Save=7.10ms
+[2017.09.18-04.57.37:561][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_7_Sprite775D6F1E46F0904E6D53A48DAAE9A5CE.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_7_Sprite.uasset'
+[2017.09.18-04.57.37:564][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_7_Sprite.uasset
+[2017.09.18-04.57.37:680][303]LogSavePackage: Save=7.43ms
+[2017.09.18-04.57.37:680][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_8_Sprite79FD8357484ED8924210E5A5A4FF5C81.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_8_Sprite.uasset'
+[2017.09.18-04.57.37:683][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_8_Sprite.uasset
+[2017.09.18-04.57.37:798][303]LogSavePackage: Save=7.16ms
+[2017.09.18-04.57.37:798][303]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_9_Sprite0FFBC8914146CB194A18E7B96EC58973.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_9_Sprite.uasset'
+[2017.09.18-04.57.37:801][303]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_9_Sprite.uasset
+[2017.09.18-04.57.53:763][911]SourceControl: On branch V1.5.1
+[2017.09.18-04.57.53:763][911]SourceControl: Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.09.18-04.57.53:763][911]SourceControl: No commands done.
+[2017.09.18-04.57.53:763][911]SourceControl: Next commands to do (2 remaining commands):
+[2017.09.18-04.57.53:763][911]SourceControl:    pick b627089 Redid mt backdrop and started work on a desert zone
+[2017.09.18-04.57.53:763][911]SourceControl:    pick 5400dc0 Revert "Redid mt backdrop and started work on a desert zone"
+[2017.09.18-04.57.53:763][911]SourceControl:   (use "git rebase --edit-todo" to view and edit)
+[2017.09.18-04.57.53:763][911]SourceControl: You are currently editing a commit while rebasing branch 'V1.5.1' on 'ad616f1'.
+[2017.09.18-04.57.53:763][911]SourceControl:   (use "git commit --amend" to amend the current commit)
+[2017.09.18-04.57.53:763][911]SourceControl:   (use "git rebase --continue" once you are satisfied with your changes)
+[2017.09.18-04.57.53:764][911]SourceControl: Changes to be committed:
+[2017.09.18-04.57.53:764][911]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.09.18-04.57.53:764][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/Desert.umap
+[2017.09.18-04.57.53:764][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_10_Sprite.uasset
+[2017.09.18-04.57.53:764][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_11_Sprite.uasset
+[2017.09.18-04.57.53:764][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_12_Sprite.uasset
+[2017.09.18-04.57.53:764][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_13_Sprite.uasset
+[2017.09.18-04.57.53:764][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_14_Sprite.uasset
+[2017.09.18-04.57.53:764][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_15_Sprite.uasset
+[2017.09.18-04.57.53:764][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_16_Sprite.uasset
+[2017.09.18-04.57.53:765][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_17_Sprite.uasset
+[2017.09.18-04.57.53:765][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_1_Sprite.uasset
+[2017.09.18-04.57.53:765][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_2_Sprite.uasset
+[2017.09.18-04.57.53:765][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_3_Sprite.uasset
+[2017.09.18-04.57.53:765][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_4_Sprite.uasset
+[2017.09.18-04.57.53:765][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_5_Sprite.uasset
+[2017.09.18-04.57.53:765][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_6_Sprite.uasset
+[2017.09.18-04.57.53:765][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_7_Sprite.uasset
+[2017.09.18-04.57.53:766][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_8_Sprite.uasset
+[2017.09.18-04.57.53:766][911]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_9_Sprite.uasset
+[2017.09.18-04.57.53:766][911]SourceControl: Changes not staged for commit:
+[2017.09.18-04.57.53:766][911]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.09.18-04.57.53:766][911]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.18-04.57.53:766][911]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/UI/ActionSlot.uasset
+[2017.09.18-04.57.53:766][911]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/UI/InventorySlot.uasset
+[2017.09.18-04.57.53:766][911]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.18-04.57.53:766][911]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.09.18-04.57.53:767][911]SourceControl: 	deleted:    Saved/Backup/Dirt_5_Sprite_Sheet_Darker_2_TileSet_2017-08-24-09-32-09.uasset
+[2017.09.18-04.57.53:767][911]SourceControl: 	deleted:    Saved/Backup/Rainforest_Alien_2017-08-24-09-42-09.umap
+[2017.09.18-04.57.53:767][911]SourceControl: 	deleted:    Saved/Backup/Rainforest_Alien_2017-08-24-09-47-54.umap
+[2017.09.18-04.57.53:767][911]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2CBDB66E4DDDD038F194EA84C62FFACA/CrashReportClient.ini
+[2017.09.18-04.57.53:767][911]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.09.18-04.57.53:767][911]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.18-04.57.53:767][911]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.09.18-04.57.53:767][911]SourceControl: 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.09.18-04.57.53:767][911]SourceControl: Untracked files:
+[2017.09.18-04.57.53:767][911]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.18-04.57.53:767][911]SourceControl: 	Saved/Backup/ActionSlot_2017-09-17-22-18-06.uasset
+[2017.09.18-04.57.53:767][911]SourceControl: 	Saved/Backup/InventorySlot_2017-09-17-22-18-06.uasset
+[2017.09.18-04.57.53:768][911]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-BE989E094BD4A495753BB9A56CDA36A4/
+[2017.09.18-04.57.53:768][911]SourceControl: 	Saved/Logs/InsertNameAdventure-backup-2017.09.17-22.16.43.log
+[2017.09.18-04.57.54:743][911]LogSavePackage: Save=3.69ms
+[2017.09.18-04.57.54:743][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_10_Sprite1492CD8E423D33B6587C07BD1200F51E.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_10_Sprite.uasset'
+[2017.09.18-04.57.54:746][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_10_Sprite.uasset
+[2017.09.18-04.57.54:856][911]LogSavePackage: Save=3.74ms
+[2017.09.18-04.57.54:856][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_11_SpriteA8A39E2B4D9F50F2DDA8DEB21BDD2BC9.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_11_Sprite.uasset'
+[2017.09.18-04.57.54:859][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_11_Sprite.uasset
+[2017.09.18-04.57.54:973][911]LogSavePackage: Save=7.17ms
+[2017.09.18-04.57.54:973][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_12_Sprite4FE74B3846861A9CE65F3781C99CDA77.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_12_Sprite.uasset'
+[2017.09.18-04.57.54:976][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_12_Sprite.uasset
+[2017.09.18-04.57.55:091][911]LogSavePackage: Save=8.68ms
+[2017.09.18-04.57.55:091][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_13_Sprite766EB92A4F2927EA6EA380AA57B4B6BD.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_13_Sprite.uasset'
+[2017.09.18-04.57.55:094][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_13_Sprite.uasset
+[2017.09.18-04.57.55:207][911]LogSavePackage: Save=7.12ms
+[2017.09.18-04.57.55:207][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_14_SpriteC74C30AF43EA41F3AAB406A8C1AE831C.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_14_Sprite.uasset'
+[2017.09.18-04.57.55:210][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_14_Sprite.uasset
+[2017.09.18-04.57.55:319][911]LogSavePackage: Save=3.85ms
+[2017.09.18-04.57.55:319][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_15_SpriteCE746A1C4B5F6260293516A9C37075B5.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_15_Sprite.uasset'
+[2017.09.18-04.57.55:322][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_15_Sprite.uasset
+[2017.09.18-04.57.55:444][911]LogSavePackage: Save=6.60ms
+[2017.09.18-04.57.55:444][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_16_Sprite756460234BA7214301A5CF9F7BFC2D6C.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_16_Sprite.uasset'
+[2017.09.18-04.57.55:447][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_16_Sprite.uasset
+[2017.09.18-04.57.55:569][911]LogSavePackage: Save=7.25ms
+[2017.09.18-04.57.55:569][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_17_SpriteDDBD8A4A46FA76C773024F9E87D08C3C.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_17_Sprite.uasset'
+[2017.09.18-04.57.55:572][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_17_Sprite.uasset
+[2017.09.18-04.57.55:691][911]LogSavePackage: Save=3.71ms
+[2017.09.18-04.57.55:691][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_1_Sprite55BA61D741AD5653228AF3B1B5CEF5F0.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_1_Sprite.uasset'
+[2017.09.18-04.57.55:693][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_1_Sprite.uasset
+[2017.09.18-04.57.55:802][911]LogSavePackage: Save=3.90ms
+[2017.09.18-04.57.55:803][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_2_Sprite346AAC984BCF888A51A9909D1AFDB41F.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_2_Sprite.uasset'
+[2017.09.18-04.57.55:805][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_2_Sprite.uasset
+[2017.09.18-04.57.55:928][911]LogSavePackage: Save=6.67ms
+[2017.09.18-04.57.55:929][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_3_SpriteF77A548E4E0D5DD5EC5BCBADB70F7174.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_3_Sprite.uasset'
+[2017.09.18-04.57.55:932][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_3_Sprite.uasset
+[2017.09.18-04.57.56:041][911]LogSavePackage: Save=3.67ms
+[2017.09.18-04.57.56:041][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_4_Sprite28FCAEB1478915CB46E2B2B7D7B5FE39.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_4_Sprite.uasset'
+[2017.09.18-04.57.56:044][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_4_Sprite.uasset
+[2017.09.18-04.57.56:167][911]LogSavePackage: Save=6.64ms
+[2017.09.18-04.57.56:167][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_5_Sprite4A8ED05B45CE3C2E9A5497BFD96E84B2.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_5_Sprite.uasset'
+[2017.09.18-04.57.56:171][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_5_Sprite.uasset
+[2017.09.18-04.57.56:283][911]LogSavePackage: Save=6.67ms
+[2017.09.18-04.57.56:283][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_6_SpriteB9671E524B546707B24A9387313D8C83.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_6_Sprite.uasset'
+[2017.09.18-04.57.56:286][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_6_Sprite.uasset
+[2017.09.18-04.57.56:395][911]LogSavePackage: Save=3.77ms
+[2017.09.18-04.57.56:396][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_7_SpriteD7C3438E4F29E9EC152249A8CDD5A545.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_7_Sprite.uasset'
+[2017.09.18-04.57.56:399][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_7_Sprite.uasset
+[2017.09.18-04.57.56:508][911]LogSavePackage: Save=3.80ms
+[2017.09.18-04.57.56:508][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_8_Sprite0BA4A9AC4198F54C542C0B86C97EC2CF.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_8_Sprite.uasset'
+[2017.09.18-04.57.56:510][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_8_Sprite.uasset
+[2017.09.18-04.57.56:622][911]LogSavePackage: Save=6.89ms
+[2017.09.18-04.57.56:622][911]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_9_Sprite14C0DE464E3E52C6749DDC8FB85049A6.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_9_Sprite.uasset'
+[2017.09.18-04.57.56:625][911]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_9_Sprite.uasset
+[2017.09.18-04.58.17:395][986]SourceControl: On branch V1.5.1
+[2017.09.18-04.58.17:395][986]SourceControl: Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.09.18-04.58.17:395][986]SourceControl: No commands done.
+[2017.09.18-04.58.17:395][986]SourceControl: Next commands to do (2 remaining commands):
+[2017.09.18-04.58.17:395][986]SourceControl:    pick b627089 Redid mt backdrop and started work on a desert zone
+[2017.09.18-04.58.17:396][986]SourceControl:    pick 5400dc0 Revert "Redid mt backdrop and started work on a desert zone"
+[2017.09.18-04.58.17:396][986]SourceControl:   (use "git rebase --edit-todo" to view and edit)
+[2017.09.18-04.58.17:396][986]SourceControl: You are currently editing a commit while rebasing branch 'V1.5.1' on 'ad616f1'.
+[2017.09.18-04.58.17:396][986]SourceControl:   (use "git commit --amend" to amend the current commit)
+[2017.09.18-04.58.17:396][986]SourceControl:   (use "git rebase --continue" once you are satisfied with your changes)
+[2017.09.18-04.58.17:396][986]SourceControl: Changes to be committed:
+[2017.09.18-04.58.17:396][986]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.09.18-04.58.17:396][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/Desert.umap
+[2017.09.18-04.58.17:396][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_10_Sprite.uasset
+[2017.09.18-04.58.17:396][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_11_Sprite.uasset
+[2017.09.18-04.58.17:397][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_12_Sprite.uasset
+[2017.09.18-04.58.17:397][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_13_Sprite.uasset
+[2017.09.18-04.58.17:397][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_14_Sprite.uasset
+[2017.09.18-04.58.17:397][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_15_Sprite.uasset
+[2017.09.18-04.58.17:397][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_16_Sprite.uasset
+[2017.09.18-04.58.17:397][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_17_Sprite.uasset
+[2017.09.18-04.58.17:397][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_1_Sprite.uasset
+[2017.09.18-04.58.17:397][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_2_Sprite.uasset
+[2017.09.18-04.58.17:398][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_3_Sprite.uasset
+[2017.09.18-04.58.17:398][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_4_Sprite.uasset
+[2017.09.18-04.58.17:398][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_5_Sprite.uasset
+[2017.09.18-04.58.17:398][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_6_Sprite.uasset
+[2017.09.18-04.58.17:398][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_7_Sprite.uasset
+[2017.09.18-04.58.17:398][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_8_Sprite.uasset
+[2017.09.18-04.58.17:398][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Sword_Frame_9_Sprite.uasset
+[2017.09.18-04.58.17:398][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_10_Sprite.uasset
+[2017.09.18-04.58.17:399][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_11_Sprite.uasset
+[2017.09.18-04.58.17:399][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_12_Sprite.uasset
+[2017.09.18-04.58.17:399][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_13_Sprite.uasset
+[2017.09.18-04.58.17:399][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_14_Sprite.uasset
+[2017.09.18-04.58.17:399][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_15_Sprite.uasset
+[2017.09.18-04.58.17:399][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_16_Sprite.uasset
+[2017.09.18-04.58.17:399][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_17_Sprite.uasset
+[2017.09.18-04.58.17:399][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_1_Sprite.uasset
+[2017.09.18-04.58.17:400][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_2_Sprite.uasset
+[2017.09.18-04.58.17:400][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_3_Sprite.uasset
+[2017.09.18-04.58.17:400][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_4_Sprite.uasset
+[2017.09.18-04.58.17:400][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_5_Sprite.uasset
+[2017.09.18-04.58.17:400][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_6_Sprite.uasset
+[2017.09.18-04.58.17:400][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_7_Sprite.uasset
+[2017.09.18-04.58.17:400][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_8_Sprite.uasset
+[2017.09.18-04.58.17:400][986]SourceControl: 	new file:   Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Sprites/Swords/Sword_Frame_9_Sprite.uasset
+[2017.09.18-04.58.17:401][986]SourceControl: Changes not staged for commit:
+[2017.09.18-04.58.17:401][986]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.09.18-04.58.17:401][986]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.09.18-04.58.17:401][986]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/UI/ActionSlot.uasset
+[2017.09.18-04.58.17:401][986]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/UI/InventorySlot.uasset
+[2017.09.18-04.58.17:401][986]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.09.18-04.58.17:401][986]SourceControl: 	modified:   Saved/Autosaves/PackageRestoreData.json
+[2017.09.18-04.58.17:401][986]SourceControl: 	deleted:    Saved/Backup/Dirt_5_Sprite_Sheet_Darker_2_TileSet_2017-08-24-09-32-09.uasset
+[2017.09.18-04.58.17:401][986]SourceControl: 	deleted:    Saved/Backup/Rainforest_Alien_2017-08-24-09-42-09.umap
+[2017.09.18-04.58.17:401][986]SourceControl: 	deleted:    Saved/Backup/Rainforest_Alien_2017-08-24-09-47-54.umap
+[2017.09.18-04.58.17:401][986]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-2CBDB66E4DDDD038F194EA84C62FFACA/CrashReportClient.ini
+[2017.09.18-04.58.17:402][986]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.09.18-04.58.17:402][986]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.09.18-04.58.17:402][986]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.09.18-04.58.17:402][986]SourceControl: 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.09.18-04.58.17:402][986]SourceControl: Untracked files:
+[2017.09.18-04.58.17:402][986]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.09.18-04.58.17:402][986]SourceControl: 	Saved/Backup/ActionSlot_2017-09-17-22-18-06.uasset
+[2017.09.18-04.58.17:402][986]SourceControl: 	Saved/Backup/InventorySlot_2017-09-17-22-18-06.uasset
+[2017.09.18-04.58.17:402][986]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-BE989E094BD4A495753BB9A56CDA36A4/
+[2017.09.18-04.58.17:402][986]SourceControl: 	Saved/Logs/InsertNameAdventure-backup-2017.09.17-22.16.43.log
+[2017.09.18-04.58.17:604][986]LogSavePackage: Save=6.26ms
+[2017.09.18-04.58.17:604][986]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword1_FB0AF769F048CF10E3A31804836E673BD3.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Flipbooks/Sword1_FB.uasset'
+[2017.09.18-04.58.17:607][986]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Flipbooks/Sword1_FB.uasset
+[2017.09.18-04.59.59:875][446]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset' is outside repository
+[2017.09.18-04.59.59:876][446]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset' is outside repository
+[2017.09.18-04.59.59:876][446]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset' is outside repository
+[2017.09.18-04.59.59:876][446]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset' is outside repository
+[2017.09.18-05.00.20:717][799]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/VREditor/TransformGizmo/Main.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/VREditor/TransformGizmo/Main.uasset' is outside repository
+[2017.09.18-05.00.20:718][799]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset' is outside repository
+[2017.09.18-05.00.20:718][799]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset' is outside repository
+[2017.09.18-05.00.20:718][799]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset' is outside repository
+[2017.09.18-05.00.29:967][818]Cmd: TRANSACTION UNDO
+[2017.09.18-05.00.29:967][818]LogEditorTransaction: Undo Edit Default Material
+[2017.09.18-05.01.00:964][ 45]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2017.09.18-05.01.00:967][ 45]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.01.01:114][ 45]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.01.01:125][ 45]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.01.04:470][401]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.01.04:491][401]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.01.08:057][798]MaterialEditorStats: Base pass shader: 44 instructions
+[2017.09.18-05.01.08:057][798]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.09.18-05.01.08:058][798]MaterialEditorStats: Texture samplers: 4/16
+[2017.09.18-05.01.09:000][908]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.01.09:016][908]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.01.13:867][460]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.01.13:906][460]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.01.18:007][899]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/SwirlMap.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/SwirlMap.uasset' is outside repository
+[2017.09.18-05.01.21:781][334]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.01.21:802][334]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.01.27:398][966]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.01.27:440][966]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.01.27:483][967]LogMaterial: Missing cached shader map for material Material_0, compiling. 
+[2017.09.18-05.01.31:339][403]MaterialEditorStats: Base pass shader: 44 instructions
+[2017.09.18-05.01.31:339][403]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.09.18-05.01.31:339][403]MaterialEditorStats: Texture samplers: 4/16
+[2017.09.18-05.01.32:444][525]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.01.32:486][525]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.01.36:202][942]MaterialEditorStats: Base pass shader: 44 instructions
+[2017.09.18-05.01.36:202][942]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.09.18-05.01.36:202][942]MaterialEditorStats: Texture samplers: 4/16
+[2017.09.18-05.02.45:173][323]LogFactory: FactoryCreateFile: Texture with ReimportTextureFactory (0 0 ../../../../../../Users/rajjj/Desktop/UE4 Art/Sprites/desert/PNG/Weapons/Sword 1/Sword Sheet.png)
+[2017.09.18-05.02.45:176][323]LogTexture: Display: Building textures: Sword_Sheet (AutoDXT, 60X112)
+[2017.09.18-05.02.48:384][671]LogTexture: Display: Building textures: Sword_Sheet (BGRA8, 60X112)
+[2017.09.18-05.02.56:304][596]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.02.56:344][596]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.03.01:741][158]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/SwirlMap.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/SwirlMap.uasset' is outside repository
+[2017.09.18-05.03.05:503][600]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.05:518][600]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.03.10:690][176]MaterialEditorStats: Base pass shader: 44 instructions
+[2017.09.18-05.03.10:690][176]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.09.18-05.03.10:690][176]MaterialEditorStats: Texture samplers: 4/16
+[2017.09.18-05.03.12:009][328]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.12:028][328]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.03.15:331][688]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.16:402][800]LogEditorTransaction: Undo Material Editor: Delete
+[2017.09.18-05.03.16:406][800]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.16:421][800]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.16:461][800]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.03.16:689][818]LogEditorTransaction: Undo Create Pin Link
+[2017.09.18-05.03.16:692][818]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.16:708][818]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.16:725][818]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.03.16:997][838]LogEditorTransaction: Undo Move Node
+[2017.09.18-05.03.17:000][838]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.17:019][838]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.03.17:264][859]LogEditorTransaction: Undo Edit Texture
+[2017.09.18-05.03.17:268][859]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.17:283][859]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.17:305][859]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.03.22:555][428]MaterialEditorStats: Base pass shader: 44 instructions
+[2017.09.18-05.03.22:555][428]MaterialEditorStats: Vertex shader: 122 instructions
+[2017.09.18-05.03.22:555][428]MaterialEditorStats: Texture samplers: 4/16
+[2017.09.18-05.03.24:268][623]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.24:285][623]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.03.26:646][884]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.26:668][884]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.03.31:048][372]MaterialEditorStats: Base pass shader: 51 instructions
+[2017.09.18-05.03.31:048][372]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.09.18-05.03.31:048][372]MaterialEditorStats: Texture samplers: 5/16
+[2017.09.18-05.03.31:048][372]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.18-05.03.33:960][713]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.39:105][298]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.39:146][298]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.03.41:555][567]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.41:577][567]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.03.44:217][862]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.44:237][862]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.03.45:854][ 44]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.45:873][ 44]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.03.51:191][630]MaterialEditorStats: Base pass shader: 51 instructions
+[2017.09.18-05.03.51:191][630]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.09.18-05.03.51:191][630]MaterialEditorStats: Texture samplers: 5/16
+[2017.09.18-05.03.51:191][630]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.18-05.03.56:184][188]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineResources/StreamingPauseIcon.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineResources/StreamingPauseIcon.uasset' is outside repository
+[2017.09.18-05.03.56:184][188]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/Sky/SunsetAmbientCubemap.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/Sky/SunsetAmbientCubemap.uasset' is outside repository
+[2017.09.18-05.03.56:184][188]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/SwirlMap.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/SwirlMap.uasset' is outside repository
+[2017.09.18-05.03.57:897][370]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.03.57:914][370]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.04.02:399][863]MaterialEditorStats: Base pass shader: 51 instructions
+[2017.09.18-05.04.02:399][863]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.09.18-05.04.02:399][863]MaterialEditorStats: Texture samplers: 5/16
+[2017.09.18-05.04.02:400][863]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.18-05.04.18:573][726]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.09.18-05.04.20:831][726]LogSavePackage: Save=6.96ms
+[2017.09.18-05.04.20:831][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword1_FBD21BF31C4D3308E6EF0E9EA69DA11EF5.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Flipbooks/Sword1_FB.uasset'
+[2017.09.18-05.04.20:835][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Flipbooks/Sword1_FB.uasset
+[2017.09.18-05.04.20:867][726]LogSavePackage: Save=13.67ms
+[2017.09.18-05.04.20:867][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/HoloSword1_M0032E0A94DDF05FAF8AB9EA376FC47AC.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Materal/HoloSword1_M.uasset'
+[2017.09.18-05.04.20:870][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/Materal/HoloSword1_M.uasset
+[2017.09.18-05.04.20:974][726]LogSavePackage: Save=4.41ms
+[2017.09.18-05.04.20:974][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_1C57523A549E16A196C1C8096A7AB16C8.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_1.uasset'
+[2017.09.18-05.04.20:977][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_1.uasset
+[2017.09.18-05.04.21:070][726]LogSavePackage: Save=4.60ms
+[2017.09.18-05.04.21:070][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_107DD2D5D940E1318D4C492DB88871B051.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_10.uasset'
+[2017.09.18-05.04.21:072][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_10.uasset
+[2017.09.18-05.04.21:184][726]LogSavePackage: Save=4.66ms
+[2017.09.18-05.04.21:184][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_11658A57BC48C9186848102DA134AAAD31.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_11.uasset'
+[2017.09.18-05.04.21:187][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_11.uasset
+[2017.09.18-05.04.21:278][726]LogSavePackage: Save=4.67ms
+[2017.09.18-05.04.21:279][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_12C97DDB424AF2B324BA2592BE2EE5BD6B.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_12.uasset'
+[2017.09.18-05.04.21:281][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_12.uasset
+[2017.09.18-05.04.21:383][726]LogSavePackage: Save=4.84ms
+[2017.09.18-05.04.21:383][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_13D717AF3144F71D4C3B8E35B968C5E40D.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_13.uasset'
+[2017.09.18-05.04.21:385][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_13.uasset
+[2017.09.18-05.04.21:492][726]LogSavePackage: Save=4.85ms
+[2017.09.18-05.04.21:492][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_14222CBB804EF73C4F308BFABA553DD894.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_14.uasset'
+[2017.09.18-05.04.21:494][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_14.uasset
+[2017.09.18-05.04.21:596][726]LogSavePackage: Save=4.43ms
+[2017.09.18-05.04.21:597][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_15BB145812433A498B26BBCF8FE7A594F5.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_15.uasset'
+[2017.09.18-05.04.21:599][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_15.uasset
+[2017.09.18-05.04.21:705][726]LogSavePackage: Save=4.23ms
+[2017.09.18-05.04.21:705][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_169ADBE1D8484A0CD2964A0F964CD76EC3.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_16.uasset'
+[2017.09.18-05.04.21:707][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_16.uasset
+[2017.09.18-05.04.21:809][726]LogSavePackage: Save=4.33ms
+[2017.09.18-05.04.21:809][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_17A57BB9994A24C5EE9AD5F9A0346D614F.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_17.uasset'
+[2017.09.18-05.04.21:811][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_17.uasset
+[2017.09.18-05.04.21:919][726]LogSavePackage: Save=6.10ms
+[2017.09.18-05.04.21:919][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_2B4BF64334BB3093070DDCEA4F32C1F0C.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_2.uasset'
+[2017.09.18-05.04.21:921][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_2.uasset
+[2017.09.18-05.04.22:032][726]LogSavePackage: Save=4.35ms
+[2017.09.18-05.04.22:033][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_331EF8EC541C7DFFF50C949A91CCF5FB9.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_3.uasset'
+[2017.09.18-05.04.22:035][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_3.uasset
+[2017.09.18-05.04.22:143][726]LogSavePackage: Save=5.93ms
+[2017.09.18-05.04.22:143][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_4133FFCDB4051F8ADDD8A9A993F29B991.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_4.uasset'
+[2017.09.18-05.04.22:146][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_4.uasset
+[2017.09.18-05.04.22:260][726]LogSavePackage: Save=4.36ms
+[2017.09.18-05.04.22:260][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_567E847274888C89E815F14982B5DA8D8.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_5.uasset'
+[2017.09.18-05.04.22:262][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_5.uasset
+[2017.09.18-05.04.22:365][726]LogSavePackage: Save=4.34ms
+[2017.09.18-05.04.22:365][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_60405A8064EAAA13E33B10E8FE5550613.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_6.uasset'
+[2017.09.18-05.04.22:367][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_6.uasset
+[2017.09.18-05.04.22:480][726]LogSavePackage: Save=4.57ms
+[2017.09.18-05.04.22:480][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_7F8C2052244AE8F5E9F9557BC5B7796D2.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_7.uasset'
+[2017.09.18-05.04.22:483][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_7.uasset
+[2017.09.18-05.04.22:585][726]LogSavePackage: Save=4.73ms
+[2017.09.18-05.04.22:585][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_8A49E07BF4D42E4702C621C9416128089.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_8.uasset'
+[2017.09.18-05.04.22:588][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_8.uasset
+[2017.09.18-05.04.22:701][726]LogSavePackage: Save=4.59ms
+[2017.09.18-05.04.22:701][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Frame_955248ACD46C2AFE6CBCD05AE9B076F20.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_9.uasset'
+[2017.09.18-05.04.22:703][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Frame_9.uasset
+[2017.09.18-05.04.22:812][726]LogSavePackage: Save=5.01ms
+[2017.09.18-05.04.22:812][726]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Sword_Sheet85E04D1348C5280C52F606AD0D4897D6.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Sheet.uasset'
+[2017.09.18-05.04.22:815][726]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/PNG/Sword_Sheet.uasset
+[2017.09.18-05.04.22:912][726]Cmd: MAP LOAD FILE="../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.09.18-05.04.22:912][726]LightingResults: New page: Lighting Build
+[2017.09.18-05.04.22:913][726]LoadErrors: New page: Loading map: Rainforest_Alien.umap
+[2017.09.18-05.04.22:913][726]MapCheck: New page: Map Check
+[2017.09.18-05.04.22:913][726]LightingResults: New page: Lighting Build
+[2017.09.18-05.04.22:958][726]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.09.18-05.04.23:027][726]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.09.18-05.04.23:095][726]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 67.881ms to complete.
+[2017.09.18-05.04.23:095][726]LogFileHelpers: Loading map 'Rainforest_Alien' took 0.184
+[2017.09.18-05.04.23:153][727]LogParticles: Warning: Spawning 32000 GPU particles in one frame[48771]: RainFall4_PS/Particle Emitter
+[2017.09.18-05.04.29:308][150]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Cube2)
+[2017.09.18-05.04.29:518][154]LogEditorViewport: Clicking on Actor (context menu): StaticMeshActor (Cube4)
+[2017.09.18-05.04.31:417][292]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/BasicShapeMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/BasicShapeMaterial.uasset' is outside repository
+[2017.09.18-05.04.35:882][696]LogMaterial: Missing cached shader map for material Material_1, compiling. 
+[2017.09.18-05.04.35:882][696]LogMaterial: Warning: Failed to compile Material /Engine/Transient.Material_1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.18-05.04.35:882][696]LogMaterial: Warning: 	(Node Multiply) Arithmetic between types float2 and float3 are undefined
+[2017.09.18-05.04.35:969][700]LogMaterial: Missing cached shader map for material Material_2, compiling. 
+[2017.09.18-05.04.35:970][700]LogMaterial: Warning: Failed to compile Material /Engine/Transient.Material_2 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.18-05.04.35:970][700]LogMaterial: Warning: 	(Node Divide) Arithmetic between types float2 and float3 are undefined
+[2017.09.18-05.04.42:637][175]LogMaterial: Missing cached shader map for material Comp_M, compiling. 
+[2017.09.18-05.04.42:766][175]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.18-05.04.42:770][175]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.04.42:774][175]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.18-05.04.42:780][175]LogMaterial: Missing cached shader map for material Comp_M, compiling. 
+[2017.09.18-05.04.42:798][175]LogMaterial: Missing cached shader map for material Comp_M, compiling. 
+[2017.09.18-05.04.42:840][175]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.18-05.04.42:844][175]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.04.42:848][175]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.18-05.04.42:924][176]LogParticles: Warning: Spawning 24647 GPU particles in one frame[50220]: RainFall4_PS/Particle Emitter
+[2017.09.18-05.04.42:933][176]LogSlate: Took 0.004512 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.09.18-05.04.48:422][518]MaterialEditorStats: Base pass shader: 64 instructions
+[2017.09.18-05.04.48:422][518]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.09.18-05.04.48:422][518]MaterialEditorStats: Texture samplers: 5/16
+[2017.09.18-05.04.48:422][518]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.18-05.05.00:667][344]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Comp_M:MaterialGraph_1.MaterialGraphNode_12 or MaterialGraphNode /Engine/Transient.HoloSword1_M:MaterialGraph_0.MaterialGraphNode_12
+[2017.09.18-05.05.00:668][344]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionConstant3Vector'MaterialGraphNode_12.MaterialExpressionConstant3Vector_0')'
+[2017.09.18-05.05.00:668][344]LogUObjectHash: Warning: Ambiguous search, could be MaterialGraphNode /Engine/Transient.Comp_M:MaterialGraph_1.MaterialGraphNode_15 or MaterialGraphNode /Engine/Transient.HoloSword1_M:MaterialGraph_0.MaterialGraphNode_15
+[2017.09.18-05.05.00:668][344]LogProperty: Warning: ObjectProperty /Script/Engine.ExpressionInput:Expression: unresolved reference to 'MaterialExpressionScalarParameter'MaterialGraphNode_15.MaterialExpressionScalarParameter_2')'
+[2017.09.18-05.05.00:684][344]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.05.00:726][344]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.05.00:730][344]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.05.04:774][575]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.05.04:797][575]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.05.04:802][575]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.05.04:832][575]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.05.04:837][575]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.05.04:867][575]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.05.04:871][575]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.05.09:477][888]MaterialEditorStats: Base pass shader: 51 instructions
+[2017.09.18-05.05.09:478][888]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.09.18-05.05.09:478][888]MaterialEditorStats: Texture samplers: 5/16
+[2017.09.18-05.05.09:478][888]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.18-05.05.11:957][ 57]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.05.11:972][ 57]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.05.11:976][ 57]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.05.15:545][291]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.05.15:583][291]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.05.15:587][291]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.05.17:134][396]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.05.17:151][396]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.05.17:155][396]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.05.18:574][491]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.05.18:595][491]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.05.18:599][491]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.05.21:159][679]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.05.21:179][679]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.05.21:183][679]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.05.26:568][989]MaterialEditorStats: Base pass shader: 51 instructions
+[2017.09.18-05.05.26:568][989]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.09.18-05.05.26:568][989]MaterialEditorStats: Texture samplers: 5/16
+[2017.09.18-05.05.26:568][989]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.18-05.05.46:271][253]LogMaterial: Missing cached shader map for material Comp_M, compiling. 
+[2017.09.18-05.05.46:314][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.18-05.05.46:318][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.05.46:322][253]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.18-05.05.47:612][325]LogEditorTransaction: Undo Material Editor: Paste
+[2017.09.18-05.05.47:632][325]LogMaterial: Missing cached shader map for material Comp_M, compiling. 
+[2017.09.18-05.05.47:656][325]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.05.47:676][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.05.47:680][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.05.47:714][325]LogMaterial: Missing cached shader map for material Comp_M, compiling. 
+[2017.09.18-05.05.47:735][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.18-05.05.47:739][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.05.47:743][325]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.18-05.05.51:995][561]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.05.52:036][561]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.05.52:040][561]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.05.55:457][798]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.05.55:477][798]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.05.55:482][798]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.05.56:935][877]MaterialEditorStats: Base pass shader: 64 instructions
+[2017.09.18-05.05.56:936][877]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.09.18-05.05.56:936][877]MaterialEditorStats: Texture samplers: 5/16
+[2017.09.18-05.05.56:936][877]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.18-05.06.06:851][588]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.06.06:889][588]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.06.06:893][588]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.06.06:897][588]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.09.18-05.06.10:482][820]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.06.10:482][820]LogMaterial: Warning: Failed to compile Material /Engine/Transient.HoloSword1_M for platform PCD3D_SM5, Default Material will be used in game.
+[2017.09.18-05.06.10:482][820]LogMaterial: Warning: 	(Node TextureSample) Texture Sample> Missing input texture
+[2017.09.18-05.06.10:488][820]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.06.10:493][820]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.06.10:497][820]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.09.18-05.06.10:520][820]MaterialEditorStats: Error: [SM5] (Node TextureSample) Texture Sample> Missing input texture
+[2017.09.18-05.06.12:969][983]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/ArtTools/RenderToTexture/Textures/127grey.uasset' is outside repository
+[2017.09.18-05.06.12:969][983]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineLightProfiles/180Degree_IES.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineLightProfiles/180Degree_IES.uasset' is outside repository
+[2017.09.18-05.06.16:582][263]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.06.16:602][263]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.06.16:606][263]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.06.16:611][263]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.09.18-05.06.21:079][527]MaterialEditorStats: Base pass shader: 58 instructions
+[2017.09.18-05.06.21:080][527]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.09.18-05.06.21:080][527]MaterialEditorStats: Texture samplers: 6/16
+[2017.09.18-05.06.21:080][527]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.18-05.06.24:859][755]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.06.24:901][755]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.06.24:905][755]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.06.29:368][ 11]MaterialEditorStats: Base pass shader: 55 instructions
+[2017.09.18-05.06.29:368][ 11]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.09.18-05.06.29:368][ 11]MaterialEditorStats: Texture samplers: 5/16
+[2017.09.18-05.06.29:368][ 11]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.18-05.06.39:376][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/VREditor/TransformGizmo/Main.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/VREditor/TransformGizmo/Main.uasset' is outside repository
+[2017.09.18-05.06.39:376][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset' is outside repository
+[2017.09.18-05.06.39:377][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset' is outside repository
+[2017.09.18-05.06.39:377][628]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset' is outside repository
+[2017.09.18-05.07.13:191][826]Cmd: TRANSACTION UNDO
+[2017.09.18-05.07.13:191][826]LogEditorTransaction: Undo Edit Sprite
+[2017.09.18-05.07.13:209][826]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.07.13:228][826]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.07.13:232][826]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.07.13:266][826]LogMaterial: Missing cached shader map for material Comp_M, compiling. 
+[2017.09.18-05.07.13:286][826]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.18-05.07.13:290][826]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.07.13:293][826]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.18-05.07.13:454][830]Cmd: TRANSACTION UNDO
+[2017.09.18-05.07.13:454][830]LogEditorTransaction: Undo Edit Sprite
+[2017.09.18-05.07.13:459][830]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.07.13:502][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.07.13:506][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.07.13:511][830]LogMaterial: Missing cached shader map for material Comp_M, compiling. 
+[2017.09.18-05.07.13:552][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.18-05.07.13:556][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.07.13:560][830]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.18-05.07.13:693][834]Cmd: TRANSACTION UNDO
+[2017.09.18-05.07.13:693][834]LogEditorTransaction: Undo Edit Sprite
+[2017.09.18-05.07.13:700][834]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.07.13:740][834]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.07.13:744][834]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.07.13:750][834]LogMaterial: Missing cached shader map for material Comp_M, compiling. 
+[2017.09.18-05.07.13:790][834]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.18-05.07.13:794][834]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.07.13:798][834]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.18-05.07.14:032][845]Cmd: TRANSACTION UNDO
+[2017.09.18-05.07.14:033][845]LogEditorTransaction: Undo Edit Default Material
+[2017.09.18-05.07.14:051][845]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.07.14:089][845]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.07.14:094][845]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.07.14:099][845]LogMaterial: Missing cached shader map for material Comp_M, compiling. 
+[2017.09.18-05.07.14:138][845]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.18-05.07.14:143][845]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.07.14:147][845]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.18-05.07.14:354][854]Cmd: TRANSACTION UNDO
+[2017.09.18-05.07.14:354][854]LogEditorTransaction: Undo Material Editor: Delete
+[2017.09.18-05.07.14:373][854]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.07.14:389][854]LogMaterial: Missing cached shader map for material HoloSword1_M, compiling. 
+[2017.09.18-05.07.14:428][854]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_0, compiling. 
+[2017.09.18-05.07.14:433][854]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.07.14:437][854]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_1, compiling. 
+[2017.09.18-05.07.14:443][854]LogMaterial: Missing cached shader map for material Comp_M, compiling. 
+[2017.09.18-05.07.14:485][854]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionTextureSample_2, compiling. 
+[2017.09.18-05.07.14:489][854]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionConstant3Vector_0, compiling. 
+[2017.09.18-05.07.14:494][854]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.09.18-05.07.20:415][199]MaterialEditorStats: Base pass shader: 58 instructions
+[2017.09.18-05.07.20:415][199]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.09.18-05.07.20:415][199]MaterialEditorStats: Texture samplers: 6/16
+[2017.09.18-05.07.20:415][199]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.18-05.07.27:362][623]MaterialEditorStats: Base pass shader: 64 instructions
+[2017.09.18-05.07.27:362][623]MaterialEditorStats: Vertex shader: 124 instructions
+[2017.09.18-05.07.27:362][623]MaterialEditorStats: Texture samplers: 5/16
+[2017.09.18-05.07.27:362][623]MaterialEditorStats: User interpolators: 2/4 Scalars (1/4 Vectors) (TexCoords: 2, Custom: 0)
+[2017.09.18-05.07.51:433][957]LogParticles: Warning: Spawning 32000 GPU particles in one frame[62001]: RainFall4_PS/Particle Emitter
+[2017.09.18-05.08.03:040][680]LogParticles: Warning: Spawning 32000 GPU particles in one frame[62724]: RainFall4_PS/Particle Emitter
+[2017.09.18-05.09.06:619][110]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/VREditor/LaserPointer/TranslucentLaserPointerMaterialInst.uasset' is outside repository
+[2017.09.18-05.09.06:620][110]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/TranslucentLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/TranslucentLitSpriteMaterial.uasset' is outside repository
+[2017.09.18-05.09.06:620][110]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset' is outside repository
+[2017.09.18-05.09.06:620][110]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/VREditor/Fonts/TranslucentVRTextMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/VREditor/Fonts/TranslucentVRTextMaterial.uasset' is outside repository
+[2017.09.18-05.09.06:620][110]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/Tutorial/SubEditors/TutorialAssets/TutorialMaterial.uasset' is outside repository
+[2017.09.18-05.09.06:621][110]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/Tutorial/SubEditors/TutorialAssets/Character/TutorialTPP_Mat.uasset' is outside repository
+[2017.09.18-05.09.33:794][937]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions02/SupportFiles/1x1x1_Box_Pivot_-XYZ.uasset' is outside repository
+[2017.09.18-05.09.33:795][937]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMeshes/AnimTreeEd_PreviewFloor.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMeshes/AnimTreeEd_PreviewFloor.uasset' is outside repository
+[2017.09.18-05.09.33:795][937]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMeshes/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMeshes/BackgroundCube.uasset' is outside repository
+[2017.09.18-05.09.33:795][937]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset' is outside repository
+[2017.09.18-05.09.33:796][937]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset' is outside repository
+[2017.09.18-05.09.35:274][ 48]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMeshes/Cascade/BackgroundCube.uasset' is outside repository
+[2017.09.18-05.09.35:274][ 48]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMeshes/BackgroundCube.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMeshes/BackgroundCube.uasset' is outside repository
+[2017.09.18-05.09.35:275][ 48]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/Cube.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/BasicShapes/Cube.uasset' is outside repository
+[2017.09.18-05.09.35:908][ 99]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMeshes/EditorCube.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMeshes/EditorCube.uasset' is outside repository
+[2017.09.18-05.09.35:908][ 99]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMeshes/ParticleCube.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMeshes/ParticleCube.uasset' is outside repository
+[2017.09.18-05.09.36:809][169]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineVolumetrics/FogEnvironment/Mesh/S_EV_FogVolume_Cube_01.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineVolumetrics/FogEnvironment/Mesh/S_EV_FogVolume_Cube_01.uasset' is outside repository
+[2017.09.18-05.09.39:722][331]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultDecalMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultDecalMaterial.uasset' is outside repository
+[2017.09.18-05.09.39:723][331]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.09.18-05.10.15:703][166]LogMaterial: Missing cached shader map for material Comp_M, compiling. 
+[2017.09.18-05.10.15:755][166]LogMaterial: Missing cached shader map for material Comp_M, compiling. 
+[2017.09.18-05.10.15:793][166]LogMaterial: Missing cached shader map for material Comp_M, compiling. 
+[2017.09.18-05.10.15:842][166]LogMaterial: Missing cached shader map for material FDebugViewModeMaterialProxy Comp_M, compiling. 
+[2017.09.18-05.10.17:568][166]TextureStreamingBuild: Display: Compiling optional shaders took 1.732 seconds.
+[2017.09.18-05.10.17:776][167]LogParticles: Warning: Spawning 32000 GPU particles in one frame[71211]: RainFall4_PS/Particle Emitter
+[2017.09.18-05.10.24:748][473]LogParticles: Warning: Spawning 32000 GPU particles in one frame[71517]: RainFall4_PS/Particle Emitter
+[2017.09.18-05.10.35:046][911]LogParticles: Warning: Spawning 32000 GPU particles in one frame[71955]: RainFall4_PS/Particle Emitter
+[2017.09.18-05.11.10:977][  4]LogSavePackage: Save=13.71ms
+[2017.09.18-05.11.10:977][  4]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Comp_MF0DA01924ABA98C37FC26DA3082A2EEB.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Materials/Comp_M.uasset'
+[2017.09.18-05.11.10:980][  4]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Materials/Comp_M.uasset
+[2017.09.18-05.11.11:016][  4]LogSavePackage: Save=18.43ms
+[2017.09.18-05.11.11:016][  4]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/HoloSword1_BP86582AD04BB63BC95DE0378C16232C87.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/BP/HoloSword1_BP.uasset'
+[2017.09.18-05.11.11:019][  4]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Weapons/BP/HoloSword1_BP.uasset
+[2017.09.18-05.11.11:195][  4]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.09.18-05.11.11:327][  5]Cmd: QUIT_EDITOR
+[2017.09.18-05.11.11:421][  5]LogExit: Preparing to exit.
+[2017.09.18-05.11.12:352][  5]LogDirectoryWatcher: A directory notification failed for 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/', and we were unable to create a new request.
+[2017.09.18-05.11.12:402][  5]LogExit: Editor shut down
+[2017.09.18-05.11.12:405][  5]LogExit: Transaction tracking system shut down
+[2017.09.18-05.11.12:655][  5]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.09.18-05.11.12:655][  5]LogDirectoryWatcher: A directory notification for '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/' was aborted.
+[2017.09.18-05.11.12:655][  5]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.09.18-05.11.12:655][  5]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.09.18-05.11.12:655][  5]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.09.18-05.11.12:781][  5]LogExit: Object subsystem successfully closed.
+[2017.09.18-05.11.12:813][  5]LogD3D11RHI: Shutdown
+[2017.09.18-05.11.12:813][  5]LogD3D11RHI: CleanupD3DDevice
+[2017.09.18-05.11.12:928][  5]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.09.18-05.11.12:959][  5]LogModuleManager: Shutting down and abandoning module HierarchicalLODUtilities (540)
+[2017.09.18-05.11.12:959][  5]LogModuleManager: Shutting down and abandoning module MaterialEditor (538)
+[2017.09.18-05.11.12:959][  5]LogModuleManager: Shutting down and abandoning module SequencerWidgets (536)
+[2017.09.18-05.11.12:959][  5]LogModuleManager: Shutting down and abandoning module BlueprintGraph (534)
+[2017.09.18-05.11.12:959][  5]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (532)
+[2017.09.18-05.11.12:961][  5]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.09.18-05.11.12:961][  5]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.09.18-05.11.12:961][  5]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.09.18-05.11.12:961][  5]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.09.18-05.11.12:962][  5]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.09.18-05.11.12:962][  5]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.09.18-05.11.12:962][  5]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.09.18-05.11.12:963][  5]LogDirectoryWatcher: A directory notification for 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/Collections/' was aborted.
+[2017.09.18-05.11.12:963][  5]LogDirectoryWatcher: A directory notification for 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/Developers/rajjj/Collections/' was aborted.
+[2017.09.18-05.11.12:963][  5]LogDirectoryWatcher: A directory notification for 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Collections/' was aborted.
+[2017.09.18-05.11.12:963][  5]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.09.18-05.11.12:963][  5]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.09.18-05.11.12:963][  5]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.09.18-05.11.12:964][  5]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.09.18-05.11.12:964][  5]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.09.18-05.11.12:964][  5]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.09.18-05.11.12:964][  5]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.09.18-05.11.12:964][  5]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.09.18-05.11.12:964][  5]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.09.18-05.11.12:964][  5]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.09.18-05.11.12:964][  5]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.09.18-05.11.12:964][  5]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.09.18-05.11.12:964][  5]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.09.18-05.11.12:964][  5]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.09.18-05.11.12:965][  5]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.09.18-05.11.12:966][  5]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.09.18-05.11.12:968][  5]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.09.18-05.11.12:968][  5]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.09.18-05.11.12:969][  5]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.09.18-05.11.12:970][  5]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.09.18-05.11.12:970][  5]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.09.18-05.11.12:970][  5]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.09.18-05.11.12:970][  5]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.09.18-05.11.13:278][  5]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.09.18-05.11.13:278][  5]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.09.18-05.11.13:278][  5]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.09.18-05.11.13:278][  5]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.09.18-05.11.13:278][  5]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.09.18-05.11.13:278][  5]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.09.18-05.11.13:279][  5]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.09.18-05.11.13:279][  5]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.09.18-05.11.13:279][  5]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.09.18-05.11.13:280][  5]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.09.18-05.11.13:280][  5]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.09.18-05.11.13:280][  5]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.09.18-05.11.13:280][  5]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.09.18-05.11.13:280][  5]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.09.18-05.11.13:280][  5]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.09.18-05.11.13:280][  5]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.09.18-05.11.13:280][  5]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.09.18-05.11.13:281][  5]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.09.18-05.11.13:281][  5]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.09.18-05.11.13:281][  5]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.09.18-05.11.13:281][  5]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.09.18-05.11.13:282][  5]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.09.18-05.11.13:282][  5]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.09.18-05.11.13:282][  5]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.09.18-05.11.13:334][  5]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.09.18-05.11.13:335][  5]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.09.18-05.11.13:336][  5]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.09.18-05.11.13:337][  5]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.09.18-05.11.13:338][  5]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.09.18-05.11.13:338][  5]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.09.18-05.11.13:338][  5]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.09.18-05.11.13:339][  5]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.09.18-05.11.13:339][  5]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.09.18-05.11.13:339][  5]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.09.18-05.11.13:345][  5]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.09.18-05.11.13:346][  5]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.09.18-05.11.13:346][  5]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.09.18-05.11.13:347][  5]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.09.18-05.11.13:347][  5]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.09.18-05.11.13:347][  5]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.09.18-05.11.13:348][  5]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.09.18-05.11.13:348][  5]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.09.18-05.11.13:348][  5]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.09.18-05.11.13:348][  5]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.09.18-05.11.13:348][  5]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.09.18-05.11.13:350][  5]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.09.18-05.11.13:350][  5]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.09.18-05.11.13:350][  5]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.09.18-05.11.13:350][  5]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.09.18-05.11.13:350][  5]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.09.18-05.11.13:350][  5]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.09.18-05.11.13:350][  5]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.09.18-05.11.13:350][  5]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.09.18-05.11.13:350][  5]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.09.18-05.11.13:351][  5]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.09.18-05.11.13:354][  5]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.09.18-05.11.13:355][  5]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.09.18-05.11.13:355][  5]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.09.18-05.11.13:355][  5]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.09.18-05.11.13:355][  5]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.09.18-05.11.13:355][  5]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.09.18-05.11.13:355][  5]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.09.18-05.11.13:355][  5]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.09.18-05.11.13:355][  5]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.09.18-05.11.13:355][  5]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.09.18-05.11.13:355][  5]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.09.18-05.11.13:357][  5]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.09.18-05.11.13:357][  5]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.09.18-05.11.13:357][  5]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.09.18-05.11.13:357][  5]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.09.18-05.11.13:357][  5]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.09.18-05.11.13:357][  5]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.09.18-05.11.13:357][  5]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.09.18-05.11.13:359][  5]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.09.18-05.11.13:359][  5]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.09.18-05.11.13:359][  5]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.09.18-05.11.13:360][  5]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.09.18-05.11.13:360][  5]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.09.18-05.11.13:360][  5]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.09.18-05.11.13:361][  5]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.09.18-05.11.13:361][  5]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.09.18-05.11.13:361][  5]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.09.18-05.11.13:361][  5]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.09.18-05.11.13:361][  5]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.09.18-05.11.13:361][  5]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.09.18-05.11.13:361][  5]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.09.18-05.11.13:362][  5]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.09.18-05.11.13:362][  5]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.09.18-05.11.13:363][  5]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.09.18-05.11.13:363][  5]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.09.18-05.11.13:363][  5]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.09.18-05.11.13:363][  5]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.09.18-05.11.13:363][  5]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.09.18-05.11.13:363][  5]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.09.18-05.11.13:363][  5]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.09.18-05.11.13:363][  5]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.09.18-05.11.13:363][  5]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.09.18-05.11.13:364][  5]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.09.18-05.11.13:465][  5]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.09.18-05.11.13:565][  5]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.09.18-05.11.13:566][  5]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.09.18-05.11.13:566][  5]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.09.18-05.11.13:566][  5]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.09.18-05.11.13:567][  5]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.09.18-05.11.13:567][  5]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.09.18-05.11.13:567][  5]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.09.18-05.11.13:567][  5]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.09.18-05.11.13:567][  5]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.09.18-05.11.13:568][  5]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.09.18-05.11.13:568][  5]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.09.18-05.11.13:568][  5]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.09.18-05.11.13:568][  5]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.09.18-05.11.13:568][  5]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.09.18-05.11.13:569][  5]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.09.18-05.11.13:569][  5]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.09.18-05.11.13:569][  5]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.09.18-05.11.13:569][  5]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.09.18-05.11.13:569][  5]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.09.18-05.11.13:569][  5]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.09.18-05.11.13:571][  5]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.09.18-05.11.13:571][  5]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.09.18-05.11.13:571][  5]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.09.18-05.11.13:571][  5]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.09.18-05.11.13:571][  5]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.09.18-05.11.13:571][  5]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.09.18-05.11.13:571][  5]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.09.18-05.11.13:571][  5]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.09.18-05.11.13:573][  5]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.09.18-05.11.13:573][  5]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.09.18-05.11.13:574][  5]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.09.18-05.11.13:574][  5]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.09.18-05.11.13:574][  5]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.09.18-05.11.13:574][  5]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.09.18-05.11.13:574][  5]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.09.18-05.11.13:574][  5]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.09.18-05.11.13:575][  5]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.09.18-05.11.13:575][  5]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.09.18-05.11.13:575][  5]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.09.18-05.11.13:575][  5]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.09.18-05.11.13:575][  5]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.09.18-05.11.13:575][  5]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.09.18-05.11.13:575][  5]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.09.18-05.11.13:575][  5]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.09.18-05.11.13:576][  5]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.09.18-05.11.13:576][  5]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.09.18-05.11.13:577][  5]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.09.18-05.11.13:622][  5]LogDerivedDataCache: Shutdown
+[2017.09.18-05.11.13:622][  5]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.09.18-05.11.13:622][  5]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.09.18-05.11.13:623][  5]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.09.18-05.11.13:623][  5]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.09.18-05.11.13:623][  5]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.09.18-05.11.13:623][  5]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.09.18-05.11.13:623][  5]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.09.18-05.11.13:624][  5]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.09.18-05.11.13:625][  5]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.09.18-05.11.13:625][  5]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.09.18-05.11.13:625][  5]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.09.18-05.11.13:625][  5]LogOnline: Display: Unloading online subsystem: NULL
+[2017.09.18-05.11.13:625][  5]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.09.18-05.11.13:626][  5]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.09.18-05.11.13:626][  5]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.09.18-05.11.13:626][  5]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BD1FFA9B3-4CA6-6642-8506-6697E57C86E2%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=5160131d4fbbf6d62e4719b8716de666%7C3ef35b30eb8d444d8e26d7fb1794d4bf%7Cb9c6b803-d102-46e7-b321-ae8f3428388b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.09.18-05.11.13:636][  5]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.09.18-05.11.13:638][  5]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.09.18-05.11.13:639][  5]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.09.18-05.11.13:639][  5]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.09.18-05.11.13:640][  5]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.09.18-05.11.13:640][  5]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.09.18-05.11.13:640][  5]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.09.18-05.11.13:640][  5]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.09.18-05.11.13:642][  5]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.09.18-05.11.13:643][  5]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.09.18-05.11.13:643][  5]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.09.18-05.11.13:643][  5]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.09.18-05.11.13:643][  5]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.09.18-05.11.13:643][  5]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.09.18-05.11.13:643][  5]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.09.18-05.11.13:643][  5]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.09.18-05.11.13:643][  5]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.09.18-05.11.13:643][  5]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.09.18-05.11.13:643][  5]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.09.18-05.11.13:647][  5]LogExit: Exiting.
+[2017.09.18-05.11.13:675][  5]Log file closed, 09/17/17 23:11:13
