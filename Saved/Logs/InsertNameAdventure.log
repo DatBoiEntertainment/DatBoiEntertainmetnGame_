@@ -2,6 +2,7 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 ﻿Log file open, 10/06/17 19:11:57
 =======
 ﻿Log file open, 10/05/17 17:42:53
@@ -15,12 +16,16 @@
 =======
 ﻿Log file open, 10/05/17 17:42:53
 >>>>>>> parent of 52a7545... StatBarAnimations
+=======
+﻿Log file open, 10/05/17 17:42:53
+>>>>>>> parent of f2858fb... Des Update more buildings
 LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
 LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
 LogInit: Display: Running engine for game: InsertNameAdventure
 LogPlatformFile: Not using cached read wrapper
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -48,6 +53,11 @@ LogInit: Display: RandInit(924346327) SRandInit(924346327).
 LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
 LogStats: Stats thread started at 0.155683
 >>>>>>> parent of 52a7545... StatBarAnimations
+=======
+LogInit: Display: RandInit(924346327) SRandInit(924346327).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.155683
+>>>>>>> parent of f2858fb... Des Update more buildings
 LogD3D11RHI: Aftermath initialized
 LogPluginManager: Mounting plugin Paper2D
 LogPluginManager: Mounting plugin LightPropagationVolume
@@ -149,6 +159,7 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -635,6 +646,8 @@ LogInit: Object subsystem initialized
 >>>>>>> parent of f2858fb... Des Update more buildings
 =======
 >>>>>>> parent of 52a7545... StatBarAnimations
+=======
+>>>>>>> parent of f2858fb... Des Update more buildings
 [2017.10.05-23.42.54:298][  0]LogInit: Selected Device Profile: [Windows]
 [2017.10.05-23.42.54:298][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
 [2017.10.05-23.42.54:320][  0]LogInit: Computer: DESKTOP-OMJHMSB
@@ -1207,6 +1220,7 @@ LogInit: Object subsystem initialized
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> parent of 52a7545... StatBarAnimations
 =======
 >>>>>>> parent of f2858fb... Des Update more buildings
@@ -1214,3 +1228,5 @@ LogInit: Object subsystem initialized
 >>>>>>> parent of f2858fb... Des Update more buildings
 =======
 >>>>>>> parent of 52a7545... StatBarAnimations
+=======
+>>>>>>> parent of f2858fb... Des Update more buildings
