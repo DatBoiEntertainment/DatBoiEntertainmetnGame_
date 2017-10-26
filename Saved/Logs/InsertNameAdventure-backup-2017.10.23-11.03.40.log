@@ -1,0 +1,1141 @@
+﻿Log file open, 10/19/17 16:39:43
+LogWindows: LoadLibraryWithSearchPaths failed for file aqProf.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VSPerf140.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi.dll. GetLastError=0
+LogWindows: LoadLibraryWithSearchPaths failed for file VtuneApi32e.dll. GetLastError=0
+LogInit: Display: Running engine for game: InsertNameAdventure
+LogPlatformFile: Not using cached read wrapper
+LogInit: Display: RandInit(1027324920) SRandInit(1027324920).
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.162114
+LogD3D11RHI: Aftermath initialized
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.17-CL-3586342
+LogInit: Engine Version: 4.17.1-3586342+++UE4+Release-4.17
+LogInit: Compatible Engine Version: 4.17.0-3573198+++UE4+Release-4.17
+LogInit: Net CL: 3573198
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 20
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 28
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 19
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 7
+LogInit: Compiled (64-bit): Aug 15 2017 02:05:26
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.17
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.17/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.10.19-22.39.43:728][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.19-22.39.43:728][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.10.19-22.39.43:750][  0]LogInit: Computer: DESKTOP-OMJHMSB
+[2017.10.19-22.39.43:750][  0]LogInit: User: rajjj
+[2017.10.19-22.39.43:750][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.10.19-22.39.43:750][  0]LogInit: High frequency timer resolution =3.328127 MHz
+[2017.10.19-22.39.43:751][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.10.19-22.39.43:751][  0]LogMemory: Platform Memory Stats for Windows
+[2017.10.19-22.39.43:751][  0]LogMemory: Process Physical Memory: 279.97 MB used, 279.97 MB peak
+[2017.10.19-22.39.43:751][  0]LogMemory: Process Virtual Memory: 290.15 MB used, 290.15 MB peak
+[2017.10.19-22.39.43:751][  0]LogMemory: Physical Memory: 4269.04 MB used,  12052.70 MB free, 16321.74 MB total
+[2017.10.19-22.39.43:751][  0]LogMemory: Virtual Memory: 683.96 MB used,  12052.70 MB free, 134217728.00 MB total
+[2017.10.19-22.39.43:927][  0]LogInit: Using OS detected language (en-US).
+[2017.10.19-22.39.43:928][  0]LogInit: Using OS detected locale (en-US).
+[2017.10.19-22.39.43:930][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2017.10.19-22.39.44:511][  0]LogD3D11RHI: D3D11 adapters:
+[2017.10.19-22.39.45:055][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1070' (Feature Level 11_0)
+[2017.10.19-22.39.45:055][  0]LogD3D11RHI:       8085/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.10.19-22.39.45:056][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.10.19-22.39.45:056][  0]LogD3D11RHI:       0/0/8160 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.10.19-22.39.45:056][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.10.19-22.39.45:062][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.10.19-22.39.45:062][  0]LogD3D11RHI:     GPU DeviceId: 0x1b81 (for the marketing name, search the web for "GPU Device Id")
+[2017.10.19-22.39.45:063][  0]LogWindows: EnumDisplayDevices:
+[2017.10.19-22.39.45:063][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1070' (P:0 D:1)
+[2017.10.19-22.39.45:063][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1070' (P:1 D:1)
+[2017.10.19-22.39.45:063][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.19-22.39.45:063][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1070' (P:0 D:0)
+[2017.10.19-22.39.45:063][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2017.10.19-22.39.45:063][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1070
+[2017.10.19-22.39.45:063][  0]LogD3D11RHI:   Driver Version: 385.28 (internal:22.21.13.8528, unified:385.28)
+[2017.10.19-22.39.45:063][  0]LogD3D11RHI:      Driver Date: 8-9-2017
+[2017.10.19-22.39.45:063][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.10.19-22.39.45:586][  0]LogD3D11RHI: Async texture creation enabled
+[2017.10.19-22.39.45:624][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.10.19-22.39.45:673][  0]LogShaderCompilers: Guid format shader working directory is -34 characters bigger than the processId version (../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Intermediate/Shaders/WorkingDirectory/9868/).
+[2017.10.19-22.39.45:673][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/rajjj/AppData/Local/Temp/UnrealShaderWorkingDir/D990BF62465C25DCBBD1FFA83462FC97/'.
+[2017.10.19-22.39.45:673][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2017.10.19-22.39.46:492][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2017.10.19-22.39.46:540][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2017.10.19-22.39.46:584][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2017.10.19-22.39.46:629][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2017.10.19-22.39.46:674][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2017.10.19-22.39.46:718][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2017.10.19-22.39.46:761][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.10.19-22.39.46:805][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2017.10.19-22.39.46:843][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2017.10.19-22.39.46:887][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2017.10.19-22.39.46:937][  0]LogTemp: Display: Loaded TP Android_ASTCTargetPlatform
+[2017.10.19-22.39.46:985][  0]LogTemp: Display: Loaded TP Android_ATCTargetPlatform
+[2017.10.19-22.39.47:033][  0]LogTemp: Display: Loaded TP Android_DXTTargetPlatform
+[2017.10.19-22.39.47:083][  0]LogTemp: Display: Loaded TP Android_ETC1TargetPlatform
+[2017.10.19-22.39.47:136][  0]LogTemp: Display: Loaded TP Android_ETC2TargetPlatform
+[2017.10.19-22.39.47:240][  0]LogTemp: Display: Loaded TP Android_MultiTargetPlatform
+[2017.10.19-22.39.47:240][  0]LogTemp: Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.10.19-22.39.47:275][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2017.10.19-22.39.47:357][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2017.10.19-22.39.47:384][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2017.10.19-22.39.47:425][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2017.10.19-22.39.47:469][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.10.19-22.39.47:510][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2017.10.19-22.39.47:554][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2017.10.19-22.39.47:554][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2017.10.19-22.39.48:007][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2017.10.19-22.39.48:091][  0]LogDerivedDataCache: Loaded boot cache 0.08s 93MB C:/Users/rajjj/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.19-22.39.48:091][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/rajjj/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc
+[2017.10.19-22.39.48:091][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.10.19-22.39.48:091][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.10.19-22.39.48:091][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.10.19-22.39.48:091][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.10.19-22.39.48:104][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.10.19-22.39.48:116][  0]LogDerivedDataCache: Using Local data cache path C:/Users/rajjj/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.10.19-22.39.48:125][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.10.19-22.39.48:125][  0]LogSlate: Using Freetype 2.6.0
+[2017.10.19-22.39.48:126][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.19-22.39.48:126][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.10.19-22.39.48:361][  0]LogAssetRegistry: FAssetRegistry took 0.0273 seconds to start up
+[2017.10.19-22.39.48:468][  0]LogInit: Selected Device Profile: [Windows]
+[2017.10.19-22.39.48:604][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.10.19-22.39.48:865][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.10.19-22.39.48:900][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.10.19-22.39.48:900][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.10.19-22.39.48:900][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2017.10.19-22.39.48:900][  0]LogMeshReduction: No automatic mesh merging module available
+[2017.10.19-22.39.48:900][  0]LogMeshMerging: No automatic mesh merging module available
+[2017.10.19-22.39.49:200][  0]LogNetVersion: InsertNameAdventure , NetCL: 3573198, EngineNetVer: 2, GameNetVer: 0 (Checksum: 3080426378)
+[2017.10.19-22.39.49:396][  0]LogPackageLocalizationCache: Processed 5 localized package path(s) for 2 prioritized culture(s) in 0.051381 seconds
+[2017.10.19-22.39.49:402][  0]LogUObjectArray: 35825 objects as part of root set at end of initial load.
+[2017.10.19-22.39.49:402][  0]LogUObjectAllocator: 7529112 out of 0 bytes used by permanent object pool.
+[2017.10.19-22.39.49:402][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.10.19-22.39.49:461][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.10.19-22.39.51:732][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.10.19-22.39.51:771][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.10.19-22.39.52:388][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.10.19-22.39.52:768][  0]SourceControl: Source control is disabled
+[2017.10.19-22.39.53:586][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.10.19-22.39.53:830][  0]LogOcInput: OculusInput pre-init called
+[2017.10.19-22.39.54:082][  0]LogEngine: Initializing Engine...
+[2017.10.19-22.39.54:083][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.10.19-22.39.54:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.10.19-22.39.54:276][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.10.19-22.39.54:393][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.10.19-22.39.54:403][  0]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.19-22.39.54:416][  0]LogInit: FAudioDevice initialized.
+[2017.10.19-22.39.54:490][  0]LogDerivedDataCache: Saved boot cache 0.07s 93MB C:/Users/rajjj/AppData/Local/UnrealEngine/4.17/DerivedDataCache/Boot.ddc.
+[2017.10.19-22.39.54:497][  0]LogInit: Texture streaming: Enabled
+[2017.10.19-22.39.54:628][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.10.19-22.39.54:816][  0]LogInit: Transaction tracking system initialized
+[2017.10.19-22.39.55:085][  0]BlueprintLog: New page: Editor Load
+[2017.10.19-22.39.55:863][  0]LocalizationService: Localization service is disabled
+[2017.10.19-22.39.56:459][  0]LogConsoleResponse: Display: 
+[2017.10.19-22.39.56:626][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.10.19-22.39.56:626][  0]LogCook: Display: Mobile HDR setting 1
+[2017.10.19-22.39.56:626][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2017.10.19-22.39.56:966][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/' took 0.02s
+[2017.10.19-22.39.57:544][  0]Cmd: MAP LOAD FILE="../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Rainforest_Alien.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.19-22.39.57:545][  0]LightingResults: New page: Lighting Build
+[2017.10.19-22.39.57:585][  0]MapCheck: New page: Map Check
+[2017.10.19-22.39.57:585][  0]LightingResults: New page: Lighting Build
+[2017.10.19-22.39.57:864][  0]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'BoolProperty /Game/2DSideScrollerBP/Blueprints/UI/ItemDrag.ItemDrag_C:fromInv', MetaData 'True', Flag 'False'
+[2017.10.19-22.39.57:864][  0]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'ObjectProperty /Game/2DSideScrollerBP/Blueprints/UI/ItemDrag.ItemDrag_C:dragItem', MetaData 'True', Flag 'False'
+[2017.10.19-22.39.57:869][  0]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'BoolProperty /Game/2DSideScrollerBP/Blueprints/UI/ItemDrag.ItemDrag_C:fromInv', MetaData 'True', Flag 'False'
+[2017.10.19-22.39.57:869][  0]LogBlueprint: Warning: ExposeOnSpawn ambiguity. Property 'ObjectProperty /Game/2DSideScrollerBP/Blueprints/UI/ItemDrag.ItemDrag_C:dragItem', MetaData 'True', Flag 'False'
+[2017.10.19-22.39.57:896][  0]LogBlueprint: Warning: [Compiler ActionSlot] Input pin  Drag Item  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2017.10.19-22.39.57:909][  0]LogBlueprint: Warning: [Compiler InventorySlot] Input pin  From Inv  specifying non-default value no longer exists on this node. Please refresh node or reset pin to default value to remove pin.
+[2017.10.19-22.39.57:909][  0]LogBlueprint: Error: [Compiler InventorySlot] In use pin  Drag Item  no longer exists on this node. Please refresh node or break links to remove pin.
+[2017.10.19-22.39.58:030][  0]LogBlueprint: Warning: [Compiler ActionSlot] [0015.83] Compile of ActionSlot successful, but with 1 Warning(s) [in 177 ms] (/Game/2DSideScrollerBP/Blueprints/UI/ActionSlot.ActionSlot)
+[2017.10.19-22.39.58:030][  0]LogBlueprint: Warning: [Compiler InventorySlot] [0015.83] Compile of InventorySlot failed. 1 Fatal Issue(s) 1 Warning(s) [in 177 ms] (/Game/2DSideScrollerBP/Blueprints/UI/InventorySlot.InventorySlot)
+[2017.10.19-22.39.58:657][  0]LogMaterial: Missing cached shader map for material BlueLight_M1, compiling. 
+[2017.10.19-22.39.58:657][  0]LogMaterial: Warning: Failed to compile Material /Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Materials/BlueLight_M1.BlueLight_M1 for platform PCD3D_SM5, Default Material will be used in game.
+[2017.10.19-22.39.58:657][  0]LogMaterial: Warning: 	Function Flicker_MF: Missing function input 'Color'
+[2017.10.19-22.39.58:974][  0]LogAIModule: Creating AISystem for world Rainforest_Alien
+[2017.10.19-22.39.59:014][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.19-22.39.59:033][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.19-22.39.59:111][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 77.271ms to complete.
+[2017.10.19-22.39.59:111][  0]LogFileHelpers: Loading map 'Rainforest_Alien' took 1.567
+[2017.10.19-22.39.59:227][  0]LogCollectionManager: Loaded 0 collections in 0.001341 seconds
+[2017.10.19-22.39.59:308][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Collections/' took 0.01s
+[2017.10.19-22.39.59:308][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/Developers/rajjj/Collections/' took 0.01s
+[2017.10.19-22.39.59:308][  0]LogFileCache: Scanning file cache for directory 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/Collections/' took 0.01s
+[2017.10.19-22.39.59:308][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.10.19-22.39.59:318][  0]LogContentBrowser: Native class hierarchy populated in 0.0097 seconds. Added 2386 classes and 500 folders.
+[2017.10.19-22.39.59:386][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.19-22.39.59:418][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.10.19-22.39.59:524][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.19-22.39.59:537][  0]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.10.19-22.39.59:539][  0]LogSlate: Took 0.000136 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.10.19-22.39.59:541][  0]LogSlate: Took 0.000151 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.10.19-22.39.59:546][  0]LogSlate: Took 0.000147 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2017.10.19-22.39.59:624][  0]LogRenderer: Reallocating scene render targets to support 2556x740 Format 10 NumSamples 1 (Frame:1).
+[2017.10.19-22.39.59:787][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.10.19-22.39.59:788][  0]LogLoad: (Engine Initialization) Total time: 17.59 seconds
+[2017.10.19-22.39.59:788][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2017.10.19-22.39.59:788][  0]LogExternalProfiler: No external profilers were discovered.  External profiling features will not be available.
+[2017.10.19-22.39.59:798][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.19-22.39.59:831][  0]SourceControl: On branch V1.5.1
+[2017.10.19-22.39.59:831][  0]SourceControl: Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.10.19-22.39.59:831][  0]SourceControl: No commands done.
+[2017.10.19-22.39.59:831][  0]SourceControl: Next commands to do (2 remaining commands):
+[2017.10.19-22.39.59:831][  0]SourceControl:    pick b627089 Redid mt backdrop and started work on a desert zone
+[2017.10.19-22.39.59:831][  0]SourceControl:    pick 5400dc0 Revert "Redid mt backdrop and started work on a desert zone"
+[2017.10.19-22.39.59:831][  0]SourceControl:   (use "git rebase --edit-todo" to view and edit)
+[2017.10.19-22.39.59:832][  0]SourceControl: You are currently editing a commit while rebasing branch 'V1.5.1' on 'ad616f1'.
+[2017.10.19-22.39.59:832][  0]SourceControl:   (use "git commit --amend" to amend the current commit)
+[2017.10.19-22.39.59:832][  0]SourceControl:   (use "git rebase --continue" once you are satisfied with your changes)
+[2017.10.19-22.39.59:832][  0]SourceControl: Changes to be committed:
+[2017.10.19-22.39.59:832][  0]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.10.19-22.39.59:832][  0]SourceControl: 	deleted:    Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter1.uasset
+[2017.10.19-22.39.59:832][  0]SourceControl: Changes not staged for commit:
+[2017.10.19-22.39.59:832][  0]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.10.19-22.39.59:832][  0]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.10.19-22.39.59:832][  0]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.uasset
+[2017.10.19-22.39.59:832][  0]SourceControl: 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.10.19-22.39.59:832][  0]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.10.19-22.39.59:833][  0]SourceControl: 	modified:   Saved/AutoScreenshot.png
+[2017.10.19-22.39.59:833][  0]SourceControl: 	deleted:    Saved/Backup/RainFall4_PS_2017-09-12-15-55-18.uasset
+[2017.10.19-22.39.59:833][  0]SourceControl: 	deleted:    Saved/Backup/Rain_Forrest_TMTop_2017-09-11-17-30-27.uasset
+[2017.10.19-22.39.59:833][  0]SourceControl: 	deleted:    Saved/Backup/Rain_Forrest_TMTop_2017-09-11-17-38-53.uasset
+[2017.10.19-22.39.59:833][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-0C6C5D0D4BCAEC5AF41736B55EEF989B/CrashReportClient.ini
+[2017.10.19-22.39.59:833][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-14CAE457413C8AE0D82D45917E60EB88/CrashReportClient.ini
+[2017.10.19-22.39.59:833][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-163D679946DC693612B0B5B22F74C5D3/CrashReportClient.ini
+[2017.10.19-22.39.59:833][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-27A0795B44A10335264F4E945FC4CD66/CrashReportClient.ini
+[2017.10.19-22.39.59:833][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-47EB53B74629F7615D0409A724EE73CD/CrashReportClient.ini
+[2017.10.19-22.39.59:833][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-5BD5765044DA8A5A2F4617B0BF4CD33D/CrashReportClient.ini
+[2017.10.19-22.39.59:834][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-5DA5FC4E49881D7BFFB585AF36F02919/CrashReportClient.ini
+[2017.10.19-22.39.59:834][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-743B02A146D23260907B28A1E549EAAC/CrashReportClient.ini
+[2017.10.19-22.39.59:834][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-75BF790849C13C4C439B3C84A2F38E3E/CrashReportClient.ini
+[2017.10.19-22.39.59:834][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-84ECE0BB465EE4716424A7AE22CFA319/CrashReportClient.ini
+[2017.10.19-22.39.59:834][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-91C57D53442CF4AE276E69944D3EC2D8/CrashReportClient.ini
+[2017.10.19-22.39.59:834][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-B486DCCF45F22BA7B52FB3870A25C2B5/CrashReportClient.ini
+[2017.10.19-22.39.59:834][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-C0EB7E9D4FCA185BB18676A17C4EBABF/CrashReportClient.ini
+[2017.10.19-22.39.59:834][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini
+[2017.10.19-22.39.59:835][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~HEAD
+[2017.10.19-22.39.59:835][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~HEAD_0
+[2017.10.19-22.39.59:835][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~HEAD_1
+[2017.10.19-22.39.59:835][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~HEAD_2
+[2017.10.19-22.39.59:835][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~parent of f2858fb... Des Update more buildings
+[2017.10.19-22.39.59:835][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~parent of f2858fb... Des Update more buildings_0
+[2017.10.19-22.39.59:835][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~parent of f2858fb... Des Update more buildings_1
+[2017.10.19-22.39.59:835][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~parent of f2858fb... Des Update more buildings_2
+[2017.10.19-22.39.59:836][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-DBE8340646737BE496F836BC4B7D0C3A/CrashReportClient.ini
+[2017.10.19-22.39.59:836][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-E2F37361446818EBCB2C9F9EDBDFBF59/CrashReportClient.ini
+[2017.10.19-22.39.59:836][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-E7ADDFDB40C9E41ADFDF999C135732E4/CrashReportClient.ini
+[2017.10.19-22.39.59:836][  0]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-F2A328584118F33AD6C956B8BC82C28C/CrashReportClient.ini
+[2017.10.19-22.39.59:836][  0]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.10.19-22.39.59:836][  0]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.10.19-22.39.59:836][  0]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.10.19-22.39.59:836][  0]SourceControl: 	modified:   Saved/HardwareSurvey/dxdiag.txt
+[2017.10.19-22.39.59:836][  0]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.02-09.56.06.log
+[2017.10.19-22.39.59:836][  0]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.05-09.42.47.log
+[2017.10.19-22.39.59:837][  0]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.05-12.42.23.log
+[2017.10.19-22.39.59:837][  0]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.05-12.44.46.log
+[2017.10.19-22.39.59:837][  0]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.05-15.41.00.log
+[2017.10.19-22.39.59:837][  0]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.06-19.09.15.log
+[2017.10.19-22.39.59:837][  0]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.06-19.09.31.log
+[2017.10.19-22.39.59:837][  0]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.06-19.11.57.log
+[2017.10.19-22.39.59:837][  0]SourceControl: 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.10.19-22.39.59:837][  0]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure_2-backup-2017.10.05-12.45.22.log
+[2017.10.19-22.39.59:837][  0]SourceControl: Untracked files:
+[2017.10.19-22.39.59:837][  0]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.10.19-22.39.59:838][  0]SourceControl: 	Saved/Backup/2DSideScrollerCharacter_2017-10-06-19-32-08.uasset
+[2017.10.19-22.39.59:838][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-68F3336149B41C917AD1908DC6384951/
+[2017.10.19-22.39.59:838][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-7890FA124DE967324F42018A6BF2EB5D/
+[2017.10.19-22.39.59:838][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-CA7D2D7940A80C0BF432859AEFF03FA0/
+[2017.10.19-22.39.59:838][  0]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-F63B96E449B140D682DFAAB51BED0993/
+[2017.10.19-22.39.59:838][  0]SourceControl: 	Saved/Logs/InsertNameAdventure-backup-2017.10.17-11.55.04.log
+[2017.10.19-22.39.59:838][  0]SourceControl: 	Saved/Logs/InsertNameAdventure-backup-2017.10.18-17.03.07.log
+[2017.10.19-22.39.59:838][  0]SourceControl: 	Saved/Logs/InsertNameAdventure-backup-2017.10.19-13.49.10.log
+[2017.10.19-22.39.59:838][  0]SourceControl: 	Saved/Logs/InsertNameAdventure-backup-2017.10.19-16.39.43.log
+[2017.10.19-22.39.59:839][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.10.19-22.39.59:891][  0]LogSlate: Took 0.000142 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.19-22.39.59:919][  1]LogAssetRegistry: Asset discovery search completed in 11.5802 seconds
+[2017.10.19-22.39.59:922][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.10.19-22.39.59:922][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000180 seconds (updated 0 objects)
+[2017.10.19-22.40.04:905][562]LogFileCache: Retrieving MD5 hashes for directory 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/' took 5.09s
+[2017.10.19-22.40.12:295][443]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Weird_Shroom_Sprite12)
+[2017.10.19-22.40.13:292][539]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Shroom_Backdrop_Sprite)
+[2017.10.19-22.40.14:053][619]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Weird_Shroom_Sprite11)
+[2017.10.19-22.40.15:070][732]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Rain_Forrest_TM)
+[2017.10.19-22.40.16:052][836]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (New_MT_Backdrop_Sprite43)
+[2017.10.19-22.40.16:819][918]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.10.19-22.40.18:861][154]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Rain_Forrest_TM)
+[2017.10.19-22.40.19:902][268]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.10.19-22.40.21:036][396]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (Rain_Forrest_TM)
+[2017.10.19-22.40.22:563][567]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.10.19-22.40.27:357][ 86]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Rain_Forrest_Tree_Backdrop_Sprite8)
+[2017.10.19-22.40.28:864][255]LogEditorViewport: Clicking on Actor (LMB): Skybox_BP_Rain_C (Skybox_BP_Rain)
+[2017.10.19-22.41.04:697][467]LogSlate: Took 0.000108 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.19-22.41.05:037][467]LogAIModule: Creating AISystem for world Desert
+[2017.10.19-22.41.05:061][467]Cmd: MAP LOAD FILE="../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Desert.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.10.19-22.41.05:061][467]LightingResults: New page: Lighting Build
+[2017.10.19-22.41.05:062][467]LoadErrors: New page: Loading map: Desert.umap
+[2017.10.19-22.41.05:065][467]MapCheck: New page: Map Check
+[2017.10.19-22.41.05:066][467]LightingResults: New page: Lighting Build
+[2017.10.19-22.41.05:091][467]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.10.19-22.41.05:154][467]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.10.19-22.41.05:223][467]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 68.624ms to complete.
+[2017.10.19-22.41.05:223][467]LogFileHelpers: Loading map 'Desert' took 0.163
+[2017.10.19-22.41.22:835][524]LogContentBrowser: Native class hierarchy updated for 'TextureEditor' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.10.19-22.41.41:541][689]LogEditorViewport: Clicking on Actor (context menu): PaperSpriteActor (Dunes2_Sprite4)
+[2017.10.19-22.41.42:134][748]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Dunes2_Sprite3)
+[2017.10.19-22.41.42:635][802]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Sky_Scrapper_2_Sprite2)
+[2017.10.19-22.41.47:227][326]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Dunes2_Sprite3)
+[2017.10.19-22.41.47:883][395]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Dunes2_Sprite11)
+[2017.10.19-22.41.48:253][432]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Sky_Scrapper_2_Sprite3)
+[2017.10.19-22.41.54:714][175]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-22.41.55:848][305]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.19-22.41.55:937][305]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.19-22.41.57:906][305]PIE: New page: PIE session: Desert (Oct 19, 2017, 10:41:57 AM)
+[2017.10.19-22.41.57:907][305]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert
+[2017.10.19-22.41.57:913][305]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006685s)
+[2017.10.19-22.41.57:914][305]LogAIModule: Creating AISystem for world Desert
+[2017.10.19-22.41.57:914][305]LogPlayLevel: PIE: World Init took: (0.000706s)
+[2017.10.19-22.41.57:915][305]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Desert.Desert to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert.Desert (0.008587s)
+[2017.10.19-22.41.57:932][305]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.19-22.41.57:938][305]LogInit: FAudioDevice initialized.
+[2017.10.19-22.41.58:004][305]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.19-22.41.58:025][305]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert.Desert up for play (max tick rate 0) at 2017.10.19-16.41.58
+[2017.10.19-22.41.58:032][305]LogWorld: Bringing up level for play took: 0.015975
+[2017.10.19-22.41.58:097][305]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.10.19-22.41.58:126][305]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert 2.911
+[2017.10.19-22.41.58:196][306]LogCharacterMovement: Warning: GetSimulationTimeStep() - Max iterations 8 hit while remaining time 0.071880 > MaxSimulationTimeStep (0.050) for '2DSideScrollerCharacter_C_0', movement 'Walking'
+[2017.10.19-22.45.13:313][842]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_TM)
+[2017.10.19-22.45.14:086][926]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_TM)
+[2017.10.19-22.45.15:109][ 43]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-22.45.43:101][385]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_TM)
+[2017.10.19-22.45.43:279][397]LogEditorViewport: Clicking on Actor (context menu): PaperTileMapActor (SkyScraper_1_TM)
+[2017.10.19-22.46.09:798][ 45]LogSlate: Took 0.005499 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.10.19-22.46.09:865][ 45]LogRenderer: Reallocating scene render targets to support 2556x932 Format 10 NumSamples 1 (Frame:1).
+[2017.10.19-22.47.09:660][ 71]Cmd: TRANSACTION UNDO
+[2017.10.19-22.47.09:660][ 71]LogEditorTransaction: Undo Tile Painting
+[2017.10.19-22.47.09:691][ 71]LogSlate: Took 0.000169 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.10.19-22.47.10:077][101]Cmd: TRANSACTION UNDO
+[2017.10.19-22.47.10:077][101]LogEditorTransaction: Undo Tile Painting
+[2017.10.19-22.48.13:039][728]SourceControl: On branch V1.5.1
+[2017.10.19-22.48.13:039][728]SourceControl: Your branch is up-to-date with 'origin/V1.5.1'.
+[2017.10.19-22.48.13:039][728]SourceControl: No commands done.
+[2017.10.19-22.48.13:039][728]SourceControl: Next commands to do (2 remaining commands):
+[2017.10.19-22.48.13:039][728]SourceControl:    pick b627089 Redid mt backdrop and started work on a desert zone
+[2017.10.19-22.48.13:039][728]SourceControl:    pick 5400dc0 Revert "Redid mt backdrop and started work on a desert zone"
+[2017.10.19-22.48.13:039][728]SourceControl:   (use "git rebase --edit-todo" to view and edit)
+[2017.10.19-22.48.13:039][728]SourceControl: You are currently editing a commit while rebasing branch 'V1.5.1' on 'ad616f1'.
+[2017.10.19-22.48.13:039][728]SourceControl:   (use "git commit --amend" to amend the current commit)
+[2017.10.19-22.48.13:039][728]SourceControl:   (use "git rebase --continue" once you are satisfied with your changes)
+[2017.10.19-22.48.13:040][728]SourceControl: Changes to be committed:
+[2017.10.19-22.48.13:040][728]SourceControl:   (use "git reset HEAD <file>..." to unstage)
+[2017.10.19-22.48.13:040][728]SourceControl: 	deleted:    Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter1.uasset
+[2017.10.19-22.48.13:040][728]SourceControl: Changes not staged for commit:
+[2017.10.19-22.48.13:040][728]SourceControl:   (use "git add/rm <file>..." to update what will be committed)
+[2017.10.19-22.48.13:040][728]SourceControl:   (use "git checkout -- <file>..." to discard changes in working directory)
+[2017.10.19-22.48.13:040][728]SourceControl: 	modified:   Content/2DSideScrollerBP/Blueprints/Characters/2DSideScrollerCharacter.uasset
+[2017.10.19-22.48.13:040][728]SourceControl: 	modified:   Intermediate/AssetRegistryCache/c90e3f55.bin
+[2017.10.19-22.48.13:040][728]SourceControl: 	modified:   Intermediate/CachedAssetRegistry.bin
+[2017.10.19-22.48.13:040][728]SourceControl: 	modified:   Saved/AutoScreenshot.png
+[2017.10.19-22.48.13:040][728]SourceControl: 	deleted:    Saved/Backup/RainFall4_PS_2017-09-12-15-55-18.uasset
+[2017.10.19-22.48.13:040][728]SourceControl: 	deleted:    Saved/Backup/Rain_Forrest_TMTop_2017-09-11-17-30-27.uasset
+[2017.10.19-22.48.13:041][728]SourceControl: 	deleted:    Saved/Backup/Rain_Forrest_TMTop_2017-09-11-17-38-53.uasset
+[2017.10.19-22.48.13:041][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-0C6C5D0D4BCAEC5AF41736B55EEF989B/CrashReportClient.ini
+[2017.10.19-22.48.13:041][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-14CAE457413C8AE0D82D45917E60EB88/CrashReportClient.ini
+[2017.10.19-22.48.13:041][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-163D679946DC693612B0B5B22F74C5D3/CrashReportClient.ini
+[2017.10.19-22.48.13:041][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-27A0795B44A10335264F4E945FC4CD66/CrashReportClient.ini
+[2017.10.19-22.48.13:041][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-47EB53B74629F7615D0409A724EE73CD/CrashReportClient.ini
+[2017.10.19-22.48.13:041][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-5BD5765044DA8A5A2F4617B0BF4CD33D/CrashReportClient.ini
+[2017.10.19-22.48.13:041][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-5DA5FC4E49881D7BFFB585AF36F02919/CrashReportClient.ini
+[2017.10.19-22.48.13:042][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-743B02A146D23260907B28A1E549EAAC/CrashReportClient.ini
+[2017.10.19-22.48.13:042][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-75BF790849C13C4C439B3C84A2F38E3E/CrashReportClient.ini
+[2017.10.19-22.48.13:042][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-84ECE0BB465EE4716424A7AE22CFA319/CrashReportClient.ini
+[2017.10.19-22.48.13:042][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-91C57D53442CF4AE276E69944D3EC2D8/CrashReportClient.ini
+[2017.10.19-22.48.13:042][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-B486DCCF45F22BA7B52FB3870A25C2B5/CrashReportClient.ini
+[2017.10.19-22.48.13:042][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-C0EB7E9D4FCA185BB18676A17C4EBABF/CrashReportClient.ini
+[2017.10.19-22.48.13:042][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini
+[2017.10.19-22.48.13:042][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~HEAD
+[2017.10.19-22.48.13:043][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~HEAD_0
+[2017.10.19-22.48.13:043][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~HEAD_1
+[2017.10.19-22.48.13:043][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~HEAD_2
+[2017.10.19-22.48.13:043][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~parent of f2858fb... Des Update more buildings
+[2017.10.19-22.48.13:043][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~parent of f2858fb... Des Update more buildings_0
+[2017.10.19-22.48.13:043][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~parent of f2858fb... Des Update more buildings_1
+[2017.10.19-22.48.13:043][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-D892BC8940DAE42F1B446984BE2A5177/CrashReportClient.ini~parent of f2858fb... Des Update more buildings_2
+[2017.10.19-22.48.13:044][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-DBE8340646737BE496F836BC4B7D0C3A/CrashReportClient.ini
+[2017.10.19-22.48.13:044][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-E2F37361446818EBCB2C9F9EDBDFBF59/CrashReportClient.ini
+[2017.10.19-22.48.13:044][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-E7ADDFDB40C9E41ADFDF999C135732E4/CrashReportClient.ini
+[2017.10.19-22.48.13:044][728]SourceControl: 	deleted:    Saved/Config/CrashReportClient/UE4CC-Windows-F2A328584118F33AD6C956B8BC82C28C/CrashReportClient.ini
+[2017.10.19-22.48.13:044][728]SourceControl: 	modified:   Saved/Config/Windows/Editor.ini
+[2017.10.19-22.48.13:044][728]SourceControl: 	modified:   Saved/Config/Windows/EditorPerProjectUserSettings.ini
+[2017.10.19-22.48.13:044][728]SourceControl: 	modified:   Saved/Config/Windows/Engine.ini
+[2017.10.19-22.48.13:044][728]SourceControl: 	modified:   Saved/HardwareSurvey/dxdiag.txt
+[2017.10.19-22.48.13:044][728]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.02-09.56.06.log
+[2017.10.19-22.48.13:045][728]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.05-09.42.47.log
+[2017.10.19-22.48.13:045][728]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.05-12.42.23.log
+[2017.10.19-22.48.13:045][728]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.05-12.44.46.log
+[2017.10.19-22.48.13:045][728]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.05-15.41.00.log
+[2017.10.19-22.48.13:045][728]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.06-19.09.15.log
+[2017.10.19-22.48.13:045][728]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.06-19.09.31.log
+[2017.10.19-22.48.13:045][728]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure-backup-2017.10.06-19.11.57.log
+[2017.10.19-22.48.13:045][728]SourceControl: 	modified:   Saved/Logs/InsertNameAdventure.log
+[2017.10.19-22.48.13:045][728]SourceControl: 	deleted:    Saved/Logs/InsertNameAdventure_2-backup-2017.10.05-12.45.22.log
+[2017.10.19-22.48.13:045][728]SourceControl: Untracked files:
+[2017.10.19-22.48.13:045][728]SourceControl:   (use "git add <file>..." to include in what will be committed)
+[2017.10.19-22.48.13:046][728]SourceControl: 	Saved/Backup/2DSideScrollerCharacter_2017-10-06-19-32-08.uasset
+[2017.10.19-22.48.13:046][728]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-68F3336149B41C917AD1908DC6384951/
+[2017.10.19-22.48.13:046][728]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-7890FA124DE967324F42018A6BF2EB5D/
+[2017.10.19-22.48.13:046][728]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-CA7D2D7940A80C0BF432859AEFF03FA0/
+[2017.10.19-22.48.13:046][728]SourceControl: 	Saved/Config/CrashReportClient/UE4CC-Windows-F63B96E449B140D682DFAAB51BED0993/
+[2017.10.19-22.48.13:046][728]SourceControl: 	Saved/Logs/InsertNameAdventure-backup-2017.10.17-11.55.04.log
+[2017.10.19-22.48.13:046][728]SourceControl: 	Saved/Logs/InsertNameAdventure-backup-2017.10.18-17.03.07.log
+[2017.10.19-22.48.13:046][728]SourceControl: 	Saved/Logs/InsertNameAdventure-backup-2017.10.19-13.49.10.log
+[2017.10.19-22.48.13:046][728]SourceControl: 	Saved/Logs/InsertNameAdventure-backup-2017.10.19-16.39.43.log
+[2017.10.19-22.48.13:408][728]LogSavePackage: Save=167.36ms
+[2017.10.19-22.48.13:408][728]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/SkyScraper_1_Walls_TMF534CDE44588AEEF335E7F8E2C199D81.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Walls_TM.uasset'
+[2017.10.19-22.48.13:414][728]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Walls_TM.uasset
+[2017.10.19-22.48.13:594][728]LogSavePackage: Save=4.15ms
+[2017.10.19-22.48.13:595][728]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/SkyScraper_1_TM64D9B718454774EB2CF72B9D791055EE.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_TM.uasset'
+[2017.10.19-22.48.13:598][728]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_TM.uasset
+[2017.10.19-22.49.02:254][915]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/MASTER_Sky_Material_DEFAULT_MAP.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/MASTER_Sky_Material_DEFAULT_MAP.uasset' is outside repository
+[2017.10.19-22.49.02:986][976]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultMaterial.uasset' is outside repository
+[2017.10.19-22.49.02:986][976]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset' is outside repository
+[2017.10.19-22.49.02:986][976]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/Runtime/Steam/SteamVR/Content/Materials/M_DefaultDevice.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/Runtime/Steam/SteamVR/Content/Materials/M_DefaultDevice.uasset' is outside repository
+[2017.10.19-22.49.42:052][796]Cmd: TRANSACTION UNDO
+[2017.10.19-22.49.42:052][796]LogEditorTransaction: Undo Tile Painting
+[2017.10.19-22.49.55:258][176]Cmd: TRANSACTION UNDO
+[2017.10.19-22.49.55:258][176]LogEditorTransaction: Undo Create Actors
+[2017.10.19-22.49.59:025][591]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_TM)
+[2017.10.19-22.50.01:925][925]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-22.50.07:659][596]Cmd: TRANSACTION UNDO
+[2017.10.19-22.50.07:659][596]LogEditorTransaction: Undo Set actor location
+[2017.10.19-22.50.10:093][783]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-22.50.18:344][755]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-22.50.22:082][151]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_TM)
+[2017.10.19-22.50.32:647][225]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-22.50.43:226][404]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-22.50.43:856][473]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-22.50.47:151][856]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-22.50.55:789][879]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-22.51.03:061][730]Cmd: TRANSACTION UNDO
+[2017.10.19-22.51.03:061][730]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.19-22.51.04:690][915]Cmd: TRANSACTION REDO
+[2017.10.19-22.51.04:690][915]LogEditorTransaction: Redo Clicking on Actors
+[2017.10.19-22.51.57:153][836]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-22.52.06:583][885]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight3)
+[2017.10.19-22.52.07:447][973]Cmd: DELETE
+[2017.10.19-22.52.07:447][973]Cmd: ACTOR DELETE
+[2017.10.19-22.52.07:450][973]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.10.19-22.52.07:463][973]LogEditorActor: Deleted 1 Actors (0.013 secs)
+[2017.10.19-22.52.09:360][198]Cmd: TRANSACTION UNDO
+[2017.10.19-22.52.09:360][198]LogEditorTransaction: Undo Delete Actors
+[2017.10.19-22.52.20:793][401]Cmd: DELETE
+[2017.10.19-22.52.20:793][401]Cmd: ACTOR DELETE
+[2017.10.19-22.52.20:793][401]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.10.19-22.52.20:802][401]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.10.19-22.52.22:287][575]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight2)
+[2017.10.19-22.52.23:545][707]Cmd: DELETE
+[2017.10.19-22.52.23:545][707]Cmd: ACTOR DELETE
+[2017.10.19-22.52.23:546][707]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.10.19-22.52.23:555][707]LogEditorActor: Deleted 1 Actors (0.009 secs)
+[2017.10.19-22.52.24:630][834]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.10.19-22.52.25:695][951]Cmd: DELETE
+[2017.10.19-22.52.25:695][951]Cmd: ACTOR DELETE
+[2017.10.19-22.52.25:696][951]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.10.19-22.52.25:705][951]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.10.19-22.52.30:711][459]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineDebugMaterials/DebugMeshMaterialFakeLight.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineDebugMaterials/DebugMeshMaterialFakeLight.uasset' is outside repository
+[2017.10.19-22.52.30:711][459]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultDecalMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultDecalMaterial.uasset' is outside repository
+[2017.10.19-22.52.30:712][459]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.10.19-22.52.32:215][586]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultDecalMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultDecalMaterial.uasset' is outside repository
+[2017.10.19-22.52.32:215][586]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.10.19-22.52.32:934][652]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset' is outside repository
+[2017.10.19-22.52.36:865][ 33]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Sun)
+[2017.10.19-22.52.39:351][244]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-22.52.40:064][317]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_TM)
+[2017.10.19-22.52.42:031][528]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-22.52.50:521][325]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_TM)
+[2017.10.19-22.52.58:029][ 80]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultDecalMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultDecalMaterial.uasset' is outside repository
+[2017.10.19-22.52.58:029][ 80]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.10.19-22.52.58:400][118]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset' is outside repository
+[2017.10.19-22.53.05:154][833]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultDecalMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultDecalMaterial.uasset' is outside repository
+[2017.10.19-22.53.05:155][833]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.10.19-22.53.08:053][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacity_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/3dParticleOpacity_Mat.uasset' is outside repository
+[2017.10.19-22.53.08:053][127]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/MaterialTemplates/VertexAnimation/AdvancedFlag.uasset' is outside repository
+[2017.10.19-22.53.12:158][539]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultDecalMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultDecalMaterial.uasset' is outside repository
+[2017.10.19-22.53.12:159][539]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.10.19-22.53.15:742][926]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-22.53.43:693][ 14]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.10.19-22.53.48:854][558]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-22.53.49:502][625]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Dunes2_Sprite8)
+[2017.10.19-22.53.49:891][658]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-22.54.53:015][469]Cmd: TRANSACTION UNDO
+[2017.10.19-22.54.53:015][469]LogEditorTransaction: Undo Tile Erasing
+[2017.10.19-22.55.27:267][368]Cmd: TRANSACTION UNDO
+[2017.10.19-22.55.27:267][368]LogEditorTransaction: Undo Tile Erasing
+[2017.10.19-22.56.24:502][783]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-22.56.30:340][364]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite)
+[2017.10.19-22.56.52:041][571]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite2)
+[2017.10.19-22.56.54:564][826]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite2)
+[2017.10.19-22.56.54:878][854]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-22.56.59:632][318]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite3)
+[2017.10.19-22.57.06:235][994]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite3)
+[2017.10.19-22.57.08:947][271]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-22.57.09:881][364]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite3)
+[2017.10.19-22.57.12:769][664]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-22.57.16:201][ 31]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite4)
+[2017.10.19-22.57.19:064][332]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite3)
+[2017.10.19-22.57.22:230][666]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite3)
+[2017.10.19-22.57.22:658][707]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-22.57.23:706][811]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite4)
+[2017.10.19-22.57.24:913][933]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Dunes2_Sprite11)
+[2017.10.19-22.57.26:710][ 93]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-22.57.29:636][378]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite4)
+[2017.10.19-22.57.35:381][958]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite4)
+[2017.10.19-22.57.36:971][123]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite5)
+[2017.10.19-22.57.37:601][183]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite4)
+[2017.10.19-22.57.39:656][393]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite3)
+[2017.10.19-22.57.40:910][519]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite3)
+[2017.10.19-22.57.54:890][877]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite4)
+[2017.10.19-22.57.56:611][ 52]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite4)
+[2017.10.19-22.57.56:964][ 85]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite5)
+[2017.10.19-22.58.00:035][404]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Dunes2_Sprite9)
+[2017.10.19-22.58.01:692][541]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-22.58.04:884][892]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite)
+[2017.10.19-22.58.06:307][ 34]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Glass_Sprite2)
+[2017.10.19-22.58.06:850][ 83]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Glass_Sprite3)
+[2017.10.19-22.58.07:435][137]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Glass_Sprite4)
+[2017.10.19-22.58.07:914][180]LogEditorViewport: Clicking on Actor (CTRL LMB): PaperSpriteActor (Glass_Sprite5)
+[2017.10.19-22.58.11:759][553]Cmd: TRANSACTION UNDO
+[2017.10.19-22.58.11:759][553]LogEditorTransaction: Undo Regroup Ctrl+G
+[2017.10.19-22.58.11:760][553]LogActorComponent: ~FComponentReregisterContext: (/Game/2DSideScrollerBP/Maps/Levels/Desert.Desert:PersistentLevel.Glass_Sprite_3.RenderComponent) Component already registered.
+[2017.10.19-22.58.28:946][219]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite11)
+[2017.10.19-22.58.32:363][575]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite12)
+[2017.10.19-22.58.34:354][775]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite11)
+[2017.10.19-22.58.37:488][ 99]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite12)
+[2017.10.19-22.58.39:867][347]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite12)
+[2017.10.19-22.58.40:264][384]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite13)
+[2017.10.19-22.58.49:335][290]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite14)
+[2017.10.19-22.58.50:502][405]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite14)
+[2017.10.19-22.58.50:882][440]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite15)
+[2017.10.19-22.58.55:785][914]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-22.58.57:422][ 92]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.19-22.58.57:457][ 92]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.19-22.58.57:457][ 92]PIE: New page: PIE session: Desert (Oct 19, 2017, 10:58:57 AM)
+[2017.10.19-22.58.57:457][ 92]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert
+[2017.10.19-22.58.57:464][ 92]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006554s)
+[2017.10.19-22.58.57:465][ 92]LogAIModule: Creating AISystem for world Desert
+[2017.10.19-22.58.57:465][ 92]LogPlayLevel: PIE: World Init took: (0.000883s)
+[2017.10.19-22.58.57:465][ 92]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Desert.Desert to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert.Desert (0.007980s)
+[2017.10.19-22.58.57:485][ 92]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.19-22.58.57:491][ 92]LogInit: FAudioDevice initialized.
+[2017.10.19-22.58.57:520][ 92]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.19-22.58.57:525][ 92]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert.Desert up for play (max tick rate 0) at 2017.10.19-16.58.57
+[2017.10.19-22.58.57:527][ 92]LogWorld: Bringing up level for play took: 0.006479
+[2017.10.19-22.58.57:536][ 92]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert 0.322
+[2017.10.19-22.59.27:439][515]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.10.19-22.59.32:556][ 51]Cmd: TRANSACTION UNDO
+[2017.10.19-22.59.32:556][ 51]LogEditorTransaction: Undo Move Actors
+[2017.10.19-22.59.45:386][405]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.10.19-22.59.48:981][786]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-22.59.54:379][398]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.10.19-23.00.00:033][974]Cmd: TRANSACTION UNDO
+[2017.10.19-23.00.00:034][974]LogEditorTransaction: Undo Rotate Actors
+[2017.10.19-23.00.00:880][ 48]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Dunes2_Sprite2)
+[2017.10.19-23.00.01:917][138]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.00.02:957][202]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.10.19-23.00.08:295][776]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight3)
+[2017.10.19-23.00.13:964][381]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.00.16:285][623]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite4)
+[2017.10.19-23.00.17:076][698]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite3)
+[2017.10.19-23.00.18:860][868]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.00.20:443][ 11]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite7)
+[2017.10.19-23.00.29:003][866]Cmd: TRANSACTION UNDO
+[2017.10.19-23.00.29:003][866]LogEditorTransaction: Undo Clicking on Actors
+[2017.10.19-23.00.32:969][285]LogSavePackage: Save=7.10ms
+[2017.10.19-23.00.32:969][285]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Glass_Sprite1192761D84D14B4447D041890E92FC4C0.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Glass_Sprite1.uasset'
+[2017.10.19-23.00.32:973][285]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Rain_Forrest_Sprites/Glass_Sprite1.uasset
+[2017.10.19-23.00.41:417][914]LogContentBrowser: Native class hierarchy updated for 'MaterialEditor' in 0.0006 seconds. Added 1 classes and 0 folders.
+[2017.10.19-23.00.41:421][914]LogMaterial: Missing cached shader map for material Glass_M, compiling. 
+[2017.10.19-23.00.41:608][914]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.19-23.00.41:614][914]LogMaterial: Missing cached shader map for material Glass_M, compiling. 
+[2017.10.19-23.00.41:631][914]LogMaterial: Missing cached shader map for material Glass_M, compiling. 
+[2017.10.19-23.00.41:672][914]LogMaterial: Missing cached shader map for material FMatExpressionPreview MaterialExpressionVectorParameter_0, compiling. 
+[2017.10.19-23.00.41:826][917]LogSlate: Took 0.005036 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.10.19-23.01.13:695][639]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite4)
+[2017.10.19-23.01.17:427][  1]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite4)
+[2017.10.19-23.01.47:586][888]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.02.28:787][309]LogSavePackage: Save=204.16ms
+[2017.10.19-23.02.28:787][309]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Desert_Auto156A870664FBE77BF608441A4A14CEE42.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Desert_Auto1.umap'
+[2017.10.19-23.02.28:789][309]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Desert_Auto1.umap
+[2017.10.19-23.02.28:794][309]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Desert' took 0.278
+[2017.10.19-23.02.28:794][309]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.278
+[2017.10.19-23.02.28:796][309]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Walls_TM] ([1] browsable assets)...
+[2017.10.19-23.02.28:797][309]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Walls_TM]
+[2017.10.19-23.02.28:877][309]LogSavePackage: Save=30.55ms
+[2017.10.19-23.02.28:877][309]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/SkyScraper_1_Walls_TM_Auto1DE0965DD4A2A58EEB3F5D6B5E8970DD0.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Walls_TM_Auto1.uasset'
+[2017.10.19-23.02.28:878][309]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Walls_TM_Auto1.uasset
+[2017.10.19-23.02.28:879][309]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Inside_TM] ([1] browsable assets)...
+[2017.10.19-23.02.28:879][309]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Inside_TM]
+[2017.10.19-23.02.28:906][309]LogSavePackage: Save=24.68ms
+[2017.10.19-23.02.28:906][309]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/SkyScraper_1_Inside_TM_Auto1B5882CF84F93FC4F9A14488E43A525F5.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Inside_TM_Auto1.uasset'
+[2017.10.19-23.02.28:908][309]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Inside_TM_Auto1.uasset
+[2017.10.19-23.02.28:908][309]LogFileHelpers: Auto-saving content packages took 0.113
+[2017.10.19-23.06.54:556][939]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorLandscapeResources/MaskBrushMaterial.uasset' is outside repository
+[2017.10.19-23.06.54:556][939]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/MaskedLitSpriteMaterial.uasset' is outside repository
+[2017.10.19-23.06.54:556][939]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/MASTER_Sky_Material.uasset' is outside repository
+[2017.10.19-23.06.54:557][939]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack_Mat.uasset' is outside repository
+[2017.10.19-23.06.58:105][203]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/MASTER_Sky_Material_DEFAULT_MAP.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/MapTemplates/MASTER_Sky_Material_DEFAULT_MAP.uasset' is outside repository
+[2017.10.19-23.06.58:797][254]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultMaterial.uasset' is outside repository
+[2017.10.19-23.06.58:797][254]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset' is outside repository
+[2017.10.19-23.06.58:798][254]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/Runtime/Steam/SteamVR/Content/Materials/M_DefaultDevice.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/Runtime/Steam/SteamVR/Content/Materials/M_DefaultDevice.uasset' is outside repository
+[2017.10.19-23.07.02:585][537]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset' is outside repository
+[2017.10.19-23.07.02:585][537]SourceControl: fatal: C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset: 'C:/Program Files/Epic Games/UE_4.17/Engine/Plugins/2D/Paper2D/Content/DefaultLitSpriteMaterial.uasset' is outside repository
+[2017.10.19-23.07.17:289][852]Cmd: TRANSACTION UNDO
+[2017.10.19-23.07.17:289][852]LogEditorTransaction: Undo Create Actors
+[2017.10.19-23.07.21:375][214]Cmd: TRANSACTION UNDO
+[2017.10.19-23.07.21:375][214]LogEditorTransaction: Undo Create Actors
+[2017.10.19-23.07.22:502][301]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_TM)
+[2017.10.19-23.07.25:773][650]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_TM)
+[2017.10.19-23.07.26:576][733]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_TM)
+[2017.10.19-23.07.27:433][822]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-23.07.28:580][935]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_TM)
+[2017.10.19-23.08.07:959][774]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.08.17:531][817]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-23.08.18:096][869]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Floor_TM)
+[2017.10.19-23.08.18:423][897]LogEditorViewport: Clicking on Component (LMB): PaperTileMapComponent (RenderComponent)
+[2017.10.19-23.08.21:630][206]LogSavePackage: Save=209.76ms
+[2017.10.19-23.08.21:630][206]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Desert8F416C01498A3416C6D30E8E2DD618FB.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Desert.umap'
+[2017.10.19-23.08.21:639][206]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Desert.umap
+[2017.10.19-23.08.21:800][206]LogSavePackage: Save=8.31ms
+[2017.10.19-23.08.21:800][206]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Desert_BuiltData2B941F814EA7ACC89AF46FB9BE7D939C.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Desert_BuiltData.uasset'
+[2017.10.19-23.08.21:801][206]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Desert_BuiltData.uasset
+[2017.10.19-23.09.00:475][389]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.09.07:885][223]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.19-23.09.07:916][223]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.19-23.09.07:916][223]PIE: New page: PIE session: Desert (Oct 19, 2017, 11:09:07 AM)
+[2017.10.19-23.09.07:916][223]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert
+[2017.10.19-23.09.07:923][223]LogPlayLevel: PIE: StaticDuplicateObject took: (0.007081s)
+[2017.10.19-23.09.07:924][223]LogAIModule: Creating AISystem for world Desert
+[2017.10.19-23.09.07:924][223]LogPlayLevel: PIE: World Init took: (0.000769s)
+[2017.10.19-23.09.07:925][223]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Desert.Desert to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert.Desert (0.008431s)
+[2017.10.19-23.09.07:940][223]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.19-23.09.07:946][223]LogInit: FAudioDevice initialized.
+[2017.10.19-23.09.07:976][223]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.19-23.09.07:982][223]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert.Desert up for play (max tick rate 0) at 2017.10.19-17.09.07
+[2017.10.19-23.09.07:985][223]LogWorld: Bringing up level for play took: 0.007184
+[2017.10.19-23.09.07:993][223]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert 0.779
+[2017.10.19-23.09.43:416][363]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite5)
+[2017.10.19-23.09.44:020][419]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite4)
+[2017.10.19-23.09.49:497][967]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite10)
+[2017.10.19-23.09.50:090][ 20]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite9)
+[2017.10.19-23.09.54:460][484]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-23.09.59:612][975]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.10.01:422][172]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.19-23.10.01:451][172]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.19-23.10.01:452][172]PIE: New page: PIE session: Desert (Oct 19, 2017, 11:10:01 AM)
+[2017.10.19-23.10.01:452][172]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert
+[2017.10.19-23.10.01:459][172]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006917s)
+[2017.10.19-23.10.01:460][172]LogAIModule: Creating AISystem for world Desert
+[2017.10.19-23.10.01:460][172]LogPlayLevel: PIE: World Init took: (0.000801s)
+[2017.10.19-23.10.01:460][172]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Desert.Desert to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert.Desert (0.008278s)
+[2017.10.19-23.10.01:478][172]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.19-23.10.01:485][172]LogInit: FAudioDevice initialized.
+[2017.10.19-23.10.01:518][172]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.19-23.10.01:523][172]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert.Desert up for play (max tick rate 0) at 2017.10.19-17.10.01
+[2017.10.19-23.10.01:525][172]LogWorld: Bringing up level for play took: 0.006777
+[2017.10.19-23.10.01:534][172]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert 0.319
+[2017.10.19-23.10.16:509][931]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite2)
+[2017.10.19-23.10.17:335][ 14]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite)
+[2017.10.19-23.10.31:073][431]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.10.19-23.10.31:073][431]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.10.19-23.10.31:074][431]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.10.19-23.10.31:074][431]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.10.19-23.10.31:074][431]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.10.19-23.10.31:074][431]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.10.19-23.10.31:074][431]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.10.19-23.10.31:074][431]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.10.19-23.10.31:074][431]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.10.19-23.10.31:074][431]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.10.19-23.10.31:075][431]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.10.19-23.10.31:075][431]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.10.19-23.10.31:075][431]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.10.19-23.10.31:075][431]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.10.19-23.10.31:075][431]LogEditorActor: Deleted Actor: PaperSpriteActor
+[2017.10.19-23.10.31:083][431]LogEditorActor: Deleted 15 Actors (0.011 secs)
+[2017.10.19-23.10.32:774][630]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite)
+[2017.10.19-23.11.27:049][538]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_TM)
+[2017.10.19-23.11.27:453][572]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.11.31:064][978]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite)
+[2017.10.19-23.11.40:537][972]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.11.42:940][232]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.19-23.11.42:970][232]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.19-23.11.42:970][232]PIE: New page: PIE session: Desert (Oct 19, 2017, 11:11:42 AM)
+[2017.10.19-23.11.42:970][232]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert
+[2017.10.19-23.11.42:976][232]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006145s)
+[2017.10.19-23.11.42:977][232]LogAIModule: Creating AISystem for world Desert
+[2017.10.19-23.11.42:977][232]LogPlayLevel: PIE: World Init took: (0.000797s)
+[2017.10.19-23.11.42:978][232]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Desert.Desert to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert.Desert (0.007525s)
+[2017.10.19-23.11.42:995][232]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.19-23.11.43:001][232]LogInit: FAudioDevice initialized.
+[2017.10.19-23.11.43:033][232]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.19-23.11.43:038][232]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert.Desert up for play (max tick rate 0) at 2017.10.19-17.11.43
+[2017.10.19-23.11.43:040][232]LogWorld: Bringing up level for play took: 0.006625
+[2017.10.19-23.11.43:049][232]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert -0.165
+[2017.10.19-23.12.37:541][700]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight3)
+[2017.10.19-23.12.40:608][ 16]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight3)
+[2017.10.19-23.13.03:398][426]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.13.07:369][837]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight4)
+[2017.10.19-23.13.25:394][669]Cmd: TRANSACTION UNDO
+[2017.10.19-23.13.25:394][669]LogEditorTransaction: Undo Move Actors
+[2017.10.19-23.13.26:592][759]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight5)
+[2017.10.19-23.13.27:644][872]Cmd: DELETE
+[2017.10.19-23.13.27:644][872]Cmd: ACTOR DELETE
+[2017.10.19-23.13.27:644][872]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.10.19-23.13.27:655][872]LogEditorActor: Deleted 1 Actors (0.011 secs)
+[2017.10.19-23.13.28:953][ 25]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight4)
+[2017.10.19-23.13.29:700][102]Cmd: DELETE
+[2017.10.19-23.13.29:700][102]Cmd: ACTOR DELETE
+[2017.10.19-23.13.29:701][102]LogEditorActor: Deleted Actor: DirectionalLight
+[2017.10.19-23.13.29:710][102]LogEditorActor: Deleted 1 Actors (0.010 secs)
+[2017.10.19-23.13.51:690][651]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Glass_Sprite)
+[2017.10.19-23.14.00:449][540]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.14.05:555][121]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Dunes2_Sprite7)
+[2017.10.19-23.14.06:254][166]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.15.30:190][484]LogEditorViewport: Clicking on Actor (LMB): PaperSpriteActor (Dunes2_Sprite8)
+[2017.10.19-23.15.31:486][613]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.16.16:034][625]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.10.19-23.16.22:623][342]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.10.19-23.16.28:032][901]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight3)
+[2017.10.19-23.16.34:781][629]LogEditorViewport: Clicking on Actor (LMB): DirectionalLight (DirectionalLight)
+[2017.10.19-23.16.43:069][491]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.16.48:770][122]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.19-23.16.48:802][122]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.19-23.16.48:802][122]PIE: New page: PIE session: Desert (Oct 19, 2017, 11:16:48 AM)
+[2017.10.19-23.16.48:802][122]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert
+[2017.10.19-23.16.48:809][122]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006097s)
+[2017.10.19-23.16.48:809][122]LogAIModule: Creating AISystem for world Desert
+[2017.10.19-23.16.48:809][122]LogPlayLevel: PIE: World Init took: (0.000790s)
+[2017.10.19-23.16.48:810][122]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Desert.Desert to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert.Desert (0.007430s)
+[2017.10.19-23.16.48:827][122]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.19-23.16.48:834][122]LogInit: FAudioDevice initialized.
+[2017.10.19-23.16.48:861][122]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.19-23.16.48:867][122]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert.Desert up for play (max tick rate 0) at 2017.10.19-17.16.48
+[2017.10.19-23.16.48:869][122]LogWorld: Bringing up level for play took: 0.006983
+[2017.10.19-23.16.48:878][122]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert -0.336
+[2017.10.19-23.17.01:818][637]LogEditorViewport: Clicking on Actor (LMB): PaperTileMapActor (SkyScraper_1_Inside_TM)
+[2017.10.19-23.17.07:723][213]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.17.09:923][448]LogTemp: Repeating last play command: Selected Viewport
+[2017.10.19-23.17.09:952][448]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.10.19-23.17.09:952][448]PIE: New page: PIE session: Desert (Oct 19, 2017, 11:17:09 AM)
+[2017.10.19-23.17.09:952][448]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert
+[2017.10.19-23.17.09:958][448]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006069s)
+[2017.10.19-23.17.09:959][448]LogAIModule: Creating AISystem for world Desert
+[2017.10.19-23.17.09:959][448]LogPlayLevel: PIE: World Init took: (0.000695s)
+[2017.10.19-23.17.09:960][448]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/Levels/Desert.Desert to /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert.Desert (0.007297s)
+[2017.10.19-23.17.09:977][448]LogInit: XAudio2 using 'Speakers (2- Logitech G930 Headset)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.10.19-23.17.09:983][448]LogInit: FAudioDevice initialized.
+[2017.10.19-23.17.10:011][448]LogLoad: Game class is '2DSideScrollerGameMode_C'
+[2017.10.19-23.17.10:015][448]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert.Desert up for play (max tick rate 0) at 2017.10.19-17.17.10
+[2017.10.19-23.17.10:017][448]LogWorld: Bringing up level for play took: 0.006240
+[2017.10.19-23.17.10:026][448]PIE: Play in editor start time for /Game/2DSideScrollerBP/Maps/Levels/UEDPIE_0_Desert 0.812
+[2017.10.19-23.20.24:901][698]LogSavePackage: Save=194.16ms
+[2017.10.19-23.20.24:901][698]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Desert_Auto2616B2A2547965139B684CD91E2E336DA.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Desert_Auto2.umap'
+[2017.10.19-23.20.24:904][698]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/Desert_Auto2.umap
+[2017.10.19-23.20.24:906][698]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/Levels/Desert' took 0.291
+[2017.10.19-23.20.24:907][698]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.291
+[2017.10.19-23.20.24:909][698]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Floor_TM] ([1] browsable assets)...
+[2017.10.19-23.20.24:909][698]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Floor_TM]
+[2017.10.19-23.20.24:926][698]LogSavePackage: Save=14.91ms
+[2017.10.19-23.20.24:926][698]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/SkyScraper_1_Floor_TM_Auto285F42E284095D7E7BE3A1091ED58717B.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Floor_TM_Auto2.uasset'
+[2017.10.19-23.20.24:928][698]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Autosaves/Game/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Floor_TM_Auto2.uasset
+[2017.10.19-23.20.24:928][698]LogFileHelpers: Auto-saving content packages took 0.021
+[2017.10.19-23.33.03:607][767]LogEditorViewport: Clicking on Actor (LMB): Desert_Sky_BP_C (Desert_Sky_BP)
+[2017.10.19-23.33.06:663][ 78]LogSavePackage: Save=196.57ms
+[2017.10.19-23.33.06:663][ 78]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Desert0F33C61D46F4D2F6380A9E9B9725F2C3.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Desert.umap'
+[2017.10.19-23.33.06:671][ 78]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Desert.umap
+[2017.10.19-23.33.06:839][ 78]LogSavePackage: Save=7.34ms
+[2017.10.19-23.33.06:840][ 78]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Desert_BuiltDataD1F3EC484C0F059E0A9CBAA46173BD88.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Desert_BuiltData.uasset'
+[2017.10.19-23.33.06:841][ 78]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/Desert_BuiltData.uasset
+[2017.10.19-23.33.11:370][245]LogSavePackage: Save=15.13ms
+[2017.10.19-23.33.11:370][245]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/SkyScraper_1_Floor_TM16C3DED5403AF3FB9A5A8885E3039682.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Floor_TM.uasset'
+[2017.10.19-23.33.11:374][245]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Floor_TM.uasset
+[2017.10.19-23.33.11:494][245]LogSavePackage: Save=25.75ms
+[2017.10.19-23.33.11:495][245]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/SkyScraper_1_Inside_TM3F8DEB5F418C2F0A3285B69EC77430DF.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Inside_TM.uasset'
+[2017.10.19-23.33.11:501][245]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Inside_TM.uasset
+[2017.10.19-23.33.11:679][245]LogSavePackage: Save=28.04ms
+[2017.10.19-23.33.11:680][245]LogSavePackage: Moving '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/SkyScraper_1_Walls_TMA0456D154B219CF6577B05806192401D.tmp' to '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Walls_TM.uasset'
+[2017.10.19-23.33.11:685][245]LogSavePackage: Display: Finished SavePackage ../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/2DSideScrollerBP/Maps/Levels/LevelSprites/Sprites/Desert_Sprites/Tile_Maps/SkyScraper_1_Walls_TM.uasset
+[2017.10.19-23.33.11:988][245]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2017.10.19-23.33.12:169][246]Cmd: QUIT_EDITOR
+[2017.10.19-23.33.13:030][246]LogExit: Preparing to exit.
+[2017.10.19-23.33.13:741][246]LogDirectoryWatcher: A directory notification failed for 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/', and we were unable to create a new request.
+[2017.10.19-23.33.13:768][246]LogExit: Editor shut down
+[2017.10.19-23.33.13:776][246]LogExit: Transaction tracking system shut down
+[2017.10.19-23.33.13:884][246]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.10.19-23.33.13:884][246]LogDirectoryWatcher: A directory notification for '../../../../../../Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/' was aborted.
+[2017.10.19-23.33.13:884][246]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.10.19-23.33.13:884][246]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Oculus/OculusVR/Content/' was aborted.
+[2017.10.19-23.33.13:884][246]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/Steam/SteamVR/Content/' was aborted.
+[2017.10.19-23.33.13:924][246]LogExit: Object subsystem successfully closed.
+[2017.10.19-23.33.13:968][246]LogD3D11RHI: Shutdown
+[2017.10.19-23.33.13:968][246]LogD3D11RHI: CleanupD3DDevice
+[2017.10.19-23.33.14:120][246]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.10.19-23.33.14:147][246]LogModuleManager: Shutting down and abandoning module MaterialEditor (536)
+[2017.10.19-23.33.14:147][246]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (534)
+[2017.10.19-23.33.14:148][246]LogModuleManager: Shutting down and abandoning module TextureEditor (532)
+[2017.10.19-23.33.14:148][246]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (530)
+[2017.10.19-23.33.14:148][246]LogModuleManager: Shutting down and abandoning module SceneOutliner (528)
+[2017.10.19-23.33.14:148][246]LogModuleManager: Shutting down and abandoning module AddContentDialog (526)
+[2017.10.19-23.33.14:148][246]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.17/FeaturePacks/' was aborted.
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module WidgetCarousel (525)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module EditorWidgets (522)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module CollectionManager (520)
+[2017.10.19-23.33.14:149][246]LogDirectoryWatcher: A directory notification for 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/Collections/' was aborted.
+[2017.10.19-23.33.14:149][246]LogDirectoryWatcher: A directory notification for 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Content/Developers/rajjj/Collections/' was aborted.
+[2017.10.19-23.33.14:149][246]LogDirectoryWatcher: A directory notification for 'C:/Users/rajjj/OneDrive/Documents/GitHub/DatBoiEntertainmetnGame_/Saved/Collections/' was aborted.
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module StatsViewer (518)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module FoliageEdit (516)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module LandscapeEditor (514)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module MeshPaintMode (512)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (510)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module ActorPickerMode (508)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module GeometryMode (506)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module TextureAlignMode (504)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module BspMode (502)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (500)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module HardwareSurvey (498)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (496)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module AutomationWorker (494)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (492)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (490)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module PlacementMode (489)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (486)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (484)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (482)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (480)
+[2017.10.19-23.33.14:149][246]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (478)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module Media (477)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (474)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module CharacterAI (472)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module AudioCapture (470)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module SequenceRecorder (469)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module SmartSnapping (466)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module SessionServices (464)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module ViewportSnapping (462)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module ViewportInteraction (460)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module ClothPainter (458)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module LogVisualizer (456)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module IntroTutorials (454)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (453)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (450)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (448)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (446)
+[2017.10.19-23.33.14:150][246]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (445)
+[2017.10.19-23.33.15:131][246]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (442)
+[2017.10.19-23.33.15:131][246]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (440)
+[2017.10.19-23.33.15:131][246]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (438)
+[2017.10.19-23.33.15:131][246]LogModuleManager: Shutting down and abandoning module InputBindingEditor (436)
+[2017.10.19-23.33.15:131][246]LogModuleManager: Shutting down and abandoning module MergeActors (434)
+[2017.10.19-23.33.15:131][246]LogModuleManager: Shutting down and abandoning module SizeMap (432)
+[2017.10.19-23.33.15:131][246]LogModuleManager: Shutting down and abandoning module TreeMap (430)
+[2017.10.19-23.33.15:131][246]LogModuleManager: Shutting down and abandoning module ReferenceViewer (428)
+[2017.10.19-23.33.15:131][246]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (426)
+[2017.10.19-23.33.15:131][246]LogModuleManager: Shutting down and abandoning module LocalizationService (425)
+[2017.10.19-23.33.15:131][246]LogModuleManager: Shutting down and abandoning module HardwareTargeting (422)
+[2017.10.19-23.33.15:131][246]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (420)
+[2017.10.19-23.33.15:132][246]LogModuleManager: Shutting down and abandoning module UndoHistory (418)
+[2017.10.19-23.33.15:132][246]LogModuleManager: Shutting down and abandoning module XmlParser (416)
+[2017.10.19-23.33.15:132][246]LogModuleManager: Shutting down and abandoning module Blutility (414)
+[2017.10.19-23.33.15:132][246]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (412)
+[2017.10.19-23.33.15:132][246]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (411)
+[2017.10.19-23.33.15:132][246]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (408)
+[2017.10.19-23.33.15:132][246]LogModuleManager: Shutting down and abandoning module SettingsEditor (406)
+[2017.10.19-23.33.15:133][246]LogModuleManager: Shutting down and abandoning module ProjectLauncher (404)
+[2017.10.19-23.33.15:133][246]LogModuleManager: Shutting down and abandoning module SessionFrontend (402)
+[2017.10.19-23.33.15:133][246]LogModuleManager: Shutting down and abandoning module ProfilerClient (400)
+[2017.10.19-23.33.15:133][246]LogModuleManager: Shutting down and abandoning module DeviceManager (398)
+[2017.10.19-23.33.15:133][246]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (397)
+[2017.10.19-23.33.15:186][246]LogModuleManager: Shutting down and abandoning module AutomationController (394)
+[2017.10.19-23.33.15:186][246]LogModuleManager: Shutting down and abandoning module AutomationWindow (392)
+[2017.10.19-23.33.15:186][246]LogModuleManager: Shutting down and abandoning module Layers (390)
+[2017.10.19-23.33.15:186][246]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (388)
+[2017.10.19-23.33.15:186][246]LogModuleManager: Shutting down and abandoning module DetailCustomizations (386)
+[2017.10.19-23.33.15:186][246]LogModuleManager: Shutting down and abandoning module PackagesDialog (384)
+[2017.10.19-23.33.15:187][246]LogModuleManager: Shutting down and abandoning module Persona (382)
+[2017.10.19-23.33.15:187][246]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (381)
+[2017.10.19-23.33.15:187][246]LogModuleManager: Shutting down and abandoning module AnimGraph (379)
+[2017.10.19-23.33.15:187][246]LogModuleManager: Shutting down and abandoning module Kismet (376)
+[2017.10.19-23.33.15:191][246]LogModuleManager: Shutting down and abandoning module ClassViewer (374)
+[2017.10.19-23.33.15:192][246]LogModuleManager: Shutting down and abandoning module Toolbox (372)
+[2017.10.19-23.33.15:192][246]LogModuleManager: Shutting down and abandoning module ModuleUI (370)
+[2017.10.19-23.33.15:192][246]LogModuleManager: Shutting down and abandoning module MovieSceneTools (368)
+[2017.10.19-23.33.15:192][246]LogModuleManager: Shutting down and abandoning module OutputLog (366)
+[2017.10.19-23.33.15:192][246]LogModuleManager: Shutting down and abandoning module GammaUI (364)
+[2017.10.19-23.33.15:192][246]LogModuleManager: Shutting down and abandoning module Documentation (362)
+[2017.10.19-23.33.15:192][246]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (360)
+[2017.10.19-23.33.15:192][246]LogModuleManager: Shutting down and abandoning module MovieScene (358)
+[2017.10.19-23.33.15:192][246]LogModuleManager: Shutting down and abandoning module Niagara (356)
+[2017.10.19-23.33.15:192][246]LogModuleManager: Shutting down and abandoning module NiagaraEditor (355)
+[2017.10.19-23.33.15:194][246]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (352)
+[2017.10.19-23.33.15:194][246]LogModuleManager: Shutting down and abandoning module LauncherPlatform (350)
+[2017.10.19-23.33.15:194][246]LogModuleManager: Shutting down and abandoning module AnalyticsET (348)
+[2017.10.19-23.33.15:194][246]LogModuleManager: Shutting down and abandoning module PortalServices (346)
+[2017.10.19-23.33.15:194][246]LogModuleManager: Shutting down and abandoning module PortalRpc (344)
+[2017.10.19-23.33.15:194][246]LogModuleManager: Shutting down and abandoning module MessagingRpc (342)
+[2017.10.19-23.33.15:194][246]LogModuleManager: Shutting down and abandoning module AIModule (340)
+[2017.10.19-23.33.15:194][246]LogModuleManager: Shutting down and abandoning module GameplayDebugger (339)
+[2017.10.19-23.33.15:194][246]LogModuleManager: Shutting down and abandoning module AITestSuite (337)
+[2017.10.19-23.33.15:194][246]LogModuleManager: Shutting down and abandoning module ProfilerService (334)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module TaskGraph (332)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module SteamVRController (330)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (328)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (326)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module OculusInput (324)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (322)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (320)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module CableComponent (318)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (316)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module AndroidPermission (314)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (310)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module HTML5Networking (308)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module AlembicImporter (306)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module AlembicLibrary (305)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module GeometryCache (304)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (303)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (298)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module PluginBrowser (296)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (294)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (292)
+[2017.10.19-23.33.15:357][246]LogModuleManager: Shutting down and abandoning module DesktopPlatform (291)
+[2017.10.19-23.33.15:358][246]LogModuleManager: Shutting down and abandoning module UObjectPlugin (288)
+[2017.10.19-23.33.15:358][246]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (286)
+[2017.10.19-23.33.15:358][246]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (284)
+[2017.10.19-23.33.15:358][246]LogModuleManager: Shutting down and abandoning module GitSourceControl (282)
+[2017.10.19-23.33.15:358][246]LogModuleManager: Shutting down and abandoning module SourceControl (281)
+[2017.10.19-23.33.15:358][246]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (278)
+[2017.10.19-23.33.15:358][246]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (276)
+[2017.10.19-23.33.15:358][246]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (274)
+[2017.10.19-23.33.15:358][246]LogModuleManager: Shutting down and abandoning module Paper2DEditor (272)
+[2017.10.19-23.33.15:358][246]LogModuleManager: Shutting down and abandoning module MeshPaint (271)
+[2017.10.19-23.33.15:358][246]LogModuleManager: Shutting down and abandoning module LevelEditor (269)
+[2017.10.19-23.33.15:358][246]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (268)
+[2017.10.19-23.33.15:358][246]LogModuleManager: Shutting down and abandoning module MainFrame (266)
+[2017.10.19-23.33.15:358][246]LogModuleManager: Shutting down and abandoning module HotReload (265)
+[2017.10.19-23.33.15:359][246]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (260)
+[2017.10.19-23.33.15:359][246]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (258)
+[2017.10.19-23.33.15:359][246]LogModuleManager: Shutting down and abandoning module PhysXVehicles (256)
+[2017.10.19-23.33.15:359][246]LogModuleManager: Shutting down and abandoning module OculusEditor (254)
+[2017.10.19-23.33.15:359][246]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (252)
+[2017.10.19-23.33.15:359][246]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (250)
+[2017.10.19-23.33.15:359][246]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (248)
+[2017.10.19-23.33.15:359][246]LogModuleManager: Shutting down and abandoning module UdpMessaging (246)
+[2017.10.19-23.33.15:459][246]LogModuleManager: Shutting down and abandoning module TcpMessaging (244)
+[2017.10.19-23.33.15:560][246]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (242)
+[2017.10.19-23.33.15:560][246]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (240)
+[2017.10.19-23.33.15:560][246]LogModuleManager: Shutting down and abandoning module FacialAnimation (238)
+[2017.10.19-23.33.15:560][246]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (236)
+[2017.10.19-23.33.15:560][246]LogModuleManager: Shutting down and abandoning module GraphEditor (235)
+[2017.10.19-23.33.15:560][246]LogModuleManager: Shutting down and abandoning module ContentBrowser (233)
+[2017.10.19-23.33.15:560][246]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (230)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module Paper2D (228)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (226)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module WmfMedia (224)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module PacketHandler (222)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (220)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (218)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module Overlay (216)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module OverlayEditor (215)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module MediaAssets (212)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module VREditor (210)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module StringTableEditor (208)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (206)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (204)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module FunctionalTesting (202)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (200)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (199)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module UMG (196)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module UMGEditor (195)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module Sequencer (194)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module MessageLog (191)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module SlateReflector (186)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module Slate (184)
+[2017.10.19-23.33.15:561][246]LogModuleManager: Shutting down and abandoning module EditorStyle (182)
+[2017.10.19-23.33.15:563][246]LogModuleManager: Shutting down and abandoning module MRMesh (180)
+[2017.10.19-23.33.15:563][246]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (178)
+[2017.10.19-23.33.15:563][246]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (176)
+[2017.10.19-23.33.15:563][246]LogModuleManager: Shutting down and abandoning module XAudio2 (174)
+[2017.10.19-23.33.15:563][246]LogModuleManager: Shutting down and abandoning module Networking (172)
+[2017.10.19-23.33.15:564][246]LogModuleManager: Shutting down and abandoning module Core (168)
+[2017.10.19-23.33.15:564][246]LogModuleManager: Shutting down and abandoning module KismetCompiler (164)
+[2017.10.19-23.33.15:564][246]LogModuleManager: Shutting down and abandoning module LevelSequence (162)
+[2017.10.19-23.33.15:564][246]LogModuleManager: Shutting down and abandoning module MeshUtilities (160)
+[2017.10.19-23.33.15:564][246]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (159)
+[2017.10.19-23.33.15:564][246]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (158)
+[2017.10.19-23.33.15:564][246]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (157)
+[2017.10.19-23.33.15:564][246]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (155)
+[2017.10.19-23.33.15:564][246]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (153)
+[2017.10.19-23.33.15:564][246]LogModuleManager: Shutting down and abandoning module MaterialBaking (149)
+[2017.10.19-23.33.15:564][246]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (146)
+[2017.10.19-23.33.15:564][246]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.10.19-23.33.15:653][246]LogDerivedDataCache: Shutdown
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.10.19-23.33.15:653][246]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module PhysXCooking (56)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module SteamVR (54)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module OculusHMD (52)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.10.19-23.33.15:654][246]LogOnline: Display: Unloading online subsystem: NULL
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.10.19-23.33.15:654][246]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.10.19-23.33.15:654][246]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.10.19-23.33.15:654][246]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B62D5EDA5-4404-3666-ED3C-E99285E08C71%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.17.1-3586342%2B%2B%2BUE4%2BRelease-4.17&UserID=5160131d4fbbf6d62e4719b8716de666%7C3ef35b30eb8d444d8e26d7fb1794d4bf%7Cb9c6b803-d102-46e7-b321-ae8f3428388b&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.10.19-23.33.15:686][246]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.10.19-23.33.15:687][246]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2017.10.19-23.33.15:687][246]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2017.10.19-23.33.15:687][246]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2017.10.19-23.33.15:687][246]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2017.10.19-23.33.15:687][246]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2017.10.19-23.33.15:687][246]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2017.10.19-23.33.15:687][246]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2017.10.19-23.33.15:688][246]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2017.10.19-23.33.15:688][246]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2017.10.19-23.33.15:688][246]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2017.10.19-23.33.15:688][246]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2017.10.19-23.33.15:688][246]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2017.10.19-23.33.15:688][246]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2017.10.19-23.33.15:688][246]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2017.10.19-23.33.15:688][246]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2017.10.19-23.33.15:688][246]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.10.19-23.33.15:688][246]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.10.19-23.33.15:688][246]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.10.19-23.33.15:691][246]LogExit: Exiting.
+[2017.10.19-23.33.15:718][246]Log file closed, 10/19/17 17:33:15
