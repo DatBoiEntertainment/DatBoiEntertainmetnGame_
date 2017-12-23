@@ -7,6 +7,7 @@ System Information
 DxDiag Notes
 ------------
       Display Tab 1: No problems found.
+      Display Tab 2: No problems found.
         Sound Tab 1: No problems found.
         Sound Tab 2: No problems found.
         Sound Tab 3: No problems found.
@@ -29,7 +30,7 @@ Display Devices
        Shared Memory: 8160 MB
         Current Mode: 2560 x 1080 (32 bit) (60Hz)
          HDR Support: Not Supported
-    Display Topology: Internal
+    Display Topology: Extend
  Display Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
      Color Primaries: Red(0.651867,0.332531), Green(0.307141,0.631359), Blue(0.150891,0.060070), White Point(0.313977,0.329602)
    Display Luminance: Min Luminance = 0.500000, Max Luminance = 270.000000, MaxFullFrameLuminance = 270.000000
@@ -40,9 +41,9 @@ Display Devices
          Output Type: HDMI
 Monitor Advanced Color Capabilities: None
 Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
-         Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\nvgbdi.inf_amd64_b0e2ae3332352901\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvgbdi.inf_amd64_b0e2ae3332352901\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvgbdi.inf_amd64_b0e2ae3332352901\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvgbdi.inf_amd64_b0e2ae3332352901\nvldumdx.dll
- Driver File Version: 23.21.0013.8831 (English)
-      Driver Version: 23.21.13.8831
+         Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\nvgbdi.inf_amd64_3ce93e45c0b09177\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvgbdi.inf_amd64_3ce93e45c0b09177\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvgbdi.inf_amd64_3ce93e45c0b09177\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvgbdi.inf_amd64_3ce93e45c0b09177\nvldumdx.dll
+ Driver File Version: 23.21.0013.8859 (English)
+      Driver Version: 23.21.13.8859
          DDI Version: 12
       Feature Levels: 12_1,12_0,11_1,11_0,10_1,10_0,9_3,9_2,9_1
         Driver Model: WDDM 2.3
@@ -52,15 +53,117 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
  Hybrid Graphics GPU: Not Supported
       Power P-states: Not Supported
    Driver Attributes: Final Retail
-    Driver Date/Size: 11/13/2017 5:00:00 PM, 927976 bytes
+    Driver Date/Size: 12/4/2017 5:00:00 PM, 928488 bytes
          WHQL Logo'd: Yes
      WHQL Date Stamp: Unknown
-   Device Identifier: {D7B71E3E-58C1-11CF-9755-0C171BC2DA35}
+   Device Identifier: {D7B71E3E-58C1-11CF-7355-0C171BC2DA35}
            Vendor ID: 0x10DE
            Device ID: 0x1B81
            SubSys ID: 0x37011458
          Revision ID: 0x00A1
-  Driver Strong Name: oem41.inf:0f066de343a5ff02:Section010:23.21.13.8831:pci\ven_10de&dev_1b81&subsys_37011458
+  Driver Strong Name: oem15.inf:0f066de343a5ff02:Section010:23.21.13.8859:pci\ven_10de&dev_1b81&subsys_37011458
+      Rank Of Driver: 00D10001
+         Video Accel: 
+         DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
+   Deinterlace Caps: {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YUY2,YUY2) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(UYVY,UYVY) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(YV12,0x32315659) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_PixelAdaptive 
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY 
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(NV12,0x3231564e) Frames(Prev/Fwd/Back)=(0,0,0) Caps=VideoProcess_YUV2RGB VideoProcess_StretchX VideoProcess_StretchY DeinterlaceTech_BOBVerticalStretch 
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC1,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC2,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC3,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(IMC4,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S340,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {6CB69578-7617-4637-91E5-1C02DB810285}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {F9F19DA5-3B09-4B2F-9D89-C64753E3EAAB}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {5A54A0C9-C7EC-4BD9-8EDE-F3C75DC4393B}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+                     {335AA36E-7884-43A4-9C91-7F87FAF3E37E}: Format(In/Out)=(S342,UNKNOWN) Frames(Prev/Fwd/Back)=(0,0,0) Caps=
+        D3D9 Overlay: Supported
+             DXVA-HD: Supported
+        DDraw Status: Enabled
+          D3D Status: Enabled
+          AGP Status: Enabled
+       MPO MaxPlanes: 1
+            MPO Caps: Not Supported
+         MPO Stretch: Not Supported
+     MPO Media Hints: Not Supported
+         MPO Formats: Not Supported
+    PanelFitter Caps: Not Supported
+ PanelFitter Stretch: Not Supported
+
+           Card name: NVIDIA GeForce GTX 1070
+        Manufacturer: NVIDIA
+           Chip type: GeForce GTX 1070
+            DAC type: Integrated RAMDAC
+         Device Type: Full Device
+          Device Key: Enum\PCI\VEN_10DE&DEV_1B81&SUBSYS_37011458&REV_A1
+       Device Status: 0180200A [DN_DRIVER_LOADED|DN_STARTED|DN_DISABLEABLE|DN_NT_ENUMERATOR|DN_NT_DRIVER] 
+ Device Problem Code: No Problem
+ Driver Problem Code: Unknown
+      Display Memory: 16256 MB
+    Dedicated Memory: 8096 MB
+       Shared Memory: 8160 MB
+        Current Mode: 2560 x 1080 (32 bit) (60Hz)
+         HDR Support: Not Supported
+    Display Topology: Extend
+ Display Color Space: DXGI_COLOR_SPACE_RGB_FULL_G22_NONE_P709
+     Color Primaries: Red(0.656750,0.328625), Green(0.299328,0.619641), Blue(0.150891,0.060070), White Point(0.313977,0.329602)
+   Display Luminance: Min Luminance = 0.500000, Max Luminance = 270.000000, MaxFullFrameLuminance = 270.000000
+        Monitor Name: Generic PnP Monitor
+       Monitor Model: LG ULTRAWIDE
+          Monitor Id: GSM5A6A
+         Native Mode: 2560 x 1080(p) (59.978Hz)
+         Output Type: DVI
+Monitor Advanced Color Capabilities: None
+Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
+         Driver Name: C:\WINDOWS\System32\DriverStore\FileRepository\nvgbdi.inf_amd64_3ce93e45c0b09177\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvgbdi.inf_amd64_3ce93e45c0b09177\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvgbdi.inf_amd64_3ce93e45c0b09177\nvldumdx.dll,C:\WINDOWS\System32\DriverStore\FileRepository\nvgbdi.inf_amd64_3ce93e45c0b09177\nvldumdx.dll
+ Driver File Version: 23.21.0013.8859 (English)
+      Driver Version: 23.21.13.8859
+         DDI Version: 12
+      Feature Levels: 12_1,12_0,11_1,11_0,10_1,10_0,9_3,9_2,9_1
+        Driver Model: WDDM 2.3
+ Graphics Preemption: Pixel
+  Compute Preemption: Dispatch
+            Miracast: Not Supported by Graphics driver
+ Hybrid Graphics GPU: Not Supported
+      Power P-states: Not Supported
+   Driver Attributes: Final Retail
+    Driver Date/Size: 12/4/2017 5:00:00 PM, 928488 bytes
+         WHQL Logo'd: Yes
+     WHQL Date Stamp: Unknown
+   Device Identifier: {D7B71E3E-58C1-11CF-7355-0C171BC2DA35}
+           Vendor ID: 0x10DE
+           Device ID: 0x1B81
+           SubSys ID: 0x37011458
+         Revision ID: 0x00A1
+  Driver Strong Name: oem15.inf:0f066de343a5ff02:Section010:23.21.13.8859:pci\ven_10de&dev_1b81&subsys_37011458
       Rank Of Driver: 00D10001
          Video Accel: 
          DXVA2 Modes: DXVA2_ModeMPEG2_VLD  DXVA2_ModeVC1_D2010  DXVA2_ModeVC1_VLD  DXVA2_ModeH264_VLD_Stereo_Progressive_NoFGT  DXVA2_ModeH264_VLD_Stereo_NoFGT  DXVA2_ModeH264_VLD_NoFGT  DXVA2_ModeHEVC_VLD_Main  DXVA2_ModeHEVC_VLD_Main10  DXVA2_ModeMPEG4pt2_VLD_Simple  DXVA2_ModeMPEG4pt2_VLD_AdvSimple_NoGMC  
@@ -120,18 +223,18 @@ Display Pixel Format: DISPLAYCONFIG_PIXELFORMAT_32BPP
 -------------
 Sound Devices
 -------------
-            Description: Headphones (High Definition Audio Device)
+            Description: Speakers (2- Logitech G930 Headset)
  Default Sound Playback: No
  Default Voice Playback: No
-            Hardware ID: HDAUDIO\FUNC_01&VEN_10EC&DEV_1168&SUBSYS_10438723&REV_1000
-        Manufacturer ID: 1
+            Hardware ID: USB\VID_046D&PID_0A1F&REV_0100&MI_00
+        Manufacturer ID: 65535
              Product ID: 65535
                    Type: WDM
-            Driver Name: HdAudio.sys
+            Driver Name: USBAUDIO.sys
          Driver Version: 10.00.16299.0015 (English)
       Driver Attributes: Final Retail
             WHQL Logo'd: n/a
-          Date and Size: 9/28/2017 12:00:00 AM, 441344 bytes
+          Date and Size: 9/28/2017 12:00:00 AM, 135168 bytes
             Other Files: 
         Driver Provider: Microsoft
          HW Accel Level: Basic
@@ -145,7 +248,7 @@ Static/Strm HW Mix Bufs: 0, 0
    I3DL2(tm) Listen/Src: No, No
 Sensaura(tm) ZoomFX(tm): No
 
-            Description: LG ULTRAWIDE-4 (NVIDIA High Definition Audio)
+            Description: LG ULTRAWIDE-0 (NVIDIA High Definition Audio)
  Default Sound Playback: No
  Default Voice Playback: No
             Hardware ID: HDAUDIO\FUNC_01&VEN_10DE&DEV_0083&SUBSYS_14583701&REV_1001
@@ -198,6 +301,16 @@ Sensaura(tm) ZoomFX(tm): No
 ---------------------
 Sound Capture Devices
 ---------------------
+            Description: Microphone (2- Logitech G930 Headset)
+  Default Sound Capture: No
+  Default Voice Capture: No
+            Driver Name: USBAUDIO.sys
+         Driver Version: 10.00.16299.0015 (English)
+      Driver Attributes: Final Retail
+          Date and Size: 9/29/2017 06:40:59, 135168 bytes
+              Cap Flags: 0x0
+           Format Flags: 0x0
+
 ---------------------
 Video Capture Devices
 Number of Devices: 0
@@ -292,7 +405,7 @@ Line 21 Decoder 2,0x00600002,1,1,quartz.dll,10.00.16299.0015
 File Source (Async.),0x00400000,0,1,quartz.dll,10.00.16299.0015
 File Source (URL),0x00400000,0,1,quartz.dll,10.00.16299.0015
 Infinite Pin Tee Filter,0x00200000,1,1,qcap.dll,10.00.16299.0015
-Enhanced Video Renderer,0x00200000,1,0,evr.dll,10.00.16299.0015
+Enhanced Video Renderer,0x00200000,1,0,evr.dll,10.00.16299.0098
 BDA MPEG2 Transport Information Filter,0x00200000,2,0,psisrndr.ax,10.00.16299.0015
 MPEG Video Decoder,0x40000001,1,1,quartz.dll,10.00.16299.0015
 
@@ -317,6 +430,9 @@ CCITT A-Law,0x00200000,1,1,quartz.dll,10.00.16299.0015
 CCITT u-Law,0x00200000,1,1,quartz.dll,10.00.16299.0015
 MPEG Layer-3,0x00200000,1,1,quartz.dll,10.00.16299.0015
 
+Audio Capture Sources:
+Microphone (2- Logitech G930 Headset),0x00200000,0,0,qcap.dll,10.00.16299.0015
+
 PBDA CP Filters:
 PBDA DTFilter,0x00600000,1,1,CPFilters.dll,10.00.16299.0015
 PBDA ETFilter,0x00200000,0,0,CPFilters.dll,10.00.16299.0015
@@ -328,11 +444,12 @@ Microsoft GS Wavetable Synth,0x00200000,1,0,quartz.dll,10.00.16299.0015
 
 WDM Streaming Capture Devices:
 ,0x00000000,0,0,,
+Logitech G930 Headset,0x00200000,2,2,ksproxy.ax,10.00.16299.0015
 
 WDM Streaming Rendering Devices:
-HD Audio Headphone,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
-HD Audio SPDIF out,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
 ,0x00000000,0,0,,
+HD Audio SPDIF out,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
+Logitech G930 Headset,0x00200000,2,2,ksproxy.ax,10.00.16299.0015
 
 BDA Network Providers:
 Microsoft ATSC Network Provider,0x00200000,0,1,MSDvbNP.ax,10.00.16299.0015
@@ -358,13 +475,13 @@ WDM Streaming Communication Transforms:
 Tee/Sink-to-Sink Converter,0x00200000,1,1,ksproxy.ax,10.00.16299.0015
 
 Audio Renderers:
-Headphones (High Definition Audio Device),0x00200000,1,0,quartz.dll,10.00.16299.0015
+Speakers (2- Logitech G930 Headset),0x00200000,1,0,quartz.dll,10.00.16299.0015
 Default DirectSound Device,0x00800000,1,0,quartz.dll,10.00.16299.0015
 Default WaveOut Device,0x00200000,1,0,quartz.dll,10.00.16299.0015
-DirectSound: LG ULTRAWIDE-4 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.16299.0015
-DirectSound: Headphones (High Definition Audio Device),0x00200000,1,0,quartz.dll,10.00.16299.0015
+DirectSound: Speakers (2- Logitech G930 Headset),0x00200000,1,0,quartz.dll,10.00.16299.0015
+DirectSound: LG ULTRAWIDE-0 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.16299.0015
 DirectSound: Digital Audio (S/PDIF) (High Definition Audio Device),0x00200000,1,0,quartz.dll,10.00.16299.0015
-LG ULTRAWIDE-4 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.16299.0015
+LG ULTRAWIDE-0 (NVIDIA High Definition Audio),0x00200000,1,0,quartz.dll,10.00.16299.0015
 Digital Audio (S/PDIF) (High Definition Audio Device),0x00200000,1,0,quartz.dll,10.00.16299.0015
 
 
@@ -438,7 +555,7 @@ Media Foundation Transforms
   <transform friendly name>, <transform CLSID>, <flags>, [<merit>, ]<file name>, <file version>
 
 Video Decoders:
-  NVIDIA MJPEG Video Decoder MFT, {70F36578-2741-454F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpeg.dll, 23.21.0013.8831
+  NVIDIA MJPEG Video Decoder MFT, {70F36578-2741-454F-B494-E8563DDD1CB4}, 0x4, 8, nvDecMFTMjpeg.dll, 23.21.0013.8859
   Microsoft MPEG Video Decoder MFT, {2D709E52-123F-49B5-9CBC-9AF5CDE28FB9}, 0x1, msmpeg2vdec.dll, 10.00.16299.0015
   DV Decoder MFT, {404A6DE5-D4D6-4260-9BC7-5A6CBD882432}, 0x1, mfdvdec.dll, 10.00.16299.0015
   Mpeg4s Decoder MFT, CLSID_CMpeg4sDecMFT, 0x1, mp4sdecd.dll, 10.00.16299.0015
@@ -451,8 +568,8 @@ Video Decoders:
   Mpeg4 Decoder MFT, CLSID_CMpeg4DecMediaObject, 0x1, mpg4decd.dll, 10.00.16299.0015
   HEVCVideoExtension
 Video Encoders:
-  NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264.dll, 23.21.0013.8831
-  NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevc.dll, 23.21.0013.8831
+  NVIDIA H.264 Encoder MFT, {60F44560-5A20-4857-BFEF-D29773CB8040}, 0x4, 8, nvEncMFTH264.dll, 23.21.0013.8859
+  NVIDIA HEVC Encoder MFT, {966F107C-8EA2-425D-B822-E4A71BEF01D7}, 0x4, 8, nvEncMFThevc.dll, 23.21.0013.8859
   H264 Encoder MFT, {6CA50344-051A-4DED-9779-A43305165E35}, 0x1, mfh264enc.dll, 10.00.16299.0015
   WMVideo8 Encoder MFT, CLSID_CWMVXEncMediaObject, 0x1, wmvxencd.dll, 10.00.16299.0015
   Microsoft MF VPX Encoder Transform, {AEB6C755-2546-4881-82CC-E15AE5EBFF3D}, 0x1, MSVPXENC.dll, 10.00.16299.0015
@@ -467,7 +584,7 @@ Video Effects:
   Color Control, CLSID_CColorControlDmo, 0x1, mfvdsp.dll, 10.00.16299.0015
   Color Converter MFT, CLSID_CColorConvertDMO, 0x1, colorcnv.dll, 10.00.16299.0015
 Video Processor:
-  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.16299.0015
+  Microsoft Video Processor MFT, {88753B26-5B24-49BD-B2E7-0C445C78C982}, 0x1, msvproc.dll, 10.00.16299.0098
 Audio Decoders:
   Microsoft Dolby Digital Plus Decoder MFT, {177C0AFE-900B-48D4-9E4C-57ADD250B3D4}, 0x1, DolbyDecMFT.dll, 10.00.16299.0015
   MS AMRNB Decoder MFT, {265011AE-5481-4F77-A295-ABB6FFE8D63E}, 0x1, MSAMRNBDecoder.dll, 10.00.16299.0015
@@ -772,52 +889,33 @@ Diagnostics
 
 Windows Error Reporting:
 +++ WER0 +++:
-Fault bucket 125730739576, type 5
-Event Name: PerfWatsonVS12Data
+Fault bucket 73992430790, type 1
+Event Name: APPCRASH
 Response: Not available
-Cab Id: 1871772365607439460
+Cab Id: 0
 
 Problem signature:
-P1: PerfWatsonTcdb
-P2: 0
-P3: 0
-P4: 0
-P5: 0
-P6: 
-P7: 
-P8: 
+P1: BrutalLegend.exe
+P2: 0.0.0.0
+P3: 5188179c
+P4: BrutalLegend.exe
+P5: 0.0.0.0
+P6: 5188179c
+P7: c0000005
+P8: 002b41d7
 P9: 
 P10: 
 
 
 +++ WER1 +++:
-Fault bucket 129357678678, type 5
-Event Name: CLR20r3
+Fault bucket 129576521165, type 5
+Event Name: RADAR_PRE_LEAK_WOW64
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: RzStats.Manager.exe
-P2: 1.2.16.0
-P3: 587327cf
-P4: RzStats.Manager
-P5: 1.2.16.0
-P6: 587327cf
-P7: 6
-P8: 0
-P9: System.NullReferenceException
-P10: 
-
-
-+++ WER2 +++:
-Fault bucket 1469623854956557369, type 5
-Event Name: RADAR_PRE_LEAK_64
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: chrome.exe
-P2: 62.0.3202.94
+P1: BrutalLegend.exe
+P2: 0.0.0.0
 P3: 10.0.16299.2.0.0
 P4: 
 P5: 
@@ -828,7 +926,64 @@ P9:
 P10: 
 
 
++++ WER2 +++:
+Fault bucket 1926838455662242076, type 1
+Event Name: APPCRASH
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: BrutalLegend.exe
+P2: 0.0.0.0
+P3: 5188179c
+P4: StackHash_b137
+P5: 10.0.16299.64
+P6: ac8afc81
+P7: c0000374
+P8: PCH_D3_FROM_ntdll+0x0006ED1C
+P9: 
+P10: 
+
+
 +++ WER3 +++:
+Fault bucket -678042132, type 5
+Event Name: FaultTolerantHeap
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: BrutalLegend.exe
+P2: 0.0.0.0
+P3: 5188179C
+P4: ffffbaad
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER4 +++:
+Fault bucket 129572509748, type 5
+Event Name: RADAR_PRE_LEAK_64
+Response: Not available
+Cab Id: 0
+
+Problem signature:
+P1: WolfNewOrder_x64.exe
+P2: 1.0.0.2
+P3: 10.0.16299.2.0.0
+P4: 
+P5: 
+P6: 
+P7: 
+P8: 
+P9: 
+P10: 
+
+
++++ WER5 +++:
 Fault bucket 129593754992, type 5
 Event Name: RADAR_PRE_LEAK_64
 Response: Not available
@@ -847,56 +1002,18 @@ P9:
 P10: 
 
 
-+++ WER4 +++:
-Fault bucket 2206824538022095563, type 5
-Event Name: RADAR_PRE_LEAK_64
-Response: Not available
-Cab Id: 0
-
-Problem signature:
-P1: SC2_x64.exe
-P2: 4.0.1.59729
-P3: 10.0.16299.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER5 +++:
-Fault bucket , type 0
++++ WER6 +++:
+Fault bucket 1386335226096946218, type 5
 Event Name: AppHangB1
 Response: Not available
-Cab Id: 0
+Cab Id: 2286320154058613228
 
 Problem signature:
-P1: StarCraft.exe
-P2: 1.20.10.3219
-P3: 5a0df915
-P4: f0e8
-P5: 134217728
-P6: 
-P7: 
-P8: 
-P9: 
-P10: 
-
-
-+++ WER6 +++:
-Fault bucket 125730739576, type 5
-Event Name: PerfWatsonVS12Data
-Response: Not available
-Cab Id: 2035938819371296092
-
-Problem signature:
-P1: PerfWatsonTcdb
-P2: 0
-P3: 0
-P4: 0
-P5: 0
+P1: GitHubDesktop.exe
+P2: 1.0.11.0
+P3: 59dd2f79
+P4: f7e1
+P5: 67246080
 P6: 
 P7: 
 P8: 
@@ -905,58 +1022,58 @@ P10:
 
 
 +++ WER7 +++:
-Fault bucket 120470288155, type 4
-Event Name: APPCRASH
+Fault bucket , type 0
+Event Name: AppHangB1
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: mgsvtpp.exe
-P2: 1.0.7.1
-P3: 569fd9cb
-P4: mgsvtpp.exe
-P5: 1.0.7.1
-P6: 569fd9cb
-P7: c0000005
-P8: 000000000491a951
+P1: GitHubDesktop.exe
+P2: 1.0.11.0
+P3: 59dd2f79
+P4: f7e1
+P5: 67246080
+P6: 
+P7: 
+P8: 
 P9: 
 P10: 
 
 
 +++ WER8 +++:
-Fault bucket 129572226377, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket 108304031411, type 1
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: javaw.exe
-P2: 8.0.25.18
-P3: 10.0.16299.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
+P1: AAM Updates Notifier.exe
+P2: 9.0.0.281
+P3: 5776ade0
+P4: UpdaterCore.dll
+P5: 9.0.0.30
+P6: 5773799f
+P7: c0000005
+P8: 0006287e
 P9: 
 P10: 
 
 
 +++ WER9 +++:
-Fault bucket 129572201046, type 5
-Event Name: RADAR_PRE_LEAK_64
+Fault bucket 1891512670015021975, type 1
+Event Name: APPCRASH
 Response: Not available
 Cab Id: 0
 
 Problem signature:
-P1: java.exe
-P2: 8.0.1440.1
-P3: 10.0.16299.2.0.0
-P4: 
-P5: 
-P6: 
-P7: 
-P8: 
+P1: Battle.net Helper.exe
+P2: 0.0.0.0
+P3: 5a0f289d
+P4: libcef.dll
+P5: 3.2623.1435.0
+P6: 591a1a2e
+P7: 80000003
+P8: 0019b129
 P9: 
 P10: 
 
